@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "variant": "taiwan",
+  "version": "9.3.1-wide.20-keyboard",
+  "launcherLabel": "Copilot tw",
+  "signatureMatchesBaseline": true,
+  "aligned16KiB": true,
+  "smaliClassesRoundTrip": 3755,
+  "appReferencesResolved": 616,
+  "preservedAssetAndLibraryEntries": 5943,
+  "sha256": "5035aa5eec5f29e88e5c3364fc4b7fe56e20297a36ad049a78c3984271843600",
+  "androidDeviceRun": false
+}

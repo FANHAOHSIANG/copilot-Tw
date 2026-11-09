@@ -1,5 +1,11 @@
 # CoPilot Tw
 
+## wide.20 鍵盤修正版
+
+修正高德一般版在分割畫面搜尋地址時的鍵盤顯示與輸入焦點。可直接覆蓋同簽章的 wide.19。
+
+[Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.20) · [修正與重建說明](variants/wide20/README.md)
+
 ## wide.19 測試版
 
 單一 Android APK 可切換高德車機版／一般版，Carrot 導航來源同步切換。台灣固定測速紅光從 500 公尺開始加快。另有 Shizuku／Stellar 安裝教學、Amap2Tesla 僅投神盾及 iOS 原生 Xcode 專案。
