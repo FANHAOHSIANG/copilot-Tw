@@ -8,14 +8,7 @@
 
 ## 簽署金鑰
 
-公開包已排除簽署私鑰，包含巢狀 ZIP 內的金鑰。原 README 所稱「附測試簽章／金鑰」只適用原私人修改包，不適用本公開存檔。APK 本身未重新簽章。
-
-要覆蓋更新原測試版，必須自行保管並提供原簽署金鑰。既有腳本使用以下路徑：
-
-- Auto／Phone：`project/wide-build/signing/navipilot-wide-test.jks`
-- HCOP Taiwan：`source/tw14/project/wide-build/signing/navipilot-wide-test.jks`
-
-將私人金鑰放入本機路徑，不要提交；`.gitignore` 已排除常見私鑰格式。改用新金鑰會與已安裝版簽章不相容。
+公開程式碼不包含私人簽署金鑰；既有 APK 可直接安裝。
 
 ## Auto／Phone
 
