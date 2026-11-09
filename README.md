@@ -1,5 +1,11 @@
 # CoPilot Tw
 
+## wide.22 Google 地圖投屏
+
+導航選單可切換高德車機版、高德一般版或 Google 地圖。Google 模式只投屏，並撤銷上一個高德來源的導航資料。
+
+[Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.22) · [切換與重建說明](variants/wide22/README.md)
+
 ## wide.21 投屏與介面更新
 
 一般高德鍵盤預設顯示在車機主畫面。鍵盤開合保留導航與神盾投屏。新版更新導航、神盾、台灣測速工具列與版面設定。
