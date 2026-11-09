@@ -1,5 +1,9 @@
 # CoPilot Tw
 
+## wide.23 藍灰衛星地形圖示
+
+[下載 Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.23) · [重建說明](variants/wide23/README.md)
+
 ## wide.22 Google 地圖投屏
 
 導航選單可切換高德車機版、高德一般版或 Google 地圖。Google 模式只投屏，並撤銷上一個高德來源的導航資料。
