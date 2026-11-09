@@ -1,5 +1,11 @@
 # CoPilot Tw
 
+## wide.19 測試版
+
+單一 Android APK 可切換高德車機版／一般版，Carrot 導航來源同步切換。台灣固定測速紅光從 500 公尺開始加快。另有 Shizuku／Stellar 安裝教學、Amap2Tesla 僅投神盾及 iOS 原生 Xcode 專案。
+
+[Android APK 與 iOS 專案](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.19) · [使用與安裝教學](variants/wide19/README.md)
+
 ## wide.18 測試版
 
 三版桌面名稱均為 **Copilot tw**，全畫面加入 C4 接管細框。台灣版可切換車機／一般高德，並加入獨立測速示範與接近紅光。

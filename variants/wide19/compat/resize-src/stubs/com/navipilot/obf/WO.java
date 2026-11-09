@@ -1,0 +1,2 @@
+package com.navipilot.obf;
+public final class WO {public final float a,b,c,d; public WO(float a,float b,float c,float d){this.a=a;this.b=b;this.c=c;this.d=d;} public float c(){return c-a;} public float b(){return d-b;}}

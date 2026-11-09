@@ -1,0 +1,30 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+        C09000000000000000000002 = {isa = PBXGroup; children = (C09000000000000000000003, C09000000000000000000004); sourceTree = "<group>"; };
+        C09000000000000000000003 = {isa = PBXGroup; children = (C09000000000000000000007, C09000000000000000000008, C09000000000000000000009); path = CopilotTw; sourceTree = "<group>"; };
+        C09000000000000000000004 = {isa = PBXGroup; children = (C09000000000000000000005); name = Products; sourceTree = "<group>"; };
+        C09000000000000000000007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CopilotTwApp.swift"; sourceTree = "<group>"; };
+        C09000000000000000000008 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraCatalog.swift"; sourceTree = "<group>"; };
+        C09000000000000000000009 = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/tw_cameras.json"; sourceTree = "<group>"; };
+        C09000000000000000000005 = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CopilotTw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        C0900000000000000000000A = {isa = PBXBuildFile; fileRef = C09000000000000000000007; };
+        C0900000000000000000000B = {isa = PBXBuildFile; fileRef = C09000000000000000000008; };
+        C0900000000000000000000C = {isa = PBXBuildFile; fileRef = C09000000000000000000009; };
+        C0900000000000000000000D = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (C0900000000000000000000A, C0900000000000000000000B); runOnlyForDeploymentPostprocessing = 0; };
+        C0900000000000000000000E = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (C0900000000000000000000C); runOnlyForDeploymentPostprocessing = 0; };
+        C0900000000000000000000F = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        C09000000000000000000006 = {isa = PBXNativeTarget; buildConfigurationList = C09000000000000000000011; buildPhases = (C0900000000000000000000D, C0900000000000000000000F, C0900000000000000000000E); buildRules = (); dependencies = (); name = CopilotTw; productName = CopilotTw; productReference = C09000000000000000000005; productType = "com.apple.product-type.application"; };
+        C09000000000000000000001 = {isa = PBXProject; attributes = { LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; }; buildConfigurationList = C09000000000000000000010; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, "zh-Hant"); mainGroup = C09000000000000000000002; productRefGroup = C09000000000000000000004; projectDirPath = ""; projectRoot = ""; targets = (C09000000000000000000006); };
+        C09000000000000000000010 = {isa = XCConfigurationList; buildConfigurations = (C09000000000000000000012, C09000000000000000000013); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        C09000000000000000000011 = {isa = XCConfigurationList; buildConfigurations = (C09000000000000000000014, C09000000000000000000015); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        C09000000000000000000012 = {isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+        C09000000000000000000013 = {isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_COMPILATION_MODE = wholemodule; }; name = Release; };
+        C09000000000000000000014 = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = CopilotTw; PRODUCT_BUNDLE_IDENTIFIER = tw.copilot.speedcamera; MARKETING_VERSION = 0.1.0; CURRENT_PROJECT_VERSION = 1; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Copilot tw"; INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "使用精確位置與行進方向提醒附近固定測速。"; INFOPLIST_KEY_UILaunchScreen_Generation = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; }; name = Debug; };
+        C09000000000000000000015 = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = CopilotTw; PRODUCT_BUNDLE_IDENTIFIER = tw.copilot.speedcamera; MARKETING_VERSION = 0.1.0; CURRENT_PROJECT_VERSION = 1; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Copilot tw"; INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "使用精確位置與行進方向提醒附近固定測速。"; INFOPLIST_KEY_UILaunchScreen_Generation = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; }; name = Release; };
+    };
+    rootObject = C09000000000000000000001;
+}
