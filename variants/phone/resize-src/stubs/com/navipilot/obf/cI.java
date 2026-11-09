@@ -1,0 +1,1 @@
+package com.navipilot.obf; public final class cI {public long a; public static float d(long l){return Float.intBitsToFloat((int)(l>>32));} public static float e(long l){return Float.intBitsToFloat((int)l);}}

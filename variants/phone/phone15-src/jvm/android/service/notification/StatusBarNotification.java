@@ -1,0 +1,1 @@
+package android.service.notification; public class StatusBarNotification {final String pkg;public final long postTime;public StatusBarNotification(String p,long t){pkg=p;postTime=t;}public String getPackageName(){return pkg;}}

@@ -1,0 +1,8 @@
+[
+{"width":1280.00,"height":480.00,"mapWidth":637.00,"mapHeight":480.00,"sideX":643.00,"sideY":0.00,"sideWidth":637.00,"sideHeight":480.00,"shieldHeight":318.00,"controlsHeight":156.00,"controls":true,"portrait":false},
+{"width":780.00,"height":360.00,"mapWidth":387.00,"mapHeight":360.00,"sideX":393.00,"sideY":0.00,"sideWidth":387.00,"sideHeight":360.00,"shieldHeight":360.00,"controlsHeight":0.00,"controls":false,"portrait":false},
+{"width":780.00,"height":360.00,"mapWidth":387.00,"mapHeight":360.00,"sideX":393.00,"sideY":0.00,"sideWidth":387.00,"sideHeight":360.00,"shieldHeight":198.00,"controlsHeight":156.00,"controls":true,"portrait":false},
+{"width":360.00,"height":780.00,"mapWidth":360.00,"mapHeight":425.70,"sideX":0.00,"sideY":431.70,"sideWidth":360.00,"sideHeight":348.30,"shieldHeight":348.30,"controlsHeight":0.00,"controls":false,"portrait":true},
+{"width":360.00,"height":780.00,"mapWidth":360.00,"mapHeight":425.70,"sideX":0.00,"sideY":431.70,"sideWidth":360.00,"sideHeight":348.30,"shieldHeight":186.30,"controlsHeight":156.00,"controls":true,"portrait":true},
+{"width":800.00,"height":1280.00,"mapWidth":800.00,"mapHeight":828.10,"sideX":0.00,"sideY":834.10,"sideWidth":800.00,"sideHeight":445.90,"shieldHeight":153.97,"controlsHeight":285.93,"controls":true,"portrait":true}
+]

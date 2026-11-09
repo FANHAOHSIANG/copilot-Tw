@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "flavor": "auto",
+  "version_code": 26110723,
+  "changed_files": [
+    "apktool.yml",
+    "smali/com/navipilot/obf/Ae.smali",
+    "smali/com/navipilot/obf/WideDirect.smali",
+    "smali/com/navipilot/obf/WideSettings.smali",
+    "smali/com/navipilot/obf/WideTelemetry.smali",
+    "smali/com/navipilot/obf/xe.smali"
+  ],
+  "added_files": [
+    "smali/com/navipilot/obf/WideLinkDiagnostics$Event.smali",
+    "smali/com/navipilot/obf/WideLinkDiagnostics.smali"
+  ],
+  "helper_references_checked": 135,
+  "packaged_smali_files_verified": 3674,
+  "dual_display_fix_navigation_and_retry_schedule": "PRESERVED",
+  "android_runtime": "NOT RUN",
+  "server_timeout_fix": "NOT CLAIMED",
+  "apk_sha256": "97041e253c4b3a64a3fd2773d6b75f40d0332fd699d7155aba2593ec26a08907"
+}

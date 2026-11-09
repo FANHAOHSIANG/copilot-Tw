@@ -1,0 +1,9 @@
+PASS Existing phone notification is sampled at listener connection without a posted callback
+PASS Snapshot identifies phone vs auto and does not read other app content
+PASS Snapshot preserves original notification identity and timestamp
+PASS Restart or manual snapshot repopulates an unchanged existing notification
+PASS Empty notification tray is explicit
+PASS Snapshot failure is not reported as no notifications
+PASS Disconnected listener requests rebind instead of querying invalid service
+PASS Destroyed listener reference is cleared
+TOTAL 8 passed; JVM framework doubles, not Android device verification

@@ -1,0 +1,1 @@
+CoPilot Tw public archive: private signing keys are excluded, including nested ZIPs. Existing APKs are unchanged. Rebuilding with the same signature requires your privately held original key. Original README statements about included signing keys do not apply to this public copy. This is a patch archive, not the original full Android project.

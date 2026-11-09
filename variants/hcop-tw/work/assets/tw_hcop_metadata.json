@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "version": "wide.16-hcop-tw-test",
+  "builtAt": "2026-11-09T14:09:03.604922+00:00",
+  "osmDate": "2026-11-08",
+  "cameraDate": "2026-11-09",
+  "tdxSnapshotDate": "2026-10-18",
+  "validUntil": "2027-02-15",
+  "tileDegrees": 0.02,
+  "ways": 554135,
+  "edges": 1159186,
+  "tiles": 5927,
+  "cameras": 1856,
+  "matchedCameras": 482,
+  "cameraRejections": {
+    "no_direction_matched_road": 503,
+    "junction_endpoint": 283,
+    "parallel_or_grade_ambiguity": 265,
+    "unknown_limit_or_direction": 323
+  },
+  "hcopFixes": 12954,
+  "tdxDirectionalStretches": 12152,
+  "hcopRef": "2decc11c5d8cebbdb87c0751ef52b96a494506c0",
+  "hcopFixSha256": "fdcbaf54a3fd2e08fb854b421e1aa422184e114613ab4db486e4f00ae0c74bbe",
+  "osmUrl": "https://download.geofabrik.de/asia/taiwan-261108.osm.pbf",
+  "osmLicense": "© OpenStreetMap contributors / ODbL 1.0",
+  "cameraSource": "https://data.gov.tw/dataset/7320",
+  "governmentLicense": "政府資料開放授權條款第1版",
+  "scope": "OSM graph for Taiwan; camera matching stays within junction-bounded edges; no route guessing. NPA road corrections only within 200 m along the same edge and direction. HCOP broad circle/box fixes kept as reference, never used as control road limits. TDX lines require OSM road-name/ref, geometry and heading agreement; conflicting equal-priority values rejected."
+}

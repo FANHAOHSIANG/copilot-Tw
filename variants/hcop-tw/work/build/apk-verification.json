@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "versionCode": 26110728,
+  "versionName": "9.3.1-wide.16-hcop-tw-test",
+  "smaliClassesRoundTrip": 3728,
+  "appReferencesResolved": 1716,
+  "changedFiles": 15,
+  "addedFiles": 5940,
+  "coreTransportReceiverControls": "unchanged from wide.14",
+  "signatureMatchesWide14And15": true,
+  "minSdk": 31,
+  "androidDeviceRun": false,
+  "realDrivingRun": false,
+  "receiverRef": "97830a1ffe5b079c1326da0b97ed065cbb4ea125",
+  "sha256": "b7a92713ae50996ca56d526b055d323128a3566fae598efafeace5b66769806d",
+  "apkBytes": 67623783
+}

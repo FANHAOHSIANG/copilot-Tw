@@ -1,0 +1,12 @@
+{
+  "road_limit_kph": 50,
+  "sdi": {
+    "block_speed_kph": 0,
+    "speed_limit_kph": 60,
+    "section_type": -1,
+    "block_type": -1,
+    "type": 1,
+    "distance_m": 445,
+    "block_distance_m": 0
+  }
+}

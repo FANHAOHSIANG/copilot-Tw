@@ -1,0 +1,2 @@
+package com.navipilot.obf;
+import android.content.*;import android.service.notification.*;public class WideNavProbe {public static boolean connected;public static int notices,total,phone,auto;public static String error;public static StatusBarNotification last;public static void bind(Context c,boolean b){connected=b;}public static void snapshotResult(int a,int b,int c,String d){total=a;phone=b;auto=c;error=d;}public static void error(String s){error=s;}public static void notification(Context c,StatusBarNotification n,String k){notices++;last=n;}}

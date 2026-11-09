@@ -1,0 +1,3 @@
+[carrot_navi][SDI] seq=1 {"road_limit_kph":50,"sdi":{"block_distance_m":0,"block_speed_kph":0,"block_type":-1,"distance_m":445,"section_type":-1,"speed_limit_kph":60,"type":1}}
+[carrot_navi][SDI] seq=2 {"road_limit_kph":70}
+PASS actual current test-branch receiver: road+camera, road-only, withdrawal validity, turn preservation, off-route, negotiation and health schema

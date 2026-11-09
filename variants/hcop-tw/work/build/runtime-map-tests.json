@@ -1,0 +1,15 @@
+{
+  "tdxAccepted": 109,
+  "note": "Positions synthesized on actual map geometry; coverage count is not a real-driving success rate.",
+  "reasons": {
+    "警政署同路段局部修正": 58,
+    "平行道路／路口／高架平面無法區分": 1
+  },
+  "deviceRuntime": false,
+  "acceptedCameraRoadMatches": 58,
+  "maxLoadAndMatchMs": 90,
+  "tdxSyntheticPositions": 150,
+  "medianLoadAndMatchMs": 24,
+  "syntheticPositionsOnRealMap": 59,
+  "assertions": 110
+}

@@ -1,0 +1,6 @@
+230723eb77842af4976f2c819df6b7dfe39675f2d8f419f36a50048deb17a238  CoPilot-Tw-wide.16-auto-public-modifications.zip
+316c5dab5eb3e60a7c9a6040b4b8639ff3007c48252f948767233e788cdde1cf  CoPilot-Tw-wide.16-hcop-tw-public-modifications.zip
+729b1182a8cf868f3940f03714ccd2407835d45a53fcb5b3ced79659d60363e2  CoPilot-Tw-wide.16-phone-public-modifications.zip
+c2897e265c6f8996b27afd939a3b4976f29916ea80a6d04ffc72500616b88e94  Navipilot-9.3.1-wide.16-auto-adaptive.apk
+b7a92713ae50996ca56d526b055d323128a3566fae598efafeace5b66769806d  Navipilot-9.3.1-wide.16-hcop-tw-test.apk
+3fc663204b8e7c9e78728041b3de6872faf5c732d9229ac82c36aeaafb8da6ef  Navipilot-9.3.1-wide.16-phone-adaptive.apk
