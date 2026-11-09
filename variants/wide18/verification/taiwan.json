@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "variant": "taiwan",
+  "version": "9.3.1-wide.18-taiwan-adaptive",
+  "launcherLabel": "Copilot tw",
+  "signatureMatchesBaseline": true,
+  "aligned16KiB": true,
+  "smaliClassesRoundTrip": 3748,
+  "appReferencesResolved": 1493,
+  "preservedAssetAndLibraryEntries": 5943,
+  "sha256": "cb902e2ea1d5a086d62cffa83af051e6756b75e3bac14c73e1896cfdea15976b",
+  "androidDeviceRun": false
+}

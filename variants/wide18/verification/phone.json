@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "variant": "phone",
+  "version": "9.3.1-wide.18-phone-adaptive",
+  "launcherLabel": "Copilot tw",
+  "signatureMatchesBaseline": true,
+  "aligned16KiB": true,
+  "smaliClassesRoundTrip": 3699,
+  "appReferencesResolved": 415,
+  "preservedAssetAndLibraryEntries": 11,
+  "sha256": "8bd5868aee69a39a681e303c654266d2762a450556f2d514715de18b01bb5c4b",
+  "androidDeviceRun": false
+}

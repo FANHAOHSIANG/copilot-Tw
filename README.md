@@ -1,5 +1,11 @@
 # CoPilot Tw
 
+## wide.18 測試版
+
+三版桌面名稱均為 **Copilot tw**，全畫面加入 C4 接管細框。台灣版可切換車機／一般高德，並加入獨立測速示範與接近紅光。
+
+[三版 APK](../../releases/tag/wide.18) · [安裝與重建](variants/wide18/README.md)
+
 ## 最新合併測試版：wide.17 HCOP Taiwan Adaptive
 
 **[下載 wide.17 APK 與修改包](../../releases/tag/wide.17-hcop-tw-adaptive)** · [安裝與檢查結果](variants/hcop-tw-adaptive/README_zh-TW.md)
