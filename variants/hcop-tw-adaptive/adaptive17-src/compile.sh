@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+mkdir -p adaptive17-build/classes adaptive17-build/dex
+java -jar work/tools/ecj.jar -source 8 -target 8 -nowarn -cp work/tools/android-35/android.jar -d adaptive17-build/classes $(rg --files source/tw14/resize-src/stubs source/tw14/dual-src/stubs source/tw14/bridge-src/stubs -g '*.java') source/tw14/auto-src/WideApps.java source/tw14/telemetry-src/WideTelemetry.java source/tw14/telemetry-src/WideLinkDiagnostics.java source/tw14/camera13-src/WideCameraEngine.java source/tw14/camera13-src/WideCameraSection.java source/tw14/camera13-src/WideCameraService.java work/src/WideCameraFace.java work/src/WideCamera.java work/src/WideRoad.java work/src/WideHcopRoad.java work/src/WideHcop.java work/src/WideHcopMerge.java work/src/WideBridge.java work/src/WideBridgeLog.java adaptive17-src/WideVariant.java adaptive17-src/WideLayout.java adaptive17-src/WideInsets.java adaptive17-src/WideTaiwanHost.java adaptive17-src/WideTaiwanSettings.java adaptive17-src/WideDivider.java adaptive17-src/WideCameraPanel.java adaptive17-src/WideGeometry.java adaptive17-src/WideSettings.java adaptive17-src/WideDirect.java

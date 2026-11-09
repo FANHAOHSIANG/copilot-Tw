@@ -1,5 +1,13 @@
 # CoPilot Tw
 
+## 最新合併測試版：wide.17 HCOP Taiwan Adaptive
+
+**[下載 wide.17 APK 與修改包](../../releases/tag/wide.17-hcop-tw-adaptive)** · [安裝與檢查結果](variants/hcop-tw-adaptive/README_zh-TW.md)
+
+已將自製台灣測速面板合併自動橫直排版，統一「GPS／快捷／更多」操作，App 顯示名稱為 **CoPilot Tw**。使用高德車機版，原 HCOP 資料與導航核心保持不變。版本碼 26110729，原簽章，可覆蓋 wide.16。已通過編譯與離線檢查，尚未實機／實車驗證。
+
+以下為先前 wide.16 三版本存檔：
+
 CP 搭子 Taiwan：集中保存 Navipilot wide.16 的三個客製測試版本、Java／smali 補丁、安裝與使用說明。
 
 **[下載三版 APK 與修改包](../../releases/tag/wide.16-archive)** · [安裝與使用](docs/INSTALL_zh-TW.md) · [原始碼與重建](docs/BUILD_zh-TW.md)

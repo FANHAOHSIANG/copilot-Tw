@@ -1,0 +1,15 @@
+PASS 205993 geometry/freshness checks, 12 screen sizes + 20,000 randomized layouts
+PASS migrate existing landscape ratios
+PASS wide window opens original controls
+PASS portrait starts independently, controls collapsed
+PASS portrait save and expand
+PASS rotation preserves landscape values
+PASS short landscape defaults to collapsed
+PASS short landscape user expands controls
+PASS portrait persists after reinstalling UI state
+PASS landscape persists after reinstalling UI state
+PASS invalid ratios clamped
+PASS preview does not persist a drag until release
+TOTAL 11 passed; production Settings/Layout classes, Android preference doubles
+PASS 44 matcher, freshness, conflict and merge assertions
+PASS 12 bridge / road-only receipt assertions (Android doubles)

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "versionCode": 26110729,
+  "versionName": "9.3.1-wide.17-hcop-tw-adaptive",
+  "smaliClassesRoundTrip": 3744,
+  "appReferencesResolved": 1196,
+  "changedFiles": 55,
+  "addedFiles": 21,
+  "coreTransportReceiverControls": "unchanged from HCOP wide.16",
+  "signatureMatchesHCOP16": true,
+  "minSdk": 31,
+  "androidDeviceRun": false,
+  "realDrivingRun": false,
+  "receiverRef": "97830a1ffe5b079c1326da0b97ed065cbb4ea125",
+  "sha256": "83d2ae8f2c5098090b74616e739fd106a74e4c6fe3ffd05436a7a9ad826bfdb5",
+  "apkBytes": 67640167
+}
