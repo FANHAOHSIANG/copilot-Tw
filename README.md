@@ -1,5 +1,11 @@
 # CoPilot Tw
 
+## wide.21 投屏與介面更新
+
+一般高德鍵盤預設顯示在車機主畫面。鍵盤開合保留導航與神盾投屏。新版更新導航、神盾、台灣測速工具列與版面設定。
+
+[Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.21) · [更新與重建說明](variants/wide21/README.md)
+
 ## wide.20 鍵盤修正版
 
 修正高德一般版在分割畫面搜尋地址時的鍵盤顯示與輸入焦點。可直接覆蓋同簽章的 wide.19。
