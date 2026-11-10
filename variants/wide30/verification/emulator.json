@@ -1,0 +1,46 @@
+{
+  "platform": "Android 15 AOSP x86_64 emulator (API 35, software acceleration)",
+  "displayPx": [
+    1440,
+    540
+  ],
+  "densityDpi": 160,
+  "baselineVersion": "9.3.1-wide.29-live-dashboard",
+  "baselineObservation": "Taiwan speed selected with controls expanded, toolbar present and dashboard blank.",
+  "releaseVersion": "9.3.1-wide.30-live-pane",
+  "releaseApkSha256": "64788a197da32529ea7bbf93511d22ad6bfab79c047f364eb7b3a0956619240d",
+  "sameSignatureUpgrade": "PASS",
+  "standaloneApkInstalledSha256Matches": true,
+  "releaseOpenedRetainingCompactLayout": true,
+  "releaseOpenedAtNormalHeight": true,
+  "runtimeDashboardHeightsPx": {
+    "regular": 220,
+    "quickControlsCollapsed": 406,
+    "shortLayout": 55
+  },
+  "compactMenu": [
+    "layout settings",
+    "Taiwan diagnostics",
+    "GPS start or stop",
+    "quick controls visibility"
+  ],
+  "testGpsReplay": {
+    "speedKph": [
+      33,
+      52
+    ],
+    "candidateDistanceM": [
+      437,
+      126
+    ],
+    "distanceGlyphHeightPx": [
+      32,
+      44
+    ],
+    "gpsStatusAndWarningVisible": true,
+    "candidateMarkedUnconfirmed": true
+  },
+  "noFixStateVisible": true,
+  "initialEmulatorColdStart": "The existing CarrotAmap foreground service timed out once during initial software emulation; the next launch and the final standalone update opened and rendered.",
+  "physicalVehicleAndC4Tested": false
+}

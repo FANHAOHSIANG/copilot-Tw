@@ -1,5 +1,11 @@
 # CoPilot Tw
 
+## wide.30 台灣測速正式畫面修正
+
+修正分割畫面只剩工具列與分隔線的問題。台灣測速分區可顯示即時時速、可用速限、測速距離與 GPS 狀態，面板較矮時將「更多」移到切換列。已在 Android 15 模擬器重現舊版問題，並驗證覆蓋安裝、縮小版面及模擬定位更新。
+
+[下載 Android APK 與原始碼 ZIP](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.30) · [安裝與重建](variants/wide30/README.md) · [驗證紀錄](variants/wide30/verification/emulator.json) · [正式畫面截圖](variants/wide30/verification/emulator-live.png)
+
 ## wide.23 藍灰衛星地形圖示
 
 [下載 Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.23) · [重建說明](variants/wide23/README.md)

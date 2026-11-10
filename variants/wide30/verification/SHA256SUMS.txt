@@ -1,0 +1,2 @@
+64788a197da32529ea7bbf93511d22ad6bfab79c047f364eb7b3a0956619240d  Copilot-tw-9.3.1-wide.30-live-pane.apk
+11a9e8760737f163ced1550e96b8cf5c54b4b3e23ed89639b100598603e19996  Copilot-tw-wide.30-live-pane-source.zip
