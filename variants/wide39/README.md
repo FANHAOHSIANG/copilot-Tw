@@ -23,8 +23,8 @@
 
 ## 重建
 
-這是原 APK 修改材料，不是完整 Gradle 專案。以 wide.37 APK（SHA256 見 verification）為基底，設定 COPILOT_BASE_APK、COPILOT_APKTOOL、COPILOT_BUILD_TOOLS、COPILOT_SIGNING_KEY、COPILOT_KEY_ALIAS、COPILOT_STORE_PASSWORD、COPILOT_KEY_PASSWORD 後執行 python3 rebuild.py。簽署私鑰不在包內，須使用自己的原簽章才能覆蓋更新。
+這是原 APK 修改材料，不是完整 Gradle 專案。以公開下載的 wide.39 APK 或原 wide.37 APK（SHA256 見 verification）為基底，設定 COPILOT_BASE_APK、COPILOT_APKTOOL、COPILOT_BUILD_TOOLS、COPILOT_SIGNING_KEY、COPILOT_KEY_ALIAS、COPILOT_STORE_PASSWORD、COPILOT_KEY_PASSWORD 後執行 python3 rebuild.py。簽署私鑰不在包內，須使用自己的原簽章才能覆蓋更新。
 
 速度測試：使用 org.json:json:20240303 及 Java8 編譯 src/WideAmapPreAdjust.java 與 tests/*.java，執行 com.navipilot.obf.BindingChecks。tests/WideBridge.java 只供編譯，整合案例直接呼叫原 WideHcopMerge，不代表完整 Android transport 測試。固定底欄測試另編譯 footer-tests/stubs、src/WideFixedFooter.java 和 footer-tests/FooterChecks.java。
 
-APK 於對話交付；GitHub 保存修改程式與測試，尚未建立此版 Release。
+[下載完整 APK 與修改材料](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.39)。安裝與功能說明請見儲存庫首頁。

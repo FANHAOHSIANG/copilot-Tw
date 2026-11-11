@@ -1,112 +1,63 @@
-# CoPilot Tw
+# Copilot tw
 
-## wide.39 高德預調速綁定與固定關閉按鈕
+**把導航、台灣測速提醒與 Carrot 車況整合在同一個 Android 行車畫面。**
 
-預調速固定採用所選高德的有效策略；台灣模式保留台灣速限／測速點，高德預調速與台灣道路速限同時有效時取較低值送出。保留資料時效與來源切換撤銷，避免互相覆蓋。右側更多的兩個設定頁，關閉按鈕固定在底部中央。26項離線速度測試及底欄結構、APK簽章檢查通過，尚未完成 Android 實機與 C4 實車驗證。測速覆蓋範圍沿用 wide.37。
+在同一個 App 切換高德車機版／一般版／Google 地圖，右側選擇台灣測速儀表或神盾投屏。配合 C4，可查看接管狀態，並傳送有效的導航與測速資料。
 
-[使用、來源規則與重建說明](variants/wide39/README.md) · [檢查紀錄](variants/wide39/verification/verification.json)
+## 下載最新版
 
-APK 於對話交付，尚未建立 wide.39 GitHub Release。
+目前提供 **9.3.1-wide.39-amap-bound（26110751）測試版**，更新日期 2026-11-11。Android 12 以上。
 
-## wide.37 全量離線驗證結果
+| 檔案 | 用途 |
+| --- | --- |
+| **[下載 Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.39/Copilot-tw-9.3.1-wide.39-amap-bound.apk)** | 車機／Android 手機直接安裝，同簽章可覆蓋更新 |
+| [下載原始碼與修改材料 ZIP](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.39/Copilot-tw-wide.39-source.zip) | 開發、檢視與重建；不是安裝檔 |
+| [下載 SHA256SUMS](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.39/SHA256SUMS.txt) | 核對下載完整性 |
 
-已檢查包內 1856 個固定測速點。1369 個未進入提醒配對。487 個已配對點展開為 539 組方向回放，457 點的已配對方向通過，3 點部分方向未觸發、19 點可用回放路徑不足、2 點同向未觸發、6 點反向回放異常待查。這是道路幾何合成定位測試，並非全台實車驗證。487 個點中另有 6 點原資料雙向但僅配對一向。不能將 wide.37 當成完整全台覆蓋。
+[版本下載頁](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.39) · [安裝與使用](docs/INSTALL_zh-TW.md) · [資料來源與已知限制](docs/DATA_SOURCES_zh-TW.md) · [更新紀錄](CHANGELOG.md)
 
-[完整方法與結果](variants/wide37/audit/README.md) · [全部 ID 結果](variants/wide37/audit/all-status.tsv) · [未通過案例](variants/wide37/audit/anomalies.json)
+## 可以做什麼
 
-## wide.37 國一北上測速提醒修正
+| 功能 | 說明 |
+| --- | --- |
+| 導航切換 | 高德車機／一般版共用一個 Copilot APK；Google 地圖提供畫面投屏 |
+| 台灣測速儀表 | 即時時速、可用速限、測速距離、定位與資料狀態；靠近時放大距離顯示 |
+| 測速語音 | 符合提醒條件、進入 1 公里門檻時播報「前方測速照相」；配對較晚時也可能較晚提醒 |
+| 全畫面紅光 | 接近測速 500 公尺內，App 四邊閃紅光，距離越近閃爍越快 |
+| 速限暫存 | 最後有效標誌保留最多 60 秒並標示暫存；這不延長 C4 控制資料有效期 |
+| 神盾投屏 | 右側可切換神盾畫面；顯示模式與傳給 C4 的資料來源分開設定 |
+| C4 接管外框 | 6 dp、內角圓弧；僅橫向為水藍，橫向＋縱向為綠色，橫向未接管時隱藏 |
+| 自動版面 | 橫向左右分割、直向上下分割，可調整比例；更多設定的關閉鈕固定在底部中央 |
+| 高德預調速 | 固定使用目前選定高德的有效策略，切台灣來源也保留；與台灣有效道路速限取較低值送出 |
+| 投屏教學 | App 內提供 Shizuku／Stellar 授權說明與管理工具入口，另有 Amap2Tesla 僅投神盾選項 |
 
-修正國道北上被誤當正北方向及僅搜尋同一道路分段造成的漏報。補回竹北往台北範圍 5 個測速點，連同既有 63.7 公里共 6 點通過道路幾何模擬回放，語音門檻為 1 公里。34.4 公里匝道點仍待確認。新增提醒只影響畫面／語音，未擴充 C4 控制資料。尚待 Android 實機與實車驗證。
+高德、Google 地圖、神盾及投屏管理工具需自行安裝。神盾投屏不代表讀取神盾內部測速資料；Google 模式目前不提供 Google 導航資料給 C4。
 
-[安裝與重建說明](variants/wide37/README.md) · [配對結果](variants/wide37/verification/mapping-report.json) · [離線回放](variants/wide37/verification/replay.txt) · [APK 檢查](variants/wide37/verification/verification.json)
+## 第一次使用
 
-此項為原始碼與測試存檔，APK 已於對話交付，尚未建立 wide.37 GitHub Release。
+1. 下載上方 APK，停車時安裝或覆蓋更新。
+2. 授予精確定位；依需求啟動 Shizuku 或 Stellar，完成 Copilot 投屏授權。
+3. 在導航「更多」選擇已安裝的高德車機／一般版或 Google 地圖。
+4. 在右側選擇「台灣測速」或「神盾投屏」。台灣畫面先確認 GPS 和道路配對狀態。
+5. 如要連 C4，填入實際 C4 位址並確認車況；需要台灣控制資料時，再啟用台灣來源。顯示面板切換不等於控制來源切換。
+6. 查看「更多」診斷，分別確認定位、測速配對、傳送紀錄與 C4 接收情況。
 
-## wide.30 台灣測速正式畫面修正
+完整流程與排錯請看 [使用說明](docs/INSTALL_zh-TW.md)。
 
-修正分割畫面只剩工具列與分隔線的問題。台灣測速分區可顯示即時時速、可用速限、測速距離與 GPS 狀態，面板較矮時將「更多」移到切換列。已在 Android 15 模擬器重現舊版問題，並驗證覆蓋安裝、縮小版面及模擬定位更新。
+## 提醒覆蓋與驗證狀態
 
-[下載 Android APK 與原始碼 ZIP](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.30) · [安裝與重建](variants/wide30/README.md) · [驗證紀錄](variants/wide30/verification/emulator.json) · [正式畫面截圖](variants/wide30/verification/emulator-live.png)
+內建 1,856 筆固定點不等於 1,856 點都能提醒。目前 487 點具提醒道路配對、1,369 點未進入提醒配對。487 點展開 539 組方向合成回放，其中 457 點的已配對方向通過，其餘存在短路徑、漏觸發或反向異常待查。一般平面道路也可提醒，但同樣必須符合配對條件。經常出沒／機動測速並沒有完整全台點位庫。
 
-## wide.23 藍灰衛星地形圖示
+wide.39 已通過 26 項離線速度合併測試、底欄結構與 APK 簽章檢查；**尚未完成此版 Android 實機與 C4 實車驗證**。先前 wide.30 的模擬器通過結果不能代替此版驗證。封包傳送或接收成功也不等於已執行減速。
 
-[下載 Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.23) · [重建說明](variants/wide23/README.md)
+[全量點位驗證](variants/wide37/audit/README.md) · [wide.39 技術與驗證紀錄](variants/wide39/README.md)
 
-## wide.22 Google 地圖投屏
+## 開發與其他平台
 
-導航選單可切換高德車機版、高德一般版或 Google 地圖。Google 模式只投屏，並撤銷上一個高德來源的導航資料。
+- [開發／重建說明](docs/BUILD_zh-TW.md)：本專案是原 APK 的修改材料存檔，不是完整原作者 Gradle 專案。
+- [歷史版本](https://github.com/FANHAOHSIANG/copilot-Tw/releases)：供比對與回退參考；Android 可能拒絕直接降版，請先保存設定。
+- iOS 是獨立試作，不與 Android 功能等同。本頁的 APK 不能在 iPhone 安裝；[既有 iOS 0.1 原始碼](variants/wide19/ios/)僅列為歷史存檔，不代表最新 iOS 投屏版。
 
-[Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.22) · [切換與重建說明](variants/wide22/README.md)
+## 授權與資料來源
 
-## wide.21 投屏與介面更新
-
-一般高德鍵盤預設顯示在車機主畫面。鍵盤開合保留導航與神盾投屏。新版更新導航、神盾、台灣測速工具列與版面設定。
-
-[Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.21) · [更新與重建說明](variants/wide21/README.md)
-
-## wide.20 鍵盤修正版
-
-修正高德一般版在分割畫面搜尋地址時的鍵盤顯示與輸入焦點。可直接覆蓋同簽章的 wide.19。
-
-[Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.20) · [修正與重建說明](variants/wide20/README.md)
-
-## wide.19 測試版
-
-單一 Android APK 可切換高德車機版／一般版，Carrot 導航來源同步切換。台灣固定測速紅光從 500 公尺開始加快。另有 Shizuku／Stellar 安裝教學、Amap2Tesla 僅投神盾及 iOS 原生 Xcode 專案。
-
-[Android APK 與 iOS 專案](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.19) · [使用與安裝教學](variants/wide19/README.md)
-
-## wide.18 測試版
-
-三版桌面名稱均為 **Copilot tw**，全畫面加入 C4 接管細框。台灣版可切換車機／一般高德，並加入獨立測速示範與接近紅光。
-
-[三版 APK](../../releases/tag/wide.18) · [安裝與重建](variants/wide18/README.md)
-
-## 最新合併測試版：wide.17 HCOP Taiwan Adaptive
-
-**[下載 wide.17 APK 與修改包](../../releases/tag/wide.17-hcop-tw-adaptive)** · [安裝與檢查結果](variants/hcop-tw-adaptive/README_zh-TW.md)
-
-已將自製台灣測速面板合併自動橫直排版，統一「GPS／快捷／更多」操作，App 顯示名稱為 **CoPilot Tw**。使用高德車機版，原 HCOP 資料與導航核心保持不變。版本碼 26110729，原簽章，可覆蓋 wide.16。已通過編譯與離線檢查，尚未實機／實車驗證。
-
-以下為先前 wide.16 三版本存檔：
-
-CP 搭子 Taiwan：集中保存 Navipilot wide.16 的三個客製測試版本、Java／smali 補丁、安裝與使用說明。
-
-**[下載三版 APK 與修改包](../../releases/tag/wide.16-archive)** · [安裝與使用](docs/INSTALL_zh-TW.md) · [原始碼與重建](docs/BUILD_zh-TW.md)
-
-## 版本選擇
-
-| 版本 | APK | 導航與右側畫面 | 狀態 |
-| --- | --- | --- | --- |
-| Auto Adaptive | `Navipilot-9.3.1-wide.16-auto-adaptive.apk` | 高德車機版＋神盾；橫直向自動排版 | 排版測試版 |
-| Phone Adaptive | `Navipilot-9.3.1-wide.16-phone-adaptive.apk` | 高德一般版＋神盾；橫直向自動排版 | 一般版導航資料仍待裝置驗證 |
-| HCOP Taiwan | `Navipilot-9.3.1-wide.16-hcop-tw-test.apk` | 高德車機版＋台灣道路速限／固定測速面板 | HCOP 台灣資料串接測試版 |
-
-Auto／Phone 的差別是搭配的高德 App，不是限制只能安裝在車機或手機。HCOP Taiwan 以 wide.14 為基底，**沒有合併 Adaptive 的直向自動排版**。
-
-三版沿用套件 `com.jixiexiaoge.drivingassist.wide`、既有測試簽章及版本碼 `26110728`，互相覆蓋，不會並存。
-
-## 保存內容
-
-- `variants/auto/`：車機高德版補丁、排版程式與既有驗證紀錄。
-- `variants/phone/`：一般高德版補丁、通知診斷與排版程式。
-- `variants/hcop-tw/`：台灣道路速限、固定測速、資料生成及接收端離線測試程式。
-- Releases：三個既有 APK、三份公開修改包（含基底 APK、smali／資料資產）及 SHA-256。
-- 各版本原有 README 保留在其目錄；簽署金鑰相關內容請以 [重建說明](docs/BUILD_zh-TW.md) 為準。
-
-這是**原 APK 的修改程式碼與重建材料存檔**，不是原作者完整 Gradle／Android Studio 專案。原始碼目錄供直接檢視；重建應解壓對應的 Release 修改包，保留原相對路徑。
-
-## 品牌與驗證範圍
-
-專案名稱為 **CoPilot Tw**。此次存檔未重新編譯 APK，安裝後的原 App 顯示名稱、套件名稱、簽章與內容維持原檔，不代表已完成 App 內名稱變更。
-
-既有版本的編譯、離線測試與檢查紀錄隨程式保存；此次上傳驗證檔案完整性、APK 與來源雜湊一致、公開修改包排除簽署金鑰。沒有新增 Android 實機或實車驗證。
-
-一般高德出現通知不代表已提供完整導航資料；神盾投屏不代表已取得神盾內部測速資料。HCOP Taiwan 預設只預覽台灣資料，資料送往 C4 必須手動開啟測試設定；接收成功不代表車輛已執行減速。
-
-## 授權與來源
-
-原 CP 搭子／Navipilot APK 權利屬原作者，本儲存庫未替原 App 重新授權。
-HCOP 參考程式的原 MIT 授權、OpenStreetMap ODbL 與政府開放資料來源說明保留於 [HCOP Taiwan 說明](variants/hcop-tw/README_zh-TW.md)。沒有將整個專案一律標成 MIT。
-
-私人簽署金鑰不公開。公開修改包（含其巢狀 ZIP）已移除 `.jks` 等簽章私鑰；個人行車紀錄不在本次上傳範圍。
+原 CP 搭子／Navipilot APK 權利屬原作者；本儲存庫沒有替整個 App 重新授權。HCOP、OpenStreetMap 與政府開放資料的來源／授權保留於 [資料說明](docs/DATA_SOURCES_zh-TW.md)及各原始目錄。公開檔案不包含私人簽署金鑰或個人行車紀錄。

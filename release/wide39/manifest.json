@@ -1,0 +1,8 @@
+{
+  "base_url": "https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.30/Copilot-tw-9.3.1-wide.30-live-pane.apk",
+  "base_sha256": "64788a197da32529ea7bbf93511d22ad6bfab79c047f364eb7b3a0956619240d",
+  "patch_sha256": "79c81fad358cc9e0b3c0f26854e04fdfb8b9cb004b358b140b5d9f0045803b0f",
+  "apk_sha256": "15912dabdc9548b90c227c2790d15465b818d55091d72b5e038033ad95a7fb28",
+  "apk_name": "Copilot-tw-9.3.1-wide.39-amap-bound.apk",
+  "parts": 17
+}

@@ -1,34 +1,23 @@
-# 原始碼與重建
+# 開發、重建與下載檔案
 
-本儲存庫保存可重建 Java／smali 補丁，沒有原作者完整 Android 專案。
+本儲存庫保存原 CP 搭子／Navipilot APK 的客製 Java、smali、資料與修改材料，並非原作者完整 Gradle 專案。GitHub 的一般 Gradle 建置方法不適用。
 
-## 檔案配置
+## wide.39
 
-請從 Releases 下載對應 `CoPilot-Tw-wide.16-*-public-modifications.zip`，解壓到乾淨目錄。修改包保留必要基底 APK、已產生 helper smali、驗證紀錄；HCOP 包還包含離線圖磚和來源快照。Git 中的 `variants/` 是可瀏覽程式與文件，不包含所有大型二進位資產。
+1. 下載 [wide.39 APK 與原始碼 ZIP](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.39)，核對同頁 SHA256SUMS。
+2. ZIP 解開後，進入 `variants/wide39`。該目錄包含 Java、新舊掛點差異、完整受修改 smali、離線測試及 `rebuild.py`。
+3. 準備 Python3、Java、Apktool3.0.3、Android build-tools（zipalign、lib/apksigner.jar）。如果重編 Java helper，另需 ECJ／D8 及 org.json。
+4. 設定 `COPILOT_BASE_APK` 指向已下載的 wide.39 APK；也接受雜湊相符的原 wide.37。設定 `COPILOT_APKTOOL` 和 `COPILOT_BUILD_TOOLS`。
+5. 私人簽章在本機設定 `COPILOT_SIGNING_KEY`、`COPILOT_KEY_ALIAS`、`COPILOT_STORE_PASSWORD`、`COPILOT_KEY_PASSWORD`，執行 `python3 rebuild.py`。
 
-## 簽署金鑰
+重建預設使用包內 smali；修改 Java 後需先重新編譯成對應 smali。`rebuild/` 不得已存在，以免覆蓋先前建置。原 APK 作為基底保留其他模組；此方式不是從原作者完整原始碼重新建置。
 
-公開程式碼不包含私人簽署金鑰；既有 APK 可直接安裝。
+## 簽章
 
-## Auto／Phone
+公開下載不含 `.jks`、私人金鑰與密碼。覆蓋更新需要原簽署金鑰，改用新金鑰會與原安裝簽章不相容。不要把金鑰提交到 GitHub。
 
-需要 JDK、Python 3、ripgrep、ECJ 3.39、Apktool 3.0.3、Android API 35 及 Build Tools 36。依 `adaptive16-src/README_zh-TW.md` 準備 tools 相對路徑。
+## 發布檔案
 
-```sh
-bash adaptive16-src/build.sh auto
-# 或
-bash adaptive16-src/build.sh phone
-```
+`release/wide39` 保存已簽章 APK 的差分發布材料與雜湊。發布流程從已公開的 wide.30 基底還原**同一個**已交付 wide.39 APK，核對 SHA-256 後上傳 Release；不需要接觸私鑰，也不會重新簽章。差分材料不供一般使用者安裝，直接下載 Release 的完整 APK 即可。
 
-## HCOP Taiwan
-
-需要 Python 3、Java 17、ripgrep，依原說明準備工具並提供私人簽署金鑰：
-
-```sh
-bash work/src/setup_tools.sh
-bash work/src/rebuild.sh
-```
-
-既有離線圖磚可直接重用；重新生成圖資的方法、固定快照、資料來源與授權見版本 README。修改資料日期時須同步處理程式有效期限並重新驗證。
-
-此次匯入沒有重跑 Android 編譯與實車測試；隨附 `*-build/` 或 `work/build/` 報告是原版本紀錄。
+原始碼 ZIP 取自發布提交的儲存庫快照，含最新版說明與修改材料；SHA256SUMS 與兩個下載檔一同產生。歷史版本不刪除。

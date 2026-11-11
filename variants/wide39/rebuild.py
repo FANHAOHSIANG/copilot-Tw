@@ -1,7 +1,8 @@
 import os,json,pathlib,subprocess,hashlib,shutil
 P=pathlib.Path(__file__).resolve().parent
 base=pathlib.Path(os.environ['COPILOT_BASE_APK']);tool=os.environ['COPILOT_APKTOOL'];bt=pathlib.Path(os.environ['COPILOT_BUILD_TOOLS'])
-assert hashlib.sha256(base.read_bytes()).hexdigest()==json.loads((P/'verification/verification.json').read_text())['baseSha256'],'Unexpected base APK'
+metadata=json.loads((P/'verification/verification.json').read_text())
+assert hashlib.sha256(base.read_bytes()).hexdigest() in (metadata['baseSha256'],metadata['apkSha256']),'Unexpected base APK'
 build=P/'rebuild';assert not build.exists();build.mkdir();decoded=build/'decoded'
 def run(*args):subprocess.run(list(map(str,args)),check=True)
 run('java','-jar',tool,'d','-f',base,'-o',decoded)
