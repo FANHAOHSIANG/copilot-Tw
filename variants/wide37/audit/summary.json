@@ -1,0 +1,39 @@
+{
+  "version": "wide.37",
+  "date": "2026-11-11",
+  "totalPoints": 1856,
+  "mappedPoints": 487,
+  "counts": {
+    "unmapped": 1369,
+    "pass": 457,
+    "partial": 3,
+    "insufficient": 19,
+    "reverse": 6,
+    "miss": 2
+  },
+  "directionalRuns": 539,
+  "directionalRunsAlerted": 514,
+  "directionalRunsNoAlert": 25,
+  "reverseAnomalyPoints": 6,
+  "incompleteDirectionMappings": 6,
+  "noParseableDirection": 323,
+  "uncertainOrInvalidLimits": 7,
+  "firstAlertDistribution": {
+    "900–1000m": 272,
+    "500–899m": 102,
+    "20–499m": 140,
+    "未觸發": 25
+  },
+  "scope": "All 1856 bundled fixed cameras inventoried. All 487 registered IDs evaluated in 539 directional synthetic geometry-generated cases with dynamic 3x3 tile windows, original Tracker plus wide.37 display helper. Unmapped points have structural exclusion evidence, not successful runtime tests. No independent physical site validation, real GPS logs, installed-device UI/audio or C4 adoption test. Sections and Amap notices excluded.",
+  "conditions": {
+    "gpsAccuracyM": 9,
+    "gpsLateralOffsetM": 0,
+    "sampleIntervalMs": 1000,
+    "speedMps": "min(20,max(5,limitKph/3.6*0.8))",
+    "maxGeneratedApproachM": 1200,
+    "minGeneratedDistanceM": 30,
+    "voiceTargetThresholdM": 1000,
+    "followOnlyUniqueNamedPredecessors": true
+  },
+  "apkSha256": "8edc251bdc6026e810bde8eaec9810ed28d61b723c56cc90f63bff4c9e87305a"
+}

@@ -1,0 +1,1575 @@
+[
+  {
+    "id": "13e55e257d520f7d",
+    "lat": 24.44981,
+    "lon": 118.33837,
+    "limit": 60,
+    "direction": "東西雙向",
+    "bearings": [
+      90,
+      270
+    ],
+    "city": "金門縣",
+    "region": "金寧鄉",
+    "road": "金寧鄉環島北路二段(頂堡路口)",
+    "agency": "金門縣警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "280412335:0:1",
+    "mappedDirections": [
+      1,
+      -1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "環島北路二段"
+    ],
+    "nearestRoadOffsetM": 3.89,
+    "nearestLocalHeading": 76.96,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "13e55e257d520f7d",
+        "direction": 1,
+        "samples": 2,
+        "startDistance": 46,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "true",
+        "lastOriginalReason": "道路確認中：至少 3 次定位／移動 5 m",
+        "otherCameraSelected": ""
+      },
+      {
+        "id": "13e55e257d520f7d",
+        "direction": -1,
+        "samples": 88,
+        "startDistance": 1200,
+        "hits": 63,
+        "firstAlertM": 987,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "true",
+        "lastOriginalReason": "警政署同路段局部修正",
+        "otherCameraSelected": "other_camera_selected"
+      }
+    ],
+    "status": "partial",
+    "statusLabel": "部分方向未觸發",
+    "firstAlertM": [
+      987
+    ],
+    "directionCoverageIncomplete": false,
+    "issues": []
+  },
+  {
+    "id": "20fc33e9a7c4046a",
+    "lat": 24.432312,
+    "lon": 118.34556,
+    "limit": 60,
+    "direction": "東西雙向",
+    "bearings": [
+      90,
+      270
+    ],
+    "city": "金門縣",
+    "region": "金寧鄉",
+    "road": "金寧鄉桃園路(盤果路口)",
+    "agency": "金門縣警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "282841203:0:4",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [],
+    "nearestRoadOffsetM": 4.9,
+    "nearestLocalHeading": 104.68,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "20fc33e9a7c4046a",
+        "direction": 1,
+        "samples": 0,
+        "startDistance": 0,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": true,
+    "issues": [
+      "來源雙向，但配對清單只有一向",
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "91ca4cb2eefeba2d",
+    "lat": 24.068613,
+    "lon": 120.51788,
+    "limit": 60,
+    "direction": "北向",
+    "bearings": [
+      0
+    ],
+    "city": "彰化縣",
+    "region": "彰化市",
+    "road": "彰化市線東路1段與環河街口",
+    "agency": "彰化縣警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "104634602:0:2",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "線東橋",
+      "135"
+    ],
+    "nearestRoadOffsetM": 2.73,
+    "nearestLocalHeading": 3.65,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "91ca4cb2eefeba2d",
+        "direction": 1,
+        "samples": 2,
+        "startDistance": 46,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "道路確認中：至少 3 次定位／移動 5 m",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "451dccbd96c86a23",
+    "lat": 24.167889,
+    "lon": 120.5143,
+    "limit": 50,
+    "direction": "南北雙向",
+    "bearings": [
+      0,
+      180
+    ],
+    "city": "彰化縣",
+    "region": "伸港鄉",
+    "road": "伸港鄉濱海路與工五路口",
+    "agency": "彰化縣警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "343702179:0:15",
+    "mappedDirections": [
+      1,
+      -1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "濱海路"
+    ],
+    "nearestRoadOffsetM": 0.52,
+    "nearestLocalHeading": 345.99,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "451dccbd96c86a23",
+        "direction": 1,
+        "samples": 0,
+        "startDistance": 0,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "true",
+        "lastOriginalReason": "",
+        "otherCameraSelected": ""
+      },
+      {
+        "id": "451dccbd96c86a23",
+        "direction": -1,
+        "samples": 106,
+        "startDistance": 1200,
+        "hits": 87,
+        "firstAlertM": 989,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "true",
+        "lastOriginalReason": "警政署同路段局部修正",
+        "otherCameraSelected": "other_camera_selected"
+      }
+    ],
+    "status": "partial",
+    "statusLabel": "部分方向未觸發",
+    "firstAlertM": [
+      989
+    ],
+    "directionCoverageIncomplete": false,
+    "issues": []
+  },
+  {
+    "id": "953aebd9a39ba555",
+    "lat": 23.96108,
+    "lon": 120.38227,
+    "limit": 60,
+    "direction": "西向",
+    "bearings": [
+      270
+    ],
+    "city": "彰化縣",
+    "region": "芳苑鄉",
+    "road": "芳苑鄉功湖北路1段與草漢路草1段口",
+    "agency": "彰化縣警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "1267030516:0:3",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "功湖北路二段",
+      "148"
+    ],
+    "nearestRoadOffsetM": 0.74,
+    "nearestLocalHeading": 101.31,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "953aebd9a39ba555",
+        "direction": 1,
+        "samples": 0,
+        "startDistance": 0,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "f646d26c36b787c8",
+    "lat": 23.683113,
+    "lon": 120.49306,
+    "limit": 50,
+    "direction": "南向北",
+    "bearings": [
+      0
+    ],
+    "city": "雲林縣",
+    "region": "斗南鎮",
+    "road": "斗南鎮新生二路東明橋北端",
+    "agency": "雲林縣警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "961091764:0:5",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [],
+    "nearestRoadOffsetM": 4.41,
+    "nearestLocalHeading": 7.25,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "f646d26c36b787c8",
+        "direction": 1,
+        "samples": 2,
+        "startDistance": 42,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "道路確認中：至少 3 次定位／移動 5 m",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "69c4b05823db24e2",
+    "lat": 23.795057,
+    "lon": 120.46766,
+    "limit": 50,
+    "direction": "東西雙向",
+    "bearings": [
+      90,
+      270
+    ],
+    "city": "雲林縣",
+    "region": "西螺鎮",
+    "road": "西螺鎮大同路與興農東(西)路口",
+    "agency": "雲林縣警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "35985528:0:3",
+    "mappedDirections": [
+      1,
+      -1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "興農西路",
+      "154"
+    ],
+    "nearestRoadOffsetM": 0.45,
+    "nearestLocalHeading": 248.97,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "69c4b05823db24e2",
+        "direction": 1,
+        "samples": 0,
+        "startDistance": 0,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "true",
+        "lastOriginalReason": "",
+        "otherCameraSelected": ""
+      },
+      {
+        "id": "69c4b05823db24e2",
+        "direction": -1,
+        "samples": 106,
+        "startDistance": 1200,
+        "hits": 66,
+        "firstAlertM": 989,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "true",
+        "lastOriginalReason": "警政署同路段局部修正",
+        "otherCameraSelected": "other_camera_selected"
+      }
+    ],
+    "status": "partial",
+    "statusLabel": "部分方向未觸發",
+    "firstAlertM": [
+      989
+    ],
+    "directionCoverageIncomplete": false,
+    "issues": []
+  },
+  {
+    "id": "fd4b913da13b70d9",
+    "lat": 23.658632,
+    "lon": 120.337105,
+    "limit": 60,
+    "direction": "東西雙向",
+    "bearings": [
+      90,
+      270
+    ],
+    "city": "雲林縣",
+    "region": "元長鄉",
+    "road": "元長鄉160縣道20k+947m處(子茂段)",
+    "agency": "雲林縣警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "373416338:16:17",
+    "mappedDirections": [
+      1,
+      -1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "160"
+    ],
+    "nearestRoadOffsetM": 6.29,
+    "nearestLocalHeading": 99.75,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "fd4b913da13b70d9",
+        "direction": 1,
+        "samples": 0,
+        "startDistance": 0,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "true",
+        "lastOriginalReason": "",
+        "otherCameraSelected": ""
+      },
+      {
+        "id": "fd4b913da13b70d9",
+        "direction": -1,
+        "samples": 0,
+        "startDistance": 0,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "true",
+        "lastOriginalReason": "",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "fe9b5ba800b7af30",
+    "lat": 23.569939,
+    "lon": 119.58235,
+    "limit": 50,
+    "direction": "東向西",
+    "bearings": [
+      270
+    ],
+    "city": "澎湖縣",
+    "region": "馬公市",
+    "road": "馬公市中華路與六合路岔路口(兼闖紅燈)",
+    "agency": "澎湖縣政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "23747268:0:1",
+    "mappedDirections": [
+      -1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "203"
+    ],
+    "nearestRoadOffsetM": 7.68,
+    "nearestLocalHeading": 106.74,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "fe9b5ba800b7af30",
+        "direction": -1,
+        "samples": 0,
+        "startDistance": 0,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "f9cdcc2e3ae11e38",
+    "lat": 23.55051,
+    "lon": 119.6143,
+    "limit": 50,
+    "direction": "東南向西北",
+    "bearings": [
+      315
+    ],
+    "city": "澎湖縣",
+    "region": "馬公市",
+    "road": "縣道204線興仁段4K",
+    "agency": "澎湖縣政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "928878900:5:6",
+    "mappedDirections": [
+      -1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "204"
+    ],
+    "nearestRoadOffsetM": 5.85,
+    "nearestLocalHeading": 123.7,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "f9cdcc2e3ae11e38",
+        "direction": -1,
+        "samples": 2,
+        "startDistance": 50,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "道路確認中：至少 3 次定位／移動 5 m",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "845b63701158c556",
+    "lat": 23.54887,
+    "lon": 119.62023,
+    "limit": 50,
+    "direction": "西南向東北",
+    "bearings": [
+      45
+    ],
+    "city": "澎湖縣",
+    "region": "馬公市",
+    "road": "縣道204線烏崁段4.6K",
+    "agency": "澎湖縣政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "928878897:0:3",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "204"
+    ],
+    "nearestRoadOffsetM": 2.48,
+    "nearestLocalHeading": 63.2,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "845b63701158c556",
+        "direction": 1,
+        "samples": 0,
+        "startDistance": 0,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "f678b3aabe98c602",
+    "lat": 23.575893,
+    "lon": 119.67729,
+    "limit": 50,
+    "direction": "南向北",
+    "bearings": [
+      0
+    ],
+    "city": "澎湖縣",
+    "region": "湖西鄉",
+    "road": "縣道202號菓葉段9.9K",
+    "agency": "澎湖縣政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "73775002:25:28",
+    "mappedDirections": [
+      -1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "202"
+    ],
+    "nearestRoadOffsetM": 7.85,
+    "nearestLocalHeading": 200.05,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "f678b3aabe98c602",
+        "direction": -1,
+        "samples": 0,
+        "startDistance": 0,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "e4307806203c57e3",
+    "lat": 23.658247,
+    "lon": 119.555,
+    "limit": 50,
+    "direction": "西南向東北",
+    "bearings": [
+      45
+    ],
+    "city": "澎湖縣",
+    "region": "白沙鄉",
+    "road": "縣道203線通梁段20.77K",
+    "agency": "澎湖縣政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "987151525:22:23",
+    "mappedDirections": [
+      -1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "203"
+    ],
+    "nearestRoadOffsetM": 0.85,
+    "nearestLocalHeading": 225.17,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "e4307806203c57e3",
+        "direction": -1,
+        "samples": 0,
+        "startDistance": 0,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "a4254fc76a52f828",
+    "lat": 23.66557,
+    "lon": 119.57666,
+    "limit": 70,
+    "direction": "東北向西南",
+    "bearings": [
+      225
+    ],
+    "city": "澎湖縣",
+    "region": "白沙鄉",
+    "road": "縣道203線後寮段17.8K",
+    "agency": "澎湖縣政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "61319378:90:93",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "203"
+    ],
+    "nearestRoadOffsetM": 0.62,
+    "nearestLocalHeading": 245.45,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "a4254fc76a52f828",
+        "direction": 1,
+        "samples": 1,
+        "startDistance": 38,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "平行道路／路口／高架平面無法區分",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "1401c9060ca1a28f",
+    "lat": 23.63387,
+    "lon": 119.59724,
+    "limit": 50,
+    "direction": "南往北",
+    "bearings": [
+      0
+    ],
+    "city": "澎湖縣",
+    "region": "白沙鄉",
+    "road": "縣道203線講美段12.3K",
+    "agency": "澎湖縣政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "61319378:23:25",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "203"
+    ],
+    "nearestRoadOffsetM": 2.82,
+    "nearestLocalHeading": 355.2,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "1401c9060ca1a28f",
+        "direction": 1,
+        "samples": 2,
+        "startDistance": 41,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "道路確認中：至少 3 次定位／移動 5 m",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "402b7363062523e8",
+    "lat": 23.61199,
+    "lon": 119.60889,
+    "limit": 50,
+    "direction": "北向南",
+    "bearings": [
+      180
+    ],
+    "city": "澎湖縣",
+    "region": "白沙鄉",
+    "road": "縣道203線中屯段9.5K",
+    "agency": "澎湖縣政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "60879114:2:3",
+    "mappedDirections": [
+      -1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "203"
+    ],
+    "nearestRoadOffsetM": 0.55,
+    "nearestLocalHeading": 332.6,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "402b7363062523e8",
+        "direction": -1,
+        "samples": 0,
+        "startDistance": 0,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "b56f7892d2db928a",
+    "lat": 23.59831,
+    "lon": 119.5091,
+    "limit": 50,
+    "direction": "北向南",
+    "bearings": [
+      180
+    ],
+    "city": "澎湖縣",
+    "region": "西嶼鄉",
+    "road": "縣道203線池東段30.4K",
+    "agency": "澎湖縣政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "495131077:7:9",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "203"
+    ],
+    "nearestRoadOffsetM": 8.8,
+    "nearestLocalHeading": 198.95,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "b56f7892d2db928a",
+        "direction": 1,
+        "samples": 2,
+        "startDistance": 46,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "道路確認中：至少 3 次定位／移動 5 m",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "2d2f83e55524fb42",
+    "lat": 23.61152,
+    "lon": 119.51485,
+    "limit": 70,
+    "direction": "南向北",
+    "bearings": [
+      0
+    ],
+    "city": "澎湖縣",
+    "region": "西嶼鄉",
+    "road": "縣道203線二崁與大池岔路口",
+    "agency": "澎湖縣政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "987151530:14:15",
+    "mappedDirections": [
+      -1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "203"
+    ],
+    "nearestRoadOffsetM": 1.61,
+    "nearestLocalHeading": 178.24,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "2d2f83e55524fb42",
+        "direction": -1,
+        "samples": 0,
+        "startDistance": 0,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "9bb6f93305dc042b",
+    "lat": 25.161203,
+    "lon": 121.69114,
+    "limit": 50,
+    "direction": "西向東",
+    "bearings": [
+      90
+    ],
+    "city": "基隆市",
+    "region": "安樂區",
+    "road": "基金三路下坡路段(路燈編號68419處)",
+    "agency": "基隆市警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "183356732:0:4",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "基金三路"
+    ],
+    "nearestRoadOffsetM": 0.56,
+    "nearestLocalHeading": 95.77,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "9bb6f93305dc042b",
+        "direction": 1,
+        "samples": 106,
+        "startDistance": 1200,
+        "hits": 84,
+        "firstAlertM": 1000,
+        "reverseFalseHits": 24,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "平行道路／路口／高架平面無法區分",
+        "otherCameraSelected": "other_camera_selected"
+      }
+    ],
+    "status": "reverse",
+    "statusLabel": "反向回放異常待查",
+    "firstAlertM": [
+      1000
+    ],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "反向合成軌跡仍選到此相機，需排查迴轉拓撲、道路誤配與測試路徑；不列為通過"
+    ]
+  },
+  {
+    "id": "632e9655216d2ac4",
+    "lat": 24.793509,
+    "lon": 120.919395,
+    "limit": 80,
+    "direction": "南向北",
+    "bearings": [
+      0
+    ],
+    "city": "新竹市",
+    "region": "香山區",
+    "road": "西濱快速公路、宮口街口",
+    "agency": "新竹市警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "1496908450:0:1",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "西濱路三段",
+      "61"
+    ],
+    "nearestRoadOffsetM": 9.36,
+    "nearestLocalHeading": 17.33,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "632e9655216d2ac4",
+        "direction": 1,
+        "samples": 2,
+        "startDistance": 58,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "平行道路／路口／高架平面無法區分",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "90d9de6b0f224d38",
+    "lat": 25.009752,
+    "lon": 121.55737,
+    "limit": 50,
+    "direction": "北向南",
+    "bearings": [
+      180
+    ],
+    "city": "臺北市",
+    "region": "文山區",
+    "road": "辛亥路4段辛亥隧道出口",
+    "agency": "臺北市政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "55567865:0:8",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [],
+    "nearestRoadOffsetM": 5.12,
+    "nearestLocalHeading": 70.3,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "90d9de6b0f224d38",
+        "direction": 1,
+        "samples": 0,
+        "startDistance": 0,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "901ac0c545cf785b",
+    "lat": 24.981302,
+    "lon": 121.428314,
+    "limit": 50,
+    "direction": "東南向西北",
+    "bearings": [
+      315
+    ],
+    "city": "新北市",
+    "region": "板橋區",
+    "road": "溪城路與金門街369巷口（往樹林）",
+    "agency": "新北市政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "185108404:1:2",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "溪城路"
+    ],
+    "nearestRoadOffsetM": 4.17,
+    "nearestLocalHeading": 330.19,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "901ac0c545cf785b",
+        "direction": 1,
+        "samples": 1,
+        "startDistance": 37,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "平行道路／路口／高架平面無法區分",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  },
+  {
+    "id": "43151569c5c89b3e",
+    "lat": 24.95511,
+    "lon": 121.53945,
+    "limit": 50,
+    "direction": "東南向西北",
+    "bearings": [
+      315
+    ],
+    "city": "新北市",
+    "region": "新店區",
+    "road": "北宜路1段105巷口（往新店）",
+    "agency": "新北市政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "106360230:32:35",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "北宜路一段",
+      "9"
+    ],
+    "nearestRoadOffsetM": 3.25,
+    "nearestLocalHeading": 312.0,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "43151569c5c89b3e",
+        "direction": 1,
+        "samples": 106,
+        "startDistance": 1200,
+        "hits": 79,
+        "firstAlertM": 978,
+        "reverseFalseHits": 15,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "平行道路／路口／高架平面無法區分",
+        "otherCameraSelected": "other_camera_selected"
+      }
+    ],
+    "status": "reverse",
+    "statusLabel": "反向回放異常待查",
+    "firstAlertM": [
+      978
+    ],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "反向合成軌跡仍選到此相機，需排查迴轉拓撲、道路誤配與測試路徑；不列為通過"
+    ]
+  },
+  {
+    "id": "0d82aaf38403d0d9",
+    "lat": 24.984812,
+    "lon": 121.54082,
+    "limit": 50,
+    "direction": "北向南",
+    "bearings": [
+      180
+    ],
+    "city": "新北市",
+    "region": "新店區",
+    "road": "北新路3段與順安街口（往新店）",
+    "agency": "新北市政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "25878618:1:5",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "北新路三段",
+      "9"
+    ],
+    "nearestRoadOffsetM": 4.5,
+    "nearestLocalHeading": 339.12,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "0d82aaf38403d0d9",
+        "direction": 1,
+        "samples": 3,
+        "startDistance": 61,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "平行道路／路口／高架平面無法區分",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "miss",
+    "statusLabel": "同向回放未觸發",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "已建立至少3個取樣，仍未選到此相機；需核對路口歧義／其他相機優先"
+    ]
+  },
+  {
+    "id": "606e10a2136c3a9c",
+    "lat": 25.089067,
+    "lon": 121.45585,
+    "limit": 50,
+    "direction": "南向北",
+    "bearings": [
+      0
+    ],
+    "city": "新北市",
+    "region": "蘆洲區",
+    "road": "環堤大道與永樂街口（雙向）",
+    "agency": "新北市政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "215621717:18:20",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "環堤大道"
+    ],
+    "nearestRoadOffsetM": 4.9,
+    "nearestLocalHeading": 199.77,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "606e10a2136c3a9c",
+        "direction": 1,
+        "samples": 106,
+        "startDistance": 1200,
+        "hits": 68,
+        "firstAlertM": 978,
+        "reverseFalseHits": 5,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "平行道路／路口／高架平面無法區分",
+        "otherCameraSelected": "other_camera_selected"
+      }
+    ],
+    "status": "reverse",
+    "statusLabel": "反向回放異常待查",
+    "firstAlertM": [
+      978
+    ],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "路名提及雙向，但方向欄位只列一向，待核對",
+      "反向合成軌跡仍選到此相機，需排查迴轉拓撲、道路誤配與測試路徑；不列為通過"
+    ]
+  },
+  {
+    "id": "304b9223c42f399c",
+    "lat": 25.086546,
+    "lon": 121.44341,
+    "limit": 50,
+    "direction": "東北向西南",
+    "bearings": [
+      225
+    ],
+    "city": "新北市",
+    "region": "五股區",
+    "road": "新五路2段347號前（往新莊或往五股）",
+    "agency": "新北市政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "105468557:0:6",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "新五路二段",
+      "107甲"
+    ],
+    "nearestRoadOffsetM": 7.95,
+    "nearestLocalHeading": 210.62,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "304b9223c42f399c",
+        "direction": 1,
+        "samples": 85,
+        "startDistance": 964,
+        "hits": 37,
+        "firstAlertM": 475,
+        "reverseFalseHits": 4,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "警政署同路段局部修正",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "reverse",
+    "statusLabel": "反向回放異常待查",
+    "firstAlertM": [
+      475
+    ],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "反向合成軌跡仍選到此相機，需排查迴轉拓撲、道路誤配與測試路徑；不列為通過"
+    ]
+  },
+  {
+    "id": "2d2aedec449b301f",
+    "lat": 24.20734,
+    "lon": 120.71472,
+    "limit": 50,
+    "direction": "北向南",
+    "bearings": [
+      180
+    ],
+    "city": "臺中市",
+    "region": "霧峰區",
+    "road": "霧峰區吉峰東路(朝陽幹39分18G6324HC94前)往民生路方向",
+    "agency": "臺中市政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "270024309:19:27",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "旱溪西路六段"
+    ],
+    "nearestRoadOffsetM": 4.35,
+    "nearestLocalHeading": 169.49,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "2d2aedec449b301f",
+        "direction": 1,
+        "samples": 106,
+        "startDistance": 1200,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "警政署同路段局部修正",
+        "otherCameraSelected": "other_camera_selected"
+      }
+    ],
+    "status": "miss",
+    "statusLabel": "同向回放未觸發",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "已建立至少3個取樣，仍未選到此相機；需核對路口歧義／其他相機優先"
+    ]
+  },
+  {
+    "id": "2f3c4b4a480a116d",
+    "lat": 23.211151,
+    "lon": 120.18567,
+    "limit": 50,
+    "direction": "南向",
+    "bearings": [
+      180
+    ],
+    "city": "臺南市",
+    "region": "學甲區",
+    "road": "臺19線117.5公里大安里大灣路口",
+    "agency": "臺南市政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "489845620:0:3",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "中央公路",
+      "19"
+    ],
+    "nearestRoadOffsetM": 1.06,
+    "nearestLocalHeading": 353.21,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "2f3c4b4a480a116d",
+        "direction": 1,
+        "samples": 106,
+        "startDistance": 1200,
+        "hits": 75,
+        "firstAlertM": 967,
+        "reverseFalseHits": 1,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "警政署同路段局部修正",
+        "otherCameraSelected": "other_camera_selected"
+      }
+    ],
+    "status": "reverse",
+    "statusLabel": "反向回放異常待查",
+    "firstAlertM": [
+      967
+    ],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "反向合成軌跡仍選到此相機，需排查迴轉拓撲、道路誤配與測試路徑；不列為通過"
+    ]
+  },
+  {
+    "id": "5d1adece8d50052e",
+    "lat": 22.947441,
+    "lon": 120.1741,
+    "limit": 60,
+    "direction": "北向",
+    "bearings": [
+      0
+    ],
+    "city": "臺南市",
+    "region": "南區",
+    "road": "安平港聯外道路台電高分鯤鯓54右38號電桿",
+    "agency": "臺南市政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "107581757:5:11",
+    "mappedDirections": [
+      1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "安平港聯外道路"
+    ],
+    "nearestRoadOffsetM": 11.22,
+    "nearestLocalHeading": 164.36,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "5d1adece8d50052e",
+        "direction": 1,
+        "samples": 88,
+        "startDistance": 1200,
+        "hits": 65,
+        "firstAlertM": 987,
+        "reverseFalseHits": 12,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "平行道路／路口／高架平面無法區分",
+        "otherCameraSelected": "other_camera_selected"
+      }
+    ],
+    "status": "reverse",
+    "statusLabel": "反向回放異常待查",
+    "firstAlertM": [
+      987
+    ],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "反向合成軌跡仍選到此相機，需排查迴轉拓撲、道路誤配與測試路徑；不列為通過"
+    ]
+  },
+  {
+    "id": "156d46eee88ded25",
+    "lat": 24.929602,
+    "lon": 121.2054,
+    "limit": 50,
+    "direction": " 往北",
+    "bearings": [
+      0
+    ],
+    "city": "桃園市",
+    "region": "平鎮區",
+    "road": "陸橋南路與平德路口前",
+    "agency": "桃園市政府警察局",
+    "limitUncertain": false,
+    "mapped": true,
+    "mappedEdge": "242020242:0:5",
+    "mappedDirections": [
+      -1
+    ],
+    "mappingEdgeExists": true,
+    "nearestRoad": [
+      "新光路二段"
+    ],
+    "nearestRoadOffsetM": 17.6,
+    "nearestLocalHeading": 155.86,
+    "nearJunction": false,
+    "coordinatesValid": true,
+    "limitValid": true,
+    "tests": [
+      {
+        "id": "156d46eee88ded25",
+        "direction": -1,
+        "samples": 1,
+        "startDistance": 36,
+        "hits": 0,
+        "firstAlertM": -1,
+        "reverseFalseHits": 0,
+        "oppositeAlsoEnforced": "false",
+        "lastOriginalReason": "平行道路／路口／高架平面無法區分",
+        "otherCameraSelected": ""
+      }
+    ],
+    "status": "insufficient",
+    "statusLabel": "可用回放路徑不足",
+    "firstAlertM": [],
+    "directionCoverageIncomplete": false,
+    "issues": [
+      "按唯一同名道路回溯後，不足3個有效取樣。不能當成實車必定漏報的證據"
+    ]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "36d864c7458c5701",
+    "lat": 24.876558,
+    "lon": 121.04609,
+    "limit": 100,
+    "direction": "往北",
+    "bearings": [
+      0
+    ],
+    "city": "國道一號",
+    "region": "",
+    "road": "國道一號北向82.1公里",
+    "agency": "國道公路警察局",
+    "limitUncertain": false,
+    "edge": "321812671:35:42",
+    "offset": 7.26,
+    "localHeading": 93.57,
+    "accepted": true,
+    "reason": "directed_connected_carriageway"
+  },
+  {
+    "id": "11a75d89c57c8655",
+    "lat": 24.875992,
+    "lon": 121.055756,
+    "limit": 100,
+    "direction": "往北",
+    "bearings": [
+      0
+    ],
+    "city": "國道一號",
+    "region": "",
+    "road": "國道一號北向81.1公里",
+    "agency": "國道公路警察局",
+    "limitUncertain": false,
+    "edge": "327353908:0:24",
+    "offset": 7.68,
+    "localHeading": 90.39,
+    "accepted": true,
+    "reason": "directed_connected_carriageway"
+  },
+  {
+    "id": "def62ebfa6e74199",
+    "lat": 24.941029,
+    "lon": 121.19353,
+    "limit": 100,
+    "direction": "往北",
+    "bearings": [
+      0
+    ],
+    "city": "國道一號",
+    "region": "",
+    "road": "國道一號五楊高架北向64.3公里",
+    "agency": "國道公路警察局",
+    "limitUncertain": false,
+    "edge": "534195519:0:72",
+    "offset": 2.42,
+    "localHeading": 19.91,
+    "accepted": true,
+    "reason": "directed_connected_carriageway"
+  },
+  {
+    "id": "04bfc4ca4b167e17",
+    "lat": 24.945833,
+    "lon": 121.19477,
+    "limit": 100,
+    "direction": "往北",
+    "bearings": [
+      0
+    ],
+    "city": "國道一號",
+    "region": "",
+    "road": "國道一號北向63.7公里",
+    "agency": "國道公路警察局",
+    "limitUncertain": false,
+    "edge": "820453965:0:11",
+    "offset": 3.39,
+    "localHeading": 13.58,
+    "accepted": true,
+    "reason": "directed_connected_carriageway"
+  },
+  {
+    "id": "12d383bfafe70f16",
+    "lat": 25.065002,
+    "lon": 121.38388,
+    "limit": 100,
+    "direction": "往北",
+    "bearings": [
+      0
+    ],
+    "city": "國道一號",
+    "region": "",
+    "road": "國道一號五楊高架北向38.8公里",
+    "agency": "國道公路警察局",
+    "limitUncertain": false,
+    "edge": "700888091:0:43",
+    "offset": 10.0,
+    "localHeading": 80.96,
+    "accepted": true,
+    "reason": "directed_connected_carriageway"
+  },
+  {
+    "id": "6ada24e51a883ee1",
+    "lat": 25.055336,
+    "lon": 121.402565,
+    "limit": 100,
+    "direction": "往北",
+    "bearings": [
+      0
+    ],
+    "city": "國道一號",
+    "region": "",
+    "road": "國道一號北向37公里",
+    "agency": "國道公路警察局",
+    "limitUncertain": false,
+    "edge": "971255324:0:11",
+    "offset": 1.17,
+    "localHeading": 99.33,
+    "accepted": true,
+    "reason": "directed_connected_carriageway"
+  },
+  {
+    "id": "a61721832240ec1c",
+    "lat": 25.066257,
+    "lon": 121.42388,
+    "limit": 50,
+    "direction": "往北",
+    "bearings": [
+      0
+    ],
+    "city": "國道一號",
+    "region": "",
+    "road": "國道一號北向34.4公里",
+    "agency": "國道公路警察局",
+    "limitUncertain": false,
+    "edge": "105190693:0:7",
+    "offset": 30.15,
+    "localHeading": 55.95,
+    "accepted": false,
+    "reason": "no_close_verified_mainline_ramp_not_inferred"
+  }
+]

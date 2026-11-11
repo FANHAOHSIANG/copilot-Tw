@@ -1,0 +1,1857 @@
+id	status	first_alert_m	direction_incomplete
+6b13d1561eab440c	unmapped		False
+a1930584f56eed72	unmapped		False
+07b8cfceb1bac496	unmapped		False
+fd540938d748f3e5	unmapped		False
+d7bbc7265f10368a	pass	848,954	False
+7d9fe514c3e9bc15	pass	1000,1000	False
+f53177c8fa964922	pass	137,1000	False
+15031a565ff0eaeb	unmapped		False
+cb5fb5e289ea95fa	unmapped		False
+28edf8929fdc4c56	unmapped		False
+b4e64746ca59d89a	unmapped		False
+997e9be59caab2bf	unmapped		False
+f61b1efce9b2d10f	pass	1000,656	False
+1fb2067e9c9a6f87	pass	578,987	False
+4567be3a48c2614f	pass	378,1000	False
+0ea3f309908640ea	unmapped		False
+2b3a0170bc70f48f	unmapped		False
+a0467cfc98900a61	unmapped		False
+90425ca76dd221e8	pass	733,978	False
+bff5e414d5b2d999	unmapped		False
+36294eac6e3c0594	unmapped		False
+5d10d678412eceb3	pass	1000,499	False
+d56c013addc24602	unmapped		False
+e9abac2e213abf64	unmapped		False
+bf8cc1b1f7b71bbc	unmapped		False
+c1bc0ff18c068a7f	unmapped		False
+c7062108588b75ad	unmapped		False
+13e55e257d520f7d	partial	987	False
+540f5f7e33e8570a	pass	997,998	False
+1aca9c484839c8fc	unmapped		False
+20fc33e9a7c4046a	insufficient		True
+f0c1a9ab0020140b	pass	1000,535	False
+09f8fa4ae3f3ded5	pass	1000,973	False
+6c24d4f2f6ca511d	pass	738,593	False
+13690110f8f94762	unmapped		False
+3546ef407718ddff	unmapped		False
+32d2cbcdf7b27d15	unmapped		False
+11e55a93a06b3078	unmapped		False
+b89536430b21ff69	unmapped		False
+d12d39bbd5b1ec6a	unmapped		False
+b5ef4510725a8fe2	unmapped		False
+79b9eb81cf0e1b20	unmapped		False
+090ea33ff1538f57	unmapped		False
+9a5de2d92e941d33	pass	973,1000	False
+7879155b956ab120	unmapped		False
+f82809a9a87d7d7b	unmapped		False
+4ed147dfa2be9548	unmapped		False
+258b1d1a7eb20d92	unmapped		False
+1f0e39de568fde67	unmapped		False
+d1964f130cedf4b8	unmapped		False
+fedb7e72bd881fb6	unmapped		False
+a8129f27a24530f9	unmapped		False
+eeb28d0bba7a9914	unmapped		False
+b832aacd39aed7da	unmapped		False
+8c10ca8ac92e0b86	unmapped		False
+04bf014d32569d17	unmapped		False
+c4053d27cd8c47ca	unmapped		False
+b63ebd8d5d46ff3c	unmapped		False
+40adfd7aa2333abd	unmapped		False
+8b3eb5fd2baf3f64	unmapped		False
+88ae7af234375b59	unmapped		False
+982acde56548eb2b	unmapped		False
+a215ea888536a45b	unmapped		False
+d25163b9adb3427f	unmapped		False
+f538b2baa3be4bc4	unmapped		False
+c91ce8310d314bc0	pass	987,987	False
+bd356c3f15233822	pass	1000,808	False
+2fd565a13662ae82	pass	1000,1000	False
+f039a0fb0716e276	unmapped		False
+9a7d5f6dbaaa9493	pass	989,989	False
+e848ce84b94ee153	unmapped		False
+a5ae795b60d81cdb	unmapped		False
+387fd7c67dfe960d	unmapped		False
+60108a5155407edb	unmapped		False
+dc88724d9b76eacd	unmapped		False
+7c737a40d714d810	unmapped		False
+0e4e7f84fa95ad29	pass	1000,1000	False
+cd342a164b9c4790	unmapped		False
+6aec70ca28ec3e4d	pass	881,307	False
+2cec008e2c729669	pass	307,1000	False
+3b8e8ad38d54295a	unmapped		False
+93dadb4f11b640ce	pass	980,1000	False
+b90ddbe475e3e6e6	unmapped		False
+618e46bb29b314b5	unmapped		False
+fd0338f0c39c317b	pass	989,989	False
+04d9dcf4cee5f14d	unmapped		False
+a007a459d8dcdd0a	unmapped		False
+182265acc1496b0c	pass	501,987	False
+ae4b00f8f793ec68	pass	1000,987	False
+661ab588bea6e920	unmapped		False
+2ded35c51e00ebad	pass	987,1000	False
+d2278473efb3c649	unmapped		False
+b5c210a235837d0d	pass	1000,1000	False
+f2d6cac9f6b82c30	unmapped		False
+26a8f4eb85d85487	pass	987,267	False
+84ef05152a0573fc	pass	267,240	False
+27b3e5c4f35ff0df	unmapped		False
+cdeedd20518d6d9e	unmapped		False
+0cec24675aff3167	unmapped		False
+197ffd8c4431c286	unmapped		False
+6d46e18b326e3bfb	unmapped		False
+f8450a2d7c7856ee	unmapped		False
+cd0438398e9b1002	pass	992	False
+6a98cb86b2e7eeac	pass	998	False
+e8b864a63554ccf7	unmapped		False
+daab1db77f2d64a0	unmapped		False
+b4ffecb7b82482df	unmapped		False
+21b7562f9c18d594	unmapped		False
+729e9472db9eb809	unmapped		False
+8627be2b212cc543	unmapped		False
+b3bf1b1367e7d6db	unmapped		False
+2fb8e08e24fb2d00	unmapped		False
+cd8e1ffb094b85b7	unmapped		False
+adde2297f67f9dc2	unmapped		False
+b55f03bdf17b3138	unmapped		False
+5e3b8beff4f1a836	unmapped		False
+d384c0c00f983347	unmapped		False
+3bc20781cbbaf560	unmapped		False
+f35ddac56f507f07	unmapped		False
+465242db1660ffc6	unmapped		False
+bb3c86d11fbe09e8	unmapped		False
+3bc95b14e6f26ab1	pass	980	False
+9a13fb45ff3657b6	unmapped		False
+0e7f35f0fb381400	unmapped		False
+997bb5dd558cdecf	unmapped		False
+0d382e3fcdda5f25	unmapped		False
+d1eae4c28565e6e3	unmapped		False
+ba0548e0c802d711	unmapped		False
+25e9468ccb1ebf1c	unmapped		False
+692c8a85fdfdd8c5	unmapped		False
+ccb0c33a5f29c071	pass	1000	False
+979a0231a93d7404	unmapped		False
+7c3c064c2688d6df	pass	650	False
+19aaaa2037eece58	pass	36	False
+dd026662e21326a8	pass	87	False
+c95066a4bcd5fa1b	unmapped		False
+aa8f83ab286eb713	unmapped		False
+52a62b7af4d24aac	unmapped		False
+1c2d0f1f044cffca	unmapped		False
+f32ccd9c7b8fbd92	unmapped		False
+83847a79176c5fdd	unmapped		False
+a8dfcb76a96eb855	unmapped		False
+6eb8205892028478	unmapped		False
+d38ce49b1960b728	unmapped		False
+c772d382711ee8fb	unmapped		False
+981427429aa6a3f8	unmapped		False
+b65e290d4424cb8a	unmapped		False
+20e98b22ec542d97	unmapped		False
+521a9c16e70127f7	unmapped		False
+1ba8d8b721cdd90e	unmapped		False
+381351be62ad2d45	unmapped		False
+5ea3bc5199443ce2	unmapped		False
+265c1de553437ac8	unmapped		False
+af1b8df075aba6f2	pass	1000	False
+5aed15f0f1b0b233	unmapped		False
+02716ef5c38ddcc2	unmapped		False
+8de0eefac1b47115	unmapped		False
+881231013370ce87	unmapped		False
+9bf1c7dd797fea78	unmapped		False
+5d1dff510bc1191c	unmapped		False
+eb49e99478606456	pass	996	False
+aa03e8ac395a5f07	pass	684	False
+54aab154fe3c9976	unmapped		False
+1addf6660e3305f5	pass	1000	False
+777e576aebaff8d5	unmapped		False
+fe8dd09eae6bf758	unmapped		False
+0e1abd0678b00698	unmapped		False
+4951d10fb50b20e6	unmapped		False
+ca054a943ac8d226	pass	810	False
+645a241540df0b04	unmapped		False
+4ac4e87a68e1ec2b	unmapped		False
+654a36eae19cedb5	unmapped		False
+ad3c535ef8991620	unmapped		False
+f3971ad3fee7b00e	pass	874	False
+841d2bd6e6ead4f4	unmapped		False
+bf16b996988e3cc4	unmapped		False
+3bc1666ad5a0a2d1	pass	434	False
+4db1186fc8459a5b	unmapped		False
+d05dc44bd29bf594	unmapped		False
+783f52e22b3e2ff7	unmapped		False
+3a83c67440bcb4c6	unmapped		False
+85bfedfdade75037	pass	680	False
+58b705c6ef5418cc	unmapped		False
+3b71ce00a1c5a7c8	unmapped		False
+53a312bc88f7ee8f	pass	1000	False
+430ba4ae0dedffeb	unmapped		False
+0fdb82a1e11181bd	unmapped		False
+ba20d5d77652daeb	unmapped		False
+b8f669ac89e1658c	unmapped		False
+67dc9d98d1879ecc	unmapped		False
+6085f30b5a7b44ae	unmapped		False
+786852ac91d45847	pass	987	False
+10bc7fe40f278ea7	pass	1000	False
+558daa5d1a3b660e	unmapped		False
+80e8ffb9069d4b03	unmapped		False
+ae50f67637d331a4	pass	787	False
+b2822d039370000b	unmapped		False
+468dea08f2cb8bea	unmapped		False
+bca11dc78ea3e6b6	unmapped		False
+d01841b7cbb060ff	unmapped		False
+4d1c5600495630d9	unmapped		False
+9796e579522c27b5	unmapped		False
+c72322ad3b43ccbd	unmapped		False
+8da4aebee8ad7462	pass	588	False
+17027099f5ec9a1b	unmapped		False
+1e244feaab327302	pass	987	False
+9119ddf7429ec8f9	unmapped		False
+0ed13c5d9eb9f3ec	pass	989	False
+8859853392661b63	pass	948	False
+26abe5e9d922c910	pass	70	False
+9eb302882204b4fe	unmapped		False
+05dab254b906a903	unmapped		False
+57b8a16c606f1bc3	pass	973	False
+16c7418227a4562b	unmapped		False
+d4dbd2d317da2550	unmapped		False
+4881bcbff8193411	unmapped		False
+9d7d522fea1f5277	unmapped		False
+bc1fa86ab9ef82e8	pass	987	False
+1321226abd3f5886	unmapped		False
+f089c08409227402	unmapped		False
+a49d85881d2a89fe	unmapped		False
+3b5e9026878fb3db	unmapped		False
+973191af12dde6a4	unmapped		False
+7fdc365aee8622c2	unmapped		False
+f0998ca870c656da	unmapped		False
+61d67bd96d9fb79e	unmapped		False
+4e7e1e6a950d04aa	unmapped		False
+f95e42724ff0c242	unmapped		False
+e5c6651f162d0c5e	unmapped		False
+f12d7c2f1635157f	unmapped		False
+3eb446b314945c3d	unmapped		False
+91ca4cb2eefeba2d	insufficient		False
+34b5926f5b2a0f62	unmapped		False
+a3878f23a6d12c76	pass	32	False
+4620e72b9dd4fb3b	unmapped		False
+aec376ee2e323305	unmapped		False
+991a55938dae5c85	unmapped		False
+250dd653d825dd98	unmapped		False
+359bf07e4325d901	unmapped		False
+7cd0e511e3f01097	pass	996,194	False
+279f662a25600b32	unmapped		False
+d9c62e1e3b1dd6bc	unmapped		False
+44b7875861b32b6f	unmapped		False
+6a8fe4645ac207ff	unmapped		False
+e2b1f8b4e0bcbae7	unmapped		False
+803c54cd4846f823	pass	996	False
+36366da96ade5e97	pass	774	False
+508bdb31d15ebaad	unmapped		False
+4e5b5ead65b2c7cc	pass	911	True
+e4162b7850c5c3c3	unmapped		False
+95e2b4b76f78fec6	pass	316,534	False
+e40252da66374502	unmapped		False
+f53e9c3997ba3c93	unmapped		False
+68f5c2cd680cc63a	unmapped		False
+4af6e0e635be09f5	pass	736	False
+aeae06bc49575df1	unmapped		False
+451dccbd96c86a23	partial	989	False
+7060ee13409c6323	unmapped		False
+3731b81678c46c85	unmapped		False
+effdcf8123d62a82	unmapped		False
+321bd817767ef8f7	pass	310,1000	False
+acf9cc2cd8d40f53	unmapped		False
+c8f346ca5f15ee7a	unmapped		False
+44945b65ce1e48a3	pass	398,893	False
+13e512a7b34670cd	unmapped		False
+5b57b1876fe22bd3	unmapped		False
+1d8c9871053908d6	unmapped		False
+41c6723fd86e7e3a	unmapped		False
+205ea93ee11574da	unmapped		False
+08944308f6c4b86a	unmapped		False
+fc8806f88d552a5d	pass	703	False
+6d2e71a6580429ba	unmapped		False
+7b1afda09b0317e8	pass	987	True
+a706bbcae0a5c2b5	pass	497	False
+7453dcbc3e2237c7	unmapped		False
+46d4dc414547a8b4	unmapped		False
+e3a187e509b8e1c9	unmapped		False
+ce78da55379a529c	pass	386	False
+72dd529f514e1cd5	pass	706	False
+2814d651f3a1ed8d	unmapped		False
+cbd148678946dff6	unmapped		False
+d28530c72cd9d5e2	pass	721,460	False
+8f26feedf14f405c	unmapped		False
+70cffb313585fd08	pass	886	False
+fb75812a21f0eab6	unmapped		False
+8ee377d41ffeb60d	unmapped		False
+b77c55d745bf04af	unmapped		False
+aed3cb98897d8712	pass	410	False
+6b846e30903fa0f0	unmapped		False
+5a9f808ad1cc3de3	pass	838,1000	False
+67c74e5070c97ca9	unmapped		False
+c55d05a23436129d	unmapped		False
+303e9fff8f2c8e76	pass	1000	False
+30bb24b75409a446	unmapped		False
+d761ffe0366bde8d	unmapped		False
+d1b851d547d4959a	unmapped		False
+ff6216795f5830ea	unmapped		False
+853fa2b1ce8cc8b7	pass	998	False
+1475fe4b2b689b16	pass	32,989	False
+e25d0ab1a0e6e39d	unmapped		False
+9c2b73e1835223cd	unmapped		False
+60de56ed8ec6f4fd	unmapped		False
+64a3f19165a76969	pass	368	False
+6e8122521c260240	unmapped		False
+c0d925085061ccb3	unmapped		False
+59643a15b4d91f51	unmapped		False
+9d1528ed40472aef	unmapped		False
+1fb7ebef560e81fa	unmapped		False
+4c27b6fd383d7696	unmapped		False
+e14b8b5b0fdb47ae	unmapped		False
+0003af3efbfee091	pass	83	False
+7b0d3841c4a9d70a	unmapped		False
+0069c6ce5f244461	unmapped		False
+36ea88acc0a1716f	unmapped		False
+21a23687e422d91c	unmapped		False
+a8808db2c83bc7ae	pass	987	False
+8cc36b6253a44567	unmapped		False
+953aebd9a39ba555	insufficient		False
+a3cd8bd7b8d6170e	unmapped		False
+6180ac4d22be2f57	unmapped		False
+ee5673ab3b7aa2d6	unmapped		False
+11a9c9dcb0342797	unmapped		False
+36ba660f2c3317e3	unmapped		False
+85a74c21fb5f023b	unmapped		False
+09a541f5c781a629	unmapped		False
+8a97b32c6cfaaf1e	pass	978,1000	False
+bc3452c119bf37e6	unmapped		False
+5a300cae425a1abd	unmapped		False
+47fca56890b9d6b6	unmapped		False
+1624be1efc9fab29	unmapped		False
+3df2ab43795494b9	unmapped		False
+9926204e40e00670	unmapped		False
+fb201a8c4df9308c	unmapped		False
+436d27bf2cd72616	unmapped		False
+1498b996b09ad3b6	unmapped		False
+b342cc58b44cff79	unmapped		False
+0ac10688b222c871	unmapped		False
+472b2e9b403c2a4a	unmapped		False
+4f53243b0c836612	unmapped		False
+ff613e82d996f332	unmapped		False
+c60e25beb930a050	unmapped		False
+4f0922be3f43d324	unmapped		False
+8db54c2d02b7422b	unmapped		False
+61c642e6ecbeea0f	unmapped		False
+59087e1c0eea4491	unmapped		False
+f9b159ccf0add49b	unmapped		False
+24279c70bcd73cdd	unmapped		False
+b7fea9efc6d6c3c2	unmapped		False
+9cb6427aca6f6566	pass	472,992	False
+84d2eb700b8c7e2d	unmapped		False
+f06dcbe0994a18a3	unmapped		False
+c020fee04787ba15	unmapped		False
+776a30a4177e4680	unmapped		False
+7d8f2d2c53c19af9	pass	998	False
+5d1f9777589fb4f8	unmapped		False
+b4f798d38d8494dc	unmapped		False
+bf6e4e0c9947f97d	pass	115	False
+c92893f6fe959b9d	pass	987	False
+c6c540441a7a17ff	pass	467	False
+fa11872476eb1570	unmapped		False
+a7b816f72cd4f910	unmapped		False
+0d8c6d0a71b91c7c	unmapped		False
+5ab1ff31003b6878	unmapped		False
+78a2e2351fafe91e	unmapped		False
+df788f84015252be	unmapped		False
+05037cd573ba291d	unmapped		False
+f9ad152e25915aa0	unmapped		False
+34e617445ee818a3	unmapped		False
+20e1d608388bfa94	unmapped		False
+96b7e5a978cffa9f	unmapped		False
+ccdb5f9b865630da	unmapped		False
+b80676ec8ad523f7	pass	841	False
+e85e68fd6290a50d	unmapped		False
+0d9fed6bd370bd15	pass	1000	False
+b4697ffccaba2ac2	pass	518	False
+cef4be1f9f67dc39	pass	865	False
+a5207819d9684ea8	unmapped		False
+04fdf4845edb1fc6	pass	667	False
+1d1db83f88c8a890	pass	423	False
+01f4fda8fdc1826d	unmapped		False
+f646d26c36b787c8	insufficient		False
+df62dce9aa2817cb	pass	987	False
+f8342bdc2315f2d7	unmapped		False
+256015578b7fa5be	pass	112	False
+2bc126a8000883b8	pass	253	False
+a8559d86f05a83f1	pass	1000	False
+d616ebb1b8ac6970	unmapped		False
+ed7e8eaa1ae4d23b	unmapped		False
+3cf5e2863dd9f003	pass	987	False
+8010ffcf8bd28c23	pass	653	False
+e9348034280f85fd	unmapped		False
+44c433c64fbb6c27	unmapped		False
+1f5a1ceee3c669eb	pass	411	False
+5fc2031d654adadc	unmapped		False
+69c4b05823db24e2	partial	989	False
+5ff47c7f9f6ea649	pass	681	False
+2c3435a5e0c93e5a	pass	1000	False
+a92c05bc17594eca	unmapped		False
+6a0ae738ac64a3f8	pass	111	False
+983964f184c61414	unmapped		False
+887564f470a06957	unmapped		False
+a5f1e39536d98986	unmapped		False
+7cbb407cfa84f26a	pass	405	False
+fab763ae0d2073b0	unmapped		False
+8364ac4d8875a8f5	unmapped		False
+7a16033747fd52f7	unmapped		False
+c9a24f09d29fd05c	unmapped		False
+5e2493e6be13d781	unmapped		False
+40f8aef39e93f002	unmapped		False
+10e8f2553c2e4880	pass	242	False
+68f964c2d9addb0c	pass	998	False
+dfd95e07e003b8da	unmapped		False
+41c31664f781d412	pass	293	False
+6cb5edcf1fb68756	unmapped		False
+9a09ade980929830	unmapped		False
+b75727bc0a0ae84a	unmapped		False
+f4756f4f6b0a0f1c	unmapped		False
+ce37299185385e83	pass	665,994	False
+3cf5e7ef6b8d8bcd	pass	1000,782	False
+3c95b8d3e06baa34	unmapped		False
+6e915a2dbf7801f3	unmapped		False
+be268c08df057042	unmapped		False
+a86e9d2105f1bf70	unmapped		False
+081587466d52588c	unmapped		False
+5f3cb7f1e06890e4	pass	676	False
+147ea771fb346e32	unmapped		False
+ef6d0979cfe57f19	unmapped		False
+c46a9685ec10b1f8	unmapped		False
+fefd93e7d9484f17	pass	861	False
+5f5ed7f67e57e1ab	pass	90	False
+ff631e69de0fa512	unmapped		False
+4d8740a6ca5933d6	pass	416	False
+c28620ae9673f07f	unmapped		False
+8abbfae9b2277419	pass	940	False
+42eff08b4e566bb6	unmapped		False
+ccb8153d28b1bf67	unmapped		False
+806c578d38545369	unmapped		False
+5eda6ac1ec820eaf	unmapped		False
+51e4ded27fd48360	pass	405,997	False
+4845d8502db6d544	unmapped		False
+65eb27a09f19cc50	unmapped		False
+79928d78b1a769ca	unmapped		False
+df067a91c28368e2	unmapped		False
+fd4b913da13b70d9	insufficient		False
+512ad051818b1655	pass	246,1000	False
+22c153522432d855	pass	973	False
+7792ffd4af48609a	pass	39,979	False
+5a954c1e3347cbf0	pass	649	False
+308fee031a12857b	unmapped		False
+667f420b638fb885	unmapped		False
+1e58d99e763c7528	unmapped		False
+8797a23a0b4a8b0d	unmapped		False
+edcd037fbc020890	unmapped		False
+c7896123cb135c8c	unmapped		False
+001270b5ba21e49c	unmapped		False
+e211f95bf39343a7	unmapped		False
+23e4dc7cd26aaddd	unmapped		False
+09fefae219c95512	unmapped		False
+0ec9911660f17810	unmapped		False
+e2750270d2ba02f8	unmapped		False
+c87c59c4f30f60ce	unmapped		False
+b5c90c1fd5b7d847	unmapped		False
+2a0b3f8fb8794ad3	unmapped		False
+63c6cd85a8f7db75	pass	1000	False
+fa00095edbf152dc	unmapped		False
+b14634bce9bddf7b	unmapped		False
+1ce56c0b56bdd26d	unmapped		False
+c9172b9c6861b014	unmapped		False
+fe354720c7a4498e	unmapped		False
+eebcde7a381147f4	unmapped		False
+8d74e49e0944a9a4	unmapped		False
+03d22b5af2b10d62	unmapped		False
+48ea05c6c897d46f	unmapped		False
+1fd3a3e6b7305362	unmapped		False
+15d6671e9190e042	unmapped		False
+94dd9772bdb2f76d	unmapped		False
+4f17093d458ef14d	unmapped		False
+90af5ef1bb26e610	unmapped		False
+7e249da957cc1200	unmapped		False
+af701b2371edc9c2	unmapped		False
+c40c8e358e011d40	unmapped		False
+d2930d70973901f3	unmapped		False
+121fe70f2e4bc538	unmapped		False
+945ffac498e978af	unmapped		False
+238314aaa2dc519c	unmapped		False
+d595c0dce847c00c	unmapped		False
+b5b4a9c280a68f56	unmapped		False
+f03e7ed85e0917f0	unmapped		False
+8ce8695b53e3afd2	unmapped		False
+c5ac871f416b1a64	unmapped		False
+f599805bf2d86281	unmapped		False
+f569316e30be7532	unmapped		False
+ad502bbf17f165c0	pass	993	False
+717adfe656b6747f	pass	1000	False
+fb456dcf68e5c3f1	unmapped		False
+188d937a4f6d921f	unmapped		False
+fd221590e07a8319	unmapped		False
+fcb9d49a2378adce	unmapped		False
+395cb22eb3dea0ee	unmapped		False
+c4c71f503d502810	unmapped		False
+de8d968867f10f16	unmapped		False
+ec7fd2c1c52d8a75	unmapped		False
+c58e7faa0480b9c7	unmapped		False
+ee0bda27204ed6a4	unmapped		False
+3b8faeb0c821f8c4	unmapped		False
+2f7c0dd9e3470e54	unmapped		False
+cd89db8340d01942	unmapped		False
+cd8edd39a8df3e20	unmapped		False
+da0561488aaa2263	unmapped		False
+78330e39eff30f71	unmapped		False
+738859e7b8a35a27	unmapped		False
+65e4ff374c371b2f	unmapped		False
+88d4760ab0a16858	unmapped		False
+9d2fd866f09bf411	unmapped		False
+06b21ef87d656cde	unmapped		False
+012dde7eac8e9468	unmapped		False
+22f5f364dfd02524	unmapped		False
+b6551bdfd7067a4b	unmapped		False
+cc6898b88714f618	unmapped		False
+f11d0bb036ba3ba9	unmapped		False
+2dd6834ab16f6313	unmapped		False
+4d746e6543619de6	unmapped		False
+6e89b257b2f98422	unmapped		False
+a8b1328f91b1b298	unmapped		False
+46b775569713d054	unmapped		False
+7de25ad3139c90e3	unmapped		False
+a80e9faad1cf33d4	unmapped		False
+0251761adca6d903	unmapped		False
+ee43268ee88f7b56	unmapped		False
+f5d10364186b7864	unmapped		False
+a75404255473d829	unmapped		False
+28c1e231e8162593	unmapped		False
+febd59f1c685d7d3	unmapped		False
+ab2975fe4b462f51	unmapped		False
+fbe9bf8c3d17e4ab	unmapped		False
+5b1c0c2b108b8743	unmapped		False
+f0df046f24eb13f9	unmapped		False
+47b4242086c939f9	unmapped		False
+7d10353a3309f0dd	unmapped		False
+1163bef25d538a46	unmapped		False
+bf508b86ed4b0a05	unmapped		False
+f491a9e70dc8d93e	unmapped		False
+e945c0904c753b60	unmapped		False
+097ba3b4b9ac9ad7	unmapped		False
+35c4d5cb4a4a8334	unmapped		False
+4a44b7a5f74c66d3	unmapped		False
+1bb560640280bd6d	unmapped		False
+dba7dc26d3166f74	unmapped		False
+5d4c9a506a29c761	unmapped		False
+005697dcf6e33ed6	unmapped		False
+c37c141e3cb5512c	unmapped		False
+792768576af4da65	unmapped		False
+505256b8d005b29f	unmapped		False
+087fa4dbd8c62444	unmapped		False
+30587a82d076e524	unmapped		False
+e881da5c3951bcac	unmapped		False
+2ad497f4362a4a99	unmapped		False
+939d05f96ecfea7c	unmapped		False
+c8f660136a8085db	unmapped		False
+f896ad48c7a35e08	unmapped		False
+3fff486bcab07b26	unmapped		False
+58165688da82c3c9	unmapped		False
+2e299b5db83bcf77	unmapped		False
+650e4c39ff8f97b9	unmapped		False
+5d310e3a0308a944	unmapped		False
+217d30d4009859d9	unmapped		False
+04ad7c9e560bea40	unmapped		False
+8e4ee1fc5eada7ff	unmapped		False
+f82cf833b6b59afa	unmapped		False
+51b64904a5b3b9e4	unmapped		False
+99f356d28959c797	unmapped		False
+588fbf0b7022f4e7	unmapped		False
+718dca6aa62d9cfc	unmapped		False
+f3525b2ac2aa5843	unmapped		False
+49e6407db007abff	unmapped		False
+43e53850a962552f	unmapped		False
+9751c17e46c86654	pass	248,232	False
+d5df162ab20c7e8a	pass	644,34	False
+27108af28ffdeb9f	unmapped		False
+34d8e36bacc7bd39	unmapped		False
+925a0cff5923d8fd	unmapped		False
+72d97c611b52b252	unmapped		False
+57ed311b0359d0f1	unmapped		False
+b83214e82eac7952	pass	989	False
+0266106be3e6cedb	unmapped		False
+422ad870386ad321	unmapped		False
+8201dec03a214f1b	unmapped		False
+651af4d9fdc91cbf	pass	987	False
+990d390f87944f5f	unmapped		False
+66aab2b748da9fcb	unmapped		False
+6d235d9077c25936	pass	982	False
+38f9a713ee8e4f4e	pass	1000	False
+36132d2bcf88e4a0	pass	989	False
+c9f4ee22914f00c3	unmapped		False
+a290ff0d923c6e1b	unmapped		False
+9701fb5fed0f1e8c	unmapped		False
+0e3daf5fd5d43c00	unmapped		False
+c73c6972b3365c99	pass	989	False
+dea23874a5f70e92	unmapped		False
+d425a430592f6b4f	unmapped		False
+b1152ecc00e9e3de	unmapped		False
+fc21318e12a514b2	pass	1000	False
+d9ebf041b27f8fa4	unmapped		False
+7fe031b9fb52e0ce	pass	141	False
+7e0ebb8bdbd801e6	unmapped		False
+ad7fa4e76e46bfdc	unmapped		False
+27af656463ec19fd	unmapped		False
+33ffbff28e83d368	pass	998	False
+67f786831e8bf15c	pass	382	False
+7743de71a5dfa150	pass	739	False
+cb0c1fc568172eb0	pass	323	False
+440f2024888b4e58	unmapped		False
+63bf9bc2eb13dd77	pass	51	False
+6eb16a0f3f86a653	unmapped		False
+67afc9d96a2eaef9	pass	1000	False
+716fa3513e6eec4d	pass	369	False
+fe9b5ba800b7af30	insufficient		False
+737f278366ddbb45	pass	110	False
+bc5c92fa751dbcb3	pass	254	False
+269fcc613d46bbc5	pass	83	False
+93a697997fcf5ee7	pass	53	False
+b7f87bdad1e0206c	pass	62	False
+32449896956ac96a	pass	110	False
+6df1021769cfc99e	pass	171	False
+1e4890b6fbe3cbf6	unmapped		False
+e3dfb1f36ba8a0da	unmapped		False
+9c53fe780f738f20	pass	192	False
+f9cdcc2e3ae11e38	insufficient		False
+845b63701158c556	insufficient		False
+a3a79a38c7921a03	unmapped		False
+3ba90b89e5d841e7	unmapped		False
+e5bea5a3a05153ba	unmapped		False
+e0a5c26b8b8567be	unmapped		False
+f8a69dc8ac91b633	pass	242	False
+7ceec3de24b6567d	unmapped		False
+f678b3aabe98c602	insufficient		False
+e4307806203c57e3	insufficient		False
+371af184812d3458	pass	41	False
+a4254fc76a52f828	insufficient		False
+9835aa096fc5675e	unmapped		False
+1401c9060ca1a28f	insufficient		False
+6c1de4101d897265	unmapped		False
+7787e54716b32b47	pass	120	False
+8aa5fdd2f8bf64a2	unmapped		False
+402b7363062523e8	insufficient		False
+b56f7892d2db928a	insufficient		False
+2d2f83e55524fb42	insufficient		False
+f53ac548ec45f683	unmapped		False
+83fb00b04b9e1be6	unmapped		False
+beee25041a7edec7	unmapped		False
+2798cd5e593233e6	unmapped		False
+5c835a524a88e434	unmapped		False
+39bd5c66f04a369f	unmapped		False
+a3fa15b5054ca2e2	unmapped		False
+93eac7499446b814	unmapped		False
+0a03582aa7bd8944	pass	526,309	False
+ebdf28d600bd670e	pass	309,604	False
+cfb17bd3119f3efa	unmapped		False
+769389d1777f1607	unmapped		False
+24c68d4d7b759147	unmapped		False
+719d62e683734402	unmapped		False
+257c2579abb0d0e2	unmapped		False
+6651fd750f0e2b4f	unmapped		False
+abf87e128ee6c11b	unmapped		False
+58bb37c070fa3c05	unmapped		False
+c4f2a7b924fcf2e3	unmapped		False
+912ca5689aa9de46	unmapped		False
+f9008116c9712404	unmapped		False
+e15f914c549c221c	unmapped		False
+6ff37c0abfd4b1c1	unmapped		False
+5cb3e112ec483d4e	unmapped		False
+56ef6008ba4ac9ef	unmapped		False
+4c1a88647b129327	unmapped		False
+28c321ea3e2939d4	unmapped		False
+6568e8ad71afe05b	unmapped		False
+f1dc397a930f22ee	unmapped		False
+bdd8f320043caac2	pass	969	False
+30aac9500f07183f	unmapped		False
+645bd668ae12dc4e	unmapped		False
+c6324b32ff0a75de	unmapped		False
+8d7fdebaa2383129	unmapped		False
+87e8a57463d120b2	pass	56	False
+fc19ea179f0497f4	unmapped		False
+4ea599c3710533fa	pass	637	False
+03bac76d10c54209	unmapped		False
+fc8923c64bfd7bb6	unmapped		False
+5efd0dff239d8a49	unmapped		False
+3cad0b56e70e189a	unmapped		False
+b536039c9bd2a8f2	unmapped		False
+48f81a8777ba03cd	unmapped		False
+6accf578a61cb1c5	pass	217	False
+0ec656c3751e26dd	unmapped		False
+2a23ae7fb00e7632	unmapped		False
+c8b13e09ef460684	unmapped		False
+c47d973abc33a446	unmapped		False
+0d9e2acf43edf4c6	unmapped		False
+b7f9f599cc0154ba	unmapped		False
+b878f7db0f09f8e0	unmapped		False
+b3dcc73b4dd1056c	unmapped		False
+16ffab5b49f551b6	unmapped		False
+9bb6f93305dc042b	reverse	1000	False
+045b24520d69fa22	unmapped		False
+4a4061ec8f11aa1d	unmapped		False
+d171d420e1e46279	unmapped		False
+8df0707ea1b397f7	unmapped		False
+af0707e4b0c38b03	unmapped		False
+6cb52cfe96686055	unmapped		False
+f2e393cbd2620b0d	unmapped		False
+a765235692b9d942	unmapped		False
+fad3bf2ebd0091c2	unmapped		False
+9cb8ee65302c390a	unmapped		False
+0f08dce887e6a1fc	unmapped		False
+21d02f03e42b3a37	unmapped		False
+6a307432d1215bf8	unmapped		False
+213b9d4efaac1dc8	unmapped		False
+6035c71bfaf55f0b	unmapped		False
+8bfe6cc58c298081	unmapped		False
+a2b139fd1d62766c	unmapped		False
+87dca7508bd3ac36	unmapped		False
+98f3468bb73070df	unmapped		False
+383ba009e6c1e6ac	unmapped		False
+f5d63de5ad26aeb0	unmapped		False
+8bfdbd0699085942	unmapped		False
+d26d01525e1bb0f7	unmapped		False
+cf8c0a118f921fb0	pass	944,142	False
+188432c9663f6cb0	unmapped		False
+3c1303615b5b6d7f	unmapped		False
+140e2db3626dcc29	unmapped		False
+532d6359fc18457e	unmapped		False
+929b80f36e45f2f1	unmapped		False
+f9ecf2f74c7a2688	unmapped		False
+a4410187507d0d5f	unmapped		False
+df8867839748d2b1	unmapped		False
+d72fa3af0d3784e2	unmapped		False
+fe4690038b692c34	unmapped		False
+586483fe31d79771	unmapped		False
+e0e06b9ea6e60b38	unmapped		False
+4e3d809c8cd1dabf	unmapped		False
+f691e5a3e4adb0a6	unmapped		False
+9bdaeddf1681dfeb	unmapped		False
+15c0a19a25352efb	unmapped		False
+e10631115b849aa4	unmapped		False
+0b795ca1f7f0c9ca	unmapped		False
+2bf7e1929a94b6e3	pass	873	False
+4542d2b9ebf9aad2	unmapped		False
+0a70c7eb9cae3ac1	unmapped		False
+ff6a45063f1a3f29	unmapped		False
+fab0aac6bbc5d868	unmapped		False
+05b9cd92bbc2d3b1	unmapped		False
+2bf6693748107c19	pass	475	False
+de36f373d7a28725	pass	736	False
+6d1549ceb63702c6	unmapped		False
+ee3e578462e5e7b7	pass	841	False
+8f0847dea1eba1a9	unmapped		False
+69da3790a771a970	unmapped		False
+5cfc104cfb0795cc	unmapped		False
+2d74c90eaafc65c4	pass	987	False
+0148162e77d2ac82	unmapped		False
+12987d40ccdb9f14	unmapped		False
+e4e2afdf2e7c1c2e	unmapped		False
+4aa1ceb457dee0a8	unmapped		False
+fef89067c92ebebe	unmapped		False
+fdd34b121981397e	pass	989	False
+cabd6cd6baa5edad	unmapped		False
+0c4bc4ce906d2af9	unmapped		False
+3181cb82f56785db	pass	989	False
+576dcc45c78828d3	unmapped		False
+9453735ba348af65	unmapped		False
+307b6eb3c082e796	unmapped		False
+8046be1e68cf8dee	unmapped		False
+e920b77ca8ae4b35	unmapped		False
+6604128d1621617d	unmapped		False
+31fca685e1640492	unmapped		False
+fa7b886f877dd10e	unmapped		False
+b3db19cb85c93bf4	unmapped		False
+89f0a72c59e6568f	unmapped		False
+9cf48ccc103465c9	pass	987	False
+160ec70a9f33b16a	unmapped		False
+712225190f04b8c2	unmapped		False
+61822d78f8ac19aa	unmapped		False
+7604d512e41a2755	pass	1000	False
+632e9655216d2ac4	insufficient		False
+f8a4cf8546a7ffb7	unmapped		False
+a6bd9f7e014483dd	unmapped		False
+e678d586bee25fee	unmapped		False
+9ed3c4ba45a30f75	unmapped		False
+9e014db0b37c4a5d	unmapped		False
+3cf186c9e0df455a	unmapped		False
+c95c4c23137561f5	unmapped		False
+a3bae5d6ea0fbfdc	unmapped		False
+0ad39857d9ed8ed9	unmapped		False
+bdf074b9fe8d2284	unmapped		False
+7c0366e2041cdc5a	unmapped		False
+0d45f579c06fb07d	unmapped		False
+d71e8a126c723991	unmapped		False
+169fa6083c12c4e2	unmapped		False
+0215b705f990f883	unmapped		False
+c914438d33ae50e0	unmapped		False
+f29dde114fc96b6d	unmapped		False
+5ec2b2f45bc477bd	unmapped		False
+5389431556167496	unmapped		False
+fcbb16ed72f12698	unmapped		False
+8a267b9fc2a08240	unmapped		False
+b80804c0dfb265cd	unmapped		False
+c430ddc1ecbf71b4	unmapped		False
+7942bc87d1dcf64d	pass	100	True
+f525db278ec466fe	unmapped		False
+d9e47cfb315c77fe	unmapped		False
+c1085b78f939deb9	unmapped		False
+e6fc26374372071d	unmapped		False
+a4328d7456abf4b6	unmapped		False
+911193440bd1673e	unmapped		False
+f9cc014fe09a7548	unmapped		False
+2a12ac737cb99f5c	unmapped		False
+18e2c10d4a223876	pass	684	False
+7300de183e67cba4	unmapped		False
+864a065611560921	unmapped		False
+e3cea9336d643dcb	unmapped		False
+07d860b96f741c72	unmapped		False
+bfa8120cc0e3d9e2	pass	1000	False
+e6cc333fec3fbae9	pass	391	False
+8d45dc9cc0a16ac2	unmapped		False
+22e0ff61147605d6	pass	429	False
+86a029f1fa8c0e87	unmapped		False
+3cf33dabdc979313	unmapped		False
+ab5c12e0987cd097	unmapped		False
+b33d009339b1eedd	unmapped		False
+02d760f2d04afb48	unmapped		False
+58b0b33f4b2ef390	unmapped		False
+036d193f56fa5719	unmapped		False
+839cdaa093dc73ae	unmapped		False
+f236677163123554	unmapped		False
+ec5da7b3191faa21	unmapped		False
+d8ebb336c5b6fcbb	unmapped		False
+f23179c42ef0acae	unmapped		False
+478d6f891e19f3a1	unmapped		False
+0fb099b8a1f10c44	unmapped		False
+61abf8191275fd9b	unmapped		False
+ce169b49f3fc3f6f	unmapped		False
+d99718108dc8a6ad	pass	989	False
+d1d53be94ff49b98	unmapped		False
+a5fb2d35a72fcdc3	pass	855	False
+06b0381aeb570a6e	unmapped		False
+8e730ed32d43005e	unmapped		False
+c0def1028572a61b	unmapped		False
+945abfd0b7d96ec7	unmapped		False
+0514e0d03f837e0b	unmapped		False
+671e1b2268c8ea88	unmapped		False
+f70e7d9e714ee3ca	unmapped		False
+05a3e103031dc219	unmapped		False
+65350b3cb37f2ed4	unmapped		False
+e759dab55500c96e	pass	879	False
+003e068525f64837	unmapped		False
+5e331bde6a92e20b	unmapped		False
+0816b6f96660e704	unmapped		False
+f0e0f8a56c144b88	unmapped		False
+9cc9ab813ba63e4c	unmapped		False
+b4d323cfcb3e8fc8	unmapped		False
+6fd8383f82fac19c	unmapped		False
+30431c55d3b4b567	unmapped		False
+c1536afd0c56cc1f	unmapped		False
+28ddcb93b1621e61	unmapped		False
+23ceef1e2aae42f2	unmapped		False
+90d9de6b0f224d38	insufficient		False
+197c0af57f50ae39	pass	30	False
+c545e84ad36bbcd0	unmapped		False
+ddb3aee661f671ac	unmapped		False
+5da0418a065e501f	pass	861	False
+3d3e82db991af45d	pass	345	False
+f9f1b8a892dcc726	unmapped		False
+585fca066cc8f141	unmapped		False
+46365ba6527f63e8	unmapped		False
+d6a83fa9805ecb9a	pass	337	False
+488b244e427fdaf7	pass	989	False
+dc1cb7dfdaecc89e	pass	442	False
+5e44fa56f0dfbdde	pass	110	False
+46a1e7644ab810e9	unmapped		False
+b38f4fa303178d12	pass	809,987	False
+8570726877806974	unmapped		False
+e584c08200ec322d	pass	994	False
+6a95b71618644dec	pass	978	False
+6e369ea03ebd0d85	pass	830	False
+91949496ba93d4b0	pass	367	False
+4044a147e7907798	unmapped		False
+76977a493889344d	unmapped		False
+b420826bbc17e11d	pass	987	False
+45fdc2233a2c9955	unmapped		False
+bb4e360c06df36e4	pass	978	False
+85048f1a34cd6677	pass	729	False
+285216329ba6ce10	unmapped		False
+4dc98eb54fe1ad65	unmapped		False
+7cbd572008fc2635	unmapped		False
+43e1f7388f595ad0	unmapped		False
+11a1684541fe1f8c	pass	996	False
+57cb72fb787c33d4	unmapped		False
+980f12cbfd26175e	unmapped		False
+49e983809e6a7593	unmapped		False
+fc6f17aa1be8e3e1	pass	998	False
+35e2b979c57bd380	unmapped		False
+7e290d0f68cf3e02	unmapped		False
+a3e81d27dd1281e3	unmapped		False
+a386694476d55e67	unmapped		False
+94179ed8cb5ed011	pass	1000	False
+a9338af34607bc55	pass	996	False
+dd6f0cca8535d558	unmapped		False
+09b0b9438a7e7759	unmapped		False
+1b984b9653bd152b	unmapped		False
+d58f7fdce4a65149	unmapped		False
+25a8a16b6cfe1c7d	unmapped		False
+6333d5e885fed537	pass	712	False
+4132f44ee3e8ed97	unmapped		False
+27d657021908261c	pass	989	False
+73f2065ddef82360	unmapped		False
+9b1efbafbd1f55a9	unmapped		False
+093a4454834682f2	unmapped		False
+8fe0d6d9bf06fbbb	unmapped		False
+4d19e56185bced0e	pass	868	False
+4f1b531c8e2d5f92	pass	570	False
+7cf1a79cf0c5f38c	unmapped		False
+7c1e7560792e5f1e	unmapped		False
+641c09a5fb1a7cde	pass	548	False
+4a3ac7d5562198cb	unmapped		False
+9dfad7c306708ce0	unmapped		False
+035c5b4529609d2a	pass	990	False
+feabf847be379592	unmapped		False
+bb1025487a7a12e6	pass	751	False
+19017aa3aeab7320	pass	784	False
+f2540f9bb3ea2f76	unmapped		False
+d0cf1d8b5f0c60ba	unmapped		False
+1d828d5ac620b45c	pass	64	False
+10ec1f68bf83c7da	unmapped		False
+b9bedf1352d75d1f	unmapped		False
+08bd9e68838fa9a3	unmapped		False
+baac875ae9eb4c2b	unmapped		False
+4405db3a2951a140	unmapped		False
+531ea228b9ad9fa9	unmapped		False
+f8ac5f797782d4a2	unmapped		False
+0fce1a3d90925966	unmapped		False
+14c03fe31df6162d	unmapped		False
+b70f71a3615aab51	unmapped		False
+ce8a8a03000ff78f	unmapped		False
+edc1a3d55361f21d	unmapped		False
+5b239c475fa06e8d	unmapped		False
+5e28d9fd497dfb9d	unmapped		False
+b45d9a679e7eaf7f	unmapped		False
+ed9ce8f02447ffb0	pass	996	False
+d5fd01b808114a50	unmapped		False
+c3cba0f77acddae3	unmapped		False
+ad007947f1738ca2	unmapped		False
+31827bfe9b2897f1	unmapped		False
+cf3a78b2a05435b7	unmapped		False
+92a1b13f1713f170	unmapped		False
+99327733e88c3a71	unmapped		False
+00685d92a5ebd714	unmapped		False
+7d834d253d074926	pass	493	False
+f3304abb0978a4b4	pass	987	False
+907197b0bf8e785d	unmapped		False
+0d94d1203f0b7915	unmapped		False
+96285add1d7c03e9	pass	358	False
+6f09d712a607a309	pass	84	False
+a9c10b290bb6efe0	unmapped		False
+8066f5aa8ff0b50f	unmapped		False
+195c5c2517b976e3	unmapped		False
+b00755bb0740e967	pass	987	False
+64df1924672e6b18	unmapped		False
+cc81bbf064dbe594	unmapped		False
+65675da10500f167	unmapped		False
+e35edb19642f4fa6	unmapped		False
+24051914740a98fd	unmapped		False
+7cb61dfbc863ed74	pass	989	False
+6251fb5261822d2b	pass	996	False
+3bb68fcf6cbbb4ba	unmapped		False
+ad9daa0a2c986019	unmapped		False
+189618429da3c6a8	unmapped		False
+ea501fe2955c6f2d	unmapped		False
+83000681d9967719	unmapped		False
+3998a5df5d1753e0	pass	58	False
+0e041c9c25604580	pass	515	False
+196cd2fd296c8353	pass	996	False
+704facb095efa456	unmapped		False
+5eddac7d85162a1f	pass	1000	False
+54b679415d0e7d86	unmapped		False
+b166841317c407d7	unmapped		False
+df9541ff720067ec	unmapped		False
+4fb894c5b5aa940c	pass	1000	False
+cf11d84a7061a55b	unmapped		False
+c720b1e94622d1c2	pass	250	False
+b0c77529288957ad	unmapped		False
+9120152426858304	pass	1000	False
+67f4e2aa97e78227	pass	283	False
+927f5fbbf6b5b3e7	pass	1000	False
+f65147e31c714816	pass	987	False
+7c2f5540fa22fb1c	pass	989	False
+3a6ca0fcfe6bd61d	pass	67	False
+5157b2a3bcce344b	pass	1000	False
+27f542db7a9865da	unmapped		False
+9bc1c6376e483fe3	pass	733	False
+49a2b583286a9b67	unmapped		False
+9ec8e71597da927d	unmapped		False
+f933dc0cfaecffd5	pass	145	False
+636a8e47e7f6b94e	pass	210	False
+ac71a8d1d661396a	pass	261	False
+8535eb4443df7819	unmapped		False
+d06507ceb7b35f3e	unmapped		False
+addce756f911ed19	unmapped		False
+0086764331225017	pass	328	False
+1b8893cd45b1cfb4	unmapped		False
+3488931d8a2dcdd0	unmapped		False
+3a3c9d6a6dec7d36	pass	1000	False
+45e7f68319d11b0d	pass	339	False
+6695424b0b36219a	unmapped		False
+61acfcfc29700af9	unmapped		False
+1d6306b4a0847f3b	pass	982	False
+3ea0f5cd659f3b96	unmapped		False
+f85c78adddf6f4aa	pass	216	False
+cde43b9423a9291e	unmapped		False
+a760edc05b0f55dc	pass	993	False
+174aa781bad04358	pass	1000	False
+76fbbb703a0ccb16	unmapped		False
+ad97fcf610d27474	pass	1000	False
+95ab8d9e92cbe84d	unmapped		False
+32ad35c504fc1469	unmapped		False
+f2ea1580dd567537	pass	989	False
+d475009278daa3ae	unmapped		False
+df877d619c3e1723	unmapped		False
+28e210e158adc8ac	unmapped		False
+fb326c3e4e591e0b	unmapped		False
+545547bba5ff2abd	pass	989	False
+97d5a1234f9954e0	unmapped		False
+c4ebcd325ce4cc33	unmapped		False
+901ac0c545cf785b	insufficient		False
+69b0a0816e862a47	pass	220	False
+28e1689cdd8ae818	unmapped		False
+14274e24ba4deb47	pass	989	False
+4d0a907e297e38d8	unmapped		False
+bf8d3fe02d46305a	pass	538	False
+f3697d6cc01acf29	unmapped		False
+6cc1c4aa4db5f05f	unmapped		False
+a55b639acbb8e204	unmapped		False
+389ee8e854aeae55	unmapped		False
+8cc021a3b84455a4	unmapped		False
+e06846c879a6a5b7	unmapped		False
+15db2a04e711dcd6	pass	978	False
+6163af37e4ad05f0	unmapped		False
+37b3184555bd2db0	unmapped		False
+c217e4455eb59ee3	unmapped		False
+0683bf4e642ee453	pass	989	False
+91a5eac6af08f990	unmapped		False
+107f1b86c7d946be	pass	591	False
+88f665b906090f9c	unmapped		False
+e575b1d77b238beb	pass	940	False
+457f95afa715b0cd	unmapped		False
+c4ee0c91abb7e9a3	unmapped		False
+af85a81e3518e33d	unmapped		False
+f19af08735ee578f	unmapped		False
+5b58ff0d53a7c5b0	unmapped		False
+8fdbd5530b5a2f44	unmapped		False
+34dee2a532f5a488	unmapped		False
+81c02fe4546157f7	pass	251	False
+db3a8d40ec69d1a8	unmapped		False
+61bd5a044b49bec0	unmapped		False
+8450ae4e1bb7821f	unmapped		False
+993fcb1798d6f895	unmapped		False
+81dfeaa473470bf3	unmapped		False
+ace126975b181ace	unmapped		False
+89dba42b40b677e4	unmapped		False
+3eb7672efb2a1c34	unmapped		False
+129465cdde9e96ac	unmapped		False
+134cf87558638c7f	unmapped		False
+030d43e53892f3fb	unmapped		False
+bcc543ecf2b8aeb5	unmapped		False
+2856b3568441b964	pass	603	False
+43151569c5c89b3e	reverse	978	False
+0d82aaf38403d0d9	miss		False
+abb9797ddcb73529	pass	998	False
+f16ca0d81f07a37d	pass	437	False
+bbc092315b3caebc	unmapped		False
+2a2a23c4caf41311	pass	989	False
+9f5719252b58514d	pass	661	False
+5e328571a7396b8f	unmapped		False
+f56d3f194a898343	pass	303	False
+f95fba8c4f7fe687	pass	449	False
+99d6c58d49639646	pass	243	False
+28e5a61aa95d286a	unmapped		False
+c45ebcdc1be0fd6b	pass	989	False
+220a03fd0ef746da	pass	167	False
+104c858150cc7196	pass	1000	False
+b5a46e54dba2f91c	unmapped		False
+ff2e890dc38786b7	unmapped		False
+3a8969086236eb19	pass	993	False
+89d5ea48fa35d44b	pass	989	False
+3716aa0142cb0c55	pass	989	False
+089c1baa5f967165	pass	618	False
+ea1eb9a318172cb2	pass	743	False
+0387913782fdda79	pass	589	False
+4beb77b38004a943	unmapped		False
+3f66e2416680a914	pass	996	False
+cab8e9d1054a0e69	pass	870	False
+9035c9a8cfdf07dd	pass	989	False
+8ea8b6c355d7fa6d	pass	996	False
+243e56cbe17c270d	pass	834	False
+37f4e2c764e2d8b1	pass	996	False
+8c91110644d35114	pass	996	False
+3c41767c231970c0	pass	481	False
+a015c7e68b436eb7	pass	978	False
+7b8b34e9eaf965f0	pass	998	False
+8d7e65752fe1ef6e	pass	42	False
+6f47dc4486673d01	pass	456	False
+4a6e3e8c16ee3493	pass	274	False
+0a98cef597537b36	pass	264	False
+8addfeff0defdfd5	pass	888	False
+07b43123454081ba	pass	857	False
+e2c268da6fb4cec7	pass	989	False
+dd0e4b9211111ec3	pass	1000	False
+d5c47bb8c62f2fc0	pass	1000	False
+973aea9cb7bedd35	unmapped		False
+d5ef1eff50b586d9	pass	989	False
+a3b01c537e42aa48	unmapped		False
+d9918337c7356625	unmapped		False
+ac27201bc2b5378e	pass	987	False
+c25e52bd42ec6879	unmapped		False
+0d3d465fcef57a43	unmapped		False
+862b782e9e8eaf36	pass	987	False
+42d4a3930b73e259	unmapped		False
+45c777d2cb61732d	unmapped		False
+abebd7b022f57358	pass	316	False
+4533a90afef92b5b	pass	989	False
+9de16db179e1b4b1	pass	31	False
+40e75a78da7b8964	unmapped		False
+28f4764c5513fec6	pass	607	False
+b9933871b6e20224	unmapped		False
+83ce3df2a581cd87	unmapped		False
+e9f0624470a2c08a	unmapped		False
+4b65e0706320c893	pass	989	False
+606e10a2136c3a9c	reverse	978	False
+ce757e59a558c851	unmapped		False
+304b9223c42f399c	reverse	475	False
+a9bf4fd5e86360e5	unmapped		False
+f98cd9f16b4a5b91	unmapped		False
+3109ca4414c4f7f5	unmapped		False
+b1f8e7180ad8f4ec	pass	989	False
+3070e5aeccd989a1	unmapped		False
+ae9928ba27599d1f	pass	996	False
+507a46d542659aa8	pass	989	False
+c269e511b294c8c2	unmapped		False
+2792a157d2605371	pass	305	False
+6957322b7b6a91ef	unmapped		False
+f951dd165a39e398	pass	719	False
+5b5e6bc495e22493	unmapped		False
+2421280a2655d4a0	pass	656	False
+6f95545df9c79216	unmapped		False
+87dc90bab280ec4b	unmapped		False
+7268083517855424	pass	991	False
+33ee3a8667320b9f	pass	991	False
+efdb8f553dfb5948	pass	113	False
+ff25e817148a65ae	unmapped		False
+2e8f3c102aa57cdb	pass	1000	False
+aaa1b20c206e40c1	unmapped		False
+19f857e21cef4b3b	pass	411	False
+2c3359aa85b99b04	pass	987	False
+a09fd15608324fe5	pass	987	False
+370bedd6c8304650	pass	261	False
+6bb3fe44e03bf441	pass	693	False
+0bcde2540bf80df8	unmapped		False
+5f7ea8141484dbe9	pass	588	False
+91d4ff180ae25cb4	pass	996	False
+2178f61213bef147	pass	185	False
+dff4d575ee7c1fa7	pass	588	False
+b317fadb71d75792	unmapped		False
+be342c7d5a338795	pass	407	False
+f627b64d614fa819	unmapped		False
+cf0a486464758a43	unmapped		False
+c0f929159a28b3a2	pass	176	False
+984c278f8909afa5	pass	996	False
+cfd8543b50da615e	pass	1000	False
+6277524d2e0ed871	pass	763	False
+b201d569d6e2ed21	pass	1000	False
+351dc62bfd246e8b	pass	996	False
+9ba0edd9b5776991	pass	1000	False
+d3b0a08a7f6a8c04	pass	998	False
+9627303f90e1236f	pass	392	False
+17472783c6427f80	pass	889	False
+c45c17769c3b6619	pass	811	False
+6465a936349ce894	pass	827	False
+8338410e564b5563	pass	907	False
+91c2b3258cce6b7b	unmapped		False
+166e882a6cb322de	pass	989	False
+13fa8ae5f81fe0dd	pass	663	False
+ee86bfc72776e109	unmapped		False
+54bda7b697d301e3	unmapped		False
+a2a9bacfbf43b973	pass	973	False
+28e56855a47f3380	pass	989	False
+ef2f93adf2d5844f	pass	208	False
+16397eec24412a30	pass	483	False
+b11954a2caa3f99b	unmapped		False
+cf0a021847b7f12f	pass	841	False
+11847a7c29db20dc	pass	1000	False
+601d8bde8c8a1f4b	pass	987	False
+47bdcbb9544f372d	pass	53	False
+67b9e69825d71ab5	pass	287	False
+8c233edc43b117c2	pass	987	False
+b4c0cdb59ef9ee7a	unmapped		False
+9fe264168ec781da	unmapped		False
+53c5c99ab05ef7e1	unmapped		False
+9313753729b8e320	pass	997	False
+88eb855bcfe6844c	unmapped		False
+d938cf2bf01c215d	unmapped		False
+f7721f402622ee50	pass	987	False
+9c72ef1336e94001	unmapped		False
+13d84ac67536e119	unmapped		False
+e0a81d93f6d91476	unmapped		False
+710d0c75f9cb1008	pass	721	False
+205292bf889e31bc	unmapped		False
+21c6352cd7728f8e	unmapped		False
+2ab2358cf30ae8c8	unmapped		False
+ee64c4e6f4b7b6fc	pass	1000	False
+e1a7bd2b56ba685f	unmapped		False
+8027dad882c75399	unmapped		False
+39df2e8039f393cd	unmapped		False
+26551e44b19c095a	unmapped		False
+65e777e481bdb964	pass	1000	False
+d273739bfb29ccaf	unmapped		False
+cda1de747bfe0442	unmapped		False
+b313b201dbcc91de	unmapped		False
+dd7b4270d861136b	unmapped		False
+1a948d10260eaeaf	unmapped		False
+1e1e09d43ca49745	unmapped		False
+00f583c59263f72a	unmapped		False
+5769890a89d9af2a	unmapped		False
+5d28613052d394cd	unmapped		False
+f555d52a6544496f	unmapped		False
+e5c7d5befc17d006	unmapped		False
+62205430d0b128ed	unmapped		False
+1ee1d6fa5cd44f05	pass	1000	False
+df4c7d74ee9696a0	unmapped		False
+42ff8e92a49a9c76	unmapped		False
+ae8173195c1f6ca3	pass	989	False
+026ffd330071404e	unmapped		False
+0924866413b3e8d1	pass	1000	False
+6db1a082de6a2cce	unmapped		False
+39d0933faaecd375	unmapped		False
+36671b4aef0d207a	unmapped		False
+916cc3df27c1ff05	unmapped		False
+8f1133e4337ae37d	unmapped		False
+641e039b88e6bb44	unmapped		False
+76f172aedd39dbe1	unmapped		False
+db9069453fdf661e	unmapped		False
+1813f60baacbc9d7	unmapped		False
+c7e930a2016ab798	unmapped		False
+359a48f0c544a0b7	pass	989	False
+16105b7e60d00092	unmapped		False
+7ee955baf9496fdc	unmapped		False
+c14131900cef1168	unmapped		False
+3ec5fd1bed0ed7e7	unmapped		False
+8a5930fb0b4fe6f2	unmapped		False
+f685024351bd40cc	unmapped		False
+94f2f9cdcbd45e10	unmapped		False
+56828a0c7d50cf12	pass	365	False
+5a97cebbde1e7413	unmapped		False
+11290286ea64e747	unmapped		False
+2616f9ad39dacf93	unmapped		False
+2b22ce16d3e0b47f	unmapped		False
+1200364a20e7d0f1	unmapped		False
+431e32c83205e650	unmapped		False
+235d15b17ddca7ca	unmapped		False
+e87fd7d5b14d20f7	pass	548	False
+d9901bc74c21610c	pass	714	False
+c267a5512b0a2194	pass	1000	False
+acd7e64d6a05ab32	unmapped		False
+0b21163f74e3fb68	pass	164	False
+0e090b9401cfd143	pass	1000	True
+258c9f38f8a2cf9a	pass	848	False
+933091c7e36e1d39	pass	628	False
+c218c8bc6ff18e84	pass	800	False
+89433a1b7942b2de	unmapped		False
+f74b5ea8306acbf3	pass	997	False
+11236e4fbdabe1dc	unmapped		False
+27e27755fe3efc4e	pass	711	False
+68322d0374cb5d99	unmapped		False
+407b3397ccb7ff7b	unmapped		False
+d4d345a97ffc9a94	unmapped		False
+1bc13a5523a7c7d1	unmapped		False
+adf99ed956d09787	pass	989	False
+22dab1d56710757d	unmapped		False
+dab70e32cd4616b2	unmapped		False
+7534b5a06d4d0d5d	unmapped		False
+647d97c125864a08	unmapped		False
+7f468101c03447cf	pass	224	False
+bf0b57d8c90b357c	unmapped		False
+15acf1fc4e6a0730	pass	39	False
+3a8560ba656c9059	pass	178	False
+df8d019b6f3a6212	unmapped		False
+ffbc5da2f7eb4014	unmapped		False
+42df5430f98b0da0	unmapped		False
+6eb196baca1e674d	unmapped		False
+17d346522dd30aba	unmapped		False
+c0995539613943d6	unmapped		False
+adee50e6604e3977	unmapped		False
+e07137936ff3155d	unmapped		False
+f6e53619653e3ba3	pass	56	False
+9d93804feccffa19	unmapped		False
+4e0c8c1578125d6f	unmapped		False
+cef7f08811d7a71a	pass	998	False
+3785c19eb69b7cd0	unmapped		False
+61fa0a667eaa64d1	unmapped		False
+b56629ede0ebd7bd	pass	998	False
+9dfdefc82ba438c4	unmapped		False
+3bd96513dfc44593	unmapped		False
+95ef4d1914533253	unmapped		False
+99cf60b79ee0d8ad	unmapped		False
+f734be2e92244536	unmapped		False
+a0d0acf19f16505a	unmapped		False
+8ec4f04033fafbc3	unmapped		False
+97f4d61bc0503820	pass	603	False
+6522a7e58e86e316	pass	1000	False
+28b4da17d4b8d3b4	pass	989	False
+dabd56746f3c3e3b	unmapped		False
+5e9c17547d916f88	unmapped		False
+1fd0a6a879eb0114	unmapped		False
+1c5547767bc5e6e7	unmapped		False
+c1ee4f7f32fa4fa8	pass	998	False
+93d1e002e2c16b93	pass	499	False
+fe2fccb801ecd4b1	pass	991	False
+38a31ed80ea6b184	unmapped		False
+1ad08483cf52cebc	unmapped		False
+bd58704404e33333	unmapped		False
+403390b98ad6b7f2	unmapped		False
+43b7f6cfd740d197	unmapped		False
+8189cfc6b84963fc	unmapped		False
+9263603db7a3128a	pass	560	True
+efa197ff78edbbaf	pass	257	False
+f50e39591e3afe05	pass	969	False
+820b48d14bfa0449	unmapped		False
+0ddcb1948ebda7ef	unmapped		False
+c16da2e015060170	pass	989	False
+1b4064507787c208	pass	40	False
+d5666a08b4bbdbd3	unmapped		False
+caf120052b06577c	unmapped		False
+57d329ef1291ef2a	unmapped		False
+55dd40d36fe4b1eb	unmapped		False
+04ba1e070da536c9	pass	219	False
+1d798f494d094f38	unmapped		False
+eab6dab86af181d4	unmapped		False
+19884b7388518e0f	unmapped		False
+891a5dca9f54c531	unmapped		False
+3add480871e69874	unmapped		False
+63bc5ce4ef654c37	unmapped		False
+e5cee0554a7e5558	unmapped		False
+54e8d03180019a83	unmapped		False
+6e980246185bded9	unmapped		False
+6ab67840d9645bd7	unmapped		False
+d21958a3ed391c6f	unmapped		False
+ea8908c544f56359	pass	998	False
+7542adbbd77c5a9d	unmapped		False
+02e8c602829850d0	unmapped		False
+b8103afc8dd2a990	unmapped		False
+ba69ec7b976626d3	unmapped		False
+f465da5ca284a3ec	unmapped		False
+191d55cab647794b	unmapped		False
+a295d6fcacd8ffe4	unmapped		False
+cc2a7ae8d86c9072	pass	227	False
+94f827c7ba95a626	pass	612	False
+dc02d47fad4e1a56	unmapped		False
+c2e935a56d784aa2	unmapped		False
+1dfea46d2b98064f	pass	830	False
+8f01a1f1290135f6	unmapped		False
+cd766718bf8f5dbb	unmapped		False
+f857f121858819bb	unmapped		False
+205643fe63fdbcf1	unmapped		False
+e3b426f62b7f1574	unmapped		False
+6befd9ebfe88b41b	unmapped		False
+f3d05dbb815d6a52	pass	33	False
+2d2aedec449b301f	miss		False
+c13993438cc12525	unmapped		False
+3fdd9e08e52f6d49	unmapped		False
+8f77eec53bd1e749	unmapped		False
+fe40a995449fc8fb	unmapped		False
+04246f27a944b423	unmapped		False
+17bcb0a92837e891	unmapped		False
+d9a9e0608879f0ed	pass	156	False
+08c91c0d4199d4a2	unmapped		False
+5a0980666ba98ef3	pass	993	False
+7eef56e624d48b8e	unmapped		False
+4614a20334f9f6f2	unmapped		False
+4adb72b9374deb71	unmapped		False
+9fbd46afe97c741f	unmapped		False
+4d85a1d75940e1e7	unmapped		False
+8b36109ec3a221ce	unmapped		False
+efb825d7d068af50	unmapped		False
+24221d8c46135497	unmapped		False
+8b352b7a96369cad	pass	861	False
+68f8ffd352bec6a2	pass	92	False
+131f995d3b95f1ac	pass	777	False
+2287965bf8249b15	unmapped		False
+850abb1c01528ec4	unmapped		False
+769b59954b06c093	unmapped		False
+4bad6c979598f9a9	unmapped		False
+299e99322dc8b470	unmapped		False
+ff5268478f815633	unmapped		False
+b78f4884369d3cbc	unmapped		False
+60207b85e7abcc51	unmapped		False
+c71bdb6b0b9ecf45	unmapped		False
+3987f8c838c37955	unmapped		False
+6350585307f3aebc	unmapped		False
+591294632fdc5906	unmapped		False
+0257a1e05560b99c	pass	460	False
+a7e51cb9ef0416eb	unmapped		False
+6a9e2ad1636c9686	unmapped		False
+a35a5e61246cc1f5	unmapped		False
+e64bcffd24bc05e7	unmapped		False
+d93cfadcc2e8964e	unmapped		False
+ad8c6aa6fd403928	pass	642	False
+714d2acc1b2a9fe9	unmapped		False
+b45abc517e92d42a	unmapped		False
+cbd82707a0a17373	unmapped		False
+80fe3368abf52919	unmapped		False
+2f3c4b4a480a116d	reverse	967	False
+5e6ee11a70639d0a	unmapped		False
+b76b50ee09666617	unmapped		False
+a75eb0609e8ff72b	unmapped		False
+d64466c21045f7fc	unmapped		False
+00df6f514a682144	pass	477	False
+b7678b87f9953b0b	unmapped		False
+2a1b9f7d3df8868b	pass	949	False
+ad9eb8028e25cfea	unmapped		False
+8e1c2156c62d1705	unmapped		False
+725d416a8029e15b	unmapped		False
+ae03fec5d8098648	unmapped		False
+0c8bcc4ed202f490	unmapped		False
+ac43c021dae18342	unmapped		False
+9c722dda44043f8a	unmapped		False
+b7d202fa10316811	unmapped		False
+ba2296b31b3a1485	pass	987	False
+12faecd05f587b28	unmapped		False
+dcc1b76f7812eb3f	unmapped		False
+3c48e829d208f518	unmapped		False
+352773ee1302884c	unmapped		False
+74358377fc9784d5	unmapped		False
+01e75b6d88579c32	pass	779	False
+ed83a3b347a883ef	unmapped		False
+c040d7196817d1c4	unmapped		False
+428339208f78a2b4	unmapped		False
+11192cf9d5c36039	unmapped		False
+ee96d35f1f1539bc	unmapped		False
+99f086be0d00ba37	unmapped		False
+f5ae9bdd184cac62	unmapped		False
+2217271eada25b07	unmapped		False
+dc8c8fcfa12e7fa2	unmapped		False
+7ba63d0e800053f2	pass	490	False
+ee6d13d338c8425a	unmapped		False
+af585a4f436e93f0	unmapped		False
+f31f1d9bb04acd03	unmapped		False
+9464057d6d40b8ef	unmapped		False
+97f2c4264efa9c85	pass	629	False
+431f2c7b8c22005f	unmapped		False
+b5e42f39cb48fdb1	unmapped		False
+04ef609a315239a0	unmapped		False
+5fe3e89ceb66c777	unmapped		False
+d77953d3fe19db28	unmapped		False
+e6726270e44447fa	unmapped		False
+2a16d19307e7c33e	unmapped		False
+eb2749feec728a5d	unmapped		False
+8924b3f80f167136	unmapped		False
+463b5e16ebe6f519	unmapped		False
+f5e1f100a31b7458	unmapped		False
+ba50118b6999ef26	unmapped		False
+9d8fcc1b20e21d0c	unmapped		False
+6746dd216e9e5ea6	unmapped		False
+a12fb0f9b1b35d44	unmapped		False
+b690df6134eedd3f	pass	258	False
+57c40ded23464eeb	unmapped		False
+6f9e2baf910af2aa	unmapped		False
+f03ac3d43db2b8a6	unmapped		False
+5154eb78c86f9474	unmapped		False
+0f6012886ff29c35	pass	989	False
+efab3b6e7fc6ec75	unmapped		False
+2d91cbe5b6a935dd	unmapped		False
+2839a8c1bacdf6ea	unmapped		False
+9ba7d379cbf2495d	pass	643	False
+ebfed23b056e4147	unmapped		False
+21758e81c6cc9eaa	unmapped		False
+c6e148656e6cca0c	unmapped		False
+d5e3feadee8b31f5	unmapped		False
+fd52fc3d69e411ad	unmapped		False
+cc8baa74faea22a6	pass	1000	False
+523017ab9cc880a0	unmapped		False
+27699da1a4b4ee6f	unmapped		False
+d34ae9990a7df553	unmapped		False
+986db1db6fe8ae3b	pass	225	False
+5c775d6a3dbf68b3	unmapped		False
+eae0a9714635265c	unmapped		False
+8870f06234e39c7c	unmapped		False
+2fa9b4c3ef42ba08	unmapped		False
+f772181d21e9e8be	unmapped		False
+5d1adece8d50052e	reverse	987	False
+4822e232f4790993	unmapped		False
+8bd9df1a08e5f90a	unmapped		False
+035ee184cb2d1fcb	unmapped		False
+ad1b5c9ec509113f	pass	1000	False
+60820f6560c530a7	unmapped		False
+17a5f45694b67f68	unmapped		False
+c568faec4b64617e	unmapped		False
+79040f16b6f70bc7	pass	978	False
+33dd4e648495e29e	unmapped		False
+c96337832873ff3f	unmapped		False
+cd0c47bd87b04f9e	unmapped		False
+ade1ba366da2771b	unmapped		False
+c606d22d8967e3b0	unmapped		False
+e85bebf2a2b4e0f8	unmapped		False
+d3e34d1e8b85ebac	unmapped		False
+035dfaf7158f0409	unmapped		False
+71a08d2a06b9a7f2	unmapped		False
+ba91a9ec6222631f	unmapped		False
+75108bf9d844c69a	unmapped		False
+958f5ad1b34b89fc	unmapped		False
+6c794594c902f683	unmapped		False
+f7ea8bac9e9d344d	unmapped		False
+d4a593300e0458a9	unmapped		False
+28287ed5f684cf6e	pass	467	False
+c784775d9013d42d	unmapped		False
+12bc7f4eb7b27ef6	unmapped		False
+523a79cfafa0338a	unmapped		False
+25d046514cc12c15	unmapped		False
+808739a381f40590	unmapped		False
+0644c7dca1ee778e	unmapped		False
+86a136b7dd59d3ac	unmapped		False
+61c9126304bf4e5f	unmapped		False
+9413117aa2a28d1e	pass	989	False
+a11873a83c6ef983	unmapped		False
+0537f9ba320e22d3	unmapped		False
+684a5e6cc453ffcf	unmapped		False
+621729d1ef7500a1	unmapped		False
+23feecf43cf1ab86	unmapped		False
+a9263af8a8ed4f59	unmapped		False
+56d7de0b205c46f1	unmapped		False
+19e566fe6d389b25	unmapped		False
+d57b25bbc1fdee60	unmapped		False
+8437e0adf56c4193	unmapped		False
+0ed7ab281eb59e45	unmapped		False
+8284d0ad6197dd23	unmapped		False
+537e1b95082d28a9	unmapped		False
+90203eed9a4a0082	unmapped		False
+935d153279e7633c	unmapped		False
+0986fde951d65aa3	unmapped		False
+8a747886b4d14eb2	unmapped		False
+5ced6e85063762cd	unmapped		False
+3f6053bff51016d8	unmapped		False
+e988bc0d95d8a357	unmapped		False
+597e7381be5c804e	unmapped		False
+5f151e694812f343	unmapped		False
+1d6c94587f631eae	unmapped		False
+2cc5001a1a58edfb	unmapped		False
+1f89e1f45252bb35	pass	570	False
+77f760f1b5c09e46	unmapped		False
+6af064a28e9ff57b	unmapped		False
+adb1578a220a9c2a	unmapped		False
+17f73216c8d871ea	unmapped		False
+782da04759647c67	unmapped		False
+59141733f74b9327	unmapped		False
+66349857987effd2	unmapped		False
+7947a463b2f9150a	unmapped		False
+d133d0dc30dd56a2	unmapped		False
+2aacfe45d779fdb6	unmapped		False
+82ce141263a1ee27	unmapped		False
+14157d814986cd2c	unmapped		False
+3ff697eb1fcd21e3	unmapped		False
+0d3615e6fdb335bd	unmapped		False
+59a94a570f9cd42b	unmapped		False
+f44556ef018a815e	unmapped		False
+29b4da89edbe1246	unmapped		False
+c6cb0bc9956b6f8b	unmapped		False
+e28d39297f876767	unmapped		False
+0537449cf7124a26	unmapped		False
+1daf891a7333642c	unmapped		False
+80f2f1b57260c8a9	unmapped		False
+d06a201bd3540624	unmapped		False
+4ebe86cb19a99f43	unmapped		False
+9b5fe6fc2f4e9736	unmapped		False
+a863194c554415e6	unmapped		False
+7a8dac028b62b10b	unmapped		False
+eab7629e78edf19a	unmapped		False
+d2f169c72b866473	unmapped		False
+9355144679d1a4b0	unmapped		False
+60646d671c8930fe	unmapped		False
+dde97c79d45d87ab	unmapped		False
+37149529c6e9006d	unmapped		False
+f590414e8cf842f0	unmapped		False
+1eff5841f4593500	unmapped		False
+cfcabb8b7f85fd73	unmapped		False
+40d02b17cfe5bda5	unmapped		False
+649bf21e13cf54e3	unmapped		False
+23cba9620fd0100c	unmapped		False
+9925aed0a8c065f3	unmapped		False
+c131e56319b68b71	unmapped		False
+ba414daa7387e76d	unmapped		False
+3c9f907a1865db86	unmapped		False
+e0451980e5ec4ac0	unmapped		False
+d850eb67d31a2952	unmapped		False
+d65d39f7f8b6309e	unmapped		False
+1c26e66523908924	unmapped		False
+fdc0fa8d257948dc	unmapped		False
+924f62bbcdede894	unmapped		False
+6cb7637fc8f728f1	unmapped		False
+09a59b9b762c36e3	unmapped		False
+640127ae6f3db0e2	unmapped		False
+924da416ec4a835f	unmapped		False
+c4cbffe2ed59f0e9	unmapped		False
+2bba94b4762b6915	pass	1000	False
+d0a3e009f856448d	unmapped		False
+2c91ded61da14dd9	unmapped		False
+1f975e0576696f8f	unmapped		False
+47f86ac453fb71c3	unmapped		False
+73d766a16b0f0ea3	pass	691	False
+ee907021e61055d9	unmapped		False
+f80dc7d64f938d4e	unmapped		False
+4e055ca208ab26e7	unmapped		False
+9e69cd85da4e3b75	unmapped		False
+b3782e0cd380bb8b	unmapped		False
+bd748d5ab9d4acf7	unmapped		False
+e9643c19b1b60052	unmapped		False
+d68f6f2b6a840808	unmapped		False
+63e8d7bebd5c1b2e	unmapped		False
+70a69812cc9bff8c	unmapped		False
+b8970889a116d24c	unmapped		False
+1c5f32740ffcfa40	unmapped		False
+0aa3ccafbd52abc5	unmapped		False
+f967f6c5e15cded2	unmapped		False
+ed24a44e14d2172d	unmapped		False
+31a6e21fd89d9151	unmapped		False
+5baaa6a8ccb3d82e	unmapped		False
+e1cec105f3862164	unmapped		False
+fd11d4e294678746	unmapped		False
+51fc215a80c40b30	unmapped		False
+ce22149297f4523c	unmapped		False
+73cc742090525cad	unmapped		False
+f2070ac20a9eff47	unmapped		False
+a8f554ba12154a89	unmapped		False
+a1dd8790f25c1233	unmapped		False
+b5013657ba63a57b	unmapped		False
+3a3ec3aad8245fdf	unmapped		False
+8177542c00a67e67	unmapped		False
+6247503833c499e4	unmapped		False
+3f0fedf648864729	unmapped		False
+653f6379c7211b67	unmapped		False
+fc2140bcc63632e6	pass	438	False
+acc357cc6152e5ea	unmapped		False
+f174929533f347fb	unmapped		False
+3e89381775654e85	unmapped		False
+545a586a1d7c9e80	unmapped		False
+c4398bef5a03be38	unmapped		False
+a58705b37b9fa7eb	unmapped		False
+c088a65537a65d7b	unmapped		False
+06fc10e1852b2b94	unmapped		False
+262341ff654837ce	unmapped		False
+b39ebe6b11e2766b	unmapped		False
+f663e2fa62ec9dea	unmapped		False
+873bd47a98d433e4	unmapped		False
+81a5894a060dcf2f	unmapped		False
+88b7f81ce225e02f	unmapped		False
+156d46eee88ded25	insufficient		False
+b3fa9aa89d49b3ae	unmapped		False
+d0d96e999cb5e47b	unmapped		False
+e338f0a6d6b49e5d	pass	133	False
+9fb28683b005dd8f	unmapped		False
+c760c5aa56954dd7	unmapped		False
+86702f0afa575511	unmapped		False
+d57ca606fc766256	unmapped		False
+1e9fa17a3b4cba97	unmapped		False
+8594052abeb06a89	unmapped		False
+59ee710f971bb1ef	unmapped		False
+e72d8bd08b64d58b	pass	998	False
+c76b75b0fa88c3bb	unmapped		False
+e0aa8f0140976411	unmapped		False
+74af59848041965b	unmapped		False
+8ad765b39ff141d7	unmapped		False
+72472f59ca1fcd5f	unmapped		False
+4cee29daa3923db9	unmapped		False
+280efae2d5ad13d6	unmapped		False
+08d873f7fd001979	unmapped		False
+dd2b33cc57d6a64f	unmapped		False
+f24c41a77a37c73c	unmapped		False
+caa36b8df595af63	unmapped		False
+1caa8131edcd0956	unmapped		False
+1adcc80e8198f45f	unmapped		False
+2c38a8008f5f792d	unmapped		False
+139877adeb932b61	unmapped		False
+3d85370f56df7a42	unmapped		False
+43df8b1cd7d15542	pass	980	False
+475e27b937ca96e5	pass	1000	False
+b832b79ad82592d2	pass	980	False
+d2600bedf9203d61	pass	1000	False
+e6cfe2abfbb1d4ea	pass	980	False
+0a0beadb29f47825	pass	1000	False
+4e5c2b39cc0dc57f	pass	980	False
+642617cf89b455d1	pass	1000	False
+5f022798fae8be50	unmapped		False
+a584acc4acb31cd4	pass	980	False
+f871d34d4f1d5c15	unmapped		False
+45b05981da3509a6	pass	1000	False
+c97c7dec883a8a83	unmapped		False
+74844c82da4bb8a9	unmapped		False
+cd768e315eef9a74	pass	980	False
+7fa7c8d1e07dc7b5	unmapped		False
+c7cd3b1ae8451e80	unmapped		False
+d2b0cc25bea67123	pass	980	False
+d139c4c42396c33f	pass	980	False
+7c48213a6b35c64a	pass	1000	False
+b82d075cecaa207f	unmapped		False
+fafb6fa309760f1c	unmapped		False
+bed238e18d0a7975	pass	980	False
+ca913d7ad9616589	pass	1000	False
+9a53638f39c13386	unmapped		False
+ac007dae50f6ad83	pass	980	False
+31fef47d02ccc6ae	pass	1000	False
+ef09235bbf60be89	pass	1000	False
+007b626a7cebd6b5	pass	980	False
+cc26b7d2ec4a2c2f	unmapped		False
+93bb3f38fa16a9d5	unmapped		False
+3a5d0a0812cab39d	pass	980	False
+6f462caecba2ac78	unmapped		False
+154c10ade15a58b8	unmapped		False
+85bfef186611d802	unmapped		False
+7826f1c3bef89709	pass	980	False
+c2d95b62a9d6a8c5	pass	980	False
+432a060c1f202dd2	pass	1000	False
+4ac538d626e7f13d	unmapped		False
+ce0168e206796df4	pass	184	False
+a1425d0836334b58	unmapped		False
+b13625b6c47ea324	pass	1000	False
+c647317c7a9544b7	unmapped		False
+3e052840a7955845	unmapped		False
+dc32a9e3fe68cb60	unmapped		False
+be85911466f26570	unmapped		False
+b8047b7eb8a23edf	unmapped		False
+21ed7b6e67d48fec	unmapped		False
+7fd111b0372b342d	unmapped		False
+36d864c7458c5701	pass	980	False
+e3fb2ea92ad8426b	unmapped		False
+11a75d89c57c8655	pass	980	False
+0fa0e8cc37373575	unmapped		False
+209d6a30676e1e1f	unmapped		False
+7ae2577409aa1db6	unmapped		False
+de1928422ec0c8bb	unmapped		False
+def62ebfa6e74199	pass	980	False
+04bfc4ca4b167e17	pass	1000	False
+75e146df4a8a2053	unmapped		False
+5b9d3ac35f1cc42b	unmapped		False
+a5657d982c27f082	pass	219	False
+cc5ad1675d5342f1	unmapped		False
+12d383bfafe70f16	pass	1000	False
+6ada24e51a883ee1	pass	980	False
+a61721832240ec1c	unmapped		False
+4573b8d4656404b3	unmapped		False
+ed5018f68e3bd0ec	unmapped		False
+b0df67305f3ddc03	unmapped		False
+7c122019b2cd7d22	unmapped		False
+440a6e390e19c6b3	unmapped		False
+662bdd6a4f5e88e2	unmapped		False
+87bae369a07c6b01	unmapped		False
+f1cf96175878771f	unmapped		False
+3a8f480f23fea73e	unmapped		False
+913ab9ff24ff2675	unmapped		False
+93a87d22917e66e7	pass	980	False
+a44d520579206cbd	pass	1000	False
+39b622f5ac7a1c5b	unmapped		False
+096a67ad94018a40	unmapped		False
+12000618a883ee4a	pass	980	False
+8538f56ffc9e8bd3	unmapped		False
+cb42816a2e4e1a70	unmapped		False
+02a055246244e6ad	unmapped		False
+2e95006d65e494f3	unmapped		False
+0184e077265af0e1	pass	1000	False
+d2614839639adb94	unmapped		False
+a0646a15ba62c3e7	unmapped		False
+5be04cbce1bf4bb4	unmapped		False
+ad055f19cb483eda	pass	1000	False
+4e70abe276337ff4	unmapped		False
+cfcb91c7a31b08fc	unmapped		False
+c230b88adf70fd0d	unmapped		False
+12f00404490d7938	unmapped		False
+4e7609b57dfdf5b9	unmapped		False
+48fe897ac439f4a8	unmapped		False
+7e182677a945ae99	pass	980	False
+a9b09df19f97d695	unmapped		False
+14b5ef2b7f3999c9	unmapped		False
+f810b25290498512	pass	1000	False
+cbb4c1bd854b9d7a	unmapped		False
+37a7de5956fa79a8	unmapped		False
+45f9dc25b6f957ea	unmapped		False
+1e509136bb84ed7f	unmapped		False
+cce676d57bdbb886	unmapped		False
+2b0aba9e680ed390	pass	1000	False
+6d0cf244a4b007b2	pass	980	False
+de690c996e1c0f59	unmapped		False
+e86f13dd16b11fd5	unmapped		False
+82c67f2e034a6866	unmapped		False
+7d32b0a1b501d913	pass	1000	False
+97e436f7950bcfc1	pass	980	False
+a08970c9289012ce	pass	1000	False
+79fff954c6390018	pass	980	False
+2f1cf9db7cad9426	unmapped		False
+67f18ab20d6863ab	unmapped		False
+0e187410655f4c52	unmapped		False
+859f5e0c46f2c36b	unmapped		False
+c42d7d8cd0019c6a	unmapped		False
+31f0ff60874b94ea	unmapped		False
+ec35893f5fbf09aa	unmapped		False
+3e1be567a1b99ce8	unmapped		False
+d5cb7c87f69d585f	unmapped		False
+06a1ba444a1d6069	pass	112	False
+36b796f6c3a88477	pass	1000	False
+7b2f2819a31261b5	unmapped		False
+022d3c82c997be04	unmapped		False
+13bfb6085ba478c5	unmapped		False
+d58b0ce2e7e6de4f	unmapped		False
+c217486bd7b6f7ed	unmapped		False
+b438ed9339e3f0b7	unmapped		False
+93fb951a674a7242	unmapped		False
+b990955e3a456d70	unmapped		False
+94eea117b2b7a018	unmapped		False
+b6020a046786a2d5	unmapped		False
+0428d509d460dd61	pass	980	False
+2c69e9abfcc59627	unmapped		False
+6f2eecd5ac32fe5c	unmapped		False
+43ae9dc1d5507c62	pass	987	False
+0dfb5f6ce007f271	unmapped		False
+320933b2c7428c4c	unmapped		False
+461eba9892c5ca78	unmapped		False
+7c35121343f24869	unmapped		False
+b7190d4e801136c1	unmapped		False
+b6f9da5a427428e8	unmapped		False
+3484f6a9a981d33b	unmapped		False
+4906e94eee5fd262	unmapped		False
+89b95012df7fb170	unmapped		False
+78efa386c4b8dabf	unmapped		False
+edb1b42633bfd0c9	unmapped		False
+d7a9e9e2d2ee7742	unmapped		False
+290ee166c6da17f7	unmapped		False
+84351c03d2003db1	unmapped		False
+7587a12e3b2ce1eb	unmapped		False
+487a58c7a89f273b	unmapped		False
+057b4ef5b5b12d2c	unmapped		False
+7dd632eaecdc88cd	unmapped		False
+f4c55ef5ff13d58d	unmapped		False
+526423868614a1ed	unmapped		False
+36ced773196e2967	unmapped		False
+0b13fb4dae32a869	pass	1000	False
+ae5c029a228dd736	pass	1000	False
+6c86776ef9c9b095	unmapped		False
+569d538571f172bb	unmapped		False
+1dbb1389c398b92a	pass	1000	False
+0b6b7b38440088da	pass	980	False
+6eeb1d6f8ef11085	unmapped		False
+c99732802ef029f6	unmapped		False
+30d811fbe1a72a8a	unmapped		False
+69487d08043b4b9b	unmapped		False
