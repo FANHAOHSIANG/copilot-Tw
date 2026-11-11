@@ -1,0 +1,8 @@
+{
+  "base_url": "https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.40/Copilot-tw-9.3.1-wide.40-direction-alert.apk",
+  "base_sha256": "238951b2b05ddd770e73dd08c5dae142ba9c411335c2eb43039763e9c8a7d99f",
+  "patch_sha256": "e5d707f1288445c4c7931305930a44db87617f52ac3c51a69c7ae21ffdcee54b",
+  "apk_sha256": "0d4f7d7912e765a007080ccb96cd865ab3cb3e6c4f8355b87c56b4a702344046",
+  "apk_name": "Copilot-tw-9.3.1-wide.41-alert-recovery.apk",
+  "parts": 14
+}

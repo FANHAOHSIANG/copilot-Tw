@@ -1,0 +1,29 @@
+{
+  "version": "9.3.1-wide.41-alert-recovery",
+  "versionCode": 26110753,
+  "baseSha256": "238951b2b05ddd770e73dd08c5dae142ba9c411335c2eb43039763e9c8a7d99f",
+  "apkSha256": "0d4f7d7912e765a007080ccb96cd865ab3cb3e6c4f8355b87c56b4a702344046",
+  "unitChecks": 48,
+  "deviceTest": false,
+  "realGpsReplay": false,
+  "c4ReceptionVerified": false,
+  "amapStatus": "diagnostics added; unknown producer shared actions still rejected",
+  "modifiedClasses": [
+    "WideAlertMotion",
+    "WideCameraTrace",
+    "WideCameraTrace$Frame",
+    "WideCameraTrace$Candidate",
+    "WideCameraFallback",
+    "WideAmapInput",
+    "WideCamera",
+    "WideAmapSource",
+    "WideCameraFace",
+    "Yg"
+  ],
+  "roadReplayCases": 539,
+  "roadReplayHitCases": 522,
+  "roadReplayNoHitCases": 17,
+  "reverseReplayFlaggedCases": 9,
+  "newWholeCaseLosses": [],
+  "newReverseCases": []
+}

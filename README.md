@@ -6,21 +6,23 @@
 
 ## 下載最新版
 
-目前提供 **9.3.1-wide.40-direction-alert（26110752）測試版**，更新日期 2026-11-11。Android 12 以上。
+目前提供 **9.3.1-wide.41-alert-recovery（26110753）測試版**，更新日期 2026-11-11。Android 12 以上。
 
 | 檔案 | 用途 |
 | --- | --- |
-| **[下載 Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.40/Copilot-tw-9.3.1-wide.40-direction-alert.apk)** | 車機／Android 手機直接安裝，同簽章可覆蓋更新 |
-| [下載原始碼與修改材料 ZIP](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.40/Copilot-tw-wide.40-source.zip) | 開發、檢視與重建；不是安裝檔 |
-| [下載 SHA256SUMS](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.40/SHA256SUMS.txt) | 核對下載完整性 |
+| **[下載 Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.41/Copilot-tw-9.3.1-wide.41-alert-recovery.apk)** | 車機／Android 手機直接安裝，同簽章可覆蓋更新 |
+| [下載原始碼與修改材料 ZIP](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.41/Copilot-tw-wide.41-source.zip) | 開發、檢視與重建；不是安裝檔 |
+| [下載 SHA256SUMS](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.41/SHA256SUMS.txt) | 核對下載完整性 |
 
-[版本下載頁](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.40) · [安裝與使用](docs/INSTALL_zh-TW.md) · [資料來源與已知限制](docs/DATA_SOURCES_zh-TW.md) · [更新紀錄](CHANGELOG.md)
+[版本下載頁](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.41) · [安裝與使用](docs/INSTALL_zh-TW.md) · [資料來源與已知限制](docs/DATA_SOURCES_zh-TW.md) · [更新紀錄](CHANGELOG.md)
 
-## wide.40 本次更新
+## wide.41 本次更新
 
-測速提醒可用連續GPS位置補足方向缺值；高架／平面重疊不再一律擋下，依測速點道路圖資顯示「平面道路」／「高架道路」，語音為「前方平面道路測速」／「前方高架道路測速」。道路層級不明則保留一般提醒；可能提示另一層道路。此變更只用於提醒，不放寬C4控制。仍沿用487個配對點，不是全部1856點啟用。
+修正背景計算稍慢便隱藏提醒、道路候選過多時全部重置、空結果蓋掉有效測速點與道路速限未保留的問題。道路配對失敗時，另用同向且持續接近的點做畫面／語音備援，標示「道路未確認／直線距離」。這條備援不傳給 C4。
 
-[本版修改與30項離線測試](variants/wide40/README.md)。已通過編譯、相同簽章與對齊檢查，實機與實車待驗證。新增兩段台灣中文女聲；一般提醒保留原A聲音。
+保留平面／高架文字與語音；未知層級不猜測，使用一般提醒。高德一般版新增廣播接收、來源過濾、KEY_TYPE 解析入口及可送出資料的診斷。**一般版實機是否成功送達 C4 仍待確認，並未以放行來源不明廣播假裝修好。**
+
+[本版修改與48項離線檢查](variants/wide41/README.md)。已完成編譯、原簽章及對齊檢查；尚無本版 Android 實機、音訊及 C4 接收驗證。
 
 ## 可以做什麼
 
@@ -52,7 +54,7 @@
 
 ## 提醒覆蓋與驗證狀態
 
-內建 1,856 筆固定點不等於 1,856 點都能提醒。目前 487 點具提醒道路配對、1,369 點未進入提醒配對。487 點展開 539 組方向合成回放，其中 457 點的已配對方向通過，其餘存在短路徑、漏觸發或反向異常待查。一般平面道路也可提醒，但同樣必須符合配對條件。經常出沒／機動測速並沒有完整全台點位庫。
+內建 1,856 筆固定點不等於 1,856 點都能提醒。目前 487 點具提醒道路配對、1,369 點未進入提醒配對。487 點展開 539 組方向合成回放，其中 457 點的已配對方向通過，其餘存在短路徑、漏觸發或反向異常待查。以上為 wide.37 的歷史合成回放；wide.41 另有同向接近備援，因此未配對點不再一律排除，但方向不明及條件不符仍不提醒，不能宣稱 1,856 點全部可用。經常出沒／機動測速並沒有完整全台點位庫。
 
 wide.39 已通過 26 項離線速度合併測試、底欄結構與 APK 簽章檢查；**尚未完成此版 Android 實機與 C4 實車驗證**。先前 wide.30 的模擬器通過結果不能代替此版驗證。封包傳送或接收成功也不等於已執行減速。
 

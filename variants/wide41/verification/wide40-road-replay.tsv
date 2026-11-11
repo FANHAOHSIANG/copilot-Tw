@@ -1,0 +1,540 @@
+id	direction	samples	startDistance	hits	firstAlertM	reverseFalseHits	oppositeAlsoEnforced	lastOriginalReason	otherCameraSelected
+7d9fe514c3e9bc15	1	106	1200	88	1000	0	true	警政署同路段局部修正	other_camera_selected
+7d9fe514c3e9bc15	-1	106	1200	88	1000	0	true	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+d7bbc7265f10368a	1	76	870	75	859	0	true	道路確認中：至少 3 次定位／移動 5 m	
+d7bbc7265f10368a	-1	86	976	85	964	0	true	警政署同路段局部修正	
+f53177c8fa964922	1	12	177	11	152	0	true	道路確認中：至少 3 次定位／移動 5 m	
+f53177c8fa964922	-1	88	1200	73	987	0	true	警政署同路段局部修正	other_camera_selected
+13e55e257d520f7d	1	2	46	1	33	0	true	道路確認中：至少 3 次定位／移動 5 m	
+13e55e257d520f7d	-1	88	1200	72	987	0	true	警政署同路段局部修正	other_camera_selected
+20fc33e9a7c4046a	1	0	0	0	-1	0	false		
+f0c1a9ab0020140b	1	88	1200	73	1000	0	true	警政署同路段局部修正	other_camera_selected
+f0c1a9ab0020140b	-1	40	562	39	549	0	true	警政署同路段局部修正	
+540f5f7e33e8570a	1	67	1059	63	997	0	true	平行道路／路口／高架平面無法區分	other_camera_selected
+540f5f7e33e8570a	-1	76	1200	63	998	0	true	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+09f8fa4ae3f3ded5	1	88	1200	73	1000	0	true	警政署同路段局部修正	other_camera_selected
+09f8fa4ae3f3ded5	-1	88	1200	73	1000	0	true	警政署同路段局部修正	other_camera_selected
+6c24d4f2f6ca511d	1	48	769	47	754	0	true	道路已確認，尚無可用道路速限	
+6c24d4f2f6ca511d	-1	76	1200	37	593	0	true	平行道路／路口／高架平面無法區分	other_camera_selected
+1fb2067e9c9a6f87	1	76	1200	37	593	0	true	平行道路／路口／高架平面無法區分	other_camera_selected
+1fb2067e9c9a6f87	-1	69	1096	62	987	0	true	警政署同路段局部修正	other_camera_selected
+4567be3a48c2614f	1	29	405	28	392	0	true	警政署同路段局部修正	
+4567be3a48c2614f	-1	88	1200	73	1000	0	true	警政署同路段局部修正	other_camera_selected
+90425ca76dd221e8	1	66	755	65	744	0	true	警政署同路段局部修正	
+90425ca76dd221e8	-1	106	1200	88	996	0	true	警政署同路段局部修正	other_camera_selected
+f61b1efce9b2d10f	1	88	1200	73	1000	0	true	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+f61b1efce9b2d10f	-1	49	682	48	669	0	true	警政署同路段局部修正	
+5d10d678412eceb3	1	106	1200	88	1000	0	true	平行道路／路口／高架平面無法區分	other_camera_selected
+5d10d678412eceb3	-1	45	521	44	510	0	true	道路已確認，尚無可用道路速限	
+b56f7892d2db928a	1	2	46	1	35	0	false	道路確認中：至少 3 次定位／移動 5 m	
+2d2f83e55524fb42	-1	0	0	0	-1	0	false		
+e4307806203c57e3	-1	0	0	0	-1	0	false		
+716fa3513e6eec4d	1	33	391	32	380	0	false	警政署同路段局部修正	
+371af184812d3458	-1	4	64	3	52	0	false	警政署同路段局部修正	
+a4254fc76a52f828	1	1	38	0	-1	0	false	平行道路／路口／高架平面無法區分	
+737f278366ddbb45	1	10	132	9	121	0	false	警政署同路段局部修正	
+93a697997fcf5ee7	-1	5	76	4	64	0	false	警政署同路段局部修正	
+fe9b5ba800b7af30	-1	0	0	0	-1	0	false		
+bc5c92fa751dbcb3	-1	23	277	22	265	0	false	警政署同路段局部修正	
+269fcc613d46bbc5	-1	7	105	6	94	0	false	警政署同路段局部修正	
+b7f87bdad1e0206c	-1	5	84	4	73	0	false	警政署同路段局部修正	
+1401c9060ca1a28f	1	2	41	1	30	0	false	道路確認中：至少 3 次定位／移動 5 m	
+6df1021769cfc99e	-1	12	202	11	187	0	false	警政署同路段局部修正	
+32449896956ac96a	1	10	132	9	121	0	false	警政署同路段局部修正	
+f9cdcc2e3ae11e38	-1	2	50	1	39	0	false	道路確認中：至少 3 次定位／移動 5 m	
+845b63701158c556	1	0	0	0	-1	0	false		
+9c53fe780f738f20	-1	13	223	12	208	0	false	警政署同路段局部修正	
+402b7363062523e8	-1	0	0	0	-1	0	false		
+7787e54716b32b47	1	11	142	10	131	0	false	警政署同路段局部修正	
+f8a69dc8ac91b633	1	22	264	21	253	0	false	警政署同路段局部修正	
+f678b3aabe98c602	-1	0	0	0	-1	0	false		
+00df6f514a682144	1	31	508	30	493	0	false	平行道路／路口／高架平面無法區分	
+2a1b9f7d3df8868b	1	62	980	61	965	0	false	平行道路／路口／高架平面無法區分	
+5a954c1e3347cbf0	1	33	689	32	669	0	false	警政署同路段局部修正	
+5d1adece8d50052e	1	88	1200	72	987	68	false	平行道路／路口／高架平面無法區分	other_camera_selected
+ad1b5c9ec509113f	1	88	1200	73	1000	0	false	警政署同路段局部修正	other_camera_selected
+9413117aa2a28d1e	1	106	1200	87	976	0	false	警政署同路段局部修正	other_camera_selected
+79040f16b6f70bc7	-1	106	1200	88	987	0	false	警政署同路段局部修正	other_camera_selected
+28287ed5f684cf6e	1	88	1200	34	480	0	false	警政署同路段局部修正	
+2f3c4b4a480a116d	1	106	1200	88	1000	22	false	警政署同路段局部修正	other_camera_selected
+97f2c4264efa9c85	1	56	651	55	640	0	false	平行道路／路口／高架平面無法區分	
+0257a1e05560b99c	1	35	487	34	474	0	false	道路確認中：至少 3 次定位／移動 5 m	
+512ad051818b1655	1	22	268	21	257	0	true	警政署同路段局部修正	
+512ad051818b1655	-1	106	1200	88	1000	0	true	警政署同路段局部修正	other_camera_selected
+45e7f68319d11b0d	1	26	366	25	353	0	false	平行道路／路口／高架平面無法區分	
+b690df6134eedd3f	1	23	280	22	269	0	false	警政署同路段局部修正	
+986db1db6fe8ae3b	1	20	247	19	236	0	false	平行道路／路口／高架平面無法區分	
+475e27b937ca96e5	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+43df8b1cd7d15542	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+b832b79ad82592d2	1	59	1200	49	995	0	false	警政署同路段局部修正	other_camera_selected
+d2600bedf9203d61	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+22c153522432d855	1	88	1200	73	992	0	false	警政署同路段局部修正	other_camera_selected
+1d6306b4a0847f3b	1	76	1200	63	992	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+0086764331225017	1	31	373	30	362	0	false	道路確認中：至少 3 次定位／移動 5 m	
+642617cf89b455d1	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+cc8baa74faea22a6	1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+0a0beadb29f47825	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+e6cfe2abfbb1d4ea	1	59	1200	48	980	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+4e5c2b39cc0dc57f	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+4d8740a6ca5933d6	-1	37	439	36	428	0	false	道路確認中：至少 3 次定位／移動 5 m	
+fefd93e7d9484f17	-1	65	888	64	875	0	false	平行道路／路口／高架平面無法區分	
+5f5ed7f67e57e1ab	1	7	117	6	104	0	false	平行道路／路口／高架平面無法區分	
+9120152426858304	1	106	1200	88	1000	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+a584acc4acb31cd4	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+ba2296b31b3a1485	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+7792ffd4af48609a	1	4	79	3	57	0	true	道路確認中：至少 3 次定位／移動 5 m	
+7792ffd4af48609a	-1	74	1005	73	992	0	true	平行道路／路口／高架平面無法區分	
+5f3cb7f1e06890e4	1	51	703	50	689	0	false	平行道路／路口／高架平面無法區分	
+641c09a5fb1a7cde	1	49	570	48	559	0	false	平行道路／路口／高架平面無法區分	
+6333d5e885fed537	1	79	730	78	721	0	false	道路確認中：至少 3 次定位／移動 5 m	
+27d657021908261c	1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+67f4e2aa97e78227	1	25	306	24	294	0	false	平行道路／路口／高架平面無法區分	
+3a3c9d6a6dec7d36	1	106	1200	88	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+45b05981da3509a6	1	59	1200	49	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+7ba63d0e800053f2	1	37	516	36	503	0	false	警政署同路段局部修正	
+01e75b6d88579c32	1	61	832	60	819	0	false	警政署同路段局部修正	
+63c6cd85a8f7db75	1	106	1200	88	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+7cbb407cfa84f26a	1	36	427	35	416	0	false	平行道路／路口／高架平面無法區分	
+51e4ded27fd48360	1	31	431	30	418	0	true	警政署同路段局部修正	
+51e4ded27fd48360	-1	75	1024	73	997	0	true	警政署同路段局部修正	other_camera_selected
+bb1025487a7a12e6	1	67	774	66	763	0	false	警政署同路段局部修正	
+19017aa3aeab7320	1	70	806	69	795	0	false	警政署同路段局部修正	
+4d19e56185bced0e	1	79	902	78	885	0	false	平行道路／路口／高架平面無法區分	
+4f1b531c8e2d5f92	1	43	596	42	583	0	false	路段交界，等待進入道路	
+9bc1c6376e483fe3	1	88	1200	54	747	0	false	警政署同路段局部修正	
+f65147e31c714816	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+7c2f5540fa22fb1c	1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+927f5fbbf6b5b3e7	1	106	1200	88	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+3a6ca0fcfe6bd61d	-1	106	1200	5	78	0	false	警政署同路段局部修正	
+0f6012886ff29c35	1	100	1134	87	989	0	false	警政署同路段局部修正	other_camera_selected
+ad8c6aa6fd403928	1	42	673	41	658	0	false	警政署同路段局部修正	
+68f8ffd352bec6a2	1	8	115	7	103	0	false	警政署同路段局部修正	
+8abbfae9b2277419	1	59	1200	49	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+1d828d5ac620b45c	1	6	86	5	75	0	false	警政署同路段局部修正	
+035c5b4529609d2a	1	91	1035	87	990	0	false	警政署同路段局部修正	other_camera_selected
+cd768e315eef9a74	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+d2b0cc25bea67123	1	59	1200	48	980	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+5157b2a3bcce344b	-1	106	1200	88	986	0	false	警政署同路段局部修正	other_camera_selected
+0184e077265af0e1	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+131f995d3b95f1ac	1	70	799	69	788	0	false	平行道路／路口／高架平面無法區分	
+fd4b913da13b70d9	1	0	0	0	-1	0	true		
+fd4b913da13b70d9	-1	0	0	0	-1	0	true		
+3cf5e7ef6b8d8bcd	1	88	1200	73	1000	0	true	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+3cf5e7ef6b8d8bcd	-1	59	809	58	796	0	true	警政署同路段局部修正	
+ed9ce8f02447ffb0	-1	132	1200	109	996	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+7d834d253d074926	1	88	1200	35	493	0	false	警政署同路段局部修正	other_camera_selected
+f3304abb0978a4b4	1	88	1200	72	987	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+c720b1e94622d1c2	1	22	272	21	261	0	false	警政署同路段局部修正	
+5eddac7d85162a1f	1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+d139c4c42396c33f	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+7c48213a6b35c64a	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+6a0ae738ac64a3f8	1	8	142	7	127	0	false	平行道路／路口／高架平面無法區分	
+3998a5df5d1753e0	1	42	395	5	67	0	false	警政署同路段局部修正	
+ad055f19cb483eda	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+953aebd9a39ba555	1	0	0	0	-1	0	false		
+4fb894c5b5aa940c	-1	88	1200	73	1000	0	false	警政署同路段局部修正	other_camera_selected
+196cd2fd296c8353	-1	132	1200	109	996	0	false	警政署同路段局部修正	other_camera_selected
+0e041c9c25604580	-1	46	537	45	526	0	false	平行道路／路口／高架平面無法區分	
+1dbb1389c398b92a	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+f933dc0cfaecffd5	1	13	168	12	157	0	false	警政署同路段局部修正	
+636a8e47e7f6b94e	1	19	233	18	222	0	false	平行道路／路口／高架平面無法區分	
+ac71a8d1d661396a	1	23	284	22	272	0	false	平行道路／路口／高架平面無法區分	
+256015578b7fa5be	1	10	152	9	133	0	false	平行道路／路口／高架平面無法區分	
+96285add1d7c03e9	1	27	385	26	371	0	false	平行道路／路口／高架平面無法區分	
+6f09d712a607a309	1	7	111	6	98	0	false	警政署同路段局部修正	
+b00755bb0740e967	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+0b6b7b38440088da	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+9ba7d379cbf2495d	1	58	665	57	654	0	false	警政署同路段局部修正	
+bed238e18d0a7975	1	59	1200	48	980	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+ce37299185385e83	1	60	687	59	676	0	true	警政署同路段局部修正	
+ce37299185385e83	-1	99	1128	87	982	0	true	警政署同路段局部修正	other_camera_selected
+7cb61dfbc863ed74	-1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+6251fb5261822d2b	1	132	1200	109	996	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+7942bc87d1dcf64d	1	9	122	8	111	0	false	平行道路／路口／高架平面無法區分	
+ca913d7ad9616589	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+ac007dae50f6ad83	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+2bc126a8000883b8	1	19	280	18	267	0	false	平行道路／路口／高架平面無法區分	
+a8559d86f05a83f1	1	88	1200	73	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+717adfe656b6747f	1	88	1200	73	1000	0	false	警政署同路段局部修正	other_camera_selected
+ad502bbf17f165c0	1	66	1055	62	993	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+31fef47d02ccc6ae	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+3cf5e2863dd9f003	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+1f5a1ceee3c669eb	-1	31	437	30	424	0	false	警政署同路段局部修正	
+5a9f808ad1cc3de3	1	75	860	74	849	0	true	平行道路／路口／高架平面無法區分	
+5a9f808ad1cc3de3	-1	106	1200	88	1000	0	true	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+f85c78adddf6f4aa	1	19	239	18	227	0	false	平行道路／路口／高架平面無法區分	
+10e8f2553c2e4880	1	16	273	15	257	0	false	平行道路／路口／高架平面無法區分	
+68f964c2d9addb0c	1	76	1200	63	998	0	false	警政署同路段局部修正	other_camera_selected
+b80676ec8ad523f7	1	75	863	74	852	0	false	平行道路／路口／高架平面無法區分	
+0d9fed6bd370bd15	1	106	1200	88	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+b4697ffccaba2ac2	1	46	540	45	529	0	false	道路確認中：至少 3 次定位／移動 5 m	
+cef4be1f9f67dc39	1	65	892	64	878	0	false	警政署同路段局部修正	
+007b626a7cebd6b5	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+ef09235bbf60be89	1	59	1200	49	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+69c4b05823db24e2	1	0	0	0	-1	0	true		
+69c4b05823db24e2	-1	106	1200	87	989	0	true	警政署同路段局部修正	other_camera_selected
+5ff47c7f9f6ea649	1	61	703	60	692	0	false	平行道路／路口／高架平面無法區分	
+2c3435a5e0c93e5a	1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+321bd817767ef8f7	1	24	337	23	324	0	true	平行道路／路口／高架平面無法區分	
+321bd817767ef8f7	-1	88	1200	73	1000	0	true	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+803c54cd4846f823	1	89	1018	87	996	0	false	警政署同路段局部修正	other_camera_selected
+4af6e0e635be09f5	1	48	767	47	752	0	false	警政署同路段局部修正	
+a760edc05b0f55dc	1	90	1026	87	993	0	false	TDX 同方向資料衝突，道路速限不採用	other_camera_selected
+174aa781bad04358	-1	88	1200	73	1000	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+04fdf4845edb1fc6	1	88	1200	48	667	0	false	警政署同路段局部修正	other_camera_selected
+1d1db83f88c8a890	1	32	450	31	437	0	false	平行道路／路口／高架平面無法區分	
+f646d26c36b787c8	1	2	42	1	31	0	false	道路確認中：至少 3 次定位／移動 5 m	
+df62dce9aa2817cb	1	88	1200	72	987	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+8010ffcf8bd28c23	1	43	684	42	669	0	false	道路確認中：至少 3 次定位／移動 5 m	
+41c31664f781d412	1	22	320	21	306	0	false	道路確認中：至少 3 次定位／移動 5 m	
+a8808db2c83bc7ae	1	88	1200	72	987	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+d28530c72cd9d5e2	1	54	747	53	734	0	true	道路確認中：至少 3 次定位／移動 5 m	
+d28530c72cd9d5e2	-1	35	487	34	474	0	true	平行道路／路口／高架平面無法區分	
+44945b65ce1e48a3	1	36	420	35	409	0	true	警政署同路段局部修正	
+44945b65ce1e48a3	-1	80	915	79	904	0	true	平行道路／路口／高架平面無法區分	
+36366da96ade5e97	1	58	801	57	787	0	false	平行道路／路口／高架平面無法區分	
+ad97fcf610d27474	1	88	1200	73	1000	0	false	警政署同路段局部修正	other_camera_selected
+7e182677a945ae99	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+7d8f2d2c53c19af9	1	76	1200	63	998	0	false	警政署同路段局部修正	other_camera_selected
+91ca4cb2eefeba2d	1	2	46	1	33	0	false	道路確認中：至少 3 次定位／移動 5 m	
+95e2b4b76f78fec6	1	24	342	23	329	0	true	警政署同路段局部修正	
+95e2b4b76f78fec6	-1	40	560	39	547	0	true	警政署同路段局部修正	
+4e5b5ead65b2c7cc	1	70	951	68	925	0	false	警政署同路段局部修正	
+451dccbd96c86a23	1	0	0	0	-1	0	true		
+451dccbd96c86a23	-1	106	1200	87	989	0	true	警政署同路段局部修正	other_camera_selected
+545547bba5ff2abd	1	106	1200	87	989	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+bf6e4e0c9947f97d	1	10	137	9	126	0	false	警政署同路段局部修正	
+c92893f6fe959b9d	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+c6c540441a7a17ff	1	88	1200	33	467	0	false	警政署同路段局部修正	other_camera_selected
+0003af3efbfee091	1	6	115	5	99	0	false	警政署同路段局部修正	
+303e9fff8f2c8e76	1	88	1200	73	1000	0	false	警政署同路段局部修正	other_camera_selected
+3a5d0a0812cab39d	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+cc2a7ae8d86c9072	1	15	258	14	242	0	false	警政署同路段局部修正	
+f6e53619653e3ba3	1	5	78	4	67	0	false	平行道路／路口／高架平面無法區分	
+f2ea1580dd567537	-1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+7b1afda09b0317e8	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+a3878f23a6d12c76	1	3	54	2	43	0	false	道路確認中：至少 3 次定位／移動 5 m	
+94f827c7ba95a626	1	40	643	39	627	0	false	警政署同路段局部修正	
+f810b25290498512	1	59	1200	49	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+c1ee4f7f32fa4fa8	1	76	1200	63	998	0	false	警政署同路段局部修正	other_camera_selected
+93d1e002e2c16b93	1	33	531	32	515	0	false	警政署同路段局部修正	
+853fa2b1ce8cc8b7	1	76	1200	63	998	0	false	警政署同路段局部修正	other_camera_selected
+1475fe4b2b689b16	1	3	54	2	43	0	true	道路確認中：至少 3 次定位／移動 5 m	
+1475fe4b2b689b16	-1	106	1200	88	1000	0	true	道路已確認，尚無可用道路速限	other_camera_selected
+a706bbcae0a5c2b5	1	39	537	38	511	0	false	警政署同路段局部修正	
+ce78da55379a529c	1	48	563	33	397	0	false	道路確認中：至少 3 次定位／移動 5 m	
+72dd529f514e1cd5	1	63	728	62	717	0	false	道路確認中：至少 3 次定位／移動 5 m	
+aed3cb98897d8712	1	31	437	30	423	0	false	警政署同路段局部修正	
+cef7f08811d7a71a	1	76	1200	63	998	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+70cffb313585fd08	-1	67	912	66	899	0	false	警政署同路段局部修正	
+7cd0e511e3f01097	1	132	1200	109	996	0	true	警政署同路段局部修正	other_camera_selected
+7cd0e511e3f01097	-1	21	211	20	203	0	true	警政署同路段局部修正	
+ea8908c544f56359	1	76	1200	63	998	0	false	警政署同路段局部修正	other_camera_selected
+1dfea46d2b98064f	1	62	857	61	843	0	false	OSM 道路速限	
+b56629ede0ebd7bd	1	76	1200	63	998	0	false	警政署同路段局部修正	other_camera_selected
+6d0cf244a4b007b2	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+fc8806f88d552a5d	-1	63	725	62	714	0	false	警政署同路段局部修正	
+ae8173195c1f6ca3	-1	106	1200	87	989	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+1ee1d6fa5cd44f05	1	106	1200	88	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+6522a7e58e86e316	1	106	1200	88	1000	68	false	警政署同路段局部修正	other_camera_selected
+97f4d61bc0503820	1	39	634	38	619	0	false	警政署同路段局部修正	
+28b4da17d4b8d3b4	1	73	1161	62	989	0	false	警政署同路段局部修正	other_camera_selected
+2b0aba9e680ed390	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+8a97b32c6cfaaf1e	1	106	1200	88	995	0	true	警政署同路段局部修正	other_camera_selected
+8a97b32c6cfaaf1e	-1	106	1200	88	1000	0	true	警政署同路段局部修正	other_camera_selected
+56828a0c7d50cf12	1	37	431	36	419	0	false	警政署同路段局部修正	
+0924866413b3e8d1	1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+04ba1e070da536c9	1	17	245	16	232	0	false	警政署同路段局部修正	
+0428d509d460dd61	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+64a3f19165a76969	1	33	390	32	379	0	false	警政署同路段局部修正	
+7d32b0a1b501d913	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+f7721f402622ee50	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+ee64c4e6f4b7b6fc	1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+e87fd7d5b14d20f7	1	49	571	48	560	0	false	道路確認中：至少 3 次定位／移動 5 m	
+d9901bc74c21610c	1	64	737	63	726	0	false	警政署同路段局部修正	
+97e436f7950bcfc1	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+a08970c9289012ce	1	59	1200	49	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+f3971ad3fee7b00e	1	66	900	65	887	0	false	警政署同路段局部修正	
+710d0c75f9cb1008	1	65	744	64	733	0	false	警政署同路段局部修正	
+65e777e481bdb964	1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+359a48f0c544a0b7	1	106	1200	87	989	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+c267a5512b0a2194	1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+7826f1c3bef89709	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+79fff954c6390018	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+f3d05dbb815d6a52	1	3	55	2	44	0	false	道路確認中：至少 3 次定位／移動 5 m	
+8b352b7a96369cad	1	77	883	76	872	0	false	警政署同路段局部修正	
+9313753729b8e320	1	106	1197	88	997	0	false	警政署同路段局部修正	other_camera_selected
+258c9f38f8a2cf9a	1	76	870	75	859	0	false	警政署同路段局部修正	
+0b21163f74e3fb68	1	15	186	14	175	0	false	警政署同路段局部修正	
+0e090b9401cfd143	1	88	1200	73	1000	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+9263603db7a3128a	1	42	587	41	573	0	false	警政署同路段局部修正	
+c2d95b62a9d6a8c5	1	59	1200	48	980	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+3bc1666ad5a0a2d1	-1	44	608	32	448	0	false	道路確認中：至少 3 次定位／移動 5 m	
+9cb6427aca6f6566	1	43	505	42	491	0	true	警政署同路段局部修正	
+9cb6427aca6f6566	-1	92	1047	87	992	0	true	警政署同路段局部修正	other_camera_selected
+933091c7e36e1d39	1	56	650	55	639	0	false	警政署同路段局部修正	
+c218c8bc6ff18e84	1	60	827	59	813	0	false	警政署同路段局部修正	
+efa197ff78edbbaf	1	20	297	19	283	0	false	警政署同路段局部修正	
+f50e39591e3afe05	1	73	996	72	982	0	false	道路確認中：至少 3 次定位／移動 5 m	
+c16da2e015060170	1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+2d2aedec449b301f	1	106	1200	0	-1	0	false	警政署同路段局部修正	other_camera_selected
+fe2fccb801ecd4b1	1	84	1138	73	991	0	false	警政署同路段局部修正	other_camera_selected
+432a060c1f202dd2	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+27e27755fe3efc4e	1	66	756	65	732	0	false	平行道路／路口／高架平面無法區分	
+f74b5ea8306acbf3	1	95	1075	88	997	0	false	OSM 道路速限	other_camera_selected
+1b4064507787c208	1	5	85	4	74	0	false	平行道路／路口／高架平面無法區分	
+3a8560ba656c9059	1	14	205	13	189	0	false	警政署同路段局部修正	
+7f468101c03447cf	1	20	246	19	235	0	false	警政署同路段局部修正	
+15acf1fc4e6a0730	-1	3	66	2	52	0	false	道路確認中：至少 3 次定位／移動 5 m	
+d9a9e0608879f0ed	1	14	178	13	167	0	false	平行道路／路口／高架平面無法區分	
+bc1fa86ab9ef82e8	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+adf99ed956d09787	1	106	1200	87	989	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+ce0168e206796df4	1	10	224	9	204	0	false	警政署同路段局部修正	
+5a0980666ba98ef3	1	176	1200	145	993	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+ca054a943ac8d226	1	61	837	60	824	0	false	平行道路／路口／高架平面無法區分	
+1e244feaab327302	1	88	1200	72	987	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+57b8a16c606f1bc3	1	88	1200	73	990	0	false	警政署同路段局部修正	other_camera_selected
+b13625b6c47ea324	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+8da4aebee8ad7462	-1	46	641	43	601	0	false	OSM 道路速限	
+0ed13c5d9eb9f3ec	-1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+8859853392661b63	-1	71	975	70	961	0	false	道路確認中：至少 3 次定位／移動 5 m	
+26abe5e9d922c910	1	6	97	5	84	0	false	警政署同路段局部修正	
+0b13fb4dae32a869	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+53a312bc88f7ee8f	1	88	1200	73	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+85bfedfdade75037	1	51	707	50	693	0	false	TDX 同道路同方向速限	
+786852ac91d45847	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+9cf48ccc103465c9	1	88	1200	72	987	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+7604d512e41a2755	1	88	1200	73	1000	0	false	警政署同路段局部修正	other_camera_selected
+632e9655216d2ac4	1	2	58	1	40	0	false	平行道路／路口／高架平面無法區分	
+10bc7fe40f278ea7	-1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+2d74c90eaafc65c4	1	88	1200	73	998	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+ae50f67637d331a4	-1	71	809	70	798	0	false	警政署同路段局部修正	
+3181cb82f56785db	1	106	1200	87	975	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+fdd34b121981397e	1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+ae5c029a228dd736	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+1addf6660e3305f5	1	88	1200	73	1000	0	false	警政署同路段局部修正	other_camera_selected
+2bf7e1929a94b6e3	1	78	895	77	884	0	false	警政署同路段局部修正	
+eb49e99478606456	-1	132	1200	109	996	0	false	警政署同路段局部修正	other_camera_selected
+aa03e8ac395a5f07	-1	76	702	75	693	0	false	警政署同路段局部修正	
+2bf6693748107c19	-1	53	493	52	484	0	false	警政署同路段局部修正	
+de36f373d7a28725	-1	83	763	82	749	0	false	警政署同路段局部修正	
+ee3e578462e5e7b7	1	124	854	123	847	0	false	道路確認中：至少 3 次定位／移動 5 m	
+e72d8bd08b64d58b	1	76	1200	63	998	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+3bc95b14e6f26ab1	1	59	1200	48	980	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+ccb0c33a5f29c071	1	106	1200	88	1000	61	false	警政署同路段局部修正	other_camera_selected
+d5df162ab20c7e8a	1	49	671	48	658	0	true	警政署同路段局部修正	
+d5df162ab20c7e8a	-1	3	61	2	47	0	true	道路確認中：至少 3 次定位／移動 5 m	
+af1b8df075aba6f2	1	88	1200	73	1000	0	false	警政署同路段局部修正	other_camera_selected
+06a1ba444a1d6069	1	18	372	7	152	0	false	警政署同路段局部修正	
+7c3c064c2688d6df	1	49	677	48	664	0	false	警政署同路段局部修正	
+19aaaa2037eece58	-1	3	63	2	50	0	false	道路確認中：至少 3 次定位／移動 5 m	
+36b796f6c3a88477	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+dd026662e21326a8	1	8	109	7	98	0	false	平行道路／路口／高架平面無法區分	
+9751c17e46c86654	1	19	275	18	261	0	true	警政署同路段局部修正	
+9751c17e46c86654	-1	18	258	17	245	0	true	平行道路／路口／高架平面無法區分	
+fc2140bcc63632e6	1	48	456	47	447	0	false	警政署同路段局部修正	
+04bfc4ca4b167e17	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+156d46eee88ded25	-1	1	36	0	-1	0	false	平行道路／路口／高架平面無法區分	
+e338f0a6d6b49e5d	1	12	155	11	144	0	false	警政署同路段局部修正	
+1f89e1f45252bb35	1	51	592	50	581	0	false	道路確認中：至少 3 次定位／移動 5 m	
+2bba94b4762b6915	1	106	1200	88	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+12000618a883ee4a	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+73d766a16b0f0ea3	1	62	714	61	702	0	false	警政署同路段局部修正	
+a5657d982c27f082	1	12	259	11	239	0	false	警政署同路段局部修正	
+651af4d9fdc91cbf	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+3a8969086236eb19	-1	122	1108	109	993	0	false	警政署同路段局部修正	other_camera_selected
+89d5ea48fa35d44b	1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+3716aa0142cb0c55	1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+089c1baa5f967165	1	55	640	54	629	0	false	平行道路／路口／高架平面無法區分	
+ea1eb9a318172cb2	1	69	787	68	776	0	false	平行道路／路口／高架平面無法區分	
+f951dd165a39e398	1	64	741	63	730	0	false	警政署同路段局部修正	
+33ffbff28e83d368	1	76	1200	63	998	0	false	警政署同路段局部修正	other_camera_selected
+3f66e2416680a914	1	132	1200	109	996	0	false	警政署同路段局部修正	other_camera_selected
+8c91110644d35114	1	132	1200	109	996	0	false	警政署同路段局部修正	other_camera_selected
+8ea8b6c355d7fa6d	-1	132	1200	109	996	0	false	警政署同路段局部修正	other_camera_selected
+cab8e9d1054a0e69	1	78	892	77	881	0	false	平行道路／路口／高架平面無法區分	
+37f4e2c764e2d8b1	1	122	1111	109	996	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+9035c9a8cfdf07dd	1	106	1200	87	989	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+243e56cbe17c270d	1	75	856	74	845	0	false	平行道路／路口／高架平面無法區分	
+0387913782fdda79	1	106	1200	51	589	0	false	警政署同路段局部修正	
+3c41767c231970c0	1	43	503	42	492	0	false	警政署同路段局部修正	
+2421280a2655d4a0	1	106	1200	57	656	0	false	警政署同路段局部修正	other_camera_selected
+7268083517855424	1	94	1069	87	991	0	false	警政署同路段局部修正	other_camera_selected
+33ee3a8667320b9f	1	76	1031	73	991	0	false	警政署同路段局部修正	other_camera_selected
+efdb8f553dfb5948	1	10	135	9	124	0	false	警政署同路段局部修正	
+2e8f3c102aa57cdb	1	106	1200	88	991	0	false	警政署同路段局部修正	other_camera_selected
+b201d569d6e2ed21	1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+7743de71a5dfa150	1	66	761	65	750	0	false	警政署同路段局部修正	
+cb0c1fc568172eb0	-1	29	345	28	334	0	false	道路確認中：至少 3 次定位／移動 5 m	
+67f786831e8bf15c	1	25	413	24	397	0	false	警政署同路段局部修正	
+f56d3f194a898343	1	27	326	26	314	0	false	平行道路／路口／高架平面無法區分	
+f95fba8c4f7fe687	1	40	471	39	460	0	false	平行道路／路口／高架平面無法區分	
+99d6c58d49639646	1	22	265	21	254	0	false	平行道路／路口／高架平面無法區分	
+507a46d542659aa8	1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+ae9928ba27599d1f	1	132	1200	109	996	0	false	警政署同路段局部修正	other_camera_selected
+351dc62bfd246e8b	-1	132	1200	103	969	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+7b8b34e9eaf965f0	1	160	1092	146	998	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+a015c7e68b436eb7	1	100	1134	88	989	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+c45ebcdc1be0fd6b	-1	106	1200	87	989	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+104c858150cc7196	1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+abebd7b022f57358	1	28	338	27	327	0	false	警政署同路段局部修正	
+4533a90afef92b5b	1	106	1200	87	989	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+220a03fd0ef746da	1	15	189	14	178	0	false	警政署同路段局部修正	
+9ba0edd9b5776991	1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+69b0a0816e862a47	-1	20	242	19	231	0	false	警政署同路段局部修正	
+9de16db179e1b4b1	1	3	53	2	42	0	false	警政署同路段局部修正	
+28f4764c5513fec6	1	54	629	53	618	0	false	警政署同路段局部修正	
+901ac0c545cf785b	1	1	37	0	-1	0	false	平行道路／路口／高架平面無法區分	
+2792a157d2605371	1	23	332	22	319	0	false	警政署同路段局部修正	
+d3b0a08a7f6a8c04	1	99	1121	88	998	0	false	警政署同路段局部修正	other_camera_selected
+9627303f90e1236f	1	35	415	34	404	0	false	道路確認中：至少 3 次定位／移動 5 m	
+17472783c6427f80	1	106	1200	78	889	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+c45c17769c3b6619	1	106	1200	71	811	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+6f47dc4486673d01	1	106	1200	41	478	0	false	警政署同路段局部修正	
+8d7e65752fe1ef6e	1	4	60	3	51	0	false	警政署同路段局部修正	
+4b65e0706320c893	1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+14274e24ba4deb47	1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+bf8d3fe02d46305a	1	48	561	47	549	0	false	警政署同路段局部修正	
+606e10a2136c3a9c	1	106	1200	88	992	70	false	平行道路／路口／高架平面無法區分	other_camera_selected
+304b9223c42f399c	1	85	964	44	509	23	false	警政署同路段局部修正	
+b1f8e7180ad8f4ec	1	106	1200	87	989	0	false	路段交界，等待進入道路	other_camera_selected
+8338410e564b5563	1	81	929	80	918	0	false	平行道路／路口／高架平面無法區分	
+e2c268da6fb4cec7	1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+dd0e4b9211111ec3	1	106	1200	88	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+6465a936349ce894	1	74	849	73	838	0	false	平行道路／路口／高架平面無法區分	
+4a6e3e8c16ee3493	1	18	305	17	289	0	false	警政署同路段局部修正	
+0a98cef597537b36	1	19	311	18	288	0	false	警政署同路段局部修正	
+8addfeff0defdfd5	1	67	915	66	902	0	false	警政署同路段局部修正	
+07b43123454081ba	1	77	879	76	868	0	false	警政署同路段局部修正	
+15db2a04e711dcd6	1	106	1200	88	996	0	false	警政署同路段局部修正	other_camera_selected
+e759dab55500c96e	1	81	924	80	913	0	false	OSM 道路速限	
+0683bf4e642ee453	1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+107f1b86c7d946be	1	53	613	52	602	0	false	警政署同路段局部修正	
+e575b1d77b238beb	1	84	962	83	951	0	false	道路確認中：至少 3 次定位／移動 5 m	
+fc6f17aa1be8e3e1	1	77	1051	73	998	0	false	警政署同路段局部修正	other_camera_selected
+a5fb2d35a72fcdc3	1	77	877	76	866	0	false	平行道路／路口／高架平面無法區分	
+b420826bbc17e11d	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+94179ed8cb5ed011	1	88	1200	73	1000	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+cfd8543b50da615e	1	88	1200	73	1000	0	false	警政署同路段局部修正	other_camera_selected
+fc21318e12a514b2	1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+38f9a713ee8e4f4e	-1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+43151569c5c89b3e	1	106	1200	87	989	19	false	平行道路／路口／高架平面無法區分	other_camera_selected
+2856b3568441b964	-1	54	625	53	614	0	false	警政署同路段局部修正	
+22e0ff61147605d6	1	38	451	37	440	0	false	警政署同路段局部修正	
+81c02fe4546157f7	1	22	273	21	262	0	false	平行道路／路口／高架平面無法區分	
+e6cc333fec3fbae9	1	35	413	34	402	0	false	警政署同路段局部修正	
+bb4e360c06df36e4	1	106	1200	88	990	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+85048f1a34cd6677	1	65	751	64	740	0	false	警政署同路段局部修正	
+a9338af34607bc55	-1	132	1200	109	996	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+36132d2bcf88e4a0	1	106	1200	87	989	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+2a2a23c4caf41311	1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+abb9797ddcb73529	1	103	1165	88	998	0	false	警政署同路段局部修正	other_camera_selected
+f16ca0d81f07a37d	1	48	455	47	446	0	false	平行道路／路口／高架平面無法區分	
+9f5719252b58514d	1	59	683	58	672	0	false	警政署同路段局部修正	
+0d82aaf38403d0d9	1	3	61	2	49	0	false	平行道路／路口／高架平面無法區分	
+90d9de6b0f224d38	1	0	0	0	-1	0	false		
+11a1684541fe1f8c	1	132	1200	109	996	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+6277524d2e0ed871	1	69	797	68	782	0	false	警政署同路段局部修正	
+7fe031b9fb52e0ce	-1	13	163	12	152	0	false	警政署同路段局部修正	
+bfa8120cc0e3d9e2	1	106	1200	88	1000	10	false	平行道路／路口／高架平面無法區分	other_camera_selected
+dc1cb7dfdaecc89e	1	40	465	39	454	0	false	警政署同路段局部修正	
+18e2c10d4a223876	1	61	707	60	695	0	false	OSM 道路速限	
+d99718108dc8a6ad	1	106	1200	87	989	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+5e44fa56f0dfbdde	1	10	132	9	121	0	false	平行道路／路口／高架平面無法區分	
+488b244e427fdaf7	1	106	1200	87	989	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+197c0af57f50ae39	1	4	77	3	61	0	false	道路確認中：至少 3 次定位／移動 5 m	
+5da0418a065e501f	1	79	905	78	894	0	false	平行道路／路口／高架平面無法區分	
+3d3e82db991af45d	1	31	367	30	356	0	false	平行道路／路口／高架平面無法區分	
+b38f4fa303178d12	1	132	1200	88	809	0	true	警政署同路段局部修正	other_camera_selected
+b38f4fa303178d12	-1	132	1200	109	996	0	true	警政署同路段局部修正	other_camera_selected
+e584c08200ec322d	1	100	1138	87	994	0	false	警政署同路段局部修正	other_camera_selected
+6a95b71618644dec	1	106	1200	88	989	0	false	警政署同路段局部修正	other_camera_selected
+6e369ea03ebd0d85	1	75	853	74	842	0	false	平行道路／路口／高架平面無法區分	
+c73c6972b3365c99	1	106	1200	87	976	0	false	警政署同路段局部修正	other_camera_selected
+b83214e82eac7952	1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+6d235d9077c25936	1	76	1200	63	995	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+5f7ea8141484dbe9	1	65	605	64	596	0	false	警政署同路段局部修正	
+19f857e21cef4b3b	1	31	437	30	424	0	false	平行道路／路口／高架平面無法區分	
+2c3359aa85b99b04	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+d6a83fa9805ecb9a	-1	30	359	29	348	0	false	道路確認中：至少 3 次定位／移動 5 m	
+91949496ba93d4b0	1	33	390	32	379	0	false	警政署同路段局部修正	
+91d4ff180ae25cb4	-1	111	1014	109	996	0	false	警政署同路段局部修正	other_camera_selected
+a09fd15608324fe5	1	88	1200	72	987	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+370bedd6c8304650	-1	31	297	30	288	0	false	平行道路／路口／高架平面無法區分	
+6bb3fe44e03bf441	1	88	1200	50	693	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+11847a7c29db20dc	1	106	1200	88	1000	0	false	道路已確認，尚無可用道路速限	other_camera_selected
+601d8bde8c8a1f4b	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+63bf9bc2eb13dd77	-1	16	206	3	62	0	false	平行道路／路口／高架平面無法區分	
+2178f61213bef147	1	20	203	19	194	0	false	警政署同路段局部修正	
+43ae9dc1d5507c62	1	66	1200	54	987	0	false	警政署同路段局部修正	other_camera_selected
+d5c47bb8c62f2fc0	1	106	1200	88	1000	0	false	警政署同路段局部修正	other_camera_selected
+47bdcbb9544f372d	1	5	76	4	65	0	false	平行道路／路口／高架平面無法區分	
+67b9e69825d71ab5	1	26	309	25	298	0	false	平行道路／路口／高架平面無法區分	
+2ded35c51e00ebad	1	88	1200	72	987	0	true	警政署同路段局部修正	other_camera_selected
+2ded35c51e00ebad	-1	88	1200	73	1000	0	true	警政署同路段局部修正	other_camera_selected
+dff4d575ee7c1fa7	1	65	606	64	597	0	false	道路確認中：至少 3 次定位／移動 5 m	
+d5ef1eff50b586d9	1	106	1200	87	989	0	false	警政署同路段局部修正	other_camera_selected
+be342c7d5a338795	1	45	425	44	416	0	false	警政署同路段局部修正	
+9bb6f93305dc042b	1	106	1200	88	1000	51	false	平行道路／路口／高架平面無法區分	other_camera_selected
+8c233edc43b117c2	1	88	1200	72	987	0	false	警政署同路段局部修正	other_camera_selected
+b5c210a235837d0d	1	88	1200	73	1000	0	true	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+b5c210a235837d0d	-1	88	1200	73	1000	0	true	警政署同路段局部修正	other_camera_selected
+0e4e7f84fa95ad29	1	88	1200	73	1000	0	true	警政署同路段局部修正	other_camera_selected
+0e4e7f84fa95ad29	-1	88	1200	73	1000	0	true	警政署同路段局部修正	other_camera_selected
+6aec70ca28ec3e4d	1	66	908	65	894	0	true	道路確認中：至少 3 次定位／移動 5 m	
+6aec70ca28ec3e4d	-1	88	1200	21	307	0	true	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+2cec008e2c729669	1	88	1200	21	307	0	true	警政署同路段局部修正	other_camera_selected
+2cec008e2c729669	-1	88	1200	73	1000	0	true	警政署同路段局部修正	other_camera_selected
+984c278f8909afa5	1	132	1200	109	996	0	false	警政署同路段局部修正	other_camera_selected
+c0f929159a28b3a2	1	20	202	19	194	0	false	平行道路／路口／高架平面無法區分	
+26a8f4eb85d85487	1	88	1200	72	987	0	true	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+26a8f4eb85d85487	-1	88	1200	18	267	0	true	警政署同路段局部修正	other_camera_selected
+84ef05152a0573fc	1	88	1200	18	267	0	true	警政署同路段局部修正	other_camera_selected
+84ef05152a0573fc	-1	88	1200	17	253	0	true	道路確認中：至少 3 次定位／移動 5 m	
+87e8a57463d120b2	1	5	78	4	67	0	false	平行道路／路口／高架平面無法區分	
+93a87d22917e66e7	1	59	1200	48	980	0	false	警政署同路段局部修正	other_camera_selected
+a44d520579206cbd	1	59	1200	49	1000	0	false	警政署同路段局部修正	other_camera_selected
+67afc9d96a2eaef9	1	106	1200	88	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+93dadb4f11b640ce	1	97	1103	89	1000	0	true	警政署同路段局部修正	other_camera_selected
+93dadb4f11b640ce	-1	106	1200	88	1000	0	true	警政署同路段局部修正	other_camera_selected
+4ea599c3710533fa	-1	57	659	56	648	0	false	警政署同路段局部修正	
+bdd8f320043caac2	1	66	1200	54	979	0	false	警政署同路段局部修正	other_camera_selected
+6accf578a61cb1c5	1	19	239	18	228	0	false	平行道路／路口／高架平面無法區分	
+cd0438398e9b1002	1	74	1179	62	992	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+6a98cb86b2e7eeac	1	76	1200	63	998	0	false	警政署同路段局部修正	other_camera_selected
+fd0338f0c39c317b	1	106	1200	87	989	0	true	警政署同路段局部修正	other_camera_selected
+fd0338f0c39c317b	-1	106	1200	87	989	0	true	道路已確認，尚無可用道路速限	other_camera_selected
+166e882a6cb322de	-1	106	1200	87	989	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+ac27201bc2b5378e	1	88	1200	72	987	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+9a5de2d92e941d33	1	88	1200	73	992	0	true	警政署同路段局部修正	other_camera_selected
+9a5de2d92e941d33	-1	88	1200	73	1000	0	true	警政署同路段局部修正	other_camera_selected
+9a7d5f6dbaaa9493	1	106	1200	87	989	0	true	警政署同路段局部修正	other_camera_selected
+9a7d5f6dbaaa9493	-1	106	1200	87	989	0	true	警政署同路段局部修正	other_camera_selected
+2fd565a13662ae82	1	106	1200	88	1000	0	true	平行道路／路口／高架平面無法區分	other_camera_selected
+2fd565a13662ae82	-1	106	1200	88	1000	0	true	警政署同路段局部修正	other_camera_selected
+c91ce8310d314bc0	1	88	1200	72	987	0	true	警政署同路段局部修正	other_camera_selected
+c91ce8310d314bc0	-1	88	1200	72	987	0	true	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+13fa8ae5f81fe0dd	1	94	1074	57	663	0	false	警政署同路段局部修正	
+0a03582aa7bd8944	1	47	548	46	537	0	true	警政署同路段局部修正	
+0a03582aa7bd8944	-1	81	920	26	309	0	true	警政署同路段局部修正	other_camera_selected
+ebdf28d600bd670e	1	74	842	26	309	0	true	平行道路／路口／高架平面無法區分	other_camera_selected
+ebdf28d600bd670e	-1	54	626	53	615	0	true	警政署同路段局部修正	
+cf8c0a118f921fb0	1	85	966	84	955	0	true	警政署同路段局部修正	
+cf8c0a118f921fb0	-1	46	531	11	142	0	true	警政署同路段局部修正	
+182265acc1496b0c	1	39	541	38	528	0	true	道路確認中：至少 3 次定位／移動 5 m	
+182265acc1496b0c	-1	88	1200	72	987	0	true	警政署同路段局部修正	other_camera_selected
+ae4b00f8f793ec68	1	88	1200	73	1000	0	true	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+ae4b00f8f793ec68	-1	88	1200	72	987	0	true	警政署同路段局部修正	other_camera_selected
+bd356c3f15233822	1	106	1200	88	1000	0	true	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+bd356c3f15233822	-1	73	831	72	820	0	true	平行道路／路口／高架平面無法區分	
+862b782e9e8eaf36	1	66	1200	54	987	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+a2a9bacfbf43b973	-1	88	1200	73	994	0	false	道路確認中：至少 3 次定位／移動 5 m	other_camera_selected
+28e56855a47f3380	-1	106	1200	87	989	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+ef2f93adf2d5844f	-1	16	234	15	221	0	false	警政署同路段局部修正	
+16397eec24412a30	1	36	510	35	496	0	false	警政署同路段局部修正	
+cf0a021847b7f12f	1	76	864	75	853	0	false	警政署同路段局部修正	
+36d864c7458c5701	1	59	1200	48	980	0	false	TDX 同道路同方向速限	other_camera_selected
+11a75d89c57c8655	1	59	1200	48	980	0	false	TDX 同道路同方向速限	other_camera_selected
+def62ebfa6e74199	1	59	1200	48	980	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+12d383bfafe70f16	1	59	1200	49	1000	0	false	平行道路／路口／高架平面無法區分	other_camera_selected
+6ada24e51a883ee1	1	59	1200	48	980	0	false	OSM 道路速限	other_camera_selected
