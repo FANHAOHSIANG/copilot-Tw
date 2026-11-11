@@ -1,5 +1,13 @@
 # CoPilot Tw
 
+## wide.37 國一北上測速提醒修正
+
+修正國道北上被誤當正北方向及僅搜尋同一道路分段造成的漏報。補回竹北往台北範圍 5 個測速點，連同既有 63.7 公里共 6 點通過道路幾何模擬回放，語音門檻為 1 公里。34.4 公里匝道點仍待確認。新增提醒只影響畫面／語音，未擴充 C4 控制資料。尚待 Android 實機與實車驗證。
+
+[安裝與重建說明](variants/wide37/README.md) · [配對結果](variants/wide37/verification/mapping-report.json) · [離線回放](variants/wide37/verification/replay.txt) · [APK 檢查](variants/wide37/verification/verification.json)
+
+此項為原始碼與測試存檔，APK 已於對話交付，尚未建立 wide.37 GitHub Release。
+
 ## wide.30 台灣測速正式畫面修正
 
 修正分割畫面只剩工具列與分隔線的問題。台灣測速分區可顯示即時時速、可用速限、測速距離與 GPS 狀態，面板較矮時將「更多」移到切換列。已在 Android 15 模擬器重現舊版問題，並驗證覆蓋安裝、縮小版面及模擬定位更新。

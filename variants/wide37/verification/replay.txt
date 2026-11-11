@@ -1,0 +1,7 @@
+PASS 國道一號北向81.1公里 first-under-1km=990m hits=30 reverse=0
+PASS 國道一號北向63.7公里 first-under-1km=990m hits=31 reverse=0
+PASS 國道一號五楊高架北向38.8公里 first-under-1km=990m hits=31 reverse=0
+PASS 國道一號五楊高架北向64.3公里 first-under-1km=990m hits=31 reverse=0
+PASS 國道一號北向82.1公里 first-under-1km=990m hits=31 reverse=0
+PASS 國道一號北向37公里 first-under-1km=990m hits=30 reverse=0
+PASS multi-edge, fork, disconnect, elevated, opposing, passed, skipped short edge, uncertain ramp

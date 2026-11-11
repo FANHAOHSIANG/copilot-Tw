@@ -1,0 +1,22 @@
+{
+  "version": "9.3.1-wide.37-highway-alert",
+  "versionCode": 26110749,
+  "baseSha256": "c410b703496b8ae61ff927cabccb375cf90d4fb70786c95fd30df3c80b79db15",
+  "apkSha256": "8edc251bdc6026e810bde8eaec9810ed28d61b723c56cc90f63bff4c9e87305a",
+  "modifiedClasses": [
+    "com/navipilot/obf/WideCameraTrace$Candidate.smali",
+    "com/navipilot/obf/WideHighwayAlertData.smali",
+    "com/navipilot/obf/WideCameraTrace.smali",
+    "com/navipilot/obf/WideCamera.smali",
+    "com/navipilot/obf/Yg.smali",
+    "com/navipilot/obf/WideCameraTrace$Frame.smali"
+  ],
+  "sameSigningCertificate": true,
+  "zipAlignmentPassed": true,
+  "unchangedAssetsAndNativeLibraries": true,
+  "unchangedC4WireCode": true,
+  "deviceTested": false,
+  "realTripGpsReplay": false,
+  "geometryGeneratedReplay": true,
+  "voiceThresholdMeters": 1000
+}
