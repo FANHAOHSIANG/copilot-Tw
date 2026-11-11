@@ -1,0 +1,17 @@
+--- wide37/WideBridge
++++ wide39/WideBridge
+@@ -1065,14 +1065,6 @@
+ 
+     if-eqz v0, :cond_5
+ 
+-    const-string p0, "current_kph"
+-
+-    invoke-virtual {v0, p0}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
+-
+-    move-result p0
+-
+-    if-eqz p0, :cond_5
+-
+     invoke-static {v1, v2, v7, v8}, Ljava/lang/Math;->min(JJ)J
+ 
+     move-result-wide v1

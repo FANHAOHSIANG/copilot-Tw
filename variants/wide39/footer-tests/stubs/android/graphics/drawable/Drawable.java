@@ -1,0 +1,1 @@
+package android.graphics.drawable; public class Drawable {public ConstantState getConstantState(){return new ConstantState();}public static class ConstantState{public Drawable newDrawable(){return new Drawable();}}}

@@ -1,0 +1,1 @@
+package android.app; public class Dialog {public android.view.View content;public boolean dismissed;public void setContentView(android.view.View v){content=v;}}

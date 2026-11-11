@@ -1,0 +1,22 @@
+{
+  "version": "9.3.1-wide.39-amap-bound",
+  "baseSha256": "8edc251bdc6026e810bde8eaec9810ed28d61b723c56cc90f63bff4c9e87305a",
+  "apkSha256": "15912dabdc9548b90c227c2790d15465b818d55091d72b5e038033ad95a7fb28",
+  "modifiedClasses": [
+    "MG.smali",
+    "WideAmapPreAdjust.smali",
+    "WideBridge.smali",
+    "WideFixedFooter.smali",
+    "WideSettings.smali",
+    "WideTaiwanSettings.smali",
+    "Yg.smali"
+  ],
+  "sameSigningCertificate": true,
+  "alignment16KiB": true,
+  "bindingOfflineChecks": 26,
+  "footerStructuralChecks": true,
+  "sourceFilterBeforeMerge": true,
+  "allAssetsAndNativeLibrariesUnchanged": true,
+  "androidDeviceTested": false,
+  "c4VehicleTested": false
+}

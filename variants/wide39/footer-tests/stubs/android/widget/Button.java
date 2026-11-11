@@ -1,0 +1,1 @@
+package android.widget; public class Button extends android.view.View {public CharSequence text="關閉";public int minWidth;public Button(android.content.Context c){super(c);}public CharSequence getText(){return text;}public void setMinWidth(int v){minWidth=v;}}

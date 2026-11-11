@@ -1,0 +1,42 @@
+--- wide37/MG
++++ wide39/MG
+@@ -31,6 +31,8 @@
+ .field public m:Lcom/navipilot/obf/EU;
+ 
+ .field public n:Ljava/lang/String;
++
++.field private wideAmapPreAdjust:Ljava/lang/Integer;
+ 
+ 
+ # direct methods
+@@ -474,7 +476,7 @@
+ 
+     move-result-object v9
+ 
+-    invoke-static {v8, v9, v1}, Lcom/navipilot/obf/WideBridge;->merge(Ljava/lang/String;Lorg/json/JSONObject;Ljava/util/Map;)Lorg/json/JSONObject;
++    invoke-static {v8, v9, v1}, Lcom/navipilot/obf/WideAmapPreAdjust;->merge(Ljava/lang/String;Lorg/json/JSONObject;Ljava/util/Map;)Lorg/json/JSONObject;
+ 
+     move-result-object v9
+ 
+@@ -2237,6 +2239,8 @@
+     move-object v2, v11
+ 
+     :goto_1a
++    iput-object v2, v8, Lcom/navipilot/obf/MG;->wideAmapPreAdjust:Ljava/lang/Integer;
++
+     if-nez v2, :cond_22
+ 
+     if-eqz v1, :cond_21
+@@ -2515,6 +2519,12 @@
+     move-result-object v2
+ 
+     :goto_26
++    iget-object v3, v8, Lcom/navipilot/obf/MG;->wideAmapPreAdjust:Ljava/lang/Integer;
++
++    invoke-static {v2, v3}, Lcom/navipilot/obf/WideAmapPreAdjust;->mark(Lorg/json/JSONObject;Ljava/lang/Integer;)Lorg/json/JSONObject;
++
++    move-result-object v2
++
+     invoke-static {v8, v1, v2}, Lcom/navipilot/obf/MG;->c(Lcom/navipilot/obf/MG;Ljava/lang/String;Lorg/json/JSONObject;)V
+ 
+     invoke-virtual {v14}, Lcom/navipilot/obf/HG;->b()Lcom/navipilot/obf/N4;

@@ -1,0 +1,6 @@
+package com.navipilot.obf;
+import android.widget.*;import android.view.*;import android.app.*;import android.content.*;
+public class FooterChecks{
+ static void check(boolean b){if(!b)throw new AssertionError();}
+ public static void main(String[] args){Context c=new Context();Dialog d=new Dialog();ScrollView s=new ScrollView(c);LinearLayout p=new LinearLayout(c);p.setBackgroundColor(0xff111111);s.addView(p);View content=new View(c);p.addView(content);Button b=new Button(c);b.click=()->d.dismissed=true;p.addView(b);WideFixedFooter.install(d,s);LinearLayout shell=(LinearLayout)d.content;check(shell.orientation==1&&shell.getChildAt(0)==s);check(p.getChildCount()==1&&p.getChildAt(0)==content);check(((LinearLayout.LayoutParams)s.params).weight==1&&s.params.height==0);FrameLayout footer=(FrameLayout)shell.getChildAt(1);check(footer.params.height==64&&footer.getChildAt(0)==b);check(((FrameLayout.LayoutParams)b.params).gravity==Gravity.CENTER&&b.params.height==48);b.click.run();check(d.dismissed);check(shell.getBackground()!=p.getBackground());Dialog fallback=new Dialog();ScrollView empty=new ScrollView(c);WideFixedFooter.install(fallback,empty);check(fallback.content==empty);System.out.println("PASS close button outside ScrollView, weighted body, centered fixed footer, original click handler, background clone and fallback");}
+}
