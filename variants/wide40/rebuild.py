@@ -1,0 +1,19 @@
+import os,json,pathlib,subprocess,hashlib,shutil
+P=pathlib.Path(__file__).resolve().parent
+base=pathlib.Path(os.environ['COPILOT_BASE_APK']);tool=os.environ['COPILOT_APKTOOL'];bt=pathlib.Path(os.environ['COPILOT_BUILD_TOOLS'])
+metadata=json.loads((P/'verification/verification.json').read_text())
+assert hashlib.sha256(base.read_bytes()).hexdigest() in (metadata['baseSha256'],metadata['apkSha256']),'Unexpected base APK'
+build=P/'rebuild';assert not build.exists();build.mkdir();decoded=build/'decoded'
+def run(*args):subprocess.run(list(map(str,args)),check=True)
+run('java','-jar',tool,'d','-f',base,'-o',decoded)
+for f in (P/'smali').glob('*.smali'):shutil.copyfile(f,decoded/'smali/com/navipilot/obf'/f.name)
+for f in (P/'assets').glob('*.mp3'):shutil.copyfile(f,decoded/'assets'/f.name)
+f=decoded/'apktool.yml';f.write_text(f.read_text().replace('26110751','26110752').replace('9.3.1-wide.39-amap-bound','9.3.1-wide.40-direction-alert'))
+f=decoded/'smali/com/navipilot/obf/Yg.smali';f.write_text(f.read_text().replace('9.3.1-wide.39-amap-bound (26110751)','9.3.1-wide.40-direction-alert (26110752)'))
+run('java','-jar',tool,'b',decoded,'-o',build/'unsigned.apk')
+run(bt/'zipalign','-P','16','-f','4',build/'unsigned.apk',build/'aligned.apk')
+final=build/'Copilot-tw-9.3.1-wide.40-direction-alert.apk'
+run('java','-jar',bt/'lib/apksigner.jar','sign','--ks',os.environ['COPILOT_SIGNING_KEY'],'--ks-key-alias',os.environ['COPILOT_KEY_ALIAS'],'--ks-pass','env:COPILOT_STORE_PASSWORD','--key-pass','env:COPILOT_KEY_PASSWORD','--out',final,build/'aligned.apk')
+run('java','-jar',bt/'lib/apksigner.jar','verify','--verbose',final)
+run(bt/'zipalign','-c','-P','16','4',final)
+print(final)

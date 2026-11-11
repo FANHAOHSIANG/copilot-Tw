@@ -1,0 +1,22 @@
+{
+  "version": "9.3.1-wide.40-direction-alert",
+  "versionCode": 26110752,
+  "baseSha256": "15912dabdc9548b90c227c2790d15465b818d55091d72b5e038033ad95a7fb28",
+  "apkSha256": "238951b2b05ddd770e73dd08c5dae142ba9c411335c2eb43039763e9c8a7d99f",
+  "modifiedClasses": [
+    "WideAlertMotion.smali",
+    "WideHcop.smali",
+    "WideCameraTrace$Frame.smali",
+    "WideCameraTrace$Candidate.smali",
+    "WideCameraTrace.smali",
+    "Yg.smali",
+    "WideCameraVoice.smali",
+    "WideCamera.smali"
+  ],
+  "offlineChecks": 30,
+  "sameSigningCertificate": true,
+  "alignment16KiB": true,
+  "controlCoreUnchanged": true,
+  "deviceTested": false,
+  "realTripGpsReplay": false
+}

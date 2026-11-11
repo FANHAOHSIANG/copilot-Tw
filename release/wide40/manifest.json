@@ -1,0 +1,8 @@
+{
+  "base_url": "https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.39/Copilot-tw-9.3.1-wide.39-amap-bound.apk",
+  "base_sha256": "15912dabdc9548b90c227c2790d15465b818d55091d72b5e038033ad95a7fb28",
+  "patch_sha256": "ee9ea0b3ee54d885db3fdc8fadb5921ec44241b5ed31a3ebdb48008195a0aa95",
+  "apk_sha256": "238951b2b05ddd770e73dd08c5dae142ba9c411335c2eb43039763e9c8a7d99f",
+  "apk_name": "Copilot-tw-9.3.1-wide.40-direction-alert.apk",
+  "parts": 13
+}

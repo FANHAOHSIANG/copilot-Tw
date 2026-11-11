@@ -6,15 +6,21 @@
 
 ## 下載最新版
 
-目前提供 **9.3.1-wide.39-amap-bound（26110751）測試版**，更新日期 2026-11-11。Android 12 以上。
+目前提供 **9.3.1-wide.40-direction-alert（26110752）測試版**，更新日期 2026-11-11。Android 12 以上。
 
 | 檔案 | 用途 |
 | --- | --- |
-| **[下載 Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.39/Copilot-tw-9.3.1-wide.39-amap-bound.apk)** | 車機／Android 手機直接安裝，同簽章可覆蓋更新 |
-| [下載原始碼與修改材料 ZIP](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.39/Copilot-tw-wide.39-source.zip) | 開發、檢視與重建；不是安裝檔 |
-| [下載 SHA256SUMS](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.39/SHA256SUMS.txt) | 核對下載完整性 |
+| **[下載 Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.40/Copilot-tw-9.3.1-wide.40-direction-alert.apk)** | 車機／Android 手機直接安裝，同簽章可覆蓋更新 |
+| [下載原始碼與修改材料 ZIP](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.40/Copilot-tw-wide.40-source.zip) | 開發、檢視與重建；不是安裝檔 |
+| [下載 SHA256SUMS](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.40/SHA256SUMS.txt) | 核對下載完整性 |
 
-[版本下載頁](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.39) · [安裝與使用](docs/INSTALL_zh-TW.md) · [資料來源與已知限制](docs/DATA_SOURCES_zh-TW.md) · [更新紀錄](CHANGELOG.md)
+[版本下載頁](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.40) · [安裝與使用](docs/INSTALL_zh-TW.md) · [資料來源與已知限制](docs/DATA_SOURCES_zh-TW.md) · [更新紀錄](CHANGELOG.md)
+
+## wide.40 本次更新
+
+測速提醒可用連續GPS位置補足方向缺值；高架／平面重疊不再一律擋下，依測速點道路圖資顯示「平面道路」／「高架道路」，語音為「前方平面道路測速」／「前方高架道路測速」。道路層級不明則保留一般提醒；可能提示另一層道路。此變更只用於提醒，不放寬C4控制。仍沿用487個配對點，不是全部1856點啟用。
+
+[本版修改與30項離線測試](variants/wide40/README.md)。已通過編譯、相同簽章與對齊檢查，實機與實車待驗證。新增兩段台灣中文女聲；一般提醒保留原A聲音。
 
 ## 可以做什麼
 
@@ -22,7 +28,7 @@
 | --- | --- |
 | 導航切換 | 高德車機／一般版共用一個 Copilot APK；Google 地圖提供畫面投屏 |
 | 台灣測速儀表 | 即時時速、可用速限、測速距離、定位與資料狀態；靠近時放大距離顯示 |
-| 測速語音 | 符合提醒條件、進入 1 公里門檻時播報「前方測速照相」；配對較晚時也可能較晚提醒 |
+| 測速語音 | 符合提醒條件、進入 1 公里門檻時按道路層級播報；未分類播報「前方測速照相」；配對較晚時也可能較晚提醒 |
 | 全畫面紅光 | 接近測速 500 公尺內，App 四邊閃紅光，距離越近閃爍越快 |
 | 速限暫存 | 最後有效標誌保留最多 60 秒並標示暫存；這不延長 C4 控制資料有效期 |
 | 神盾投屏 | 右側可切換神盾畫面；顯示模式與傳給 C4 的資料來源分開設定 |
