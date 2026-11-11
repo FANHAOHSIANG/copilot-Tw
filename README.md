@@ -6,15 +6,23 @@
 
 ## 下載最新版
 
-目前提供 **9.3.1-wide.41-alert-recovery（26110753）測試版**，更新日期 2026-11-11。Android 12 以上。
+目前提供 **9.3.1-wide.42-tolerant-alert（26110754）測試版**，更新日期 2026-11-12。Android 12 以上。
 
 | 檔案 | 用途 |
 | --- | --- |
-| **[下載 Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.41/Copilot-tw-9.3.1-wide.41-alert-recovery.apk)** | 車機／Android 手機直接安裝，同簽章可覆蓋更新 |
-| [下載原始碼與修改材料 ZIP](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.41/Copilot-tw-wide.41-source.zip) | 開發、檢視與重建；不是安裝檔 |
-| [下載 SHA256SUMS](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.41/SHA256SUMS.txt) | 核對下載完整性 |
+| **[下載 Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.42/Copilot-tw-9.3.1-wide.42-tolerant-alert.apk)** | 車機／Android 手機直接安裝，同簽章可覆蓋更新 |
+| [下載原始碼與修改材料 ZIP](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.42/Copilot-tw-wide.42-source.zip) | 開發、檢視與重建；不是安裝檔 |
+| [下載 SHA256SUMS](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.42/SHA256SUMS.txt) | 核對下載完整性 |
 
-[版本下載頁](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.41) · [安裝與使用](docs/INSTALL_zh-TW.md) · [資料來源與已知限制](docs/DATA_SOURCES_zh-TW.md) · [更新紀錄](CHANGELOG.md)
+[版本下載頁](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.42) · [安裝與使用](docs/INSTALL_zh-TW.md) · [資料來源與已知限制](docs/DATA_SOURCES_zh-TW.md) · [更新紀錄](CHANGELOG.md)
+
+## wide.42 本次更新
+
+修正未知執法方向點擋住其他測速點、定位精度短暫變差清空歷史、定位每 4 秒更新無法確認方向，以及低速軌跡視窗不足的問題。各測速點獨立追蹤；失效定位不播報，有效定位恢復後才接續。候選資訊只供畫面／語音，不傳給 C4。
+
+63 項程式檢查通過，另完成 17 種合成定位情境與 539 組道路回放；道路回放仍有 17 組未形成目標、9 組反向標記待查，未新增異常組。尚未完成實機 GPS、音訊、背景／切換來源及 C4 接收驗證。高德一般版仍為診斷階段，不能宣稱已修復實機傳輸。
+
+[本版修改與驗證](variants/wide42/README.md)。已完成原金鑰簽署與 16 KiB 對齊，可覆蓋同簽章舊版。
 
 ## wide.41 本次更新
 

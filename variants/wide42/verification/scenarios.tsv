@@ -1,0 +1,18 @@
+scenario	camera_frames	within_1km_frames	first_index	camera_ids	final_status
+normal_two_cameras	69	69	1	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒；候選 2 · 同向 1 · 方向未知 0 · 偏離 1 · 反向 0
+no_heading	67	67	3	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒；候選 2 · 同向 1 · 方向未知 0 · 偏離 1 · 反向 0
+no_heading_or_speed	67	67	3	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒；候選 2 · 同向 1 · 方向未知 0 · 偏離 1 · 反向 0
+intermittent_heading	68	68	2	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒；候選 2 · 同向 1 · 方向未知 0 · 偏離 1 · 反向 0
+stop_then_start	64	64	6	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒；候選 2 · 同向 1 · 方向未知 0 · 偏離 1 · 反向 0
+GPS_outage_then_recovery	64	64	1	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒；候選 2 · 同向 1 · 方向未知 0 · 偏離 1 · 反向 0
+bad_accuracy_then_recovery	64	64	1	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒；候選 2 · 同向 1 · 方向未知 0 · 偏離 1 · 反向 0
+alternating_10m_31m_accuracy	34	34	2	[A, B]	GPS 過期或精度不足，暫停提醒；短暫保留軌跡
+4_second_updates_no_heading	25	25	3	[A, B]	候選 0 · 同向 0 · 方向未知 0 · 偏離 0 · 反向 0；前方無符合測速點
+7kmh_no_heading_accuracy20	45	45	25	[A]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒；候選 2 · 同向 2 · 方向未知 0 · 偏離 0 · 反向 0
+reverse	0	0	-1	[]	候選 2 · 同向 0 · 方向未知 0 · 偏離 1 · 反向 1；前方無符合測速點
+reported_zero_speed_while_coordinates_move	0	0	-1	[]	停車／低速，等待起步
+duplicate_positions	68	68	2	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒；候選 2 · 同向 1 · 方向未知 0 · 偏離 1 · 反向 0
+no_heading_accuracy20	65	65	5	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒；候選 2 · 同向 1 · 方向未知 0 · 偏離 1 · 反向 0
+clear_then_recovery	68	68	1	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒；候選 2 · 同向 1 · 方向未知 0 · 偏離 1 · 反向 0
+unknown_direction_occludes_known	69	49	1	[known]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒；候選 2 · 同向 1 · 方向未知 1 · 偏離 0 · 反向 0
+known_alone_control	69	49	1	[known]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒；候選 1 · 同向 1 · 方向未知 0 · 偏離 0 · 反向 0

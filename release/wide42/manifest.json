@@ -1,0 +1,8 @@
+{
+  "base_url": "https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.41/Copilot-tw-9.3.1-wide.41-alert-recovery.apk",
+  "base_sha256": "0d4f7d7912e765a007080ccb96cd865ab3cb3e6c4f8355b87c56b4a702344046",
+  "patch_sha256": "aae28c50d6a86204f2c7007338cf3c0e71d99bac810e7773e73c5da2155c8d4d",
+  "apk_sha256": "daf4735e33fe7ce30f4a8d88bd631f5ccaf90a7f1e6bbed5619676c5f3d7f2e7",
+  "apk_name": "Copilot-tw-9.3.1-wide.42-tolerant-alert.apk",
+  "parts": 14
+}

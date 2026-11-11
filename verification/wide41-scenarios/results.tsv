@@ -1,0 +1,18 @@
+scenario	camera_frames	within_1km_frames	first_index	camera_ids	final_status
+normal_two_cameras	68	68	1	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒
+no_heading	66	66	3	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒
+no_heading_or_speed	66	66	3	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒
+intermittent_heading	67	67	2	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒
+stop_then_start	63	63	6	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒
+GPS_outage_then_recovery	62	62	1	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒
+bad_accuracy_then_recovery	62	62	1	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒
+alternating_10m_31m_accuracy	0	0	-1	[]	GPS 過期或精度不足，暫停提醒
+4_second_updates_no_heading	0	0	-1	[]	累積移動軌跡以確認方向
+7kmh_no_heading_accuracy20	0	0	-1	[]	累積移動軌跡以確認方向
+reverse	0	0	-1	[]	前方 1.5 km 無符合的固定點
+reported_zero_speed_while_coordinates_move	0	0	-1	[]	停車／低速，等待起步
+duplicate_positions	66	66	2	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒
+no_heading_accuracy20	64	64	5	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒
+clear_then_recovery	67	67	1	[A, B]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒
+unknown_direction_occludes_known	0	0	-1	[]	附近有測速點，但執法方向未標明
+known_alone_control	69	49	1	[known]	同向接近候選 · 直線距離 · 道路未確認 · 僅提醒
