@@ -1,0 +1,11 @@
+{
+  "sourceId": "nantou-restricted",
+  "url": "https://data.nantou.gov.tw/dataset/1f5bdf50-d743-4f65-96e0-cd5e8cbd7441/resource/f9cb2592-d3cf-4ce2-b6b2-ea96d155394b/download/1150724.csv",
+  "attemptedAt": "2026-11-11T20:54:07.503353+00:00",
+  "contentType": "text/csv",
+  "resolvedUrl": "https://data.nantou.gov.tw/dataset/1f5bdf50-d743-4f65-96e0-cd5e8cbd7441/resource/f9cb2592-d3cf-4ce2-b6b2-ea96d155394b/download/1150724.csv",
+  "status": "downloaded",
+  "bytes": 313,
+  "sha256": "20060c02c66cee8398e5a0d2769c8f9a050afb7969b624e4b3e95a12005c6abb",
+  "retrievedAt": "2026-11-11T20:54:07.503353+00:00"
+}

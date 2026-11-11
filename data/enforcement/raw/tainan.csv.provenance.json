@@ -1,0 +1,11 @@
+{
+  "sourceId": "tainan",
+  "url": "https://data.tainan.gov.tw/File/DirectDownload/1c7e82f0-d6b2-4b20-aeff-5c768100f82c?fileName=%E8%87%BA%E5%8D%97%E5%B8%82%E6%99%BA%E6%85%A7%E7%AE%A1%E7%90%86%E7%A7%91%E6%8A%80%E5%9F%B7%E6%B3%95%E8%A8%AD%E5%82%99%E8%A8%AD%E7%BD%AE%E5%9C%B0%E9%BB%9E",
+  "attemptedAt": "2026-11-11T20:54:08.296023+00:00",
+  "contentType": "text/csv",
+  "resolvedUrl": "https://data.tainan.gov.tw/File/DirectDownload/1c7e82f0-d6b2-4b20-aeff-5c768100f82c?fileName=%E8%87%BA%E5%8D%97%E5%B8%82%E6%99%BA%E6%85%A7%E7%AE%A1%E7%90%86%E7%A7%91%E6%8A%80%E5%9F%B7%E6%B3%95%E8%A8%AD%E5%82%99%E8%A8%AD%E7%BD%AE%E5%9C%B0%E9%BB%9E",
+  "status": "downloaded",
+  "bytes": 13934,
+  "sha256": "2275c9d13024d72686d12f7875772ef3be8753b12b361ac15d01a4b87352d36f",
+  "retrievedAt": "2026-11-11T20:54:08.296023+00:00"
+}

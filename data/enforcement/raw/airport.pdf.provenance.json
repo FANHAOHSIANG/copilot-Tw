@@ -1,0 +1,11 @@
+{
+  "sourceId": "airport",
+  "url": "https://www.apb.npa.gov.tw/ch/app/data/doc?detailNo=1455828827405029376&module=wg146&type=s",
+  "attemptedAt": "2026-11-11T20:54:23.082448+00:00",
+  "contentType": "application/pdf",
+  "resolvedUrl": "https://www.apb.npa.gov.tw/ch/app/data/doc?detailNo=1455828827405029376&module=wg146&type=s",
+  "status": "downloaded",
+  "bytes": 50500,
+  "sha256": "901ce93093cfdf197f076bf7d6a0dfeebb3c016cc264dc81bb806dc8b7b9e656",
+  "retrievedAt": "2026-11-11T20:54:23.082448+00:00"
+}

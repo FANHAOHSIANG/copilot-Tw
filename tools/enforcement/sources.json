@@ -1,0 +1,422 @@
+[
+  {
+    "id": "taipei",
+    "region": "臺北市",
+    "title": "臺北市智慧管理科技執法設備資料表",
+    "page": "https://data.gov.tw/dataset/135957",
+    "format": "csv",
+    "url": "https://data.taipei/api/dataset/986fa73e-c470-4ebf-9f35-3a1c9d2a8788/resource/4715904f-6ce1-41c2-8a68-3bc5303f3607/download",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "taoyuan",
+    "region": "桃園市",
+    "title": "桃園市科技執法設備地點（115年9月）",
+    "page": "https://data.gov.tw/dataset/178168",
+    "format": "csv",
+    "url": "https://opendata.tycg.gov.tw/api/dataset/46bd8de0-cb90-4149-a530-5f5b1751b450/resource/636bb62e-cc5b-4ad4-ac11-5849ad5c432d/download",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "taichung",
+    "region": "臺中市",
+    "title": "臺中市科技執法取締地點",
+    "page": "https://data.gov.tw/dataset/170673",
+    "format": "csv",
+    "url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=b3f58c63-53b3-4c01-8203-2a7afa08bb13",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "hsinchu-city",
+    "region": "新竹市",
+    "title": "新竹市科技執法點位資訊",
+    "page": "https://data.gov.tw/dataset/178144",
+    "format": "json",
+    "url": "https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/2006/51a0af55-4a9f-43fb-86cc-5ea09ab58bef.json",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "penghu",
+    "region": "澎湖縣",
+    "title": "澎湖縣科技執法地點",
+    "page": "https://data.gov.tw/dataset/172940",
+    "format": "json",
+    "url": "https://opendata.penghu.gov.tw/dataset/bbb46c6f-dd1a-4ca4-b4e4-ef25dab065fc/resource/ecebae77-66fb-4228-83cb-d3e57383dfa2/download/pb140300-2025-02-21-1740105639.json",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "miaoli",
+    "region": "苗栗縣",
+    "title": "苗栗縣科技執法設備取締地點",
+    "page": "https://data.gov.tw/dataset/172178",
+    "format": "csv",
+    "url": "https://webws.miaoli.gov.tw/Download.ashx?icon=.csv&n=6IuX5qCX57ij56eR5oqA5Z%2B35rOV6Kit5YKZ5Y%2BW57eg5Zyw6bueLmNzdg%3D%3D&u=LzAwMS9VcGxvYWQvb3BlbmRhdGEvMTcxNS83MjlmODcxOC0xNGVkLTQ5NmQtOTMzZS1jOTRmZmZkZjNmYzYuY3N2",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "chiayi-county",
+    "region": "嘉義縣",
+    "title": "嘉義縣警察局固定式科技執法設置地點",
+    "page": "https://data.gov.tw/dataset/178140",
+    "format": "csv",
+    "url": "https://ws-tm.cyhg.gov.tw/001/Upload/1330/relfile/13620/256051/72fa2fcd-f665-4191-b429-7950274c54d2.csv",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "keelung",
+    "region": "基隆市",
+    "title": "基隆市科技執法取締地點",
+    "page": "https://data.gov.tw/dataset/178159",
+    "format": "csv",
+    "url": "https://www.klg.gov.tw/cht/upload/TechArea.csv",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "pingtung",
+    "region": "屏東縣",
+    "title": "屏東縣科技執法路段及項目",
+    "page": "https://data.gov.tw/dataset/159972",
+    "format": "json",
+    "url": "https://www-ws.pthg.gov.tw/Upload/2015pthg/0/relfile/0/0/6a3e921a-ff5f-4de3-90ab-1d2094ad1170.json",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "kaohsiung-junction",
+    "region": "高雄市",
+    "title": "115年路口科技執法第3次公告",
+    "page": "https://data.gov.tw/dataset/176561",
+    "format": "json",
+    "url": "https://openapi.kcg.gov.tw/Api/Service/Get/fb29936f-c4ff-4fcf-8d22-24aa62a558cb",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "kaohsiung-pedestrian",
+    "region": "高雄市",
+    "title": "115年不停讓行人第2次公告",
+    "page": "https://data.gov.tw/dataset/176555",
+    "format": "json",
+    "url": "https://openapi.kcg.gov.tw/Api/Service/Get/d6903a09-3613-4caa-8575-59a049333d86",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "kaohsiung-rental",
+    "region": "高雄市",
+    "title": "115年租賃式車不停讓行人第3次公告",
+    "page": "https://data.gov.tw/dataset/177827",
+    "format": "json",
+    "url": "https://openapi.kcg.gov.tw/Api/Service/Get/cbc5c9ac-8e34-407e-b759-af6b4aed4a24",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "kaohsiung-restricted",
+    "region": "高雄市",
+    "title": "115年限制車種違規駛入第4次公告",
+    "page": "https://data.gov.tw/dataset/176551",
+    "format": "json",
+    "url": "https://openapi.kcg.gov.tw/Api/Service/Get/2bbc0414-f87e-4fb4-9181-3115a56392c5",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "kaohsiung-parking",
+    "region": "高雄市",
+    "title": "115年違規停車監測系統",
+    "page": "https://data.gov.tw/dataset/176553",
+    "format": "json",
+    "url": "https://openapi.kcg.gov.tw/Api/Service/Get/52eee8e0-825e-4afc-853d-0267bfab1e02",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "nantou-restricted",
+    "region": "南投縣",
+    "title": "南投縣科技執法禁駛路段（1150724）",
+    "page": "https://data.gov.tw/dataset/176021",
+    "format": "csv",
+    "url": "https://data.nantou.gov.tw/dataset/1f5bdf50-d743-4f65-96e0-cd5e8cbd7441/resource/f9cb2592-d3cf-4ce2-b6b2-ea96d155394b/download/1150724.csv",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "changhua",
+    "region": "彰化縣",
+    "title": "彰化縣固定式科技執法設備",
+    "page": "https://data.gov.tw/dataset/172905",
+    "url": "https://www.chpb.gov.tw/opendata/deJgXKJjLESCdBNje_-bYA/csv",
+    "format": "csv",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "chiayi-city",
+    "region": "嘉義市",
+    "title": "嘉義市固定式科技執法自動偵測系統",
+    "page": "https://data.gov.tw/en/datasets/161852",
+    "url": "https://data.chiayi.gov.tw/opendata/api/getResource?oid=21dd0bd6-932d-4f45-985b-3e1e8bc69a6b&rid=26b0febc-11f7-48e5-82dc-2977a45f0e1a",
+    "format": "csv",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "tainan",
+    "region": "臺南市",
+    "title": "臺南市智慧管理科技執法設備設置地點",
+    "page": "https://data.tainan.gov.tw/Resource/1c7e82f0-d6b2-4b20-aeff-5c768100f82c",
+    "url": "https://data.tainan.gov.tw/File/DirectDownload/1c7e82f0-d6b2-4b20-aeff-5c768100f82c?fileName=%E8%87%BA%E5%8D%97%E5%B8%82%E6%99%BA%E6%85%A7%E7%AE%A1%E7%90%86%E7%A7%91%E6%8A%80%E5%9F%B7%E6%B3%95%E8%A8%AD%E5%82%99%E8%A8%AD%E7%BD%AE%E5%9C%B0%E9%BB%9E",
+    "format": "csv",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "kinmen-pdf",
+    "region": "金門縣",
+    "title": "金門縣警察局固定式科學儀器執法設備設置地點一覽表.pdf",
+    "page": "https://www.xizhi.police.ntpc.gov.tw/cp-3940-142233-22.html",
+    "url": "https://www.xizhi.police.ntpc.gov.tw/dl-43101-f8965015-d2aa-4cf5-970c-f837529df8f9.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "nantou-pdf",
+    "region": "南投縣",
+    "title": "4495769_南投縣政府警察局固定式科學儀器設置地點一覽表.pdf",
+    "page": "https://www.xizhi.police.ntpc.gov.tw/cp-3940-142235-22.html",
+    "url": "https://www.xizhi.police.ntpc.gov.tw/dl-43095-d92ede50-ed0e-442b-9278-aa6c66eba7b8.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "hsinchu-city-pdf",
+    "region": "新竹市",
+    "title": "4505051_新竹市警察局科技執法取締地點一覽表（1150909更新）.pdf",
+    "page": "https://www.xizhi.police.ntpc.gov.tw/cp-3940-142237-22.html",
+    "url": "https://www.xizhi.police.ntpc.gov.tw/dl-43743-b4a8e8b5-cd3b-4c39-ad3e-1edaf0e1a10a.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "hsinchu-county-pdf",
+    "region": "新竹縣",
+    "title": "新竹縣政府警察局「固定式科學儀器執法設備」設置地點一覽表.pdf",
+    "page": "https://www.xizhi.police.ntpc.gov.tw/cp-3940-142240-22.html",
+    "url": "https://www.xizhi.police.ntpc.gov.tw/dl-42704-6e15d562-d012-4918-9b85-1d2cc1371714.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "chiayi-city-pdf",
+    "region": "嘉義市",
+    "title": "嘉義市政府警察局「固定式科學儀器執法設備」設置地點一覽表.pdf",
+    "page": "https://www.xizhi.police.ntpc.gov.tw/cp-3940-142446-22.html",
+    "url": "https://www.xizhi.police.ntpc.gov.tw/dl-43347-905eba0f-ff33-487b-ac94-d9684f78c24c.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "newtaipei",
+    "region": "新北市",
+    "title": "交通科技執法設備設置地點一覽表1150901.pdf",
+    "page": "https://www.traffic.police.ntpc.gov.tw/cp-3313-143085-27.html",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-43528-5132da85-2112-4d8d-b3cd-e9b03fdf194a.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "yunlin",
+    "region": "雲林縣",
+    "title": "pdf",
+    "page": "https://ylhpb.yunlin.gov.tw/Traffic/News_Content.aspx?n=31207&sms=22409&s=613550",
+    "url": "https://ws.yunlin.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNjEyL3JlbGZpbGUvMjIyNDYvNjEzNTUwL2MxYjczNjdjLTIzYjMtNDU0Zi04NTcyLTczNGJlNmZjYzA4ZC5wZGY%3d&n=MTE1MTExMOmbsuael%2be4o%2bitpuWvn%2bWxgOWbuuWumuW8j%2bmBleimj%2beFp%2bebuOioreWCmeWPiuenkeaKgOWft%2bazleioree9ruWcsOm7nuS4gOimveihqC5wZGY%3d",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "yilan",
+    "region": "宜蘭縣",
+    "title": "宜蘭縣政府警察局「固定式科學儀器執法設備設置地點」一覽表.pdf",
+    "page": "https://www.traffic.police.ntpc.gov.tw/cp-1084-138085-27.html",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-41277-5a294b01-4219-42c2-8b4b-ad92cca046b3.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "kaohsiung-pdf",
+    "region": "高雄市",
+    "title": "高雄市政府警察局115年「固定式違規照相科技執法設備」設置地點一覽表.pdf",
+    "page": "https://www.traffic.police.ntpc.gov.tw/cp-1084-140949-27.html",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-42674-f0b71311-d814-419c-b6fc-652564b8165d.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "hualien",
+    "region": "花蓮縣",
+    "title": "114年度測速闖紅燈及科技執法一覽表",
+    "page": "https://data.gov.tw/dataset/177297",
+    "url": "https://ws.hl.gov.tw/Download.ashx?n=6Iqx6JOu57ij6K2m5a%2Bf5bGAXzExNOW5tOW6pua4rOmAn%2BeFp%2BebuOOAgemXlue0heeHiOeFp%2BebuOWbuuWumuahv%2BWPiuenkeaKgOWft%2Bazleioree9ruWcsOm7nuS4gOimveihqC5wZGY%3D&u=LzAwMS9VcGxvYWQvNTE4L3JlbGZpbGUvMjI2MjkvMjA1NTkwLzExODZmZTY4LTVjZjYtNDY3YS1iZGI5LWQ0MGI5MTk2YjRiOC5wZGY%3D",
+    "format": "pdf",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "taitung",
+    "region": "臺東縣",
+    "title": "1151102取締違規照相暨科技執法",
+    "page": "https://data.gov.tw/dataset/179008",
+    "url": "https://www.ttcpb.gov.tw/uploaddowndoc?file=%2Fpubttcpb%2Fcomm%2F202610301336340.pdf&flag=doc",
+    "format": "pdf",
+    "license": "政府資料開放授權條款第1版",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "airport",
+    "region": "航空警察局",
+    "title": "航空警察局科技執法公告",
+    "page": "https://www.apb.npa.gov.tw/ch/app/data/view?id=2346&module=wg146&serno=59783747-1079-4559-974e-db54e9d8cdd5",
+    "url": "https://www.apb.npa.gov.tw/ch/app/data/doc?detailNo=1455828827405029376&module=wg146&type=s",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "pingtung-pdf",
+    "region": "屏東縣",
+    "title": "屏東縣轄區固定測速照相系統設置地點一覽表.pdf",
+    "page": "https://www.xizhi.police.ntpc.gov.tw/cp-3940-142234-22.html",
+    "url": "https://www.xizhi.police.ntpc.gov.tw/dl-43096-3000b769-9b76-410b-9d7c-a657ee3083bc.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "tainan-pdf",
+    "region": "臺南市",
+    "title": "臺南市政府警察局固定式交通違規照相路段設置一覽表.pdf",
+    "page": "https://www.xizhi.police.ntpc.gov.tw/cp-3940-142238-22.html",
+    "url": "https://www.xizhi.police.ntpc.gov.tw/dl-42740-6e7f33af-cd04-48a3-ba1c-19f4e5fe1894.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "keelung-pdf",
+    "region": "基隆市",
+    "title": "基隆市警察局固定式科技執法設備設置地點一覽表.pdf",
+    "page": "https://www.traffic.police.ntpc.gov.tw/cp-1084-137006-27.html",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-40908-b3448461-7352-4ac5-985d-f92a323a4be1.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "taitung-pdf",
+    "region": "臺東縣",
+    "title": "臺東縣警察局固定式取締違規照相桿設置地點一覽表.pdf",
+    "page": "https://www.traffic.police.ntpc.gov.tw/cp-1084-143923-27.html",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-43902-a8d7bd50-5c9d-4c70-a044-0a2ee29fa4be.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "taitung-pdf-1",
+    "region": "臺東縣",
+    "title": "臺東縣警察局科技執法偵測設置地點一覽表.pdf",
+    "page": "https://www.traffic.police.ntpc.gov.tw/cp-1084-143923-27.html",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-43903-24757a85-4307-4474-b4a7-d98826ec676f.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "taitung-pdf-2",
+    "region": "臺東縣",
+    "title": "臺東縣警察局區間平均速率執法設備設置地點一覽表.pdf",
+    "page": "https://www.traffic.police.ntpc.gov.tw/cp-1084-143923-27.html",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-43904-1f0efa36-8a5e-4439-b8d5-e4d7ca592f6b.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "hualien-pdf",
+    "region": "花蓮縣",
+    "title": "公告及一覽表.pdf",
+    "page": "https://www.traffic.police.ntpc.gov.tw/fp-1084-138817-27.html",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-41572-c2dad09c-4731-4774-bd6c-09cd216f2c7b.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "nantou-latest-pdf",
+    "region": "南投縣",
+    "title": "南投縣政府警察局固定式科學儀器交通執法設備設置地點一覽表.pdf",
+    "page": "https://www.traffic.police.ntpc.gov.tw/cp-1084-141579-27.html",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-42928-586415cc-16ac-4253-a213-4aee3cac9cb6.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "pingtung-technology-pdf",
+    "region": "屏東縣",
+    "title": "公告及一覽表.pdf",
+    "page": "https://www.traffic.police.ntpc.gov.tw/fp-1084-121546-27.html",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-34776-123f577d-2721-4695-8a95-2397c81b8980.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "kinmen-fallback-pdf",
+    "region": "金門縣",
+    "title": "114年3月28日修訂設備表（歷史快照）",
+    "page": "https://www.traffic.police.ntpc.gov.tw/dl-36387-b568b76f-3f73-49b4-811c-9f227def8eb4.html",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-36387-b568b76f-3f73-49b4-811c-9f227def8eb4.html",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  },
+  {
+    "id": "chiayi-county-fallback-pdf",
+    "region": "嘉義縣",
+    "title": "1141205固定式科學儀器交通執法設備（歷史快照）",
+    "page": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=5ZiJ576p57ij5Zu65a6a5byP56eR5a245YSA5Zmo5Lqk6YCa5Z%2B35rOV6Kit5YKZ6Kit572u5Zyw6bue5LiA6Ka96KGoKDExNDEyMDUpLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDY3L3JlbGZpbGUvMzIyNTkvOTUxMzExNS84NTE2NTZmYi01YTUwLTQ1NTAtODBmZi01YjYyMDdhMGFjYmIucGRm",
+    "format": "pdf",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12",
+    "url": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=5ZiJ576p57ij5Zu65a6a5byP56eR5a245YSA5Zmo5Lqk6YCa5Z%2B35rOV6Kit5YKZ6Kit572u5Zyw6bue5LiA6Ka96KGoKDExNDEyMDUpLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDY3L3JlbGZpbGUvMzIyNTkvOTUxMzExNS84NTE2NTZmYi01YTUwLTQ1NTAtODBmZi01YjYyMDdhMGFjYmIucGRm"
+  },
+  {
+    "id": "national-highway-ai",
+    "region": "國道公路警察局",
+    "title": "AI違規偵測系統設備地點（1150702）",
+    "page": "https://www.hpb.npa.gov.tw/ch/app/data/view?id=2593&module=wg160&serno=f2e50c40-d837-4fe4-96a6-9e788d679c70",
+    "url": "https://www.hpb.npa.gov.tw/ch/app/data/view?id=2593&module=wg160&serno=f2e50c40-d837-4fe4-96a6-9e788d679c70",
+    "format": "manual-json",
+    "license": "官方公告；保留來源，僅整理事實資料",
+    "checkedDate": "2026-11-12"
+  }
+]

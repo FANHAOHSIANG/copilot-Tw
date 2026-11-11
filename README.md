@@ -77,3 +77,7 @@ wide.39 已通過 26 項離線速度合併測試、底欄結構與 APK 簽章檢
 ## 授權與資料來源
 
 原 CP 搭子／Navipilot APK 權利屬原作者；本儲存庫沒有替整個 App 重新授權。HCOP、OpenStreetMap 與政府開放資料的來源／授權保留於 [資料說明](docs/DATA_SOURCES_zh-TW.md)及各原始目錄。公開檔案不包含私人簽署金鑰或個人行車紀錄。
+
+## 科技執法資料層
+
+新增[全台官方科技執法資料核對與覆蓋](docs/ENFORCEMENT_zh-TW.md)，含離線 GeoJSON、來源追蹤與 Android 查詢模組。本分支尚未將圖層或提醒接入已發布 APK。

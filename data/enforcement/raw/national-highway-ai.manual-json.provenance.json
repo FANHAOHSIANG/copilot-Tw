@@ -1,0 +1,8 @@
+{
+  "sourceId": "national-highway-ai",
+  "url": "https://www.hpb.npa.gov.tw/ch/app/data/view?id=2593&module=wg160&serno=f2e50c40-d837-4fe4-96a6-9e788d679c70",
+  "status": "manual_web_transcription",
+  "retrievedAt": "2026-11-11T20:59:02.663296+00:00",
+  "sha256": "ceb7d52dfd15000c5b853e05f1446c8c8ae8fa1fce4d8dcece635267093aa0c8",
+  "note": "Official page read through web retrieval; malformed first longitude retained, not repaired"
+}
