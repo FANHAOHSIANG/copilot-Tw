@@ -1,0 +1,26 @@
+{
+  "version": "9.3.1-wide.48-dashboard-fix",
+  "versionCode": 26110760,
+  "baseVersion": "9.3.1-wide.47-amap-diagnostics",
+  "baseSha256": "0fb5dd06e6f5e4a6798149114e95e9d1aa1b9fd9e8838c2b8b624d07c2d70f8a",
+  "apk": "Copilot-tw-9.3.1-wide.48-dashboard-fix.apk",
+  "apkSha256": "115e2fb2cde544dd2037fa51806dcbdd077f3e27f7c8e7e12c3b395221943eaf",
+  "apkBytes": 68033651,
+  "sameSigningCertificate": true,
+  "alignment16KiB": true,
+  "unchangedAssetsLibrariesResources": 5996,
+  "compiledClasses": [
+    "WideDashboardFace.smali"
+  ],
+  "sourceSha256": {
+    "variants/wide48/src/WideDashboardFace.java": "68d87373d609057d7d96a722245b47de900d687c6df9137a196b3e9c9c49563c",
+    "variants/wide48/patch_decoded.py": "c6a781ed0e6ac29c1dacdc1465bed83a6bb960478b260193f18d53ea6070e385",
+    "variants/wide48/build.py": "74bf16ce5c199d13846ff67098dfbbd5287f75e5696e6ef855b6065260f79a32",
+    "variants/wide46/tooling/ApiSignatures.java": "c2ffacf7823fd4b6cfb66ec14b539ddb1ceaed6388d990065a1a13c6356db170"
+  },
+  "deviceTest": false,
+  "c4ReceptionVerified": false,
+  "routeForwardingAdded": false,
+  "nextTurnForwardingAdded": false,
+  "diagnosticCaptureOnly": true
+}
