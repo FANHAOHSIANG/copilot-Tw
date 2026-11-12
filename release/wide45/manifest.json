@@ -1,0 +1,12 @@
+{
+  "version": "9.3.1-wide.45-amap-link",
+  "versionCode": 26110757,
+  "baseUrl": "https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.42/Copilot-tw-9.3.1-wide.42-tolerant-alert.apk",
+  "baseSha256": "daf4735e33fe7ce30f4a8d88bd631f5ccaf90a7f1e6bbed5619676c5f3d7f2e7",
+  "patch": "main.patch",
+  "patchSha256": "1f286d6025a6a6ac944b38e1a90976e20628697835335cc82a444b5ab6e8f9b4",
+  "patchBytes": 1158406,
+  "apk": "Copilot-tw-9.3.1-wide.45-amap-link.apk",
+  "apkSha256": "38e9a898b1543eea4d09a8d3188667f8e49a712482dc278f838d35913074c598",
+  "apkBytes": 67804200
+}

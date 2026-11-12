@@ -1,0 +1,30 @@
+{
+  "assertions": 46,
+  "passed": true,
+  "sourceSha256": {
+    "variants/wide46/src/WideEnforcementRuntime.java": "f358c4dd37b0a9522ec472c3c6f1d06f76e8a2b68826313aa4242c20c99d1c9b",
+    "variants/wide46/src/WideEnforcementVoice.java": "77c45de47560e9caae14d28490fad8a774aebeb2c39c2f2e18fde5fc4381e8c3",
+    "variants/wide46/src/WideEnforcementLabels.java": "d36014825788b8aacb2bd28816a92856c25dc53cdce1a749378fa8a2421fc6a4",
+    "variants/enforcement-alert/src/WideEnforcementEngine.java": "04f04451abaa247c5f8345f492c5d8b8d67117ec958407ef64ec8500886ac2bc",
+    "variants/wide37/compat/WideCameraEngine.java": "51b27a22f26fd6da5d43eafe92e2dd197a544cd7fecb1079daf4443d224f8b12",
+    "variants/hcop-tw/work/src/WideHcopRoad.java": "db390020bf0b1d3218612983422560ed8646d82ae0c8cfc927e2e0376b9ba979",
+    "variants/hcop-tw/work/src/WideRoad.java": "79d1407a1718918214fb06ec2c9fba7fa0030c94335c0d1a8ab8b884c218e5cc",
+    "variants/wide46/tests/lifecycle/BoundaryStubs.java": "3ffbe81af1a349c3813493d62883779c919ae7aff8fe8326d7396d78efbe8b4b",
+    "variants/wide46/tests/lifecycle/RuntimeVoiceChecks.java": "a563198d1e71adcc2f9ca7d616d5f1db9eeb4ef21ef5af4411532e6719c2d2a2",
+    "variants/wide46/tests/lifecycle/android/content/Context.java": "ea94c2bcdc99bebd08ba6bfbf7d7fa999bdcd88a8851e32db1298b4574898602",
+    "variants/wide46/tests/lifecycle/android/content/SharedPreferences.java": "addd57cb1ad1344bed3f378051b5925c292d91bb5188af2b34aab0d9cdf76514",
+    "variants/wide46/tests/lifecycle/android/content/res/AssetManager.java": "4e31bfd1ac766e78b084e7de5ce6e9cc5497d056116f04dddb076196fd3a4835",
+    "variants/wide46/tests/lifecycle/android/media/AudioAttributes.java": "539ad0836ff29a8d7900e5a144b27770209e846b0008d2e2214befd302e8f4cb",
+    "variants/wide46/tests/lifecycle/android/media/AudioFocusRequest.java": "3ce59d880f483485646675efc9521c2bc2b3c6330505fe7e9b1c7b929c30264e",
+    "variants/wide46/tests/lifecycle/android/media/AudioManager.java": "e761a0a874a89aa9eadd5531304caec721bf5a24e17b426aef3902cdf952669f",
+    "variants/wide46/tests/lifecycle/android/os/Bundle.java": "42efad12c25e6fe84ecc88a329342d1ac0180bb71eb0358aa18f665e7cda3ff5",
+    "variants/wide46/tests/lifecycle/android/os/Handler.java": "1e0f41b11e9fc7d59785dc69b97a71dd6aac336a56f319809ce1da46c242ffc4",
+    "variants/wide46/tests/lifecycle/android/os/Looper.java": "ca32173f2760c27eb9c0b505f36c77567c26dabf86d28be8aac75fe6599d3257",
+    "variants/wide46/tests/lifecycle/android/os/SystemClock.java": "f6a2f24af2f2d4ffcff26514fa564ad1ff5f4c1cd421a0202f31cab5d6a5a594",
+    "variants/wide46/tests/lifecycle/android/speech/tts/TextToSpeech.java": "7646b3ca05ad5efa607d73640790e1ab812aaa7130da6d4d14c1f50045ec0589",
+    "variants/wide46/tests/lifecycle/android/speech/tts/UtteranceProgressListener.java": "ac3f7265ed83dc55bb88c383c5ae999b5e94e24eb5e10d6cf30c8e9957d16ed5",
+    "variants/wide46/tests/lifecycle/android/speech/tts/Voice.java": "23dd73d3d242c2fa2a4ed8c9f01ac89e0752f86d7fb8155f784c4aba1db50d2f"
+  },
+  "method": "Production Engine/Runtime/Voice; deterministic host clock, Handler, TTS and audio-focus boundaries",
+  "limitations": "No Android service scheduling, real audio output, voice engine or device/vehicle verification"
+}

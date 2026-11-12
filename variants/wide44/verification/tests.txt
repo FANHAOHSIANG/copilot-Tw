@@ -1,0 +1,6 @@
+PASS 32 Google adapter checks
+PASS 30 checks: missing direction/speed, stationary drift, stale/mock, grade/voice routing, overlapping layers, opposing/passed cameras, controller unchanged
+PASS 18 recovery checks
+PASS 15 tolerance checks
+PASS 14 forward-road checks
+PASS 8 key lifecycle checks (synthetic keys; no Google calls)

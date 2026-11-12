@@ -1,0 +1,124 @@
+name: Build Google companion unsigned
+
+on:
+  push:
+    branches:
+      - release/google-navigation-011-build
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unsigned:
+    name: Google Navigation 0.1.1 unsigned
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    defaults:
+      run:
+        shell: bash
+        working-directory: variants/google-navdash
+    steps:
+      - name: Check out this exact source revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@77dd5b2ce225ea11469928ac317850245a74ae78 # v6.2.0
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: gradle
+          cache-dependency-path: |
+            variants/google-navdash/**/*.gradle.kts
+            variants/google-navdash/gradle/wrapper/gradle-wrapper.properties
+
+      - name: Install the app's pinned Android SDK packages
+        run: |
+          google_sdkmanager="${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager"
+          if [[ ! -x "${google_sdkmanager}" ]]; then
+            google_sdkmanager="$(command -v sdkmanager)"
+          fi
+          # The producer (yes) can exit with SIGPIPE after sdkmanager finishes.
+          # Preserve sdkmanager's result without turning that expected SIGPIPE into a failure.
+          set +o pipefail
+          yes | "${google_sdkmanager}" --sdk_root="${ANDROID_HOME}" --licenses > /dev/null
+          google_licenses_status=${PIPESTATUS[1]}
+          set -o pipefail
+          test "${google_licenses_status}" -eq 0
+          "${google_sdkmanager}" --sdk_root="${ANDROID_HOME}" \
+            "platforms;android-36" "build-tools;36.0.0" "platform-tools"
+
+      - name: Restore the hash-pinned upstream background
+        run: python3 prepare_resources.py
+
+      - name: Run unit tests and assemble the unsigned release
+        id: build
+        run: bash ./gradlew --no-daemon --console=plain :app:testDebugUnitTest :app:assembleRelease
+
+      - name: Collect immutable build input and test reports
+        if: always()
+        working-directory: ${{ github.workspace }}
+        env:
+          GOOGLE_BUILD_OUTCOME: ${{ steps.build.outcome }}
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import os
+          from pathlib import Path
+          import shutil
+
+          project = Path("variants/google-navdash")
+          output = Path(os.environ["RUNNER_TEMP"]) / "google-companion"
+          output.mkdir(parents=True, exist_ok=True)
+          metadata = {
+              "repository": os.environ["GITHUB_REPOSITORY"],
+              "sourceCommit": os.environ["GITHUB_SHA"],
+              "runId": os.environ["GITHUB_RUN_ID"],
+              "runAttempt": os.environ["GITHUB_RUN_ATTEMPT"],
+              "buildOutcome": os.environ.get("GOOGLE_BUILD_OUTCOME", ""),
+              "package": "com.copilottw.googlenav",
+              "versionName": "0.1.1-copilot",
+              "versionCode": 2,
+              "java": 21,
+              "gradle": "8.13",
+              "androidPlatform": 36,
+              "androidBuildTools": "36.0.0",
+              "command": "bash ./gradlew --no-daemon --console=plain :app:testDebugUnitTest :app:assembleRelease",
+              "signingPerformed": False,
+              "deviceTest": False,
+          }
+          apk = project / "app/build/outputs/apk/release/app-release-unsigned.apk"
+          if metadata["buildOutcome"] == "success":
+              if not apk.is_file():
+                  raise SystemExit("Successful release build did not produce the expected unsigned APK")
+              destination = output / "app-release-unsigned.apk"
+              shutil.copyfile(apk, destination)
+              digest = hashlib.sha256(destination.read_bytes()).hexdigest()
+              metadata.update(apk=destination.name, apkSha256=digest, apkBytes=destination.stat().st_size)
+              (output / "SHA256SUMS").write_text(digest + "  " + destination.name + "\n")
+              print("Unsigned APK SHA-256: " + digest)
+          for source, name in [
+              (project / "app/build/test-results/testDebugUnitTest", "junit-results"),
+              (project / "app/build/reports/tests/testDebugUnitTest", "unit-test-report"),
+          ]:
+              if source.is_dir():
+                  shutil.copytree(source, output / name, dirs_exist_ok=True)
+          reports = project / "app/build/reports"
+          for report in reports.glob("lint-results*"):
+              if report.is_file():
+                  shutil.copyfile(report, output / report.name)
+          (output / "build-info.json").write_text(json.dumps(metadata, indent=2) + "\n")
+          PY
+
+      - name: Save this run's unsigned artifact for controlled signing
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: google-companion-unsigned-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/google-companion/
+          retention-days: 90
+          compression-level: 0
+          if-no-files-found: error

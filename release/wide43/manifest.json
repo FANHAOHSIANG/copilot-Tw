@@ -1,0 +1,8 @@
+{
+  "base_name": "Copilot-tw-9.3.1-wide.42-tolerant-alert.apk",
+  "base_sha256": "daf4735e33fe7ce30f4a8d88bd631f5ccaf90a7f1e6bbed5619676c5f3d7f2e7",
+  "apk_name": "Copilot-tw-9.3.1-wide.43-offline-forward.apk",
+  "apk_sha256": "0b86165f9b16236d1c744ab218c3ec26e36435774223c0cf14f448757d5fbcfc",
+  "patch_sha256": "03e5ac187ef34be20ea1ea2b08d015a9f2a8d941207f856c627d29e2546df602",
+  "versionCode": 26110755
+}

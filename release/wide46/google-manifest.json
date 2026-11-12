@@ -1,0 +1,20 @@
+{
+  "version": "0.1.1-copilot",
+  "versionCode": 2,
+  "package": "com.copilottw.googlenav",
+  "baseUrl": "https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.46/CP-Google-Navigation-0.1.1-unsigned-build-input.bin",
+  "baseSha256": "b9949fa56351037e5e575e7ca49e85583f7f1507888a271a4b5f6f19b3f321f1",
+  "baseBytes": 60538674,
+  "ciRunId": 43161727996,
+  "ciArtifactId": 13918975150,
+  "ciArtifactName": "google-companion-unsigned-43161727996-1",
+  "ciSourceCommit": "271dae1530743ad494be89b09d1e7db39d679204",
+  "ciArtifactZipSha256": "1f49ce5b2af8e06209302749d293772db779114e70d9ec764bd7bf3c586f8b6f",
+  "patch": "google-signature.patch",
+  "patchSha256": "7fdfb23e7936403afc2be5793990a7156d3b4762a0e1313dc1429ed4e516856d",
+  "patchBytes": 240401,
+  "apk": "CP-Google-Navigation-0.1.1.apk",
+  "apkSha256": "9baa3cccd387a4632650c42c3006e55dbd64a352bba72b4ee2072a8b19c57ff1",
+  "apkBytes": 60773153,
+  "signingPrivateKeyIncluded": false
+}

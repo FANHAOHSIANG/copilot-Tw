@@ -1,0 +1,13 @@
+{
+  "changedClasses": [
+    "com/navipilot/obf/Yg.smali",
+    "com/navipilot/obf/WideHcop.smali",
+    "com/navipilot/obf/WideCameraTrace.smali"
+  ],
+  "addedClasses": [
+    "com/navipilot/obf/WideForwardRoads.smali",
+    "com/navipilot/obf/WideForwardRoads$Step.smali",
+    "com/navipilot/obf/WideForwardRoads$1.smali"
+  ],
+  "unchangedAssetCount": 5943
+}

@@ -1,0 +1,11 @@
+{
+  "sourceId": "taoyuan",
+  "url": "https://opendata.tycg.gov.tw/api/dataset/46bd8de0-cb90-4149-a530-5f5b1751b450/resource/636bb62e-cc5b-4ad4-ac11-5849ad5c432d/download",
+  "attemptedAt": "2026-11-11T20:53:51.156971+00:00",
+  "contentType": "text/csv;charset=UTF-8",
+  "resolvedUrl": "https://opendata.tycg.gov.tw/api/dataset/46bd8de0-cb90-4149-a530-5f5b1751b450/resource/636bb62e-cc5b-4ad4-ac11-5849ad5c432d/download",
+  "status": "downloaded",
+  "bytes": 20005,
+  "sha256": "074faf345571e79504cd47aac26490fccda102f91ee26858b7986a3bf26725af",
+  "retrievedAt": "2026-11-11T20:53:51.156971+00:00"
+}

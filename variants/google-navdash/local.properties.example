@@ -1,0 +1,3 @@
+# 複製成 local.properties 再填入（local.properties 不要提交）
+sdk.dir=/path/to/Android/Sdk
+# API Key 不寫入建置檔；安裝後在「設定／更換 Google 金鑰」輸入。

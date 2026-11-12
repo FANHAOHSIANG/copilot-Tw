@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-11-12",
+  "repositories": [
+    {
+      "repository": "FANHAOHSIANG/openpilot-carrot",
+      "branch": "test/carrot-wip-upstream-20261104",
+      "commit": "98331d2321fa063174a82cb7d17d2c5c8a35a004"
+    },
+    {
+      "repository": "ajouatom/openpilot",
+      "branch": "carrot-wip",
+      "commit": "ffa5723eda259de6c3ef3962f687c5c8579c23ee"
+    }
+  ],
+  "files": {
+    "user_navi": {
+      "url": "https://github.com/FANHAOHSIANG/openpilot-carrot/blob/98331d2321fa063174a82cb7d17d2c5c8a35a004/openpilot/selfdrive/carrot/carrot_navi.py",
+      "gitBlobSha": "c4b907dc486470396138cc35fc44adab208ef3a7"
+    },
+    "user_cereal": {
+      "url": "https://github.com/FANHAOHSIANG/openpilot-carrot/blob/98331d2321fa063174a82cb7d17d2c5c8a35a004/openpilot/selfdrive/carrot/carrot_navi_cereal.py",
+      "gitBlobSha": "84871fa7b784a22fb955ae46a47ce1b0f668926a"
+    },
+    "user_control": {
+      "url": "https://github.com/FANHAOHSIANG/openpilot-carrot/blob/98331d2321fa063174a82cb7d17d2c5c8a35a004/openpilot/selfdrive/carrot/carrot_navi_control.py",
+      "gitBlobSha": "278c94fc025003d58565e04c8249dd406fff0c7f"
+    },
+    "user_serv": {
+      "url": "https://github.com/FANHAOHSIANG/openpilot-carrot/blob/98331d2321fa063174a82cb7d17d2c5c8a35a004/openpilot/selfdrive/carrot/carrot_serv.py",
+      "gitBlobSha": "7c86af70a8da397a71cdd8941e883db492d93ec9"
+    },
+    "up_serv": {
+      "url": "https://github.com/ajouatom/openpilot/blob/ffa5723eda259de6c3ef3962f687c5c8579c23ee/openpilot/selfdrive/carrot/carrot_serv.py",
+      "gitBlobSha": "ea23e127c2dd84dc0b193da901eb0bbd7ceb3a36"
+    }
+  },
+  "identicalAcrossPinnedRepositories": [
+    "carrot_navi.py",
+    "carrot_navi_cereal.py",
+    "carrot_navi_control.py"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "badging": [
+    "package: name='com.jixiexiaoge.drivingassist.wide' versionCode='26110757' versionName='9.3.1-wide.45-amap-link' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'",
+    "targetSdkVersion:'35'",
+    "application-label:'Copilot tw'"
+  ],
+  "matchesPublicWide42Certificate": true,
+  "certificateSha256": [
+    "eb0f6a44174aecf09cedc237be2ca0305ea491d47b381407d31e903acbd34b46"
+  ]
+}

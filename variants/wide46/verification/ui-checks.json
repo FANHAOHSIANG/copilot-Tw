@@ -1,0 +1,2250 @@
+{
+  "checks": 316,
+  "cases": [
+    {
+      "outside": [],
+      "width": 360,
+      "overlaps": [],
+      "id": "camera-wide",
+      "text": [
+        {
+          "max_width": 154.8,
+          "size": 13,
+          "display": "即時車況",
+          "center": false,
+          "x": 22,
+          "raw": "即時車況",
+          "baseline": 30,
+          "glyph_bounds": [
+            22.578125,
+            18.953125,
+            51.10942077636719,
+            12.234375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 144,
+          "size": 11,
+          "display": "C4 車速",
+          "center": true,
+          "x": 273.6,
+          "raw": "C4 車速",
+          "baseline": 30,
+          "glyph_bounds": [
+            255.0924072265625,
+            20.65625,
+            37.421539306640625,
+            10.359375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 172.8,
+          "size": 68,
+          "display": "108",
+          "center": false,
+          "x": 24,
+          "raw": "108",
+          "baseline": 149.6,
+          "glyph_bounds": [
+            29.578125,
+            98.33438110351562,
+            111.64633178710938,
+            52.21875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 108.00001,
+          "size": 11,
+          "display": "km/h",
+          "center": false,
+          "x": 24,
+          "raw": "km/h",
+          "baseline": 165.6,
+          "glyph_bounds": [
+            24.875,
+            156.74063110351562,
+            26.879852294921875,
+            10.84375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 47.85,
+          "size": 29,
+          "display": "60",
+          "center": true,
+          "x": 284.4,
+          "raw": "60",
+          "baseline": 109.371994,
+          "glyph_bounds": [
+            268.74310302734375,
+            87.51261901855469,
+            31.485031127929688,
+            22.265625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 11,
+          "display": "橫向 已接管 · 縱向 未接管",
+          "center": false,
+          "x": 22,
+          "raw": "橫向 已接管 · 縱向 未接管",
+          "baseline": 180.6,
+          "glyph_bounds": [
+            22.15625,
+            171.14688110351562,
+            130.40902709960938,
+            10.5
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 14,
+          "display": "前方固定測速",
+          "center": false,
+          "x": 22,
+          "raw": "前方固定測速",
+          "baseline": 225.6,
+          "glyph_bounds": [
+            22.5625,
+            213.52188110351562,
+            83.20281982421875,
+            13.390625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 48,
+          "display": "480 m",
+          "center": false,
+          "x": 22,
+          "raw": "480 m",
+          "baseline": 286.6,
+          "glyph_bounds": [
+            23.015625,
+            251.31875610351562,
+            137.55931091308594,
+            35.953125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 11,
+          "display": "測速限速 60 km/h",
+          "center": false,
+          "x": 22,
+          "raw": "測速限速 60 km/h",
+          "baseline": 361,
+          "glyph_bounds": [
+            22.3125,
+            351.65625,
+            89.4158935546875,
+            11.328125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 10,
+          "display": "沿道路距離 · 示意大道",
+          "center": false,
+          "x": 22,
+          "raw": "沿道路距離 · 示意大道",
+          "baseline": 377,
+          "glyph_bounds": [
+            22.25,
+            368.375,
+            104.11799621582031,
+            9.53125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 320,
+          "size": 11,
+          "display": "科技執法 · 650 m 沿路",
+          "center": false,
+          "x": 20,
+          "raw": "科技執法 · 650 m 沿路",
+          "baseline": 404,
+          "glyph_bounds": [
+            20.21875,
+            394.65625,
+            116.68621826171875,
+            10.34375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 320,
+          "size": 10,
+          "display": "闖紅燈／停讓行人 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "center": false,
+          "x": 20,
+          "raw": "闖紅燈／停讓行人 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "baseline": 421,
+          "glyph_bounds": [
+            20.78125,
+            412.34375,
+            307.13336181640625,
+            9.6875
+          ],
+          "ellipsized": false
+        }
+      ],
+      "ellipsized": [],
+      "height": 440
+    },
+    {
+      "outside": [],
+      "width": 360,
+      "overlaps": [],
+      "id": "enforcement-wide",
+      "text": [
+        {
+          "max_width": 154.8,
+          "size": 13,
+          "display": "即時車況",
+          "center": false,
+          "x": 22,
+          "raw": "即時車況",
+          "baseline": 30,
+          "glyph_bounds": [
+            22.578125,
+            18.953125,
+            51.10942077636719,
+            12.234375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 144,
+          "size": 11,
+          "display": "C4 車速",
+          "center": true,
+          "x": 273.6,
+          "raw": "C4 車速",
+          "baseline": 30,
+          "glyph_bounds": [
+            255.0924072265625,
+            20.65625,
+            37.421539306640625,
+            10.359375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 172.8,
+          "size": 68,
+          "display": "108",
+          "center": false,
+          "x": 24,
+          "raw": "108",
+          "baseline": 149.6,
+          "glyph_bounds": [
+            29.578125,
+            98.33438110351562,
+            111.64633178710938,
+            52.21875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 108.00001,
+          "size": 11,
+          "display": "km/h",
+          "center": false,
+          "x": 24,
+          "raw": "km/h",
+          "baseline": 165.6,
+          "glyph_bounds": [
+            24.875,
+            156.74063110351562,
+            26.879852294921875,
+            10.84375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 11,
+          "display": "橫向 已接管 · 縱向 未接管",
+          "center": false,
+          "x": 22,
+          "raw": "橫向 已接管 · 縱向 未接管",
+          "baseline": 180.6,
+          "glyph_bounds": [
+            22.15625,
+            171.14688110351562,
+            130.40902709960938,
+            10.5
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 14,
+          "display": "前方科技執法",
+          "center": false,
+          "x": 22,
+          "raw": "前方科技執法",
+          "baseline": 225.6,
+          "glyph_bounds": [
+            22.5625,
+            213.52188110351562,
+            82.90594482421875,
+            13.390625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 48,
+          "display": "650 m",
+          "center": false,
+          "x": 22,
+          "raw": "650 m",
+          "baseline": 286.6,
+          "glyph_bounds": [
+            24.359375,
+            251.31875610351562,
+            136.21556091308594,
+            35.953125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 11,
+          "display": "闖紅燈／停讓行人",
+          "center": false,
+          "x": 22,
+          "raw": "闖紅燈／停讓行人",
+          "baseline": 404,
+          "glyph_bounds": [
+            22.859375,
+            394.46875,
+            86.90571594238281,
+            10.546875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 10,
+          "display": "沿路距離 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "center": false,
+          "x": 22,
+          "raw": "沿路距離 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "baseline": 420,
+          "glyph_bounds": [
+            22.25,
+            411.375,
+            267.66461181640625,
+            9.65625
+          ],
+          "ellipsized": false
+        }
+      ],
+      "ellipsized": [],
+      "height": 440
+    },
+    {
+      "outside": [],
+      "width": 360,
+      "overlaps": [],
+      "id": "google-wide",
+      "text": [
+        {
+          "max_width": 154.8,
+          "size": 13,
+          "display": "即時車況",
+          "center": false,
+          "x": 22,
+          "raw": "即時車況",
+          "baseline": 30,
+          "glyph_bounds": [
+            22.578125,
+            18.953125,
+            51.10942077636719,
+            12.234375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 144,
+          "size": 11,
+          "display": "C4 車速",
+          "center": true,
+          "x": 273.6,
+          "raw": "C4 車速",
+          "baseline": 30,
+          "glyph_bounds": [
+            255.0924072265625,
+            20.65625,
+            37.421539306640625,
+            10.359375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 172.8,
+          "size": 68,
+          "display": "108",
+          "center": false,
+          "x": 24,
+          "raw": "108",
+          "baseline": 149.6,
+          "glyph_bounds": [
+            29.578125,
+            98.33438110351562,
+            111.64633178710938,
+            52.21875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 108.00001,
+          "size": 11,
+          "display": "km/h",
+          "center": false,
+          "x": 24,
+          "raw": "km/h",
+          "baseline": 165.6,
+          "glyph_bounds": [
+            24.875,
+            156.74063110351562,
+            26.879852294921875,
+            10.84375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 11,
+          "display": "橫向 已接管 · 縱向 未接管",
+          "center": false,
+          "x": 22,
+          "raw": "橫向 已接管 · 縱向 未接管",
+          "baseline": 180.6,
+          "glyph_bounds": [
+            22.15625,
+            171.14688110351562,
+            130.40902709960938,
+            10.5
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 14,
+          "display": "右轉，進入科技路",
+          "center": false,
+          "x": 22,
+          "raw": "右轉，進入科技路",
+          "baseline": 225.6,
+          "glyph_bounds": [
+            22.3125,
+            213.69375610351562,
+            111.48394775390625,
+            13.203125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 48,
+          "display": "180 m",
+          "center": false,
+          "x": 22,
+          "raw": "180 m",
+          "baseline": 286.6,
+          "glyph_bounds": [
+            25.9375,
+            251.31875610351562,
+            134.63743591308594,
+            35.953125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 11,
+          "display": "科技路一段（示意目的地，不代表真實導航）",
+          "center": false,
+          "x": 22,
+          "raw": "科技路一段（示意目的地，不代表真實導航）",
+          "baseline": 361,
+          "glyph_bounds": [
+            22.21875,
+            351.515625,
+            212.48292541503906,
+            10.578125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 10,
+          "display": "Google 導航資料",
+          "center": false,
+          "x": 22,
+          "raw": "Google 導航資料",
+          "baseline": 377,
+          "glyph_bounds": [
+            22.546875,
+            368.4375,
+            76.12431335449219,
+            11
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 320,
+          "size": 11,
+          "display": "科技執法 · 650 m 沿路",
+          "center": false,
+          "x": 20,
+          "raw": "科技執法 · 650 m 沿路",
+          "baseline": 404,
+          "glyph_bounds": [
+            20.21875,
+            394.65625,
+            116.68621826171875,
+            10.34375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 320,
+          "size": 10,
+          "display": "闖紅燈／停讓行人 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "center": false,
+          "x": 20,
+          "raw": "闖紅燈／停讓行人 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "baseline": 421,
+          "glyph_bounds": [
+            20.78125,
+            412.34375,
+            307.13336181640625,
+            9.6875
+          ],
+          "ellipsized": false
+        }
+      ],
+      "ellipsized": [],
+      "height": 440
+    },
+    {
+      "outside": [],
+      "width": 360,
+      "overlaps": [],
+      "id": "unknown-wide",
+      "text": [
+        {
+          "max_width": 154.8,
+          "size": 13,
+          "display": "即時車況",
+          "center": false,
+          "x": 22,
+          "raw": "即時車況",
+          "baseline": 30,
+          "glyph_bounds": [
+            22.578125,
+            18.953125,
+            51.10942077636719,
+            12.234375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 144,
+          "size": 11,
+          "display": "C4 車速",
+          "center": true,
+          "x": 273.6,
+          "raw": "C4 車速",
+          "baseline": 30,
+          "glyph_bounds": [
+            255.0924072265625,
+            20.65625,
+            37.421539306640625,
+            10.359375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 172.8,
+          "size": 68,
+          "display": "108",
+          "center": false,
+          "x": 24,
+          "raw": "108",
+          "baseline": 149.6,
+          "glyph_bounds": [
+            29.578125,
+            98.33438110351562,
+            111.64633178710938,
+            52.21875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 108.00001,
+          "size": 11,
+          "display": "km/h",
+          "center": false,
+          "x": 24,
+          "raw": "km/h",
+          "baseline": 165.6,
+          "glyph_bounds": [
+            24.875,
+            156.74063110351562,
+            26.879852294921875,
+            10.84375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 11,
+          "display": "橫向 已接管 · 縱向 未接管",
+          "center": false,
+          "x": 22,
+          "raw": "橫向 已接管 · 縱向 未接管",
+          "baseline": 180.6,
+          "glyph_bounds": [
+            22.15625,
+            171.14688110351562,
+            130.40902709960938,
+            10.5
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 14,
+          "display": "同路前方 · 方向待確認",
+          "center": false,
+          "x": 22,
+          "raw": "同路前方 · 方向待確認",
+          "baseline": 225.6,
+          "glyph_bounds": [
+            23.046875,
+            213.52188110351562,
+            144.96481323242188,
+            13.390625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 48,
+          "display": "650 m",
+          "center": false,
+          "x": 22,
+          "raw": "650 m",
+          "baseline": 286.6,
+          "glyph_bounds": [
+            24.359375,
+            251.31875610351562,
+            136.21556091308594,
+            35.953125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 11,
+          "display": "闖紅燈／停讓行人／標誌標線號誌",
+          "center": false,
+          "x": 22,
+          "raw": "闖紅燈／停讓行人／標誌標線號誌",
+          "baseline": 404,
+          "glyph_bounds": [
+            22.859375,
+            394.46875,
+            163.93643188476562,
+            10.546875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 316,
+          "size": 10,
+          "display": "沿路距離 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "center": false,
+          "x": 22,
+          "raw": "沿路距離 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "baseline": 420,
+          "glyph_bounds": [
+            22.25,
+            411.375,
+            267.66461181640625,
+            9.65625
+          ],
+          "ellipsized": false
+        }
+      ],
+      "ellipsized": [],
+      "height": 440
+    },
+    {
+      "outside": [],
+      "width": 240,
+      "overlaps": [],
+      "id": "camera-phone",
+      "text": [
+        {
+          "max_width": 103.200005,
+          "size": 13,
+          "display": "即時車況",
+          "center": false,
+          "x": 22,
+          "raw": "即時車況",
+          "baseline": 30,
+          "glyph_bounds": [
+            22.578125,
+            18.953125,
+            51.10942077636719,
+            12.234375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 96,
+          "size": 11,
+          "display": "C4 車速",
+          "center": true,
+          "x": 182.4,
+          "raw": "C4 車速",
+          "baseline": 30,
+          "glyph_bounds": [
+            163.89239501953125,
+            20.65625,
+            37.421539306640625,
+            10.359375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 115.2,
+          "size": 65.08468,
+          "display": "108",
+          "center": false,
+          "x": 24,
+          "raw": "108",
+          "baseline": 96.8,
+          "glyph_bounds": [
+            29.34375,
+            47.73750305175781,
+            106.85455322265625,
+            49.96875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 72,
+          "size": 11,
+          "display": "km/h",
+          "center": false,
+          "x": 24,
+          "raw": "km/h",
+          "baseline": 112.8,
+          "glyph_bounds": [
+            24.875,
+            103.94062805175781,
+            26.879852294921875,
+            10.84375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 47.85,
+          "size": 29,
+          "display": "60",
+          "center": true,
+          "x": 189.6,
+          "raw": "60",
+          "baseline": 81.916,
+          "glyph_bounds": [
+            173.94309997558594,
+            60.05662536621094,
+            31.485031127929688,
+            22.265625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "橫向 已接管 · 縱向 未接管",
+          "center": false,
+          "x": 22,
+          "raw": "橫向 已接管 · 縱向 未接管",
+          "baseline": 127.8,
+          "glyph_bounds": [
+            22.15625,
+            118.34687805175781,
+            130.40902709960938,
+            10.5
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 14,
+          "display": "前方固定測速",
+          "center": false,
+          "x": 22,
+          "raw": "前方固定測速",
+          "baseline": 172.8,
+          "glyph_bounds": [
+            22.5625,
+            160.7218780517578,
+            83.20281982421875,
+            13.390625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 36.332,
+          "display": "480 m",
+          "center": false,
+          "x": 22,
+          "raw": "480 m",
+          "baseline": 216.604,
+          "glyph_bounds": [
+            22.765625,
+            189.90087890625,
+            104.10966491699219,
+            27.21875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "測速限速 60 km/h",
+          "center": false,
+          "x": 22,
+          "raw": "測速限速 60 km/h",
+          "baseline": 241,
+          "glyph_bounds": [
+            22.3125,
+            231.65625,
+            89.4158935546875,
+            11.328125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 10,
+          "display": "沿道路距離 · 示意大道",
+          "center": false,
+          "x": 22,
+          "raw": "沿道路距離 · 示意大道",
+          "baseline": 257,
+          "glyph_bounds": [
+            22.25,
+            248.375,
+            104.11799621582031,
+            9.53125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 200,
+          "size": 11,
+          "display": "科技執法 · 650 m 沿路",
+          "center": false,
+          "x": 20,
+          "raw": "科技執法 · 650 m 沿路",
+          "baseline": 284,
+          "glyph_bounds": [
+            20.21875,
+            274.65625,
+            116.68621826171875,
+            10.34375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 200,
+          "size": 10,
+          "display": "闖紅燈／停讓行人 · 示意大道與科技路口…",
+          "center": false,
+          "x": 20,
+          "raw": "闖紅燈／停讓行人 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "baseline": 301,
+          "glyph_bounds": [
+            20.78125,
+            292.34375,
+            192.89910888671875,
+            9.578125
+          ],
+          "ellipsized": true
+        }
+      ],
+      "ellipsized": [
+        "闖紅燈／停讓行人 · 示意大道與科技路口（示意資料，非實際執法點）"
+      ],
+      "height": 320
+    },
+    {
+      "outside": [],
+      "width": 240,
+      "overlaps": [],
+      "id": "enforcement-phone",
+      "text": [
+        {
+          "max_width": 103.200005,
+          "size": 13,
+          "display": "即時車況",
+          "center": false,
+          "x": 22,
+          "raw": "即時車況",
+          "baseline": 30,
+          "glyph_bounds": [
+            22.578125,
+            18.953125,
+            51.10942077636719,
+            12.234375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 96,
+          "size": 11,
+          "display": "C4 車速",
+          "center": true,
+          "x": 182.4,
+          "raw": "C4 車速",
+          "baseline": 30,
+          "glyph_bounds": [
+            163.89239501953125,
+            20.65625,
+            37.421539306640625,
+            10.359375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 115.2,
+          "size": 65.08468,
+          "display": "108",
+          "center": false,
+          "x": 24,
+          "raw": "108",
+          "baseline": 96.8,
+          "glyph_bounds": [
+            29.34375,
+            47.73750305175781,
+            106.85455322265625,
+            49.96875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 72,
+          "size": 11,
+          "display": "km/h",
+          "center": false,
+          "x": 24,
+          "raw": "km/h",
+          "baseline": 112.8,
+          "glyph_bounds": [
+            24.875,
+            103.94062805175781,
+            26.879852294921875,
+            10.84375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "橫向 已接管 · 縱向 未接管",
+          "center": false,
+          "x": 22,
+          "raw": "橫向 已接管 · 縱向 未接管",
+          "baseline": 127.8,
+          "glyph_bounds": [
+            22.15625,
+            118.34687805175781,
+            130.40902709960938,
+            10.5
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 14,
+          "display": "前方科技執法",
+          "center": false,
+          "x": 22,
+          "raw": "前方科技執法",
+          "baseline": 172.8,
+          "glyph_bounds": [
+            22.5625,
+            160.7218780517578,
+            82.90594482421875,
+            13.390625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 48,
+          "display": "650 m",
+          "center": false,
+          "x": 22,
+          "raw": "650 m",
+          "baseline": 233.8,
+          "glyph_bounds": [
+            24.359375,
+            198.5187530517578,
+            136.21556091308594,
+            35.953125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "闖紅燈／停讓行人",
+          "center": false,
+          "x": 22,
+          "raw": "闖紅燈／停讓行人",
+          "baseline": 284,
+          "glyph_bounds": [
+            22.859375,
+            274.46875,
+            86.90571594238281,
+            10.546875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 10,
+          "display": "沿路距離 · 示意大道與科技路口（示意資…",
+          "center": false,
+          "x": 22,
+          "raw": "沿路距離 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "baseline": 300,
+          "glyph_bounds": [
+            22.25,
+            291.375,
+            193.43035888671875,
+            9.625
+          ],
+          "ellipsized": true
+        }
+      ],
+      "ellipsized": [
+        "沿路距離 · 示意大道與科技路口（示意資料，非實際執法點）"
+      ],
+      "height": 320
+    },
+    {
+      "outside": [],
+      "width": 240,
+      "overlaps": [],
+      "id": "google-phone",
+      "text": [
+        {
+          "max_width": 103.200005,
+          "size": 13,
+          "display": "即時車況",
+          "center": false,
+          "x": 22,
+          "raw": "即時車況",
+          "baseline": 30,
+          "glyph_bounds": [
+            22.578125,
+            18.953125,
+            51.10942077636719,
+            12.234375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 96,
+          "size": 11,
+          "display": "C4 車速",
+          "center": true,
+          "x": 182.4,
+          "raw": "C4 車速",
+          "baseline": 30,
+          "glyph_bounds": [
+            163.89239501953125,
+            20.65625,
+            37.421539306640625,
+            10.359375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 115.2,
+          "size": 65.08468,
+          "display": "108",
+          "center": false,
+          "x": 24,
+          "raw": "108",
+          "baseline": 96.8,
+          "glyph_bounds": [
+            29.34375,
+            47.73750305175781,
+            106.85455322265625,
+            49.96875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 72,
+          "size": 11,
+          "display": "km/h",
+          "center": false,
+          "x": 24,
+          "raw": "km/h",
+          "baseline": 112.8,
+          "glyph_bounds": [
+            24.875,
+            103.94062805175781,
+            26.879852294921875,
+            10.84375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "橫向 已接管 · 縱向 未接管",
+          "center": false,
+          "x": 22,
+          "raw": "橫向 已接管 · 縱向 未接管",
+          "baseline": 127.8,
+          "glyph_bounds": [
+            22.15625,
+            118.34687805175781,
+            130.40902709960938,
+            10.5
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 14,
+          "display": "右轉，進入科技路",
+          "center": false,
+          "x": 22,
+          "raw": "右轉，進入科技路",
+          "baseline": 172.8,
+          "glyph_bounds": [
+            22.3125,
+            160.8937530517578,
+            111.48394775390625,
+            13.203125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 36.332,
+          "display": "180 m",
+          "center": false,
+          "x": 22,
+          "raw": "180 m",
+          "baseline": 216.604,
+          "glyph_bounds": [
+            24.984375,
+            189.90087890625,
+            101.89091491699219,
+            27.21875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "科技路一段（示意目的地，不代表真…",
+          "center": false,
+          "x": 22,
+          "raw": "科技路一段（示意目的地，不代表真實導航）",
+          "baseline": 241,
+          "glyph_bounds": [
+            22.21875,
+            231.515625,
+            185.826904296875,
+            10.578125
+          ],
+          "ellipsized": true
+        },
+        {
+          "max_width": 196,
+          "size": 10,
+          "display": "Google 導航資料",
+          "center": false,
+          "x": 22,
+          "raw": "Google 導航資料",
+          "baseline": 257,
+          "glyph_bounds": [
+            22.546875,
+            248.4375,
+            76.12431335449219,
+            11
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 200,
+          "size": 11,
+          "display": "科技執法 · 650 m 沿路",
+          "center": false,
+          "x": 20,
+          "raw": "科技執法 · 650 m 沿路",
+          "baseline": 284,
+          "glyph_bounds": [
+            20.21875,
+            274.65625,
+            116.68621826171875,
+            10.34375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 200,
+          "size": 10,
+          "display": "闖紅燈／停讓行人 · 示意大道與科技路口…",
+          "center": false,
+          "x": 20,
+          "raw": "闖紅燈／停讓行人 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "baseline": 301,
+          "glyph_bounds": [
+            20.78125,
+            292.34375,
+            192.89910888671875,
+            9.578125
+          ],
+          "ellipsized": true
+        }
+      ],
+      "ellipsized": [
+        "科技路一段（示意目的地，不代表真實導航）",
+        "闖紅燈／停讓行人 · 示意大道與科技路口（示意資料，非實際執法點）"
+      ],
+      "height": 320
+    },
+    {
+      "outside": [],
+      "width": 240,
+      "overlaps": [],
+      "id": "unknown-phone",
+      "text": [
+        {
+          "max_width": 103.200005,
+          "size": 13,
+          "display": "即時車況",
+          "center": false,
+          "x": 22,
+          "raw": "即時車況",
+          "baseline": 30,
+          "glyph_bounds": [
+            22.578125,
+            18.953125,
+            51.10942077636719,
+            12.234375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 96,
+          "size": 11,
+          "display": "C4 車速",
+          "center": true,
+          "x": 182.4,
+          "raw": "C4 車速",
+          "baseline": 30,
+          "glyph_bounds": [
+            163.89239501953125,
+            20.65625,
+            37.421539306640625,
+            10.359375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 115.2,
+          "size": 65.08468,
+          "display": "108",
+          "center": false,
+          "x": 24,
+          "raw": "108",
+          "baseline": 96.8,
+          "glyph_bounds": [
+            29.34375,
+            47.73750305175781,
+            106.85455322265625,
+            49.96875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 72,
+          "size": 11,
+          "display": "km/h",
+          "center": false,
+          "x": 24,
+          "raw": "km/h",
+          "baseline": 112.8,
+          "glyph_bounds": [
+            24.875,
+            103.94062805175781,
+            26.879852294921875,
+            10.84375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "橫向 已接管 · 縱向 未接管",
+          "center": false,
+          "x": 22,
+          "raw": "橫向 已接管 · 縱向 未接管",
+          "baseline": 127.8,
+          "glyph_bounds": [
+            22.15625,
+            118.34687805175781,
+            130.40902709960938,
+            10.5
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 14,
+          "display": "同路前方 · 方向待確認",
+          "center": false,
+          "x": 22,
+          "raw": "同路前方 · 方向待確認",
+          "baseline": 172.8,
+          "glyph_bounds": [
+            23.046875,
+            160.7218780517578,
+            144.96481323242188,
+            13.390625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 48,
+          "display": "650 m",
+          "center": false,
+          "x": 22,
+          "raw": "650 m",
+          "baseline": 233.8,
+          "glyph_bounds": [
+            24.359375,
+            198.5187530517578,
+            136.21556091308594,
+            35.953125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "闖紅燈／停讓行人／標誌標線號誌",
+          "center": false,
+          "x": 22,
+          "raw": "闖紅燈／停讓行人／標誌標線號誌",
+          "baseline": 284,
+          "glyph_bounds": [
+            22.859375,
+            274.46875,
+            163.93643188476562,
+            10.546875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 10,
+          "display": "沿路距離 · 示意大道與科技路口（示意資…",
+          "center": false,
+          "x": 22,
+          "raw": "沿路距離 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "baseline": 300,
+          "glyph_bounds": [
+            22.25,
+            291.375,
+            193.43035888671875,
+            9.625
+          ],
+          "ellipsized": true
+        }
+      ],
+      "ellipsized": [
+        "沿路距離 · 示意大道與科技路口（示意資料，非實際執法點）"
+      ],
+      "height": 320
+    },
+    {
+      "outside": [],
+      "width": 230,
+      "overlaps": [],
+      "id": "minimum-full",
+      "text": [
+        {
+          "max_width": 98.9,
+          "size": 13,
+          "display": "即時車況",
+          "center": false,
+          "x": 22,
+          "raw": "即時車況",
+          "baseline": 30,
+          "glyph_bounds": [
+            22.578125,
+            18.953125,
+            51.10942077636719,
+            12.234375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 92,
+          "size": 11,
+          "display": "C4 車速",
+          "center": true,
+          "x": 174.8,
+          "raw": "C4 車速",
+          "baseline": 30,
+          "glyph_bounds": [
+            156.29238891601562,
+            20.65625,
+            37.421539306640625,
+            10.359375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 110.399994,
+          "size": 61.6,
+          "display": "108",
+          "center": false,
+          "x": 24,
+          "raw": "108",
+          "baseline": 79.2,
+          "glyph_bounds": [
+            29.046875,
+            32.76249694824219,
+            101.1337890625,
+            47.296875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 69,
+          "size": 11,
+          "display": "km/h",
+          "center": false,
+          "x": 24,
+          "raw": "km/h",
+          "baseline": 95.2,
+          "glyph_bounds": [
+            24.875,
+            86.34062194824219,
+            26.879852294921875,
+            10.84375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 47.85,
+          "size": 29,
+          "display": "60",
+          "center": true,
+          "x": 181.70001,
+          "raw": "60",
+          "baseline": 72.76399,
+          "glyph_bounds": [
+            166.04310607910156,
+            50.90461730957031,
+            31.485031127929688,
+            22.265625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 186,
+          "size": 11,
+          "display": "橫向 已接管 · 縱向 未接管",
+          "center": false,
+          "x": 22,
+          "raw": "橫向 已接管 · 縱向 未接管",
+          "baseline": 110.2,
+          "glyph_bounds": [
+            22.15625,
+            100.74687194824219,
+            130.40902709960938,
+            10.5
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 186,
+          "size": 14,
+          "display": "前方固定測速",
+          "center": false,
+          "x": 22,
+          "raw": "前方固定測速",
+          "baseline": 155.2,
+          "glyph_bounds": [
+            22.5625,
+            143.1218719482422,
+            83.20281982421875,
+            13.390625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 186,
+          "size": 29.388,
+          "display": "480 m",
+          "center": false,
+          "x": 22,
+          "raw": "480 m",
+          "baseline": 186.236,
+          "glyph_bounds": [
+            22.609375,
+            164.64224243164062,
+            84.19328308105469,
+            22
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 186,
+          "size": 11,
+          "display": "測速限速 60 km/h",
+          "center": false,
+          "x": 22,
+          "raw": "測速限速 60 km/h",
+          "baseline": 201,
+          "glyph_bounds": [
+            22.3125,
+            191.65625,
+            89.4158935546875,
+            11.328125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 186,
+          "size": 10,
+          "display": "沿道路距離 · 示意大道",
+          "center": false,
+          "x": 22,
+          "raw": "沿道路距離 · 示意大道",
+          "baseline": 217,
+          "glyph_bounds": [
+            22.25,
+            208.375,
+            104.11799621582031,
+            9.53125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 190,
+          "size": 11,
+          "display": "科技執法 · 650 m 沿路",
+          "center": false,
+          "x": 20,
+          "raw": "科技執法 · 650 m 沿路",
+          "baseline": 244,
+          "glyph_bounds": [
+            20.21875,
+            234.65625,
+            116.68621826171875,
+            10.34375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 190,
+          "size": 10,
+          "display": "闖紅燈／停讓行人 · 示意大道與科技路…",
+          "center": false,
+          "x": 20,
+          "raw": "闖紅燈／停讓行人 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "baseline": 261,
+          "glyph_bounds": [
+            20.78125,
+            252.34375,
+            182.8991241455078,
+            9.578125
+          ],
+          "ellipsized": true
+        }
+      ],
+      "ellipsized": [
+        "闖紅燈／停讓行人 · 示意大道與科技路口（示意資料，非實際執法點）"
+      ],
+      "height": 280
+    },
+    {
+      "outside": [],
+      "width": 229,
+      "overlaps": [],
+      "id": "fallback-width",
+      "text": [
+        {
+          "max_width": 209,
+          "size": 10,
+          "display": "舊版備援：未在此預覽驗證",
+          "center": false,
+          "x": 10,
+          "raw": "舊版備援：未在此預覽驗證",
+          "baseline": 30,
+          "glyph_bounds": [
+            10.46875,
+            21.375,
+            119.37483215332031,
+            9.609375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 209,
+          "size": 9,
+          "display": "此區為邊界 stub，非實際畫面",
+          "center": false,
+          "x": 10,
+          "raw": "此區為邊界 stub，非實際畫面",
+          "baseline": 48,
+          "glyph_bounds": [
+            10.3125,
+            40.28125,
+            120.0980224609375,
+            8.640625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 189,
+          "size": 11,
+          "display": "科技執法 · 650 m 沿路",
+          "center": false,
+          "x": 20,
+          "raw": "科技執法 · 650 m 沿路",
+          "baseline": 254,
+          "glyph_bounds": [
+            20.21875,
+            244.65625,
+            116.68621826171875,
+            10.34375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 189,
+          "size": 10,
+          "display": "闖紅燈／停讓行人 · 示意大道與科技路…",
+          "center": false,
+          "x": 20,
+          "raw": "闖紅燈／停讓行人 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "baseline": 271,
+          "glyph_bounds": [
+            20.78125,
+            262.34375,
+            182.8991241455078,
+            9.578125
+          ],
+          "ellipsized": true
+        }
+      ],
+      "ellipsized": [
+        "闖紅燈／停讓行人 · 示意大道與科技路口（示意資料，非實際執法點）"
+      ],
+      "height": 280
+    },
+    {
+      "outside": [],
+      "width": 240,
+      "overlaps": [],
+      "id": "unknown-vehicle",
+      "text": [
+        {
+          "max_width": 103.200005,
+          "size": 13,
+          "display": "即時車況",
+          "center": false,
+          "x": 22,
+          "raw": "即時車況",
+          "baseline": 30,
+          "glyph_bounds": [
+            22.578125,
+            18.953125,
+            51.10942077636719,
+            12.234375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 96,
+          "size": 11,
+          "display": "GPS 車速",
+          "center": true,
+          "x": 182.4,
+          "raw": "GPS 車速",
+          "baseline": 30,
+          "glyph_bounds": [
+            159.701416015625,
+            20.65625,
+            45.803497314453125,
+            10.359375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 115.2,
+          "size": 68,
+          "display": "—",
+          "center": false,
+          "x": 24,
+          "raw": "—",
+          "baseline": 96.8,
+          "glyph_bounds": [
+            27.328125,
+            74.08125305175781,
+            55.078125,
+            6.40625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 72,
+          "size": 11,
+          "display": "km/h",
+          "center": false,
+          "x": 24,
+          "raw": "km/h",
+          "baseline": 112.8,
+          "glyph_bounds": [
+            24.875,
+            103.94062805175781,
+            26.879852294921875,
+            10.84375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "橫向 — · 縱向 —",
+          "center": false,
+          "x": 22,
+          "raw": "橫向 — · 縱向 —",
+          "baseline": 127.8,
+          "glyph_bounds": [
+            22.15625,
+            118.40937805175781,
+            84.2723388671875,
+            10.4375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 14,
+          "display": "前方道路提醒",
+          "center": false,
+          "x": 22,
+          "raw": "前方道路提醒",
+          "baseline": 172.8,
+          "glyph_bounds": [
+            22.5625,
+            160.7218780517578,
+            82.98406982421875,
+            13.390625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 48,
+          "display": "—",
+          "center": false,
+          "x": 22,
+          "raw": "—",
+          "baseline": 233.8,
+          "glyph_bounds": [
+            24.359375,
+            217.7687530517578,
+            38.875,
+            4.515625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "沿目前道路持續搜尋",
+          "center": false,
+          "x": 22,
+          "raw": "沿目前道路持續搜尋",
+          "baseline": 284,
+          "glyph_bounds": [
+            22.28125,
+            274.609375,
+            98.2493896484375,
+            10.453125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 10,
+          "display": "啟動 GPS 即可搜尋，不需設定目的地",
+          "center": false,
+          "x": 22,
+          "raw": "啟動 GPS 即可搜尋，不需設定目的地",
+          "baseline": 300,
+          "glyph_bounds": [
+            22.15625,
+            291.40625,
+            164.2447967529297,
+            9.5625
+          ],
+          "ellipsized": false
+        }
+      ],
+      "ellipsized": [],
+      "height": 320
+    },
+    {
+      "outside": [],
+      "width": 240,
+      "overlaps": [],
+      "id": "retained-limit",
+      "text": [
+        {
+          "max_width": 103.200005,
+          "size": 13,
+          "display": "即時車況",
+          "center": false,
+          "x": 22,
+          "raw": "即時車況",
+          "baseline": 30,
+          "glyph_bounds": [
+            22.578125,
+            18.953125,
+            51.10942077636719,
+            12.234375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 96,
+          "size": 11,
+          "display": "C4 車速",
+          "center": true,
+          "x": 182.4,
+          "raw": "C4 車速",
+          "baseline": 30,
+          "glyph_bounds": [
+            163.89239501953125,
+            20.65625,
+            37.421539306640625,
+            10.359375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 115.2,
+          "size": 65.08468,
+          "display": "108",
+          "center": false,
+          "x": 24,
+          "raw": "108",
+          "baseline": 96.8,
+          "glyph_bounds": [
+            29.34375,
+            47.73750305175781,
+            106.85455322265625,
+            49.96875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 72,
+          "size": 11,
+          "display": "km/h",
+          "center": false,
+          "x": 24,
+          "raw": "km/h",
+          "baseline": 112.8,
+          "glyph_bounds": [
+            24.875,
+            103.94062805175781,
+            26.879852294921875,
+            10.84375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 47.85,
+          "size": 29,
+          "display": "60",
+          "center": true,
+          "x": 189.6,
+          "raw": "60",
+          "baseline": 81.916,
+          "glyph_bounds": [
+            173.94309997558594,
+            60.05662536621094,
+            31.485031127929688,
+            22.265625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 78,
+          "size": 9,
+          "display": "暫存速限",
+          "center": true,
+          "x": 189.6,
+          "raw": "暫存速限",
+          "baseline": 115.215996,
+          "glyph_bounds": [
+            171.99050903320312,
+            107.55974578857422,
+            35.39080810546875,
+            8.5
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "橫向 已接管 · 縱向 未接管",
+          "center": false,
+          "x": 22,
+          "raw": "橫向 已接管 · 縱向 未接管",
+          "baseline": 127.8,
+          "glyph_bounds": [
+            22.15625,
+            118.34687805175781,
+            130.40902709960938,
+            10.5
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 14,
+          "display": "前方科技執法",
+          "center": false,
+          "x": 22,
+          "raw": "前方科技執法",
+          "baseline": 172.8,
+          "glyph_bounds": [
+            22.5625,
+            160.7218780517578,
+            82.90594482421875,
+            13.390625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 48,
+          "display": "650 m",
+          "center": false,
+          "x": 22,
+          "raw": "650 m",
+          "baseline": 233.8,
+          "glyph_bounds": [
+            24.359375,
+            198.5187530517578,
+            136.21556091308594,
+            35.953125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "闖紅燈／停讓行人",
+          "center": false,
+          "x": 22,
+          "raw": "闖紅燈／停讓行人",
+          "baseline": 284,
+          "glyph_bounds": [
+            22.859375,
+            274.46875,
+            86.90571594238281,
+            10.546875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 10,
+          "display": "沿路距離 · 示意大道與科技路口（示意資…",
+          "center": false,
+          "x": 22,
+          "raw": "沿路距離 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "baseline": 300,
+          "glyph_bounds": [
+            22.25,
+            291.375,
+            193.43035888671875,
+            9.625
+          ],
+          "ellipsized": true
+        }
+      ],
+      "ellipsized": [
+        "沿路距離 · 示意大道與科技路口（示意資料，非實際執法點）"
+      ],
+      "height": 320
+    },
+    {
+      "outside": [],
+      "width": 240,
+      "overlaps": [],
+      "id": "reference-secondary",
+      "text": [
+        {
+          "max_width": 103.200005,
+          "size": 13,
+          "display": "即時車況",
+          "center": false,
+          "x": 22,
+          "raw": "即時車況",
+          "baseline": 30,
+          "glyph_bounds": [
+            22.578125,
+            18.953125,
+            51.10942077636719,
+            12.234375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 96,
+          "size": 11,
+          "display": "C4 車速",
+          "center": true,
+          "x": 182.4,
+          "raw": "C4 車速",
+          "baseline": 30,
+          "glyph_bounds": [
+            163.89239501953125,
+            20.65625,
+            37.421539306640625,
+            10.359375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 115.2,
+          "size": 65.08468,
+          "display": "108",
+          "center": false,
+          "x": 24,
+          "raw": "108",
+          "baseline": 96.8,
+          "glyph_bounds": [
+            29.34375,
+            47.73750305175781,
+            106.85455322265625,
+            49.96875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 72,
+          "size": 11,
+          "display": "km/h",
+          "center": false,
+          "x": 24,
+          "raw": "km/h",
+          "baseline": 112.8,
+          "glyph_bounds": [
+            24.875,
+            103.94062805175781,
+            26.879852294921875,
+            10.84375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 47.85,
+          "size": 29,
+          "display": "60",
+          "center": true,
+          "x": 189.6,
+          "raw": "60",
+          "baseline": 81.916,
+          "glyph_bounds": [
+            173.94309997558594,
+            60.05662536621094,
+            31.485031127929688,
+            22.265625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "橫向 已接管 · 縱向 未接管",
+          "center": false,
+          "x": 22,
+          "raw": "橫向 已接管 · 縱向 未接管",
+          "baseline": 127.8,
+          "glyph_bounds": [
+            22.15625,
+            118.34687805175781,
+            130.40902709960938,
+            10.5
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 14,
+          "display": "前方固定測速",
+          "center": false,
+          "x": 22,
+          "raw": "前方固定測速",
+          "baseline": 172.8,
+          "glyph_bounds": [
+            22.5625,
+            160.7218780517578,
+            83.20281982421875,
+            13.390625
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 36.332,
+          "display": "480 m",
+          "center": false,
+          "x": 22,
+          "raw": "480 m",
+          "baseline": 216.604,
+          "glyph_bounds": [
+            22.765625,
+            189.90087890625,
+            104.10966491699219,
+            27.21875
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 11,
+          "display": "測速限速 60 km/h",
+          "center": false,
+          "x": 22,
+          "raw": "測速限速 60 km/h",
+          "baseline": 241,
+          "glyph_bounds": [
+            22.3125,
+            231.65625,
+            89.4158935546875,
+            11.328125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 196,
+          "size": 10,
+          "display": "沿道路距離 · 示意大道",
+          "center": false,
+          "x": 22,
+          "raw": "沿道路距離 · 示意大道",
+          "baseline": 257,
+          "glyph_bounds": [
+            22.25,
+            248.375,
+            104.11799621582031,
+            9.53125
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 200,
+          "size": 11,
+          "display": "執法公告參考 · 649 m 直線",
+          "center": false,
+          "x": 20,
+          "raw": "執法公告參考 · 649 m 直線",
+          "baseline": 284,
+          "glyph_bounds": [
+            20.4375,
+            274.578125,
+            138.35794067382812,
+            10.4375
+          ],
+          "ellipsized": false
+        },
+        {
+          "max_width": 200,
+          "size": 10,
+          "display": "測速 · 示意大道與科技路口（示意資料，…",
+          "center": false,
+          "x": 20,
+          "raw": "測速 · 示意大道與科技路口（示意資料，非實際執法點）",
+          "baseline": 301,
+          "glyph_bounds": [
+            20.28125,
+            292.375,
+            193.39910888671875,
+            9.625
+          ],
+          "ellipsized": true
+        }
+      ],
+      "ellipsized": [
+        "測速 · 示意大道與科技路口（示意資料，非實際執法點）"
+      ],
+      "height": 320
+    }
+  ],
+  "fallback_boundary": "WideLiveCameraFace is a clearly labelled stub; only fallback entry and new enforcement strip are checked.",
+  "findings": [],
+  "label": "示意資料／同繪圖程式，非實機截圖",
+  "data_boundary": "Enforcement Alert is obtained through production engine/catalog/road/fix; vehicle/Google values are synthetic boundary inputs.",
+  "font_boundary": "AWT Noto Sans CJK TC Bold approximates Android sans-serif-black; not pixel-identical.",
+  "font": "Noto Sans CJK TC",
+  "source_sha256": {
+    "variants/wide46/src/WideDashboardFace.java": "f279423589c62d0c8ce65980efa904b29889995b511c902466eb2e7bf30fa8a0",
+    "variants/wide46/src/WideEnforcementLabels.java": "d36014825788b8aacb2bd28816a92856c25dc53cdce1a749378fa8a2421fc6a4",
+    "variants/enforcement-alert/src/WideEnforcementEngine.java": "04f04451abaa247c5f8345f492c5d8b8d67117ec958407ef64ec8500886ac2bc",
+    "variants/wide30/src/WideCameraFace.java": "bdcc024d21a647bf9feb0573b7f780daa22128b9a2cdd153b00dca805d274601",
+    "variants/wide37/compat/WideCameraEngine.java": "51b27a22f26fd6da5d43eafe92e2dd197a544cd7fecb1079daf4443d224f8b12",
+    "variants/hcop-tw/work/src/WideHcopRoad.java": "db390020bf0b1d3218612983422560ed8646d82ae0c8cfc927e2e0376b9ba979",
+    "variants/hcop-tw/work/src/WideRoad.java": "79d1407a1718918214fb06ec2c9fba7fa0030c94335c0d1a8ab8b884c218e5cc",
+    "variants/wide46/tests/ui/BoundaryStubs.java": "615447861073b199127ebcbf0c8a31d123de2836e78f6b2295a8e50760513a74",
+    "variants/wide46/tests/ui/DashboardUiChecks.java": "dd11f630a8c51ba2ca78d75864875d6812157ddef00cfa1dcff1f34cf0eb6959"
+  },
+  "validation": "Production painter and engine host execution; approximate typography; no device screenshot, GPS or C4 test."
+}

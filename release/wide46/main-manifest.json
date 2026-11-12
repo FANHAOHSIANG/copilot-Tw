@@ -1,0 +1,14 @@
+{
+  "version": "9.3.1-wide.46-enforcement-google",
+  "versionCode": 26110758,
+  "baseUrl": "https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.42/Copilot-tw-9.3.1-wide.42-tolerant-alert.apk",
+  "baseSha256": "daf4735e33fe7ce30f4a8d88bd631f5ccaf90a7f1e6bbed5619676c5f3d7f2e7",
+  "patch": "main.patch",
+  "patchSha256": "b332f3dea45b93a8e4230603b87bdd5e969bc09561cd273a9c3fc8782fa87d81",
+  "patchBytes": 1362029,
+  "apk": "Copilot-tw-9.3.1-wide.46-enforcement-google.apk",
+  "apkSha256": "6b388d7a6a39a3dd0e026dd47c452e231433d7030c0fe87ecfe5dd014364b696",
+  "apkBytes": 68017267,
+  "sameSigningCertificateAsWide45": true,
+  "deviceTest": false
+}

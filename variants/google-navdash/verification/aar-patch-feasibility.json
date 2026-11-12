@@ -1,0 +1,22 @@
+{
+  "baseOfficialUrl": "https://dl.google.com/dl/android/maven2/com/google/android/libraries/navigation/navigation/7.6.1/navigation-7.6.1.aar",
+  "baseBytes": 32621454,
+  "baseSha1": "6f6dbf6d6193dcd48806d3cf28798a3faa4d10aa",
+  "baseSha256": "fce9b7da512ff92bb44ef9539d410ffe123466f543bc838a6c2e447d99fa0a8e",
+  "unsignedTargetBytes": 60538674,
+  "unsignedTargetSha256": "b9949fa56351037e5e575e7ca49e85583f7f1507888a271a4b5f6f19b3f321f1",
+  "patchBytes": 33862684,
+  "patchSha256": "078349c5d1af42eddf640dcada4355690b370d2b5f9a75d83c95e62ee7820b90",
+  "patchRatio": 0.5594,
+  "restoredByteIdentical": true,
+  "elapsedSeconds": 78.89,
+  "officialChecksumUrl": "https://dl.google.com/dl/android/maven2/com/google/android/libraries/navigation/navigation/7.6.1/navigation-7.6.1.aar.sha1",
+  "officialChecksumHttpStatus": 200,
+  "officialChecksumValue": "6f6dbf6d6193dcd48806d3cf28798a3faa4d10aa",
+  "officialChecksumMatchedLocalBase": true,
+  "officialChecksumCheckedAt": "2026-11-12",
+  "directHttpsMethod": "Python urllib.request with standard TLS validation; official maven.google.com redirect also matched",
+  "measurementOnly": true,
+  "signedTargetMeasured": false,
+  "recommendedDelivery": "Prefer the signed APK directly or exact signed-APK chunks with whole-file SHA-256; AAR+patch is feasible but requires about66.5MB total download."
+}

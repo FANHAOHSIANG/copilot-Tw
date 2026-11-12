@@ -1,0 +1,1 @@
+PASS 8 key lifecycle checks (synthetic keys; no Google calls)

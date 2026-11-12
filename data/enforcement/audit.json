@@ -1,0 +1,1706 @@
+{
+  "records": 2148,
+  "located": 1152,
+  "pendingLocation": 996,
+  "preciseAlertReady": 0,
+  "coverage": [
+    {
+      "region": "臺北市",
+      "sources": [
+        "taipei"
+      ],
+      "records": 95,
+      "located": 95,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "新北市",
+      "sources": [
+        "newtaipei"
+      ],
+      "records": 252,
+      "located": 0,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "桃園市",
+      "sources": [
+        "taoyuan"
+      ],
+      "records": 145,
+      "located": 145,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "臺中市",
+      "sources": [
+        "taichung"
+      ],
+      "records": 79,
+      "located": 77,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "臺南市",
+      "sources": [
+        "tainan",
+        "tainan-pdf"
+      ],
+      "records": 382,
+      "located": 0,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "高雄市",
+      "sources": [
+        "kaohsiung-junction",
+        "kaohsiung-pedestrian",
+        "kaohsiung-rental",
+        "kaohsiung-restricted",
+        "kaohsiung-parking",
+        "kaohsiung-pdf"
+      ],
+      "records": 455,
+      "located": 440,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "基隆市",
+      "sources": [
+        "keelung",
+        "keelung-pdf"
+      ],
+      "records": 23,
+      "located": 0,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "新竹市",
+      "sources": [
+        "hsinchu-city",
+        "hsinchu-city-pdf"
+      ],
+      "records": 34,
+      "located": 33,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "嘉義市",
+      "sources": [
+        "chiayi-city",
+        "chiayi-city-pdf"
+      ],
+      "records": 56,
+      "located": 13,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "新竹縣",
+      "sources": [
+        "hsinchu-county-pdf"
+      ],
+      "records": 78,
+      "located": 0,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "苗栗縣",
+      "sources": [
+        "miaoli"
+      ],
+      "records": 19,
+      "located": 19,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "彰化縣",
+      "sources": [
+        "changhua"
+      ],
+      "records": 57,
+      "located": 57,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "南投縣",
+      "sources": [
+        "nantou-restricted",
+        "nantou-pdf",
+        "nantou-latest-pdf"
+      ],
+      "records": 39,
+      "located": 39,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "雲林縣",
+      "sources": [
+        "yunlin"
+      ],
+      "records": 118,
+      "located": 118,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "嘉義縣",
+      "sources": [
+        "chiayi-county",
+        "chiayi-county-fallback-pdf"
+      ],
+      "records": 33,
+      "located": 33,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "屏東縣",
+      "sources": [
+        "pingtung",
+        "pingtung-pdf",
+        "pingtung-technology-pdf"
+      ],
+      "records": 8,
+      "located": 0,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "宜蘭縣",
+      "sources": [
+        "yilan"
+      ],
+      "records": 112,
+      "located": 0,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "花蓮縣",
+      "sources": [
+        "hualien",
+        "hualien-pdf"
+      ],
+      "records": 66,
+      "located": 0,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "臺東縣",
+      "sources": [
+        "taitung",
+        "taitung-pdf",
+        "taitung-pdf-1",
+        "taitung-pdf-2"
+      ],
+      "records": 39,
+      "located": 32,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "澎湖縣",
+      "sources": [
+        "penghu"
+      ],
+      "records": 4,
+      "located": 4,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "金門縣",
+      "sources": [
+        "kinmen-pdf",
+        "kinmen-fallback-pdf"
+      ],
+      "records": 48,
+      "located": 45,
+      "status": "partial_snapshot"
+    },
+    {
+      "region": "連江縣",
+      "sources": [],
+      "records": 0,
+      "located": 0,
+      "status": "no_verified_source_found"
+    }
+  ],
+  "sourceStatus": [
+    {
+      "sourceId": "taipei",
+      "status": "parsed",
+      "records": 95
+    },
+    {
+      "sourceId": "taoyuan",
+      "status": "parsed",
+      "records": 145
+    },
+    {
+      "sourceId": "taichung",
+      "status": "parsed",
+      "records": 79
+    },
+    {
+      "sourceId": "hsinchu-city",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "penghu",
+      "status": "parsed",
+      "records": 4
+    },
+    {
+      "sourceId": "miaoli",
+      "status": "parsed",
+      "records": 19
+    },
+    {
+      "sourceId": "chiayi-county",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "keelung",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "pingtung",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "kaohsiung-junction",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "kaohsiung-pedestrian",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "kaohsiung-rental",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "kaohsiung-restricted",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "kaohsiung-parking",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "nantou-restricted",
+      "status": "parsed",
+      "records": 2
+    },
+    {
+      "sourceId": "changhua",
+      "status": "parsed",
+      "records": 57
+    },
+    {
+      "sourceId": "chiayi-city",
+      "status": "parsed",
+      "records": 19
+    },
+    {
+      "sourceId": "tainan",
+      "status": "parsed",
+      "records": 191
+    },
+    {
+      "sourceId": "kinmen-pdf",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "nantou-pdf",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "hsinchu-city-pdf",
+      "status": "parsed",
+      "records": 34
+    },
+    {
+      "sourceId": "hsinchu-county-pdf",
+      "status": "parsed",
+      "records": 78
+    },
+    {
+      "sourceId": "chiayi-city-pdf",
+      "status": "parsed",
+      "records": 37
+    },
+    {
+      "sourceId": "newtaipei",
+      "status": "parsed",
+      "records": 252
+    },
+    {
+      "sourceId": "yunlin",
+      "status": "parsed",
+      "records": 118
+    },
+    {
+      "sourceId": "yilan",
+      "status": "parsed",
+      "records": 112
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "status": "parsed",
+      "records": 455
+    },
+    {
+      "sourceId": "hualien",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "taitung",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "airport",
+      "status": "parsed",
+      "records": 3
+    },
+    {
+      "sourceId": "pingtung-pdf",
+      "status": "download_unavailable",
+      "records": 0
+    },
+    {
+      "sourceId": "tainan-pdf",
+      "status": "parsed",
+      "records": 191
+    },
+    {
+      "sourceId": "keelung-pdf",
+      "status": "parsed",
+      "records": 23
+    },
+    {
+      "sourceId": "taitung-pdf",
+      "status": "parsed",
+      "records": 17
+    },
+    {
+      "sourceId": "taitung-pdf-1",
+      "status": "parsed",
+      "records": 20
+    },
+    {
+      "sourceId": "taitung-pdf-2",
+      "status": "parsed",
+      "records": 2
+    },
+    {
+      "sourceId": "hualien-pdf",
+      "status": "parsed",
+      "records": 66
+    },
+    {
+      "sourceId": "nantou-latest-pdf",
+      "status": "parse_failed",
+      "error": "list index out of range",
+      "records": 37
+    },
+    {
+      "sourceId": "pingtung-technology-pdf",
+      "status": "parsed",
+      "records": 8
+    },
+    {
+      "sourceId": "kinmen-fallback-pdf",
+      "status": "parsed",
+      "records": 48
+    },
+    {
+      "sourceId": "chiayi-county-fallback-pdf",
+      "status": "parsed",
+      "records": 33
+    },
+    {
+      "sourceId": "national-highway-ai",
+      "status": "parsed",
+      "records": 3
+    }
+  ],
+  "extractionExceptions": [
+    {
+      "sourceId": "hsinchu-city-pdf",
+      "locator": "page:1/table:1/row:1",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "新竹市警察局科技執法取締地點一覽表 1150909\n更新",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "hsinchu-county-pdf",
+      "locator": "page:1/table:1/row:1",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "新竹縣政府警察局「固定式科學儀器執法設備」設置地點一覽表\n115.6.10",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "hsinchu-county-pdf",
+      "locator": "page:3/table:3/row:3",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "1",
+        "新竹高鐵站四號出口前引道",
+        "竹北分局",
+        "違規（臨時）停車、違規上\n客、違規攬客",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": "hsinchu-county-pdf",
+      "locator": "page:3/table:3/row:4",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "2",
+        "竹北市自強南路路口南往北\n(文興路至復興五街間)",
+        "竹北分局",
+        "違規（臨時）停車",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": "hsinchu-county-pdf",
+      "locator": "page:3/table:3/row:5",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "3",
+        "竹北市高鐵七路北往南\n(光明六路東二段與高鐵東一\n路間)",
+        "竹北分局",
+        "違規（臨時）停車",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": "hsinchu-county-pdf",
+      "locator": "page:3/table:3/row:6",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "4",
+        "竹東鎮中興路三段北往南\n(173-195號間)",
+        "竹東分局",
+        "違規（臨時）停車",
+        "",
+        ""
+      ]
+    },
+    {
+      "sourceId": "chiayi-city-pdf",
+      "locator": "page:1/table:1/row:1",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "嘉義市政府警察局「固定式科學儀器執法設備」設置地點一覽表\n115年8月",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "newtaipei",
+      "locator": "page:1/table:1/row:1",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "違規停車自動偵測系統設置地點",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "yilan",
+      "locator": "page:1/table:1/row:1",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "宜蘭縣政府警察局「固定式科學儀器執法設備設置地點」一覽表\n更新日期：115年3月10日",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:1/table:1/row:1",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "高雄市政府警察局 115 年「固定式違規照相科技執法設備」設置地點一覽表\n115/6/22 更新",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:8/table:1/row:14",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "",
+        null,
+        null,
+        "",
+        "非線",
+        "",
+        "",
+        null,
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:8/table:1/row:15",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        null,
+        "圈數",
+        null,
+        "",
+        "左營區自由三路新莊國",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        "22.670003",
+        "",
+        "",
+        "120.3102",
+        ""
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:8/table:1/row:16",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "",
+        "118",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        "北向南",
+        "",
+        "",
+        "50",
+        "",
+        "",
+        "左營",
+        "",
+        "",
+        "闖紅燈",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:8/table:1/row:17",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        null,
+        "位-雷",
+        null,
+        null,
+        "小前",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "3",
+        null,
+        null,
+        "426",
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:8/table:1/row:19",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        null,
+        "射",
+        null,
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:9/table:1/row:17",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        "",
+        "雷達",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        "22.772181",
+        "",
+        "",
+        "120.2685",
+        ""
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:9/table:1/row:18",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "",
+        "134",
+        "",
+        null,
+        null,
+        null,
+        "",
+        "岡山區石潭路 89號前",
+        "",
+        "",
+        "南向北",
+        "",
+        "",
+        "50",
+        "",
+        "",
+        "岡山",
+        "",
+        "",
+        "超速",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:9/table:1/row:19",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        null,
+        "數位",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "3",
+        null,
+        null,
+        "041",
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:18/table:1/row:2",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "",
+        null,
+        null,
+        "",
+        "非線",
+        "",
+        "",
+        null,
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:18/table:1/row:3",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        null,
+        "圈數",
+        null,
+        "",
+        "鳳山區國泰路二段高雄",
+        "",
+        null,
+        null,
+        null,
+        "",
+        "60/",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        "22.620160",
+        "",
+        "",
+        "120.3473",
+        ""
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:18/table:1/row:4",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "",
+        "253",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        "南向北",
+        "",
+        null,
+        null,
+        null,
+        "",
+        "鳳山",
+        "",
+        "",
+        "闖紅燈",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:18/table:1/row:5",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        null,
+        "位-雷",
+        null,
+        null,
+        "市議會前",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "40",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "2",
+        null,
+        null,
+        "054",
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:18/table:1/row:7",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        null,
+        "射",
+        null,
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:18/table:1/row:20",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        "",
+        "雷達",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        "22.772102",
+        "",
+        "",
+        "120.3888",
+        ""
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:18/table:1/row:21",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "",
+        "265",
+        "",
+        null,
+        null,
+        null,
+        "",
+        "燕巢區深興路130號前",
+        "",
+        "",
+        "西向東",
+        "",
+        "",
+        "50",
+        "",
+        "",
+        "燕巢",
+        "",
+        "",
+        "超速",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:18/table:1/row:22",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        null,
+        "數位",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "1",
+        null,
+        null,
+        "039",
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:19/table:1/row:3",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "1",
+        "鳥松區松藝路段(北往\n南往圓山路方向)",
+        "50公里",
+        "超速",
+        "1,307.7\n公尺",
+        "22.669723",
+        "120.343016"
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:19/table:1/row:4",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        "鳥松區松藝路段(南往\n北往八德南路方向)",
+        "50公里",
+        "超速",
+        "1,298.9\n公尺",
+        "22.659094",
+        "120.340722"
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:19/table:1/row:5",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "2",
+        "內門區市道182號\n28.9K至31.8K( 往東-\n內門市區方向)",
+        "50公里",
+        "超速",
+        "2,884.7\n公尺",
+        "22.92480283",
+        "120.4216156"
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:19/table:1/row:6",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        "內門區市道182號\n28.9K至31.8K( 往西-\n台南市龍崎區方向)",
+        "50公里",
+        "超速",
+        "2,877.2\n公尺",
+        "22.920963",
+        "120.43893"
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:19/table:1/row:7",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "3",
+        "內門區台3線389.5K\n至392.5K(往南)",
+        "60公里",
+        "超速",
+        "2,831.1 公\n尺",
+        "22.9756075",
+        "120.4686885"
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:19/table:1/row:8",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        "內門區台3線389.5K\n至392.5K (往北)",
+        "60公里",
+        "超速",
+        "2,858.8 公\n尺",
+        "23.000528",
+        "120.468194"
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:22/table:1/row:1",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "22",
+        "三民區博愛一路/九\n如二路口(北向南)",
+        null,
+        null,
+        "路口各項違規(不\n依標誌標線號誌\n行駛等)",
+        "22.6416392",
+        "120.3026007",
+        ""
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:22/table:1/row:2",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "23",
+        "三民區中山一路/建\n國二路口(南向北)",
+        null,
+        null,
+        "路口各項違規(不\n依標誌標線號誌\n行駛等)",
+        "22.6372888",
+        "120.302544",
+        ""
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:22/table:1/row:3",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "24",
+        "",
+        null,
+        null,
+        "闖紅燈",
+        "22.632724\n22.632336",
+        "120.2825\n120.2831",
+        "路名更新"
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:22/table:1/row:7",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "25",
+        "",
+        null,
+        null,
+        "闖紅燈",
+        "22.626317",
+        "120.2781",
+        "路名更新"
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:22/table:1/row:11",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "26",
+        "鼓山區華安街/馬卡\n道路口",
+        null,
+        null,
+        "闖紅燈、違規左右\n轉",
+        "22.64722\n22.647827\n22.647496",
+        "1 20.2815\n1 20.2816\n120.282",
+        ""
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:22/table:1/row:12",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "27",
+        "鼓山區大公路/鼓山\n一路",
+        null,
+        null,
+        "違規右轉",
+        "22.629167",
+        "120.280139",
+        ""
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:22/table:1/row:13",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "28",
+        "苓雅區凱旋二路/四\n維二路",
+        null,
+        null,
+        "闖紅燈、違規左右\n轉",
+        "22.623667\n22.623861\n22.624111\n22.624167",
+        "120.324111\n120.323806\n120.323833\n120.324167",
+        ""
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:22/table:1/row:14",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "29",
+        "苓雅區凱旋三路/武\n昌路",
+        null,
+        null,
+        "闖紅燈、違規左右\n轉",
+        "22.616886\n22.617591\n22.617119\n22.6174315",
+        "120.3267\n120.3264\n120.3263\n120.3270631",
+        ""
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:22/table:1/row:15",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "30",
+        "前鎮區凱旋四路/中\n山三路",
+        null,
+        null,
+        "違規左右轉",
+        "22.596389\n22.595556",
+        "120.316111\n120.315556",
+        ""
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:22/table:1/row:16",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "31",
+        "苓雅區凱旋三路/二\n聖一路",
+        null,
+        null,
+        "闖紅燈、違規左右\n轉",
+        "22.611389\n22.611944\n22.612220",
+        "120.326667\n120.327222\n120.326660",
+        ""
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:26/table:1/row:9",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        "路口各項違規(闖",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:26/table:1/row:11",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        "",
+        "林園區沿海路四段/",
+        "",
+        null,
+        "紅燈、限制車種、",
+        null,
+        "",
+        "22.5032747",
+        "",
+        "",
+        "120.3829518",
+        "",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:26/table:1/row:13",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        null,
+        "王公路、東林西路口",
+        null,
+        null,
+        "不依標誌標線號",
+        null,
+        null,
+        "22.5039531",
+        null,
+        null,
+        "120.3828253",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:26/table:1/row:15",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        "",
+        null,
+        null,
+        null,
+        "誌行駛等)",
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:26/table:1/row:18",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        "路口各項違規(闖",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:26/table:1/row:20",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "",
+        "70",
+        "",
+        null,
+        null,
+        null,
+        null,
+        "紅燈、不依標誌標",
+        null,
+        "",
+        "22.5003054",
+        "",
+        "",
+        "120.393763",
+        "",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:26/table:1/row:22",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "線號誌行駛等)",
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:26/table:1/row:26",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        "路口各項違規(闖",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "",
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:26/table:1/row:28",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "",
+        "71",
+        "",
+        null,
+        null,
+        null,
+        null,
+        "紅燈、不依標誌標",
+        null,
+        "",
+        "22.500598",
+        "",
+        "",
+        "120.397479",
+        "",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kaohsiung-pdf",
+      "locator": "page:26/table:1/row:30",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "線號誌行駛等)",
+        null,
+        "",
+        null,
+        null,
+        "",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "airport",
+      "locator": "page:1/table:1/row:1",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "內政部警政署航空警察局科技執法設置地點一覽表",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "tainan-pdf",
+      "locator": "page:1/table:1/row:1",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "臺南市政府警察局固定式交通違規照相路段設置一覽表",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "keelung-pdf",
+      "locator": "page:1/table:1/row:7",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "6",
+        "八堵路127巷口",
+        "違規迴轉、機車行駛行人穿越道、闖紅燈",
+        "111年12月1日",
+        "闖紅燈114年2月\n10日開始執法"
+      ]
+    },
+    {
+      "sourceId": "keelung-pdf",
+      "locator": "page:1/table:1/row:18",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "17",
+        "光明路與自治街口",
+        "車不暫停讓行人先行、闖紅燈",
+        "113年7月1日",
+        "更新部分115年2\n月10日開始執法"
+      ]
+    },
+    {
+      "sourceId": "hualien-pdf",
+      "locator": "page:2/table:1/row:1",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "花蓮縣警察局115年度測速照相、闖紅燈照相固定桿及科技執法設置地點一覽表",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "hualien-pdf",
+      "locator": "page:2/table:1/row:2",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "固定桿(測速及闖紅燈照相)",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "nantou-latest-pdf",
+      "locator": "page:1/table:1/row:1",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "南投縣政府警察局固定式科學儀器交通執法設備設置地點一覽表\n115.07.02",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "kinmen-fallback-pdf",
+      "locator": "page:1/table:1/row:1",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "金門縣警察局固定式科學儀器執法設備設置地點一覽表\n114年3月28日修訂",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceId": "chiayi-county-fallback-pdf",
+      "locator": "page:1/table:1/row:1",
+      "reason": "title_or_unrecognized_table_shape",
+      "cells": [
+        "嘉義縣警察局固定式科學儀器交通執法設備設置地點一覽表",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

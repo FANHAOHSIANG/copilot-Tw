@@ -1,0 +1,20 @@
+{
+  "version": "9.3.1-wide.43-offline-forward",
+  "versionCode": 26110755,
+  "unitChecks": 77,
+  "googleKeyLifecycleChecks": 8,
+  "scenarioCases": 17,
+  "roadCases": 539,
+  "roadHitCases": 522,
+  "roadNoHitCases": 17,
+  "roadReverseFlaggedCases": 9,
+  "newMisses": [],
+  "newReverseCases": [],
+  "deviceTest": false,
+  "realGpsReplay": false,
+  "audioOutputVerified": false,
+  "c4ReceptionVerified": false,
+  "googleUiInApk": false,
+  "technologyEnforcementAlertsInApk": false,
+  "sameSigningCertificateAsWide42": true
+}

@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "sourceCommit": null,
+  "python": "3.12.14",
+  "suites": [
+    {
+      "name": "enforcement-core",
+      "runner": "variants/enforcement-alert/tests/run_checks.py",
+      "assertions": 67,
+      "minimumAssertions": 67,
+      "passed": true,
+      "exitCode": 0,
+      "seconds": 1.338,
+      "log": "enforcement-core.log"
+    },
+    {
+      "name": "enforcement-lifecycle",
+      "runner": "variants/wide46/tests/lifecycle/run_checks.py",
+      "assertions": 46,
+      "minimumAssertions": 46,
+      "passed": true,
+      "exitCode": 0,
+      "seconds": 1.221,
+      "log": "enforcement-lifecycle.log"
+    },
+    {
+      "name": "dashboard-ui",
+      "runner": "variants/wide46/tests/ui/run_checks.py",
+      "assertions": 316,
+      "minimumAssertions": 316,
+      "passed": true,
+      "exitCode": 0,
+      "seconds": 1.662,
+      "log": "dashboard-ui.log"
+    },
+    {
+      "name": "google-mapper",
+      "runner": "variants/google-bridge46/tests/run_checks.py",
+      "assertions": 38,
+      "minimumAssertions": 38,
+      "passed": true,
+      "exitCode": 0,
+      "seconds": 0.728,
+      "log": "google-mapper.log"
+    }
+  ],
+  "limitations": "Host checks only; no private base APK, Android runtime, Google service, audio device or vehicle verification",
+  "jdk": {
+    "java": "openjdk version \"21.0.13\" 2026-10-20\nOpenJDK Runtime Environment (build 21.0.13+9-1-deb13u2-Debian)\nOpenJDK 64-Bit Server VM (build 21.0.13+9-1-deb13u2-Debian, mixed mode, sharing)",
+    "javac": "javac 21.0.13"
+  },
+  "dependency": {
+    "url": "https://repo.maven.apache.org/maven2/org/json/json/20240303/json-20240303.jar",
+    "sha256": "3cf6cd6892e32e2b4c1c39e0f52f5248a2f5b37646fdfbb79a66b46b618414ed",
+    "bytes": 78332
+  },
+  "assertions": 467
+}

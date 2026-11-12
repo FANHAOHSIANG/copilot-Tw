@@ -1,0 +1,10 @@
+{
+  "apk": "CP-Google-Navigation-0.1.1.apk",
+  "bytes": 60773153,
+  "sha256": "9baa3cccd387a4632650c42c3006e55dbd64a352bba72b4ee2072a8b19c57ff1",
+  "sameCertificateAs010": true,
+  "certificateSha256": "eb0f6a44174aecf09cedc237be2ca0305ea491d47b381407d31e903acbd34b46",
+  "certificateSha1": "ad32963b94df5e30db1b24ecd62bb911f88d487e",
+  "alignment16KiB": true,
+  "deviceGoogleAuthorizationVerified": false
+}

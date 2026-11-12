@@ -1,3 +1,17 @@
+# wide.46 + CP Google 0.1.1 — 2026-11-12
+
+完成科技執法 GPS／道路／畫面／離線中文語音接線與診斷入口，增加停止、過期及語意變更撤銷。方向未知的同路公告仍明說「取締方向待確認」，不升級為確定行向；附近與條件未知不播。新提醒無車控欄位。
+
+Google mapper 改交付 next gap，修正 C4 雙重累加。配套縮小 Places 欄位、搜尋防抖／session token、錯誤碼及非同步取消。恢復 wide.44 原始 Java、smali 與 Google Gradle 專案；提供可驗 hash 的 build base、signed release restore 與完整教學。
+
+67 核心、46 lifecycle、316 繪圖、38 mapper、21 receiver 合約檢查通過；Google CI 的 8 JUnit、正常 release lint／assembleRelease 成功。主 APK 同憑證／16 KiB／scope／內部引用核對通過。實際手機、Google 授權與帳單、C4 接收尚待裝置驗收。詳見 [wide.46](variants/wide46/README.md)、[Google 教學](docs/GOOGLE_SDK_zh-TW.md)、[裝置驗收](docs/DEVICE_ACCEPTANCE_zh-TW.md)。
+
+# wide.45-amap-link — 開發分支，2026-11-12
+
+手機高德一般版新增本機 Link 輸入，不需高德開發者 Key，使用正常 App 身分認證與訂閱。已確認的目前轉向、路口距離、道路、停止與抵達事件接入原 Navi v2；車機高德廣播與台灣資料合併保留。未知路線、限速、測速與轉向種類不推測。
+
+加入明文／AES-GCM／分段／FD 傳輸邊界、來源與 binding 世代隔離，以及以原始接收時間計算的 3 秒引導有效期。383 個離線斷言通過，APK 已編譯並核對原簽章及對齊。交付版建立於既有 wide.44，保留其 Google 與離線道路功能；手機 17.02.2 真實授權與 C4 收件仍待裝置確認。見 [完整說明](variants/amap-link1/README.md)。
+
 # wide.42 — 2026-11-12
 
 測速提醒改為多候選獨立追蹤、短暫保留有效軌跡、低速延長觀察視窗；加入候選與語音診斷。63 項程式檢查通過，17 情境比較及 539 組道路回放未新增異常；既有 17 組無目標、9 組反向標記仍待查。未更改 C4 控制或高德預調速，實機驗證未完成。

@@ -1,0 +1,1 @@
+PASS 1552 Wide method references resolved (DEX structural check, not Android runtime)

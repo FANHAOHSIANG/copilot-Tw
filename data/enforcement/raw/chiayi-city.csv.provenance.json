@@ -1,0 +1,11 @@
+{
+  "sourceId": "chiayi-city",
+  "url": "https://data.chiayi.gov.tw/opendata/api/getResource?oid=21dd0bd6-932d-4f45-985b-3e1e8bc69a6b&rid=26b0febc-11f7-48e5-82dc-2977a45f0e1a",
+  "attemptedAt": "2026-11-11T20:54:07.505451+00:00",
+  "contentType": "application/octet-stream;charset=UTF-8",
+  "resolvedUrl": "https://data.chiayi.gov.tw/opendata/api/getResource?oid=21dd0bd6-932d-4f45-985b-3e1e8bc69a6b&rid=26b0febc-11f7-48e5-82dc-2977a45f0e1a",
+  "status": "downloaded",
+  "bytes": 2267,
+  "sha256": "647701344f5b605ea28a8ea4b20559cab5dafabd987fcc6bd1f4a6f1f9f40249",
+  "retrievedAt": "2026-11-11T20:54:07.505451+00:00"
+}

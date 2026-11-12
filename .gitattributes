@@ -1,0 +1,4 @@
+
+# Preserve exact government snapshots and their provenance hashes.
+data/enforcement/raw/*.csv -text -diff
+data/enforcement/raw/*.pdf -text -diff

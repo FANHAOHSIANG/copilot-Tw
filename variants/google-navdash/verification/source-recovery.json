@@ -1,0 +1,310 @@
+{
+  "recoveredOriginalSource": true,
+  "recoverySource": "Previously retained local wide.44 / Google companion worktree",
+  "excluded": [
+    "local.properties",
+    "build/",
+    ".gradle/",
+    "APK outputs",
+    "signing materials",
+    "generated caches"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "23940ded34dd74361c17161a2b00fa9072c04e1fc0bf9f295a7f575a6ca5c586",
+      "bytes": 814
+    },
+    {
+      "path": "README.md",
+      "sha256": "a6e19f759803c6ecae5252a9056614d433e79f3aaad46dcefa4a968190a2831e",
+      "bytes": 2143
+    },
+    {
+      "path": "UPSTREAM_LICENSE",
+      "sha256": "716ce815a0467219c59ec2433e6bce7f32efc45240725c6d3141a52b111d2558",
+      "bytes": 1059
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "sha256": "99ebbf6eb3573ad967c6876512b7c9d449685775b15177079271d8c77ba0bcd1",
+      "bytes": 3462
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "sha256": "3e157a9ba751edb15236c182771c71babf09ba554dff054fdfef88b18ee0390f",
+      "bytes": 3672
+    },
+    {
+      "path": "app/src/main/assets/help.html",
+      "sha256": "601f2913ba6c0470758e6b2f08d69d17582b729bbefb84f28517f63a2330f0fa",
+      "bytes": 17222
+    },
+    {
+      "path": "app/src/main/java/com/navdashn/GoogleReady.java",
+      "sha256": "b482c54522451b8c5e68fac71c330b849994edf19c410ab657d70324b88322ff",
+      "bytes": 646
+    },
+    {
+      "path": "app/src/main/java/com/navdashn/GuidanceActivity.kt",
+      "sha256": "0c088e6b30cabfa29ed1a26d34bc04814e94b2ebf0d293eda2ab00bfac3ae065",
+      "bytes": 5272
+    },
+    {
+      "path": "app/src/main/java/com/navdashn/HelpActivity.kt",
+      "sha256": "8719b10701ac0d8a9eeb6863d66f8ba0105361c75e11c2a8eadbebd5ef4d97fa",
+      "bytes": 3830
+    },
+    {
+      "path": "app/src/main/java/com/navdashn/KeyEntryActivity.java",
+      "sha256": "0107a9ea0b6edf5d02fac29fe5ce471e75eeac54ad21bcbaed5500fa7e519eb2",
+      "bytes": 1633
+    },
+    {
+      "path": "app/src/main/java/com/navdashn/MainActivity.kt",
+      "sha256": "d637f24dc9628d5602b46e09c119f63ec87f7e48d986b04aa85dc746f47b5e29",
+      "bytes": 21098
+    },
+    {
+      "path": "app/src/main/java/com/navdashn/navigation/NavController.kt",
+      "sha256": "8324661864412d98b47a6fa70e2c02c6cb6b6013808e217a8efcd8aa588164a1",
+      "bytes": 22897
+    },
+    {
+      "path": "app/src/main/java/com/navdashn/navigation/NavHttpServer.kt",
+      "sha256": "e281797ad462c7e6d3aa05effa752883ef642addd7222f8f7d2f206752367deb",
+      "bytes": 2491
+    },
+    {
+      "path": "app/src/main/java/com/navdashn/navigation/NavInfoReceivingService.kt",
+      "sha256": "8241bb6316fd8506ccd1054054827e32a48d7069f56fd4b3de31eeb5608aeef6",
+      "bytes": 4552
+    },
+    {
+      "path": "app/src/main/java/com/navdashn/navigation/NavModels.kt",
+      "sha256": "e99348d01b31e3d3ea6494527eb28be85fa109fe9bcab941d9a21285893c91f2",
+      "bytes": 2253
+    },
+    {
+      "path": "app/src/main/java/com/navdashn/navigation/NavService.kt",
+      "sha256": "1e907f940c3eeb549eeffef68931d42d7e55dfa111927e0258855866d3d0c710",
+      "bytes": 4512
+    },
+    {
+      "path": "app/src/main/java/com/navdashn/navigation/PlacesAdapter.kt",
+      "sha256": "24475f65ffbe3d67eb3f73a412955cc3babb8ff1d67669320b36f5103d6405d4",
+      "bytes": 2131
+    },
+    {
+      "path": "app/src/main/java/com/navdashn/utils/Constants.kt",
+      "sha256": "ef845181e905c12fd97e0778cb24ef2945bae4b4258f02c98eb82cd5a3350084",
+      "bytes": 452
+    },
+    {
+      "path": "app/src/main/java/com/navdashn/utils/PreferenceManager.kt",
+      "sha256": "494472b2922ab00a26b3141dfea9d0fdebc2a9e8e7180ca721d80c4040c8d59e",
+      "bytes": 6224
+    },
+    {
+      "path": "app/src/main/java/com/navipilot/google/GoogleKeyGate.java",
+      "sha256": "bdeb51a838213ed404fa810e38c247ada83b4dfbb386c1dba9746400241afcbd",
+      "bytes": 679
+    },
+    {
+      "path": "app/src/main/java/com/navipilot/google/GoogleKeySettings.java",
+      "sha256": "2dead90b3105f8ab5abbcf3a311f65987bbe2233e7d02291f0b0008a76c8e8d9",
+      "bytes": 6778
+    },
+    {
+      "path": "app/src/main/res/drawable/blindspot_background.xml",
+      "sha256": "0749b4d306b7fa8e8f10cd18d2caecfc0dcb5a5212f4dfe3681586a7c70315dc",
+      "bytes": 249
+    },
+    {
+      "path": "app/src/main/res/drawable/circle_button_background.xml",
+      "sha256": "a0e7681adedc49d9028c41d19d785629c644b1140cc12a3a6e85f80ac394a6ba",
+      "bytes": 373
+    },
+    {
+      "path": "app/src/main/res/drawable/exit_badge_background.xml",
+      "sha256": "661f8faa5a9b2211e80496502d4c0c8eddf2d0a77393d7a4b59ff2c576832f11",
+      "bytes": 346
+    },
+    {
+      "path": "app/src/main/res/drawable/guidance_icon_bg.xml",
+      "sha256": "c273af1a3d92ae6aecfc7abed7376bbda96f2a55059623d3e9f59ce71aedbbe4",
+      "bytes": 440
+    },
+    {
+      "path": "app/src/main/res/drawable/guidance_icon_bg_stop.xml",
+      "sha256": "88294e564213c446c8ee5e0cb236df09081533fee8f2b97f5779873bffeb283a",
+      "bytes": 467
+    },
+    {
+      "path": "app/src/main/res/drawable/hfop_bg.png",
+      "sha256": "0443af2eb356b08eaac13ab404c774cd7be5135934726e0493d88f5813ec2782",
+      "bytes": 7803668
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_back.xml",
+      "sha256": "bfaa62738f1054c1b3ade6c7ace87fb159bd61b6d1284188ad3c5a4e2dbbef87",
+      "bytes": 369
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_close.xml",
+      "sha256": "61ad799d177796fee001808e49dcd4a6aa3319888409ea4556af3184a6f27b8d",
+      "bytes": 408
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_compass.xml",
+      "sha256": "5be19a4d155f73e4fb9e6f5b039f45a7ccf60b59601100e46910f55a81b86931",
+      "bytes": 398
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_help.xml",
+      "sha256": "834b69f62e2393e2dcb285562c9cd5ad1b7bf49bc6d3ef55ee39c2ba40fb6bbd",
+      "bytes": 639
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sha256": "eaaa2dac965faa722d21a11cce644070aacaf021eccec6cabd6644ce6240ec08",
+      "bytes": 1167
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_mic.xml",
+      "sha256": "ec414a63797a99fe9df3e92a48bf8afe6d0f5c3dfec767a18eca4fd6d6aa792f",
+      "bytes": 561
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_place.xml",
+      "sha256": "4e047b1557d7b7f8aafff5ff8bf72565d61decd1bec33b292300cef1ce1ef807",
+      "bytes": 534
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search.xml",
+      "sha256": "cd925cca327e48653bed98f34d75afdc3c55e8ad61cbdc96bbe2bfaeefe86bc1",
+      "bytes": 612
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_volume_off.xml",
+      "sha256": "a5d8b56a2492fa591bd45ab67de5a838b0ff44c29377fafb85c15f7e8f6654a9",
+      "bytes": 766
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_volume_up.xml",
+      "sha256": "1427cb6ef51b65237ee3d2f83fb3a86bb57ea928e96d9a4b682fb5732e3ce621",
+      "bytes": 571
+    },
+    {
+      "path": "app/src/main/res/drawable/img_experimental.xml",
+      "sha256": "4e836332991a46928c488638f81fff06da96608b0d64156ded1e8130a83267ef",
+      "bytes": 2184
+    },
+    {
+      "path": "app/src/main/res/drawable/img_experimental_white.xml",
+      "sha256": "f4dd8c1962df066c1227f256fc1ca4ef64b9ed136fb755cc603279b170313a78",
+      "bytes": 2181
+    },
+    {
+      "path": "app/src/main/res/drawable/stop_sign.xml",
+      "sha256": "024f492261a598f18303cba3b7fa25a7e20f74489161fe33d3f5892389111b25",
+      "bytes": 557
+    },
+    {
+      "path": "app/src/main/res/layout/activity_guidance.xml",
+      "sha256": "b8c5899d69bac3d94d5300ca91a6db80a447fd92ded94ab7ea032d626550dc10",
+      "bytes": 857
+    },
+    {
+      "path": "app/src/main/res/layout/activity_main.xml",
+      "sha256": "906f1fade8241aac24d3586c3c6c8f5bd78da0441e022eea653313ca7b1fe316",
+      "bytes": 12123
+    },
+    {
+      "path": "app/src/main/res/layout/guidance_controls.xml",
+      "sha256": "c2b5d33bd8b6894c42404bfbde7e0353e60d76593292427ca5d69354ba620fe7",
+      "bytes": 2407
+    },
+    {
+      "path": "app/src/main/res/layout/item_place.xml",
+      "sha256": "971508473cbaaf6dc1d6e4fc2d23dd0da5cb5fc9272a7c498ba2b27d33f5d30b",
+      "bytes": 2052
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "sha256": "5f3b1ed2282af327c78539428c3398a99a7e9a09051c2ae2cf7aa27068201319",
+      "bytes": 268
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "sha256": "5f3b1ed2282af327c78539428c3398a99a7e9a09051c2ae2cf7aa27068201319",
+      "bytes": 268
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "sha256": "dce1e4e35f68f46a00ac65a9d995f5d3bfaa941076b53208a159651e388811a6",
+      "bytes": 1894
+    },
+    {
+      "path": "app/src/main/res/values/dimens.xml",
+      "sha256": "e6246d1f0d18623487142e5f45f3a4a8088918bc38efb01f74e0e8fd6dadd107",
+      "bytes": 1282
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "sha256": "ceceb5ad35cceb1475a8d1e05d55046dcd5a59ddc8c9a16d211fecafa557617e",
+      "bytes": 6439
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "sha256": "ca8fa86c1962eb0637cdb2434ea92c6dc03aa426c53c3c7189460cdd52c5d417",
+      "bytes": 1179
+    },
+    {
+      "path": "app/src/main/res/values-sw600dp/dimens.xml",
+      "sha256": "3438bf5bda4d5d975f2e2c9701cc89a9a670403f1bcbb6465d4fc09122e592bd",
+      "bytes": 1206
+    },
+    {
+      "path": "build.gradle.kts",
+      "sha256": "5f002d321f9e31d720c7cdb87a4b419b46c9f8f1ff1b7e6fd0f804169dd36aae",
+      "bytes": 243
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "9687bf4e8beb2c293cfd1393cbf2854ef68f921757302116033f476289abf7b0",
+      "bytes": 43739
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "cdab1ffb439219b1db125e3c99a86cf2424f8762b9b3faa404ed061e3635ecde",
+      "bytes": 251
+    },
+    {
+      "path": "gradle.properties",
+      "sha256": "4919c90701290f1ecf978dbc41b979103d9ded8f96546dc6b4ea0e0cfeaeaa54",
+      "bytes": 262
+    },
+    {
+      "path": "gradlew",
+      "sha256": "734b3879d3501dce471cf0522d3bcbafe76873d9fc5129345b67fb43bd15e933",
+      "bytes": 8752
+    },
+    {
+      "path": "gradlew.bat",
+      "sha256": "2209f919a22528af59a2af2ad97e8d056cca18e39f7d87aa3fd549a73b180150",
+      "bytes": 2872
+    },
+    {
+      "path": "local.properties.example",
+      "sha256": "849c414b8fdccffe62673d852b39229c4219ae7a6164f24129696105b61234fd",
+      "bytes": 136
+    },
+    {
+      "path": "settings.gradle.kts",
+      "sha256": "fd32de74bab0f0a68e14f50ead6a3055bb6e6607accd806cd7983cb630e92533",
+      "bytes": 326
+    }
+  ],
+  "onDeviceVerified": false
+}

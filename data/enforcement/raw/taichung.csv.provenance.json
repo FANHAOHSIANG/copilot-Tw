@@ -1,0 +1,11 @@
+{
+  "sourceId": "taichung",
+  "url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=b3f58c63-53b3-4c01-8203-2a7afa08bb13",
+  "attemptedAt": "2026-11-11T20:53:51.157565+00:00",
+  "contentType": "application/octet-stream",
+  "resolvedUrl": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=b3f58c63-53b3-4c01-8203-2a7afa08bb13",
+  "status": "downloaded",
+  "bytes": 11236,
+  "sha256": "f0c22ce132a93336967de2ff80d28bed30ebc947d342439dd43a17e08177a4e8",
+  "retrievedAt": "2026-11-11T20:53:51.157565+00:00"
+}
