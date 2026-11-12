@@ -1,0 +1,10 @@
+{
+  "version": "9.3.1-wide.52-google-integrated",
+  "versionCode": 26110764,
+  "apk": "Copilot-tw-9.3.1-wide.52-google-integrated-test.apk",
+  "sha256": "9e6fd23f15d4f2de9ce9c78cc4d6eee9435592974e23875957d9f85a312412e1",
+  "bytes": 85800203,
+  "sameSigningCertificate": true,
+  "alignment16KiB": true,
+  "deviceTest": false
+}
