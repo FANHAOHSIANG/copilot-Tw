@@ -1,0 +1,5 @@
+package: name='com.copilottw.googlenav' versionCode='2' versionName='0.1.1-copilot' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+targetSdkVersion:'36'
+application-label:'CP Google 導航'
+launchable-activity: name='com.navdashn.KeyEntryActivity'  label='' icon=''
+Embedded Google API key metadata: absent
