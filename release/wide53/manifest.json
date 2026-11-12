@@ -1,0 +1,37 @@
+{
+  "baseUrl": "https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.52/Copilot-tw-9.3.1-wide.52-google-integrated-test.apk",
+  "baseSha256": "9e6fd23f15d4f2de9ce9c78cc4d6eee9435592974e23875957d9f85a312412e1",
+  "apk": "Copilot-tw-9.3.1-wide.53-adaptive-dashboard.apk",
+  "apkSha256": "620c79232e15ddad903055612a3144cd5317c2160becb6816649dd1a7071230e",
+  "apkBytes": 85381115,
+  "patchSha256": "4f8c60170072879d66ea13f60c9562d21e11668ca96cd9024f81b193fdc90ff6",
+  "chunks": [
+    {
+      "file": "patch-000.bin",
+      "sha256": "f3a69f71cacc837c81ecec24e96efa513a8ac3833ed5d7209e6c2679f8656295",
+      "bytes": 524288
+    },
+    {
+      "file": "patch-001.bin",
+      "sha256": "b7a307018e8a074257f8d71d9e06a39a682fc5f5501e5f82f5ea6b89f8303e33",
+      "bytes": 524288
+    },
+    {
+      "file": "patch-002.bin",
+      "sha256": "df0e9ee9ce3385d7de53fde0af54f669e829dd9b0990a39adf6084f0b39107d4",
+      "bytes": 166006
+    }
+  ],
+  "companions": [
+    {
+      "name": "shizuku-v13.6.0.r1086.2650830c-release.apk",
+      "url": "https://github.com/RikkaApps/Shizuku/releases/download/v13.6.0/shizuku-v13.6.0.r1086.2650830c-release.apk",
+      "sha256": "6e273ab0e991c4e79bc8b1bbb9b9dd739ccac1a8712a541a214078886b7b790f"
+    },
+    {
+      "name": "stellar-v1.1-release.apk",
+      "url": "https://github.com/roro2239/Stellar/releases/download/v1.1%28101000%29/stellar-v1.1-release.apk",
+      "sha256": "47276b8b9296553cde1e29bd67f925d993b33a4e52bc8e6c78f283691f670856"
+    }
+  ]
+}
