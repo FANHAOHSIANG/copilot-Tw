@@ -1,0 +1,350 @@
+{
+  "recoveredOriginalSource": true,
+  "recoverySource": "Previously retained local wide.44 / Google companion worktree",
+  "excluded": [
+    "local.properties",
+    "build/",
+    ".gradle/",
+    "APK outputs",
+    "signing materials",
+    "generated caches"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "c67ab39bc308cc3e07c164a3dce11b4e3fb58d6d9ccd11357ee1236fa800c41a",
+      "bytes": 4496
+    },
+    {
+      "path": "smali/WideAmapSource.smali",
+      "sha256": "aad26285c0d433740701553134cbf68839bcda5d8186757d302be7e17e0454e3",
+      "bytes": 21112
+    },
+    {
+      "path": "smali/WideCameraCard.smali",
+      "sha256": "e5c55c80f8a295c7955558b82e5ffba4851c4694f633878238e969e4c0916157",
+      "bytes": 19263
+    },
+    {
+      "path": "smali/WideCameraPanel$$ExternalSyntheticLambda4.smali",
+      "sha256": "8d7c699eab0a94f3cdb1957b917072124829d8f6768e05268b5219648382b8f9",
+      "bytes": 1079
+    },
+    {
+      "path": "smali/WideCameraPanel$$ExternalSyntheticLambda5.smali",
+      "sha256": "97543bbc8fe6c50c0d180dbb238939c09effec84ab6cfdbb5107234034b241b4",
+      "bytes": 1030
+    },
+    {
+      "path": "smali/WideCameraPanel$$ExternalSyntheticLambda6.smali",
+      "sha256": "c5fa85685fb6745edef84a0065e10a9bebf506a6cc56885e8fd3930de8ad07ff",
+      "bytes": 1030
+    },
+    {
+      "path": "smali/WideCameraPanel$$ExternalSyntheticLambda7.smali",
+      "sha256": "7ee16411cd17adfb5df5b1f79f1de9436d00d517d3b3daf6b94b719fa6aa8e46",
+      "bytes": 996
+    },
+    {
+      "path": "smali/WideCameraPanel$$ExternalSyntheticLambda8.smali",
+      "sha256": "ed0cfe5089ee3eeee78965bf5f41db6061d55b3ee8ccb1d0fc77937337b967e1",
+      "bytes": 969
+    },
+    {
+      "path": "smali/WideCameraPanel$1.smali",
+      "sha256": "0aea1e1de422a346576cdb231c02bf4e8dae6e4ac66562e6065c1a6d09dc078c",
+      "bytes": 2492
+    },
+    {
+      "path": "smali/WideCameraPanel.smali",
+      "sha256": "9fe13f30a5bf265fe3cdf0e1d27352866e9fc808d90577f8919a7537dba382c0",
+      "bytes": 27756
+    },
+    {
+      "path": "smali/WideDashboardFace.smali",
+      "sha256": "a79dbb12c04f0f2ce95debeb90edbb31600eff6f36f6e3d93bb221393881749b",
+      "bytes": 19799
+    },
+    {
+      "path": "smali/WideDirect$$ExternalSyntheticLambda5.smali",
+      "sha256": "8e32f0d2410f7f43bccde251a8c5fdf081ee16fab02942b3a2dc13e6607d2f8e",
+      "bytes": 664
+    },
+    {
+      "path": "smali/WideDirect$$ExternalSyntheticLambda6.smali",
+      "sha256": "d7d07b8620766ef4d37415f4754102217a6160db3e35262226b42be4387bb99d",
+      "bytes": 634
+    },
+    {
+      "path": "smali/WideDirect$$ExternalSyntheticLambda7.smali",
+      "sha256": "8e0371732305bd87000e34d41c2e7a38fad7d163be75ccdbb4da1bb59e4fb22a",
+      "bytes": 541
+    },
+    {
+      "path": "smali/WideDirect$$ExternalSyntheticLambda8.smali",
+      "sha256": "f6994114e6df7e575843e686796663fc433fb7c75f758c809b4e085f0ff1c885",
+      "bytes": 664
+    },
+    {
+      "path": "smali/WideDirect$$ExternalSyntheticLambda9.smali",
+      "sha256": "fb17a3235b1a9a0f5d67b188bd6b90b6ce34481d21d70f671728c5facb07b54c",
+      "bytes": 884
+    },
+    {
+      "path": "smali/WideDirect$1.smali",
+      "sha256": "10d824cadd12781e77dd333b4e5453ba1930ed55fb0a18612a64f96d2f43b170",
+      "bytes": 961
+    },
+    {
+      "path": "smali/WideDirect$2.smali",
+      "sha256": "5705e58c53263bc06370b01870632a355913bc7add9b5efd29bc82418aea4f70",
+      "bytes": 958
+    },
+    {
+      "path": "smali/WideDirect$3.smali",
+      "sha256": "989225dfc76b15ff541ef2c72ca0642f0b2c7ae37d466614c15f7dc2e26d8858",
+      "bytes": 1381
+    },
+    {
+      "path": "smali/WideDirect$4.smali",
+      "sha256": "fe471536617a92acd8d87b290abad5048b3a8c818ddc18c7c503f8226d6b51ea",
+      "bytes": 1475
+    },
+    {
+      "path": "smali/WideDirect$5.smali",
+      "sha256": "91249bcb9b6832eb765538b02ee895b6976fe1cfa4878da341a06459ee713629",
+      "bytes": 959
+    },
+    {
+      "path": "smali/WideDirect$6.smali",
+      "sha256": "bee2f6ac1bfb93636b5a32aad66a240410d211317fd81d6f8f2185514ec8362a",
+      "bytes": 1744
+    },
+    {
+      "path": "smali/WideDirect$LayoutStamp.smali",
+      "sha256": "3feda40f41515e60e8689718c761181eeaf219177e83dce8005af25317716915",
+      "bytes": 1919
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda15.smali",
+      "sha256": "a733007c082c406d619e9a0132f3b468d44bc63884a89f19c9c2956bdade76c4",
+      "bytes": 3358
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda16.smali",
+      "sha256": "d1b68cc5a7c420ae39365234327f4beb08b09eb9b7cf64e61cd948ab1b13abaa",
+      "bytes": 972
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda17.smali",
+      "sha256": "e94fcdeda2325fcacdf66be2c0bb7994b79bf36ae8069c92782c206e1a76e545",
+      "bytes": 1002
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda18.smali",
+      "sha256": "52e5c96972d6671644b7db086d1485678b9212d55fb50c6b05fd68809f4c6a8f",
+      "bytes": 1033
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda19.smali",
+      "sha256": "c8db1ad3189c24eeade676a2e67400101cb1a97d0339523b8a633a7231ec0524",
+      "bytes": 1033
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda20.smali",
+      "sha256": "e183144530305a47744876a09ab20868c80574e571cfacb2893933bfcfe94183",
+      "bytes": 995
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda21.smali",
+      "sha256": "a51731f77a88cf361c9d2c6ca9d3faeedd306f5a420faad271a7c8d3676f417f",
+      "bytes": 1033
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda22.smali",
+      "sha256": "bc557506056eadf2dff5e4bdb53836b01452fc0c3d3dacb1e866cbdd9414f8f9",
+      "bytes": 1928
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda23.smali",
+      "sha256": "fa3515a87e45e53657535130af0ebb25d439fdad6b666d763be019e66acf1e3a",
+      "bytes": 907
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda24.smali",
+      "sha256": "edec8548aafd8054d6d174e78bab1e08f4986acdbb4ff3f232a798293b378766",
+      "bytes": 2262
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda25.smali",
+      "sha256": "a29605f90fdd363b57db33fbcaed8531a3ae05f7c1a46dec536a4f83cb1e0784",
+      "bytes": 1082
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda26.smali",
+      "sha256": "0bfeb184a7c98662c62e3a4a97398f542ac2d1d8154d68108548f36daafd8c02",
+      "bytes": 1824
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda27.smali",
+      "sha256": "78ef40935555a4ce7805d99e1493678e9b404b23b867459bf1bf76e1d432731a",
+      "bytes": 987
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda28.smali",
+      "sha256": "ac1d14a6fe2f945d9467b669cf0af5db56917ce499d5d78f0dde8d8f9cc6a522",
+      "bytes": 950
+    },
+    {
+      "path": "smali/WideDirect$Pane$$ExternalSyntheticLambda29.smali",
+      "sha256": "7f5438e0a6c42d73cb147ff7f427af27535683934b1ce14d94ad21c0a6ac7acc",
+      "bytes": 927
+    },
+    {
+      "path": "smali/WideDirect$Pane$1$1.smali",
+      "sha256": "8be26a19a5c7e2fd5fdfa580aadc0db222e46b9e05ef4046fa4872a6ed2f87ac",
+      "bytes": 2780
+    },
+    {
+      "path": "smali/WideDirect$Pane$1.smali",
+      "sha256": "f89a8e44b43fa8993a64d04fd9cbca9de77d7e274c270e208b73731c8bbf03c7",
+      "bytes": 5170
+    },
+    {
+      "path": "smali/WideDirect$Pane.smali",
+      "sha256": "f9d8e8a55fb4a3905e1b66ef35c39f69d0994b3ab46ed3c6a44d786468d06bd9",
+      "bytes": 79555
+    },
+    {
+      "path": "smali/WideDirect$RenderSize.smali",
+      "sha256": "2177870cad416bf091784e7e1c3384a235f512e21116f77f491582d5d6fcd08e",
+      "bytes": 1580
+    },
+    {
+      "path": "smali/WideDirect$Session.smali",
+      "sha256": "1ad95b72da7d377812b0fa9fb375ab23cedd5f0432da99b4e6c1334cd1b21cb4",
+      "bytes": 2698
+    },
+    {
+      "path": "smali/WideDirect.smali",
+      "sha256": "036c5dd1a8ad033c70196b6ac7122d4cf131f37b512deae0c899097cab3c21f1",
+      "bytes": 18743
+    },
+    {
+      "path": "smali/WideGoogleAdapter$Snapshot.smali",
+      "sha256": "272069df18ec5c6eea1259e7b89577636b19f05a3ae779d5bd7251834e66c526",
+      "bytes": 3997
+    },
+    {
+      "path": "smali/WideGoogleAdapter.smali",
+      "sha256": "cacbcd20c7be49eae080b4cfb97b99356efae77f3cfd6ea859587ae2edd0c81b",
+      "bytes": 30115
+    },
+    {
+      "path": "smali/WideGoogleNav$$ExternalSyntheticLambda0.smali",
+      "sha256": "b8c9a8ebcf5ecca0b26257813cd267f67d3a23cddc39fa90cb06c49ef31206a4",
+      "bytes": 677
+    },
+    {
+      "path": "smali/WideGoogleNav$$ExternalSyntheticLambda1.smali",
+      "sha256": "b309aed297c0a6a9acda14b699c516384af12c4058b35c4415c9d45c35c261e1",
+      "bytes": 577
+    },
+    {
+      "path": "smali/WideGoogleNav$$ExternalSyntheticLambda2.smali",
+      "sha256": "5f8d1a805aafece349c2e3ed140e474a21246cafc7b590f0217b0b4c6b2674b6",
+      "bytes": 1005
+    },
+    {
+      "path": "smali/WideGoogleNav.smali",
+      "sha256": "67dcbd80aa727acf1ebc7bf4c82c71ee6dd616682dce2bbc65c3ececac2f324b",
+      "bytes": 25108
+    },
+    {
+      "path": "smali/WideStatusBorder.smali",
+      "sha256": "6ab3cdc28a11ec665eabc2f5b565bbf995b74928950e86aace9306e172a11528",
+      "bytes": 28984
+    },
+    {
+      "path": "smali/WideVariant$Navigation.smali",
+      "sha256": "5b03fa19d2710a5dce18d077a0755d12f75c3602e871c9aa440371e26440670b",
+      "bytes": 7095
+    },
+    {
+      "path": "smali/WideVariant.smali",
+      "sha256": "a3b5cdc3bde41c46dbff8550b71332d395f44c6f950500cf81cbfc996c35e739",
+      "bytes": 13978
+    },
+    {
+      "path": "smali/WideVehiclePanel$State.smali",
+      "sha256": "f750b5add21bf16498e0b4868f21231adfcfc4e4ceea2318be847108fb7af56c",
+      "bytes": 974
+    },
+    {
+      "path": "smali/WideVehiclePanel.smali",
+      "sha256": "fcd72261df22deeb96c05ad8f81c7e532e90259ef12beba9b8f92038255f855e",
+      "bytes": 8230
+    },
+    {
+      "path": "src/WideCameraPanel.java",
+      "sha256": "c733a271a85e583627a08c008370bcaf8e4d72479a01fb2fa15b7d7b6eedf483",
+      "bytes": 6890
+    },
+    {
+      "path": "src/WideDashboardFace.java",
+      "sha256": "06cd24285bd32bbc345e516405891dd60fa0b2e95873e4fa2ef7fde7309c0d20",
+      "bytes": 2852
+    },
+    {
+      "path": "src/WideDirect.java",
+      "sha256": "64b56bd01816e5bbd60c8f94355f3ac8cb194254c0a9b0cfdc7f220529ba834e",
+      "bytes": 24698
+    },
+    {
+      "path": "src/WideGoogleAdapter.java",
+      "sha256": "ed778dee828c49a2a13590a75bd13a3c0b01d40d946f553e98a32c41c088ca59",
+      "bytes": 6329
+    },
+    {
+      "path": "src/WideGoogleNav.java",
+      "sha256": "8e8d5c699dc09f5ed0a4503d3a7108e918132f5fbc3e6634a3f2689cc38f2b3b",
+      "bytes": 4894
+    },
+    {
+      "path": "src/WideVariant.java",
+      "sha256": "ac50ee09394d55fcad6389fa7856fb702566fec7c2d7bb74cbdd37ba2031a32a",
+      "bytes": 5124
+    },
+    {
+      "path": "src/WideVehiclePanel.java",
+      "sha256": "fc157040d68c6eb4132e15d6d34bab81dc6e6c22fad6d60a7e23c2e16537e5c5",
+      "bytes": 1596
+    },
+    {
+      "path": "tests/GoogleAdapterChecks.java",
+      "sha256": "d7926ea0f9ebbdf25169ef734301697e33883a2f294d836ac4f7a1569ef4b1c6",
+      "bytes": 3857
+    },
+    {
+      "path": "verification/apk-signature.txt",
+      "sha256": "78edaf54b68472ec51e937c811a1bcef133c7347c36ececb55f50cefe467ed8a",
+      "bytes": 1010
+    },
+    {
+      "path": "verification/dex-links.txt",
+      "sha256": "e6a9eda05e31f22c32429c7428a5592deb9a91d21f50fe419ba2b0815f913f8e",
+      "bytes": 86
+    },
+    {
+      "path": "verification/google-apk-signature.txt",
+      "sha256": "d89455cd8059eed59ffd5568ce318bbf26a9b1edd379b5cb019ebc58df1ab412",
+      "bytes": 974
+    },
+    {
+      "path": "verification/tests.txt",
+      "sha256": "3bfc5c66bcd9364bb1ac981c702c3d0a7ff304b08f82fb2f2cf5a423b1367d3c",
+      "bytes": 327
+    }
+  ],
+  "onDeviceVerified": false
+}

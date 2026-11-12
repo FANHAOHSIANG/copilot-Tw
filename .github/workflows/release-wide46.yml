@@ -1,0 +1,65 @@
+name: Publish verified wide.46 downloads
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'release/wide46/**'
+      - '.github/workflows/release-wide46.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: release-wide46
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Install the pinned binary patch reader
+        run: python3 -m pip install bsdiff4==1.4.2
+      - name: Fetch the exact successful CI unsigned input
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131
+        with:
+          name: google-companion-unsigned-43161727996-1
+          run-id: 43161727996
+          github-token: ${{ github.token }}
+          path: release-input/google
+      - name: Restore and verify the signed APKs and archive matching sources
+        run: |
+          python3 release/wide46/publish.py \
+            --google-base release-input/google/app-release-unsigned.apk \
+            --google-build-info release-input/google/build-info.json
+      - name: Publish the integration test release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          if gh release view wide.46 >/dev/null 2>&1; then
+            echo 'wide.46 exists; refusing to replace a published signed artifact automatically.'
+            exit 1
+          fi
+          if git ls-remote --exit-code --tags origin refs/tags/wide.46 > /tmp/copilot-wide46-tag-check; then
+            echo 'wide.46 tag already exists; refusing to let release sources point at an unverified revision.'
+            exit 1
+          else
+            tag_status=$?
+            if [[ "$tag_status" -ne 2 ]]; then
+              echo 'Unable to establish that the release tag is absent.'
+              exit "$tag_status"
+            fi
+          fi
+          gh release create wide.46 release-output/* \
+            --target "$GITHUB_SHA" \
+            --title 'Copilot tw wide.46 + CP Google 0.1.1（整合測試版）' \
+            --notes-file release/wide46/NOTES.md \
+            --prerelease --latest=false

@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Navipilot Wide Layout Test, OU=Personal Adaptation
+Signer #1 certificate SHA-256 digest: eb0f6a44174aecf09cedc237be2ca0305ea491d47b381407d31e903acbd34b46
+Signer #1 certificate SHA-1 digest: ad32963b94df5e30db1b24ecd62bb911f88d487e
+Signer #1 certificate MD5 digest: 2b7b3f02890448771d0f1f4008b32704
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 84b5a9c3015e6b36ac5ece4c51e0fae84074fbfba9aecc1e6dac54dff96e2c8c
+Signer #1 public key SHA-1 digest: f34aa4cb6a31d5396759c5ff6c10740b4bb4227a
+Signer #1 public key MD5 digest: 08704ce379553f04f0d3c8b87fd76c95

@@ -1,6 +1,6 @@
 # Copilot tw
 
-> 開發分支新增 [wide.45 手機高德 Link 接入](variants/amap-link1/README.md)：以本機已授權事件接入原 Carrot Navi v2，不需高德開發者 Key。已完成建置與離線驗證；高德 17.02.2 的實際授權與 C4 收件仍待裝置確認。以下公開 Release 下載仍保留既有版本。
+> 最新整合測試版：[wide.46 科技執法與 Google 導航](variants/wide46/README.md)。完整 [Google Cloud 申請、設定、使用教學](docs/GOOGLE_SDK_zh-TW.md) 與 [裝置驗收步驟](docs/DEVICE_ACCEPTANCE_zh-TW.md) 已提供。
 
 **把導航、台灣測速提醒與 Carrot 車況整合在同一個 Android 行車畫面。**
 
@@ -8,15 +8,26 @@
 
 ## 下載最新版
 
-目前提供 **9.3.1-wide.42-tolerant-alert（26110754）測試版**，更新日期 2026-11-12。Android 12 以上。
+目前提供 **9.3.1-wide.46-enforcement-google（26110758）整合測試版**，搭配 **CP Google 導航 0.1.1**，更新日期 2026-11-12。完整搭配需要 Android 12 以上。
 
 | 檔案 | 用途 |
 | --- | --- |
-| **[下載 Android APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.42/Copilot-tw-9.3.1-wide.42-tolerant-alert.apk)** | 車機／Android 手機直接安裝，同簽章可覆蓋更新 |
-| [下載原始碼與修改材料 ZIP](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.42/Copilot-tw-wide.42-source.zip) | 開發、檢視與重建；不是安裝檔 |
-| [下載 SHA256SUMS](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.42/SHA256SUMS.txt) | 核對下載完整性 |
+| **[下載 CoPilot tw wide.46 APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.46/Copilot-tw-9.3.1-wide.46-enforcement-google.apk)** | 主程式；同簽章受控發行版可覆蓋更新 |
+| **[下載 CP Google 導航 0.1.1 APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.46/CP-Google-Navigation-0.1.1.apk)** | Google SDK 配套；與主程式安裝同機，使用自己的 Google Cloud Key |
+| [下載原始碼與修改材料 ZIP](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.46/Copilot-tw-wide.46-source.zip) | 含恢復的 wide.44、wide.45／46 overlay、Google Gradle 專案與驗證材料 |
+| [下載 SHA256SUMS](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.46/SHA256SUMS.txt) | 核對下載完整性 |
 
-[版本下載頁](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.42) · [安裝與使用](docs/INSTALL_zh-TW.md) · [資料來源與已知限制](docs/DATA_SOURCES_zh-TW.md) · [更新紀錄](CHANGELOG.md)
+[版本下載頁](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.46) · [Google SDK 完整教學](docs/GOOGLE_SDK_zh-TW.md) · [裝置驗收](docs/DEVICE_ACCEPTANCE_zh-TW.md) · [建置說明](variants/wide46/README.md) · [更新紀錄](CHANGELOG.md)
+
+## wide.46 本次更新
+
+科技執法公告接上 GPS、道路判定、儀表與離線中文語音。同路前方但取締方向未公開時，畫面與語音明說方向待確認；附近、條件待確認及參考公告不主動播報。停止定位、資料過期或道路／公告內容改變後，撤銷舊提醒。入口在右側面板「更多 → 科技執法提醒與診斷」。
+
+Google 修正下一轉彎距離重複加總；CP Google 0.1.1 只請求必要地點欄位、加入搜尋防抖及非同步取消，並修正錯誤提示。Google 有免費用量但仍需 Billing，超量可收費；本專案沒有內附共用 Key。
+
+已完成 67 項核心、46 項生命週期、316 項繪圖、38 項 Google mapper、21 項 receiver 合約檢查，主 APK 獨立 scope／reference、簽章及 16 KiB 對齊通過。Google 配套在乾淨 GitHub CI 完成單元測試、release lint 與建置。
+
+**使用者裝置的 Google 授權、離線 TTS 實際聲音、背景定位與 C4 接收仍需按驗收文件確認。** 程式／資料回放不代表真車測試。科技執法新功能不產生速限或自動減速欄位；資料覆蓋限制詳見 [引擎說明](variants/enforcement-alert/README.md)。
 
 ## wide.42 本次更新
 
@@ -38,7 +49,7 @@
 
 | 功能 | 說明 |
 | --- | --- |
-| 導航切換 | 高德車機／一般版共用一個 Copilot APK；Google 地圖提供畫面投屏 |
+| 導航切換 | 高德車機／一般版、Google 地圖投屏，以及 CP Google SDK 配套導航資料來源 |
 | 台灣測速儀表 | 即時時速、可用速限、測速距離、定位與資料狀態；靠近時放大距離顯示 |
 | 測速語音 | 符合提醒條件、進入 1 公里門檻時按道路層級播報；未分類播報「前方測速照相」；配對較晚時也可能較晚提醒 |
 | 全畫面紅光 | 接近測速 500 公尺內，App 四邊閃紅光，距離越近閃爍越快 |
@@ -49,13 +60,13 @@
 | 高德預調速 | 固定使用目前選定高德的有效策略，切台灣來源也保留；與台灣有效道路速限取較低值送出 |
 | 投屏教學 | App 內提供 Shizuku／Stellar 授權說明與管理工具入口，另有 Amap2Tesla 僅投神盾選項 |
 
-高德、Google 地圖、神盾及投屏管理工具需自行安裝。神盾投屏不代表讀取神盾內部測速資料；Google 模式目前不提供 Google 導航資料給 C4。
+高德、Google 地圖、神盾及投屏管理工具需自行安裝。神盾投屏不代表讀取神盾內部測速資料；官方 Google 地圖模式提供投屏；「CP Google 導航」配套才提供 SDK 導航資料。
 
 ## 第一次使用
 
 1. 下載上方 APK，停車時安裝或覆蓋更新。
 2. 授予精確定位；依需求啟動 Shizuku 或 Stellar，完成 Copilot 投屏授權。
-3. 在導航「更多」選擇已安裝的高德車機／一般版或 Google 地圖。
+3. 在導航「更多」選擇已安裝的高德車機／一般版、Google 地圖或 CP Google 導航；CP Google 先依完整教學設定個人 Key。
 4. 在右側選擇「台灣測速」或「神盾投屏」。台灣畫面先確認 GPS 和道路配對狀態。
 5. 如要連 C4，填入實際 C4 位址並確認車況；需要台灣控制資料時，再啟用台灣來源。顯示面板切換不等於控制來源切換。
 6. 查看「更多」診斷，分別確認定位、測速配對、傳送紀錄與 C4 接收情況。
@@ -79,3 +90,7 @@ wide.39 已通過 26 項離線速度合併測試、底欄結構與 APK 簽章檢
 ## 授權與資料來源
 
 原 CP 搭子／Navipilot APK 權利屬原作者；本儲存庫沒有替整個 App 重新授權。HCOP、OpenStreetMap 與政府開放資料的來源／授權保留於 [資料說明](docs/DATA_SOURCES_zh-TW.md)及各原始目錄。公開檔案不包含私人簽署金鑰或個人行車紀錄。
+
+## 科技執法資料層
+
+新增[全台官方科技執法資料核對與覆蓋](docs/ENFORCEMENT_zh-TW.md)，含離線 GeoJSON、來源追蹤與 Android 查詢模組。wide.46 已以分層判定接入畫面與語音；[核心規則與合成覆蓋](variants/enforcement-alert/README.md) 和 [整合驗證](variants/wide46/README.md) 分別保存。

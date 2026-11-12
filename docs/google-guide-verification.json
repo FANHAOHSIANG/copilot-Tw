@@ -1,0 +1,10 @@
+{
+  "pages": 17,
+  "boundsOrGlyphIssues": [],
+  "links": 87,
+  "source": "docs/GOOGLE_SDK_zh-TW.md",
+  "method": "ReportLab; embedded Traditional Chinese font subsets; all pages rasterized and reviewed",
+  "pdfSha256": "c7bcc9f4c5120d398d9179bb8790f86d61d8d9827ccfdc86ea7aa6f72c0b0c16",
+  "htmlSha256": "f8d04f6c3c7ddf82ef73798a450d8dca179b3df7b316d27541e368e7450b6f05",
+  "markdownSha256": "ae47226a7d1315c4713a4004f31f630707b63e7be9f51d2b07b7d7c8744d2594"
+}

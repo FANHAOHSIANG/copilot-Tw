@@ -1,0 +1,10 @@
+{
+  "base_name": "Copilot-tw-9.3.1-wide.43-offline-forward.apk",
+  "base_sha256": "0b86165f9b16236d1c744ab218c3ec26e36435774223c0cf14f448757d5fbcfc",
+  "apk_name": "Copilot-tw-9.3.1-wide.44-google-bridge.apk",
+  "apk_sha256": "d7a1ff23019d0e663f4f309c23700f536f731dfba26126d6a37489d718c070a5",
+  "patch_sha256": "69ffa65403b612fdcf8248fedf15326f95f7dfb5eabb7315cbed56fbe8f60482",
+  "versionCode": 26110756,
+  "google_apk_name": "CP-Google-Navigation-0.1.0.apk",
+  "google_apk_sha256": "550bddd8a037f87537ae6a76b9b12980240d597a20dfb8f1e5ed91a9ad239988"
+}

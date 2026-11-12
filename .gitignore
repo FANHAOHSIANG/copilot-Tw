@@ -8,3 +8,7 @@ local.properties
 **/tools/
 **/python/
 **/patched/
+__pycache__/
+*.py[cod]
+release-output/
+release-input/

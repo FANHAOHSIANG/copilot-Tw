@@ -71,7 +71,7 @@ python3 prepare_resources.py
 
 release 產物：`app/build/outputs/apk/release/app-release-unsigned.apk`，未簽章。請在專案外以受控金鑰簽署；不要提交私鑰、密碼、`local.properties`、`google-services.json`、SDK cache 或 build 目錄。開發測試可用 `./gradlew :app:assembleDebug`，debug 簽章不能覆蓋不同憑證的受控發行版。
 
-本次離線環境已完成 release 編譯、8 個 JUnit 測試及 8 個原有金鑰生命週期斷言。因未快取 `com.android.tools.lint:lint-gradle:31.13.2`，本次命令排除 release lint 的三個 task；沒有把關閉 lint 寫進專案設定，也不宣稱 lint 通過。完整環境應使用上方不排除 task 的標準命令。結果見 `verification/build-011.json`。
+本次離線環境已完成 release 編譯、8 個 JUnit 測試及 8 個原有金鑰生命週期斷言。因未快取 `com.android.tools.lint:lint-gradle:31.13.2`，本次命令排除 release lint 的三個 task；沒有把關閉 lint 寫進專案設定，也不宣稱 lint 通過。完整環境應使用上方不排除 task 的標準命令。結果見 `verification/build-011.json`。 後續 GitHub CI 已用同一來源正常跑完單元測試、release lint 與 assembleRelease，unsigned APK 與本機逐位元一致；已下載 artifact 再核對完整 SHA，見 `verification/ci-build-011.json`。
 
 ## 來源與驗證界線
 

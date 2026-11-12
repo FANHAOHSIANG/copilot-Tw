@@ -1,0 +1,45 @@
+{
+  "repository": "FANHAOHSIANG/copilot-Tw",
+  "sourceCommit": "271dae1530743ad494be89b09d1e7db39d679204",
+  "runId": "43161727996",
+  "runAttempt": "1",
+  "buildOutcome": "success",
+  "package": "com.copilottw.googlenav",
+  "versionName": "0.1.1-copilot",
+  "versionCode": 2,
+  "java": 21,
+  "gradle": "8.13",
+  "androidPlatform": 36,
+  "androidBuildTools": "36.0.0",
+  "command": "bash ./gradlew --no-daemon --console=plain :app:testDebugUnitTest :app:assembleRelease",
+  "signingPerformed": false,
+  "deviceTest": false,
+  "apk": "app-release-unsigned.apk",
+  "apkSha256": "b9949fa56351037e5e575e7ca49e85583f7f1507888a271a4b5f6f19b3f321f1",
+  "apkBytes": 60538674,
+  "runUrl": "https://github.com/FANHAOHSIANG/copilot-Tw/actions/runs/43161727996",
+  "artifactId": 13918975150,
+  "artifactZipSha256": "1f49ce5b2af8e06209302749d293772db779114e70d9ec764bd7bf3c586f8b6f",
+  "localUnsignedByteIdentical": true,
+  "downloadedArtifactHashVerified": true,
+  "junit": [
+    {
+      "name": "com.navdashn.GoogleSearchPolicyTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
+      "name": "com.navdashn.RequestGenerationTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0"
+    }
+  ],
+  "releaseLintExecuted": true,
+  "releaseLintEvidence": [
+    "lintVitalAnalyzeRelease",
+    "lintVitalReportRelease",
+    "lintVitalRelease"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "sourceId": "taipei",
+  "url": "https://data.taipei/api/dataset/986fa73e-c470-4ebf-9f35-3a1c9d2a8788/resource/4715904f-6ce1-41c2-8a68-3bc5303f3607/download",
+  "attemptedAt": "2026-11-11T20:53:51.155960+00:00",
+  "contentType": "text/csv;charset=BIG-5",
+  "resolvedUrl": "https://data.taipei/api/dataset/986fa73e-c470-4ebf-9f35-3a1c9d2a8788/resource/4715904f-6ce1-41c2-8a68-3bc5303f3607/download",
+  "status": "downloaded",
+  "bytes": 16242,
+  "sha256": "b7c59cf6f38df3e00440e6e568c92321d28ca7286e522bc946198da8e8ba1d3a",
+  "retrievedAt": "2026-11-11T20:53:51.155960+00:00"
+}

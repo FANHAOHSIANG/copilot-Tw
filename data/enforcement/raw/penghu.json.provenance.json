@@ -1,0 +1,11 @@
+{
+  "sourceId": "penghu",
+  "url": "https://opendata.penghu.gov.tw/dataset/bbb46c6f-dd1a-4ca4-b4e4-ef25dab065fc/resource/ecebae77-66fb-4228-83cb-d3e57383dfa2/download/pb140300-2025-02-21-1740105639.json",
+  "attemptedAt": "2026-11-11T20:53:51.159629+00:00",
+  "contentType": "application/json",
+  "resolvedUrl": "https://opendata.penghu.gov.tw/dataset/bbb46c6f-dd1a-4ca4-b4e4-ef25dab065fc/resource/ecebae77-66fb-4228-83cb-d3e57383dfa2/download/pb140300-2025-02-21-1740105639.json",
+  "status": "downloaded",
+  "bytes": 2095,
+  "sha256": "b7c2bdd743f7b51805248d357214142362cd60aaac12c1a294cd3f38f0a2d33b",
+  "retrievedAt": "2026-11-11T20:53:51.159629+00:00"
+}

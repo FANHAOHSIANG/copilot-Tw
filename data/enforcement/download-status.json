@@ -1,0 +1,280 @@
+[
+  {
+    "sourceId": "taipei",
+    "url": "https://data.taipei/api/dataset/986fa73e-c470-4ebf-9f35-3a1c9d2a8788/resource/4715904f-6ce1-41c2-8a68-3bc5303f3607/download",
+    "attemptedAt": "2026-11-11T20:53:51.155960+00:00",
+    "contentType": "text/csv;charset=BIG-5",
+    "resolvedUrl": "https://data.taipei/api/dataset/986fa73e-c470-4ebf-9f35-3a1c9d2a8788/resource/4715904f-6ce1-41c2-8a68-3bc5303f3607/download",
+    "status": "downloaded",
+    "bytes": 16242,
+    "sha256": "b7c59cf6f38df3e00440e6e568c92321d28ca7286e522bc946198da8e8ba1d3a",
+    "retrievedAt": "2026-11-11T20:53:51.155960+00:00"
+  },
+  {
+    "sourceId": "taoyuan",
+    "url": "https://opendata.tycg.gov.tw/api/dataset/46bd8de0-cb90-4149-a530-5f5b1751b450/resource/636bb62e-cc5b-4ad4-ac11-5849ad5c432d/download",
+    "attemptedAt": "2026-11-11T20:53:51.156971+00:00",
+    "contentType": "text/csv;charset=UTF-8",
+    "resolvedUrl": "https://opendata.tycg.gov.tw/api/dataset/46bd8de0-cb90-4149-a530-5f5b1751b450/resource/636bb62e-cc5b-4ad4-ac11-5849ad5c432d/download",
+    "status": "downloaded",
+    "bytes": 20005,
+    "sha256": "074faf345571e79504cd47aac26490fccda102f91ee26858b7986a3bf26725af",
+    "retrievedAt": "2026-11-11T20:53:51.156971+00:00"
+  },
+  {
+    "sourceId": "taichung",
+    "url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=b3f58c63-53b3-4c01-8203-2a7afa08bb13",
+    "attemptedAt": "2026-11-11T20:53:51.157565+00:00",
+    "contentType": "application/octet-stream",
+    "resolvedUrl": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=b3f58c63-53b3-4c01-8203-2a7afa08bb13",
+    "status": "downloaded",
+    "bytes": 11236,
+    "sha256": "f0c22ce132a93336967de2ff80d28bed30ebc947d342439dd43a17e08177a4e8",
+    "retrievedAt": "2026-11-11T20:53:51.157565+00:00"
+  },
+  {
+    "sourceId": "hsinchu-city",
+    "url": "https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/2006/51a0af55-4a9f-43fb-86cc-5ea09ab58bef.json",
+    "attemptedAt": "2026-11-11T20:53:51.158117+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "sourceId": "penghu",
+    "url": "https://opendata.penghu.gov.tw/dataset/bbb46c6f-dd1a-4ca4-b4e4-ef25dab065fc/resource/ecebae77-66fb-4228-83cb-d3e57383dfa2/download/pb140300-2025-02-21-1740105639.json",
+    "attemptedAt": "2026-11-11T20:53:51.159629+00:00",
+    "contentType": "application/json",
+    "resolvedUrl": "https://opendata.penghu.gov.tw/dataset/bbb46c6f-dd1a-4ca4-b4e4-ef25dab065fc/resource/ecebae77-66fb-4228-83cb-d3e57383dfa2/download/pb140300-2025-02-21-1740105639.json",
+    "status": "downloaded",
+    "bytes": 2095,
+    "sha256": "b7c2bdd743f7b51805248d357214142362cd60aaac12c1a294cd3f38f0a2d33b",
+    "retrievedAt": "2026-11-11T20:53:51.159629+00:00"
+  },
+  {
+    "sourceId": "miaoli",
+    "url": "https://webws.miaoli.gov.tw/Download.ashx?icon=.csv&n=6IuX5qCX57ij56eR5oqA5Z%2B35rOV6Kit5YKZ5Y%2BW57eg5Zyw6bueLmNzdg%3D%3D&u=LzAwMS9VcGxvYWQvb3BlbmRhdGEvMTcxNS83MjlmODcxOC0xNGVkLTQ5NmQtOTMzZS1jOTRmZmZkZjNmYzYuY3N2",
+    "attemptedAt": "2026-11-11T20:53:51.163144+00:00",
+    "contentType": "application/vnd.ms-excel",
+    "resolvedUrl": "https://webws.miaoli.gov.tw/Download.ashx?icon=.csv&n=6IuX5qCX57ij56eR5oqA5Z%2B35rOV6Kit5YKZ5Y%2BW57eg5Zyw6bueLmNzdg%3D%3D&u=LzAwMS9VcGxvYWQvb3BlbmRhdGEvMTcxNS83MjlmODcxOC0xNGVkLTQ5NmQtOTMzZS1jOTRmZmZkZjNmYzYuY3N2",
+    "status": "downloaded",
+    "bytes": 2909,
+    "sha256": "cf93f3b728cd00f5557f60cb1c42fb5ffba0d4a9cbaa87cc4b31c05e6a694716",
+    "retrievedAt": "2026-11-11T20:53:51.163144+00:00"
+  },
+  {
+    "sourceId": "chiayi-county",
+    "url": "https://ws-tm.cyhg.gov.tw/001/Upload/1330/relfile/13620/256051/72fa2fcd-f665-4191-b429-7950274c54d2.csv",
+    "attemptedAt": "2026-11-11T20:53:57.294272+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "sourceId": "keelung",
+    "url": "https://www.klg.gov.tw/cht/upload/TechArea.csv",
+    "attemptedAt": "2026-11-11T20:53:57.630383+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "sourceId": "pingtung",
+    "url": "https://www-ws.pthg.gov.tw/Upload/2015pthg/0/relfile/0/0/6a3e921a-ff5f-4de3-90ab-1d2094ad1170.json",
+    "attemptedAt": "2026-11-11T20:53:58.027503+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "sourceId": "kaohsiung-junction",
+    "url": "https://openapi.kcg.gov.tw/Api/Service/Get/fb29936f-c4ff-4fcf-8d22-24aa62a558cb",
+    "attemptedAt": "2026-11-11T20:53:58.749251+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "sourceId": "kaohsiung-pedestrian",
+    "url": "https://openapi.kcg.gov.tw/Api/Service/Get/d6903a09-3613-4caa-8575-59a049333d86",
+    "attemptedAt": "2026-11-11T20:53:58.926785+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "sourceId": "kaohsiung-rental",
+    "url": "https://openapi.kcg.gov.tw/Api/Service/Get/cbc5c9ac-8e34-407e-b759-af6b4aed4a24",
+    "attemptedAt": "2026-11-11T20:54:01.680143+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "sourceId": "kaohsiung-restricted",
+    "url": "https://openapi.kcg.gov.tw/Api/Service/Get/2bbc0414-f87e-4fb4-9181-3115a56392c5",
+    "attemptedAt": "2026-11-11T20:54:06.970271+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "sourceId": "kaohsiung-parking",
+    "url": "https://openapi.kcg.gov.tw/Api/Service/Get/52eee8e0-825e-4afc-853d-0267bfab1e02",
+    "attemptedAt": "2026-11-11T20:54:07.215218+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "sourceId": "nantou-restricted",
+    "url": "https://data.nantou.gov.tw/dataset/1f5bdf50-d743-4f65-96e0-cd5e8cbd7441/resource/f9cb2592-d3cf-4ce2-b6b2-ea96d155394b/download/1150724.csv",
+    "attemptedAt": "2026-11-11T20:54:07.503353+00:00",
+    "contentType": "text/csv",
+    "resolvedUrl": "https://data.nantou.gov.tw/dataset/1f5bdf50-d743-4f65-96e0-cd5e8cbd7441/resource/f9cb2592-d3cf-4ce2-b6b2-ea96d155394b/download/1150724.csv",
+    "status": "downloaded",
+    "bytes": 313,
+    "sha256": "20060c02c66cee8398e5a0d2769c8f9a050afb7969b624e4b3e95a12005c6abb",
+    "retrievedAt": "2026-11-11T20:54:07.503353+00:00"
+  },
+  {
+    "sourceId": "changhua",
+    "url": "https://www.chpb.gov.tw/opendata/deJgXKJjLESCdBNje_-bYA/csv",
+    "attemptedAt": "2026-11-11T20:54:07.504837+00:00",
+    "contentType": "text/csv",
+    "resolvedUrl": "https://www.chpb.gov.tw/opendata/deJgXKJjLESCdBNje_-bYA/csv",
+    "status": "downloaded",
+    "bytes": 8690,
+    "sha256": "72a4b7ae2026e64edc67728671868d5092d914ab13fb2b46c2fc6ebdd3e1cad2",
+    "retrievedAt": "2026-11-11T20:54:07.504837+00:00"
+  },
+  {
+    "sourceId": "chiayi-city",
+    "url": "https://data.chiayi.gov.tw/opendata/api/getResource?oid=21dd0bd6-932d-4f45-985b-3e1e8bc69a6b&rid=26b0febc-11f7-48e5-82dc-2977a45f0e1a",
+    "attemptedAt": "2026-11-11T20:54:07.505451+00:00",
+    "contentType": "application/octet-stream;charset=UTF-8",
+    "resolvedUrl": "https://data.chiayi.gov.tw/opendata/api/getResource?oid=21dd0bd6-932d-4f45-985b-3e1e8bc69a6b&rid=26b0febc-11f7-48e5-82dc-2977a45f0e1a",
+    "status": "downloaded",
+    "bytes": 2267,
+    "sha256": "647701344f5b605ea28a8ea4b20559cab5dafabd987fcc6bd1f4a6f1f9f40249",
+    "retrievedAt": "2026-11-11T20:54:07.505451+00:00"
+  },
+  {
+    "sourceId": "tainan",
+    "url": "https://data.tainan.gov.tw/File/DirectDownload/1c7e82f0-d6b2-4b20-aeff-5c768100f82c?fileName=%E8%87%BA%E5%8D%97%E5%B8%82%E6%99%BA%E6%85%A7%E7%AE%A1%E7%90%86%E7%A7%91%E6%8A%80%E5%9F%B7%E6%B3%95%E8%A8%AD%E5%82%99%E8%A8%AD%E7%BD%AE%E5%9C%B0%E9%BB%9E",
+    "attemptedAt": "2026-11-11T20:54:08.296023+00:00",
+    "contentType": "text/csv",
+    "resolvedUrl": "https://data.tainan.gov.tw/File/DirectDownload/1c7e82f0-d6b2-4b20-aeff-5c768100f82c?fileName=%E8%87%BA%E5%8D%97%E5%B8%82%E6%99%BA%E6%85%A7%E7%AE%A1%E7%90%86%E7%A7%91%E6%8A%80%E5%9F%B7%E6%B3%95%E8%A8%AD%E5%82%99%E8%A8%AD%E7%BD%AE%E5%9C%B0%E9%BB%9E",
+    "status": "downloaded",
+    "bytes": 13934,
+    "sha256": "2275c9d13024d72686d12f7875772ef3be8753b12b361ac15d01a4b87352d36f",
+    "retrievedAt": "2026-11-11T20:54:08.296023+00:00"
+  },
+  {
+    "sourceId": "kinmen-pdf",
+    "url": "https://www.xizhi.police.ntpc.gov.tw/dl-43101-f8965015-d2aa-4cf5-970c-f837529df8f9.html",
+    "attemptedAt": "2026-11-11T20:54:12.254162+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "sourceId": "nantou-pdf",
+    "url": "https://www.xizhi.police.ntpc.gov.tw/dl-43095-d92ede50-ed0e-442b-9278-aa6c66eba7b8.html",
+    "attemptedAt": "2026-11-11T20:54:13.468251+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "sourceId": "hsinchu-city-pdf",
+    "url": "https://www.xizhi.police.ntpc.gov.tw/dl-43743-b4a8e8b5-cd3b-4c39-ad3e-1edaf0e1a10a.html",
+    "attemptedAt": "2026-11-11T20:54:14.317722+00:00",
+    "contentType": "application/pdf",
+    "resolvedUrl": "https://www.xizhi.police.ntpc.gov.tw/dl-43743-b4a8e8b5-cd3b-4c39-ad3e-1edaf0e1a10a.html",
+    "status": "downloaded",
+    "bytes": 70712,
+    "sha256": "5204f4870a7f1db63f30fecb290d97ba79085517016a337ce9ec833c1fa6928d",
+    "retrievedAt": "2026-11-11T20:54:14.317722+00:00"
+  },
+  {
+    "sourceId": "hsinchu-county-pdf",
+    "url": "https://www.xizhi.police.ntpc.gov.tw/dl-42704-6e15d562-d012-4918-9b85-1d2cc1371714.html",
+    "attemptedAt": "2026-11-11T20:54:15.101340+00:00",
+    "contentType": "application/pdf",
+    "resolvedUrl": "https://www.xizhi.police.ntpc.gov.tw/dl-42704-6e15d562-d012-4918-9b85-1d2cc1371714.html",
+    "status": "downloaded",
+    "bytes": 138985,
+    "sha256": "41e6942b8d7673bf5e761f7dc728aed31a823bcfdb5627b4a7e3e7fc6e467787",
+    "retrievedAt": "2026-11-11T20:54:15.101340+00:00"
+  },
+  {
+    "sourceId": "chiayi-city-pdf",
+    "url": "https://www.xizhi.police.ntpc.gov.tw/dl-43347-905eba0f-ff33-487b-ac94-d9684f78c24c.html",
+    "attemptedAt": "2026-11-11T20:54:17.200841+00:00",
+    "contentType": "application/pdf",
+    "resolvedUrl": "https://www.xizhi.police.ntpc.gov.tw/dl-43347-905eba0f-ff33-487b-ac94-d9684f78c24c.html",
+    "status": "downloaded",
+    "bytes": 109133,
+    "sha256": "fe458d4e8c05f9a8e9c34485f4c946a346d14010d67210d11851dc720bf1a8d1",
+    "retrievedAt": "2026-11-11T20:54:17.200841+00:00"
+  },
+  {
+    "sourceId": "newtaipei",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-43528-5132da85-2112-4d8d-b3cd-e9b03fdf194a.html",
+    "attemptedAt": "2026-11-11T20:54:17.562095+00:00",
+    "contentType": "application/pdf",
+    "resolvedUrl": "https://www.traffic.police.ntpc.gov.tw/dl-43528-5132da85-2112-4d8d-b3cd-e9b03fdf194a.html",
+    "status": "downloaded",
+    "bytes": 647617,
+    "sha256": "99f00e6cab82f02e4b5f8f664962ad605839c46c37dcc987771b3c7b46fee01c",
+    "retrievedAt": "2026-11-11T20:54:17.562095+00:00"
+  },
+  {
+    "sourceId": "yunlin",
+    "url": "https://ws.yunlin.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNjEyL3JlbGZpbGUvMjIyNDYvNjEzNTUwL2MxYjczNjdjLTIzYjMtNDU0Zi04NTcyLTczNGJlNmZjYzA4ZC5wZGY%3d&n=MTE1MTExMOmbsuael%2be4o%2bitpuWvn%2bWxgOWbuuWumuW8j%2bmBleimj%2beFp%2bebuOioreWCmeWPiuenkeaKgOWft%2bazleioree9ruWcsOm7nuS4gOimveihqC5wZGY%3d",
+    "attemptedAt": "2026-11-11T20:54:17.611757+00:00",
+    "contentType": "application/pdf",
+    "resolvedUrl": "https://ws.yunlin.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNjEyL3JlbGZpbGUvMjIyNDYvNjEzNTUwL2MxYjczNjdjLTIzYjMtNDU0Zi04NTcyLTczNGJlNmZjYzA4ZC5wZGY%3d&n=MTE1MTExMOmbsuael%2be4o%2bitpuWvn%2bWxgOWbuuWumuW8j%2bmBleimj%2beFp%2bebuOioreWCmeWPiuenkeaKgOWft%2bazleioree9ruWcsOm7nuS4gOimveihqC5wZGY%3d",
+    "status": "downloaded",
+    "bytes": 293787,
+    "sha256": "4e3a578c56f9c1675df87cdbbb74ebbb4bdaabd00c9d0ab32a2bc0fe7ba8543f",
+    "retrievedAt": "2026-11-11T20:54:17.611757+00:00"
+  },
+  {
+    "sourceId": "yilan",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-41277-5a294b01-4219-42c2-8b4b-ad92cca046b3.html",
+    "attemptedAt": "2026-11-11T20:54:17.612487+00:00",
+    "contentType": "application/pdf",
+    "resolvedUrl": "https://www.traffic.police.ntpc.gov.tw/dl-41277-5a294b01-4219-42c2-8b4b-ad92cca046b3.html",
+    "status": "downloaded",
+    "bytes": 110498,
+    "sha256": "988bb68a44b5471ceb7916931a19b8285ecd8847be82ee0909c43e388566dbd8",
+    "retrievedAt": "2026-11-11T20:54:17.612487+00:00"
+  },
+  {
+    "sourceId": "kaohsiung-pdf",
+    "url": "https://www.traffic.police.ntpc.gov.tw/dl-42674-f0b71311-d814-419c-b6fc-652564b8165d.html",
+    "attemptedAt": "2026-11-11T20:54:17.805080+00:00",
+    "contentType": "application/pdf",
+    "resolvedUrl": "https://www.traffic.police.ntpc.gov.tw/dl-42674-f0b71311-d814-419c-b6fc-652564b8165d.html",
+    "status": "downloaded",
+    "bytes": 1392697,
+    "sha256": "d3f45b2f0d20eac16d12a1e48728eea8953e2d81d50bcf725c9776fbe6b29662",
+    "retrievedAt": "2026-11-11T20:54:17.805080+00:00"
+  },
+  {
+    "sourceId": "hualien",
+    "url": "https://ws.hl.gov.tw/Download.ashx?n=6Iqx6JOu57ij6K2m5a%2Bf5bGAXzExNOW5tOW6pua4rOmAn%2BeFp%2BebuOOAgemXlue0heeHiOeFp%2BebuOWbuuWumuahv%2BWPiuenkeaKgOWft%2Bazleioree9ruWcsOm7nuS4gOimveihqC5wZGY%3D&u=LzAwMS9VcGxvYWQvNTE4L3JlbGZpbGUvMjI2MjkvMjA1NTkwLzExODZmZTY4LTVjZjYtNDY3YS1iZGI5LWQ0MGI5MTk2YjRiOC5wZGY%3D",
+    "attemptedAt": "2026-11-11T20:54:18.177770+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "sourceId": "taitung",
+    "url": "https://www.ttcpb.gov.tw/uploaddowndoc?file=%2Fpubttcpb%2Fcomm%2F202610301336340.pdf&flag=doc",
+    "attemptedAt": "2026-11-11T20:54:23.075152+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "sourceId": "airport",
+    "url": "https://www.apb.npa.gov.tw/ch/app/data/doc?detailNo=1455828827405029376&module=wg146&type=s",
+    "attemptedAt": "2026-11-11T20:54:23.082448+00:00",
+    "contentType": "application/pdf",
+    "resolvedUrl": "https://www.apb.npa.gov.tw/ch/app/data/doc?detailNo=1455828827405029376&module=wg146&type=s",
+    "status": "downloaded",
+    "bytes": 50500,
+    "sha256": "901ce93093cfdf197f076bf7d6a0dfeebb3c016cc264dc81bb806dc8b7b9e656",
+    "retrievedAt": "2026-11-11T20:54:23.082448+00:00"
+  }
+]

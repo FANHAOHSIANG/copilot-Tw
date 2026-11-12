@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "assertions": 21,
+  "currentDistanceM": 180,
+  "nextGapM": 260,
+  "receiverNextDistanceM": 440,
+  "historicalReceiverNextDistanceM": 620,
+  "userAndUpstreamGuidanceMethodsIdentical": true,
+  "deviceTest": false,
+  "fixtureSha256": "bbc8844339259bc5e45b0ae1039583494e87e45a8ff0fa42d720df1d74dfaa37",
+  "sourceProvenance": "receiver-sources.json"
+}
