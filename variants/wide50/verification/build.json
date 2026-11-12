@@ -1,0 +1,30 @@
+{
+  "version": "9.3.1-wide.50-gps-autostart",
+  "versionCode": 26110762,
+  "baseVersion": "9.3.1-wide.49-camera-baseline",
+  "baseSha256": "10eb66199eb320d47feb700a1ddf56699f4296a1b1bd089e798d53dd0d9e7770",
+  "apk": "Copilot-tw-9.3.1-wide.50-gps-autostart.apk",
+  "apkSha256": "d6ab23513a4815bb5bbe1b5328592e7254aff35b3860ec2836fc094dca20064e",
+  "apkBytes": 68033651,
+  "sameSigningCertificate": true,
+  "alignment16KiB": true,
+  "unchangedAssetsLibrariesResources": 5996,
+  "compiledClasses": [
+    "WideAutoStart$1.smali",
+    "WideAutoStart$2.smali",
+    "WideAutoStart$3.smali",
+    "WideAutoStart$LaunchGate.smali",
+    "WideAutoStart.smali"
+  ],
+  "sourceSha256": {
+    "variants/wide50/src/WideAutoStart.java": "a0f784915e5b6834f90efb06df814d317bdde4a5c50c10c82ad156c5b53610ca",
+    "variants/wide50/patch_decoded.py": "5f8dff94c58e6113d7a6a7732cc5e8e9e190961d30ed28eb2b30a67812ea3e7a",
+    "variants/wide50/build.py": "5df91364120db2eb02caa985f7380a863d1eccefbd708264ec133648aae52ebb",
+    "variants/wide46/tooling/ApiSignatures.java": "c2ffacf7823fd4b6cfb66ec14b539ddb1ceaed6388d990065a1a13c6356db170"
+  },
+  "deviceTest": false,
+  "c4ReceptionVerified": false,
+  "routeForwardingAdded": false,
+  "nextTurnForwardingAdded": false,
+  "diagnosticCaptureOnly": true
+}
