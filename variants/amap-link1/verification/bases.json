@@ -1,0 +1,17 @@
+{
+  "daf4735e33fe7ce30f4a8d88bd631f5ccaf90a7f1e6bbed5619676c5f3d7f2e7": {
+    "version": "9.3.1-wide.42-tolerant-alert",
+    "versionCode": 26110754,
+    "source": "https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.42"
+  },
+  "0b86165f9b16236d1c744ab218c3ec26e36435774223c0cf14f448757d5fbcfc": {
+    "version": "9.3.1-wide.43-offline-forward",
+    "versionCode": 26110755,
+    "source": "https://github.com/FANHAOHSIANG/copilot-Tw/commit/7e89b4f4dcdaef96c2a857b8b77e6f6e3a413d36"
+  },
+  "d7a1ff23019d0e663f4f309c23700f536f731dfba26126d6a37489d718c070a5": {
+    "version": "9.3.1-wide.44-google-bridge",
+    "versionCode": 26110756,
+    "source": "Existing signed wide.44 workspace build; use the matching original APK as input."
+  }
+}

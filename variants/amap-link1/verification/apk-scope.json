@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "baseVersion": "9.3.1-wide.44-google-bridge",
+  "baseSha256": "d7a1ff23019d0e663f4f309c23700f536f731dfba26126d6a37489d718c070a5",
+  "apkVersion": "9.3.1-wide.45-amap-link",
+  "apkVersionCode": 26110757,
+  "apkSha256": "38e9a898b1543eea4d09a8d3188667f8e49a712482dc278f838d35913074c598",
+  "apkBytes": 67804200,
+  "normalization": {
+    "tool": "same baksmali invocation for both APKs",
+    "sequentialLabels": true,
+    "debugInformationCompared": true,
+    "constStringIndexWidthNormalized": true,
+    "toolSha256": {
+      "baksmali/baksmali-2.5.2.jar": "1ed236266d7dc4907aade0b19a34f77efac25342b63c8ace52e579039941b389",
+      "baksmali/dexlib2-2.5.2.jar": "5a5c8982d8bd7d6e3bb1a0713049e3c78b719ec32b20f6b619885cec30a0dd61",
+      "baksmali/guava-27.1-android.jar": "686404f2d1d4d221911f96bd627ff60dac2226a5dfa6fb8ba517073eb97ec0ef",
+      "baksmali/jcommander-1.64.jar": "156be736199c990321d9ff77090b199629cfc9865e2d6c13f7cd291bb1641817",
+      "baksmali/util-2.5.2.jar": "4f580a9cff3ebb83cb3fd20bec88e37e4f183796ca652732992611620282daea",
+      "platform/android-35/android.jar": "4566663c3876e022b4fa4ced8c8697c4ab1688267f090114fd92d027b32e619b",
+      "asm.jar": "adf46d5e34940bdf148ecdd26a9ee8eea94496a72034ff7141066b3eea5c4e9d",
+      "ecj.jar": "01f5a92ac19bb2b3bf85e295a68f2c73c264369109158b566ce9b490af982948"
+    }
+  },
+  "dex": {
+    "base": {
+      "classes.dex": "a78f43b6b648daed91b0526148335aa665d66d9ec0e0333853a6b97b36fdb6ac"
+    },
+    "final": {
+      "classes.dex": "c88453ebcc676318998d052a51652955727f1ea221f7c1f5c8b0fbd210f318fe"
+    },
+    "changed": [
+      "classes.dex"
+    ],
+    "unchangedOtherDex": []
+  },
+  "classes": {
+    "baseCount": 3813,
+    "finalCount": 3851,
+    "unchangedCount": 3807,
+    "changed": [
+      "com/jixiexiaoge/drivingassist/CarrotAmapForegroundService.smali",
+      "com/navipilot/obf/MG.smali",
+      "com/navipilot/obf/WideAmapSource.smali",
+      "com/navipilot/obf/WideDirect$Pane.smali",
+      "com/navipilot/obf/WideVariant.smali",
+      "com/navipilot/obf/Yg.smali"
+    ],
+    "added": [
+      "com/navipilot/obf/WideAmapLink$1.smali",
+      "com/navipilot/obf/WideAmapLink$2.smali",
+      "com/navipilot/obf/WideAmapLink$3.smali",
+      "com/navipilot/obf/WideAmapLink$4.smali",
+      "com/navipilot/obf/WideAmapLink$5.smali",
+      "com/navipilot/obf/WideAmapLink$6.smali",
+      "com/navipilot/obf/WideAmapLink$7.smali",
+      "com/navipilot/obf/WideAmapLink$8.smali",
+      "com/navipilot/obf/WideAmapLink$9.smali",
+      "com/navipilot/obf/WideAmapLink$Attempt$1.smali",
+      "com/navipilot/obf/WideAmapLink$Attempt$2.smali",
+      "com/navipilot/obf/WideAmapLink$Attempt$3.smali",
+      "com/navipilot/obf/WideAmapLink$Attempt$4.smali",
+      "com/navipilot/obf/WideAmapLink$Attempt$5.smali",
+      "com/navipilot/obf/WideAmapLink$Attempt$6$1.smali",
+      "com/navipilot/obf/WideAmapLink$Attempt$6$2.smali",
+      "com/navipilot/obf/WideAmapLink$Attempt$6.smali",
+      "com/navipilot/obf/WideAmapLink$Attempt.smali",
+      "com/navipilot/obf/WideAmapLink$FrameTask$1.smali",
+      "com/navipilot/obf/WideAmapLink$FrameTask.smali",
+      "com/navipilot/obf/WideAmapLink$Listener.smali",
+      "com/navipilot/obf/WideAmapLink.smali",
+      "com/navipilot/obf/WideAmapLinkCodec$Item.smali",
+      "com/navipilot/obf/WideAmapLinkCodec$Payload$Transfer.smali",
+      "com/navipilot/obf/WideAmapLinkCodec$Payload.smali",
+      "com/navipilot/obf/WideAmapLinkCodec.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$1.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$2.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$3.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$4.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$5.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$6.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$7.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$Receipt.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration.smali",
+      "com/navipilot/obf/WideAmapLinkNavigation$Snapshot.smali",
+      "com/navipilot/obf/WideAmapLinkNavigation.smali",
+      "com/navipilot/obf/WideAmapLinkPolicy.smali"
+    ],
+    "removed": [],
+    "changedMethods": {
+      "com/jixiexiaoge/drivingassist/CarrotAmapForegroundService.smali": [
+        "onDestroy()V",
+        "onStartCommand(Landroid/content/Intent;II)I"
+      ],
+      "com/navipilot/obf/MG.smali": [
+        "b(Ljava/lang/String;Lorg/json/JSONObject;Ljava/lang/String;)V"
+      ],
+      "com/navipilot/obf/WideAmapSource.smali": [
+        "filter(Lcom/navipilot/obf/MG;Ljava/lang/String;Lorg/json/JSONObject;Ljava/util/Map;)Lorg/json/JSONObject;",
+        "matches(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z",
+        "select(Ljava/lang/String;)V",
+        "status()Ljava/lang/String;"
+      ],
+      "com/navipilot/obf/WideDirect$Pane.smali": [
+        "lambda$9$com-navipilot-obf-WideDirect$Pane(Lcom/navipilot/obf/Mt;Ljava/lang/String;Lcom/navipilot/obf/WideDirect$RenderSize;Landroid/view/Surface;Ljava/lang/String;Lcom/navipilot/obf/WideDirect$LayoutStamp;I)V"
+      ],
+      "com/navipilot/obf/WideVariant.smali": [
+        "prepare(Landroid/app/Activity;)V"
+      ],
+      "com/navipilot/obf/Yg.smali": [
+        "i(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+      ]
+    }
+  },
+  "preserved": {
+    "sourceGateMethods": [
+      "<clinit>()V",
+      "<init>()V",
+      "accept(Landroid/content/BroadcastReceiver;Landroid/content/Intent;)Z",
+      "attach(Lcom/navipilot/obf/IG;)V",
+      "currentCamera(J)Lcom/navipilot/obf/WideAmapCamera$Notice;",
+      "dispatch(Lcom/navipilot/obf/h4;Landroid/content/Intent;I)V",
+      "generation()J",
+      "isAmap(Ljava/lang/String;)Z"
+    ],
+    "googleHelperClasses": [
+      "com/navipilot/obf/WideGoogleAdapter$Snapshot.smali",
+      "com/navipilot/obf/WideGoogleAdapter.smali",
+      "com/navipilot/obf/WideGoogleNav$$ExternalSyntheticLambda0.smali",
+      "com/navipilot/obf/WideGoogleNav$$ExternalSyntheticLambda1.smali",
+      "com/navipilot/obf/WideGoogleNav$$ExternalSyntheticLambda2.smali",
+      "com/navipilot/obf/WideGoogleNav.smali"
+    ],
+    "googleGateCallsUnchanged": true,
+    "autoCameraAndTaiwanClasses": [
+      "com/navipilot/obf/IG.smali",
+      "com/navipilot/obf/h4.smali",
+      "com/navipilot/obf/uI.smali",
+      "com/navipilot/obf/WideAmapCamera.smali",
+      "com/navipilot/obf/WideAmapCamera$Notice.smali",
+      "com/navipilot/obf/WideAmapPreAdjust.smali",
+      "com/navipilot/obf/WideBridge.smali",
+      "com/navipilot/obf/WideHcopMerge.smali",
+      "com/jixiexiaoge/drivingassist/AmapAutoStaticReceiver.smali"
+    ],
+    "assetLibraryResourceFiles": 5995,
+    "changedProtectedFiles": []
+  },
+  "apkEntries": {
+    "changed": [
+      "AndroidManifest.xml",
+      "META-INF/MANIFEST.MF",
+      "META-INF/NAVIPILO.RSA",
+      "META-INF/NAVIPILO.SF",
+      "classes.dex"
+    ],
+    "added": [],
+    "removed": []
+  },
+  "references": {
+    "apkClassCount": 3851,
+    "selectedClassCount": 44,
+    "checkedMethods": 277,
+    "checkedInstructions": 8860,
+    "internalMethodReferences": 975,
+    "internalFieldReferences": 1164,
+    "internalTypeReferences": 140,
+    "resolvedInheritedPlatformMembers": 27,
+    "externalReferencesSkipped": 1108,
+    "unresolved": [],
+    "androidRuntimeValidated": false
+  },
+  "errors": [],
+  "limitations": [
+    "Static APK/DEX comparison and reference resolution only.",
+    "No Android/ART runtime or Binder execution was performed.",
+    "Authorization on the user's phone and C4 reception remain untested."
+  ]
+}
