@@ -1,0 +1,51 @@
+name: Publish Taiwan wide51, integrated wide52 and CP Google 012
+on:
+  push:
+    branches: [release/three-versions-20261112]
+    paths: ['release/three-versions/**', '.github/workflows/release-three-versions.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-three-versions-20261112
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - run: python3 -m pip install bsdiff4==1.4.2
+      - name: Restore the exact signed APKs and archive corresponding source commits
+        run: python3 release/three-versions/publish.py
+      - name: Publish three separately labeled test releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          while read -r payload tag target; do
+            if gh release view "$tag" >/dev/null 2>&1; then
+              echo "Release already exists: $tag; refusing to overwrite."
+              exit 1
+            fi
+            if git ls-remote --exit-code --tags origin "refs/tags/$tag"; then
+              echo "Tag already exists: $tag; refusing to reuse."
+              exit 1
+            else
+              status=$?
+              if [[ "$status" -ne 2 ]]; then exit "$status"; fi
+            fi
+            title=$(head -n 1 "release/three-versions/$payload.md")
+            gh release create "$tag" release-output/"$payload"/* \
+              --target "$target" --title "$title" \
+              --notes-file "release/three-versions/$payload.md" --prerelease --latest=false
+          done <<'VERSIONS'
+          wide.51 wide.51 db0c8f2e1be13674db98de340a674c1cfec8b9bf
+          google.0.1.2 cp-google-0.1.2 775bf9b56dffcab95882b6cd7aa0aaaf3944b01b
+          wide.52 wide.52 f2e60a59bf7d6a1b11c8c3fd14d51301ab39b482
+          VERSIONS
