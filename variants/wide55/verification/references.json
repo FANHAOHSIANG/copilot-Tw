@@ -1,0 +1,13 @@
+{
+  "apkClassCount": 40206,
+  "selectedClassCount": 4,
+  "checkedMethods": 56,
+  "checkedInstructions": 2951,
+  "internalMethodReferences": 296,
+  "internalFieldReferences": 355,
+  "internalTypeReferences": 45,
+  "resolvedInheritedPlatformMembers": 0,
+  "externalReferencesSkipped": 376,
+  "unresolved": [],
+  "androidRuntimeValidated": false
+}

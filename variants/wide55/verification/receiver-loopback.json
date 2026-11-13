@@ -1,0 +1,52 @@
+{
+  "result": "passed",
+  "c4Commit": "98331d2321fa063174a82cb7d17d2c5c8a35a004",
+  "cases": [
+    {
+      "icon": 3,
+      "received": true,
+      "carrotTurn": 2,
+      "distance": 1544,
+      "guidancePresent": true
+    },
+    {
+      "icon": 2,
+      "received": true,
+      "carrotTurn": 1,
+      "distance": 80,
+      "guidancePresent": true
+    },
+    {
+      "icon": 8,
+      "received": true,
+      "carrotTurn": 7,
+      "distance": 60,
+      "guidancePresent": true
+    },
+    {
+      "icon": 9,
+      "received": true,
+      "carrotTurn": 0,
+      "distance": 0,
+      "guidancePresent": true
+    },
+    {
+      "icon": 999,
+      "received": true,
+      "carrotTurn": -1,
+      "distance": 0,
+      "guidancePresent": false
+    },
+    {
+      "icon": 100,
+      "received": true,
+      "carrotTurn": -1,
+      "distance": 0,
+      "guidancePresent": false
+    }
+  ],
+  "duplicateSequenceRejected": true,
+  "physicalDeviceValidated": false,
+  "androidSenderValidated": false,
+  "boundary": "Actual pinned receiver over localhost WebSockets; synthetic sender and data; no vehicle control"
+}

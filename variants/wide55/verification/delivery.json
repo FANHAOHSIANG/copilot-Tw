@@ -1,0 +1,7 @@
+{
+  "result": "passed",
+  "assertions": 14,
+  "androidRuntimeValidated": false,
+  "sourceSha256": "7edcffe4625c6af8f73ad9f27eae9b89f75ab579d071f83449f9625e2b55cb4c",
+  "boundary": "Host doubles replace Android clock, source gate, Link snapshot and MG sender"
+}
