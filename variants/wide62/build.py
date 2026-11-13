@@ -1,4 +1,4 @@
-"""Rebuild the exact wide.60 unsigned base with the wide.63 OSM overlay."""
+"""Rebuild the exact wide.60 unsigned base with the wide.64 OSM overlay."""
 import argparse
 import hashlib
 from pathlib import Path
@@ -39,7 +39,7 @@ def build(base, tools, output, work, osm_archive):
         patch_badge.apply(main, google, tools, badge_work)
         diagnostics = main / patch.PACKAGE / "WideDirect.smali"
         diagnostics.write_text(replace_once(diagnostics.read_text(),
-            "Carrot Bridge wide.60", "Carrot Bridge wide.63"))
+            "Carrot Bridge wide.60", "Carrot Bridge wide.64"))
 
         replacements = {}
         for name, tree in patches.items():
@@ -58,9 +58,9 @@ def build(base, tools, output, work, osm_archive):
         with zipfile.ZipFile(rebuilt) as manifest_apk:
             manifest = manifest_apk.read("AndroidManifest.xml")
         manifest = replace_once(manifest, "9.3.1-wide.60-ui".encode("utf-16le"),
-                                "9.3.1-wide.63-ui".encode("utf-16le"))
+                                "9.3.1-wide.64-ui".encode("utf-16le"))
         replacements["AndroidManifest.xml"] = replace_once(
-            manifest, struct.pack("<I", 26110772), struct.pack("<I", 26110775))
+            manifest, struct.pack("<I", 26110772), struct.pack("<I", 26110776))
         unaligned = work / "unaligned.apk"
         with zipfile.ZipFile(unaligned, "w") as target:
             for entry in source.infolist():

@@ -58,7 +58,19 @@ def hooks(main, google):
         "    iget-object p1, p0, Lcom/navipilot/obf/WideDirect$Pane;->texture:Landroid/view/TextureView;\n"
         "    invoke-static {p1}, Lcom/navipilot/obf/WideShieldSample;->sample(Landroid/view/TextureView;)V\n"
         "    :wide_shield_sample_done\n", before=True)
+    link = main / PACKAGE / "WideAmapLinkIntegration.smali"
+    link_source = link.read_text()
+    status = link_source.index(".method private status()Ljava/lang/String;")
+    start = link_source.index("    iget-wide v0, p0, Lcom/navipilot/obf/WideAmapLinkIntegration;->lastWireTimestamp:J", status)
+    end = link_source.index("    goto :goto_108", start)
+    if "guidanceTimestampMs" not in link_source[start:end] or "lastWireGuidance" not in link_source[start:end]:
+        raise ValueError("Unexpected Link status body")
+    link_source = link_source[:start] + (
+        '    const-string v0, "\\nNavi v2：引導中（交付狀態見下方）"\n'
+        "    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;\n"
+    ) + link_source[end:]
     return {
+        link: link_source,
         divider: insert(divider.read_text(), ".method public onTouchEvent(",
             "    invoke-static {v0, p1}, Lcom/navipilot/obf/WideSettings;->preview(II)V\n",
             "    invoke-static {v0, p1}, Lcom/navipilot/obf/WideShieldSize;->allow(II)Z\n"

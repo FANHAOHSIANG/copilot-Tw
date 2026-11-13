@@ -122,6 +122,9 @@
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
     const-string v2, " km/h"
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/navipilot/obf/WideOsmLimit;->appendOfficial(Ljava/lang/StringBuilder;)V
+    const-string v2, ""
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
     move-result-object v0
     return-object v0
@@ -129,4 +132,25 @@
     :unknown
     const-string v0, "\nOSM 道路速限：未知"
     return-object v0
+.end method
+
+.method private static appendOfficial(Ljava/lang/StringBuilder;)V
+    .locals 3
+    invoke-static {}, Lcom/navipilot/obf/WideHcop;->current()Lcom/navipilot/obf/WideHcopRoad$Decision;
+    move-result-object v0
+    iget-boolean v1, v0, Lcom/navipilot/obf/WideHcopRoad$Decision;->confirmed:Z
+    if-eqz v1, :done
+    const-string v1, "TDX"
+    iget-object v2, v0, Lcom/navipilot/obf/WideHcopRoad$Decision;->source:Ljava/lang/String;
+    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v1
+    if-eqz v1, :done
+    const-string v1, "\nTDX 同路段速限參考："
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    iget v1, v0, Lcom/navipilot/obf/WideHcopRoad$Decision;->limit:I
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    const-string v1, " km/h"
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    :done
+    return-void
 .end method
