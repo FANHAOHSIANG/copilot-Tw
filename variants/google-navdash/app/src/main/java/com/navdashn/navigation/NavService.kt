@@ -133,8 +133,10 @@ class NavService : Service() {
             } catch (e: Exception) {
                 ""
             }
-            httpServer = NavHttpServer(5002, version)
-            httpServer?.start(NanoHTTPD.SOCKET_READ_TIMEOUT, false)
+            val candidate = NavHttpServer(5002, version)
+            try { candidate.start(NanoHTTPD.SOCKET_READ_TIMEOUT, false) }
+            catch (failure: Exception) { candidate.stop(); throw failure }
+            httpServer = candidate
             Log.d(TAG, "HTTP Server started on port 5002")
         } catch (e: Exception) {
             Log.e(TAG, "Failed to start HTTP Server", e)

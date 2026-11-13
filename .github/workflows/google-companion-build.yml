@@ -3,7 +3,7 @@ name: Build Google companion unsigned
 on:
   push:
     branches:
-      - release/google-navigation-011-build
+      - fix/google-stop-autostart-050
   workflow_dispatch:
 
 permissions:
@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   unsigned:
-    name: Google Navigation 0.1.1 unsigned
+    name: Google Navigation 0.1.2 unsigned
     runs-on: ubuntu-24.04
     timeout-minutes: 45
     defaults:
@@ -80,8 +80,8 @@ jobs:
               "runAttempt": os.environ["GITHUB_RUN_ATTEMPT"],
               "buildOutcome": os.environ.get("GOOGLE_BUILD_OUTCOME", ""),
               "package": "com.copilottw.googlenav",
-              "versionName": "0.1.1-copilot",
-              "versionCode": 2,
+              "versionName": "0.1.2-copilot",
+              "versionCode": 3,
               "java": 21,
               "gradle": "8.13",
               "androidPlatform": 36,

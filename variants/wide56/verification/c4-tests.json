@@ -1,0 +1,31 @@
+{
+  "baseCommit": "4407dfc960cd3a25eecdb045c394706d5eaabc47",
+  "patchCommit": "e329d3d7faac8202437e8b87b33cbf7ea9958051",
+  "passed": 42,
+  "deselected": 1,
+  "deselectedTest": "test_standalone_discovery_advertises_new_navi_endpoint",
+  "reason": "psutil.net_if_addrs PermissionError in sandbox; unrelated discovery code not changed",
+  "physicalDeviceValidated": false,
+  "cerealRoundTrip": {
+    "result": "passed",
+    "schemaBaseCommit": "4407dfc960cd3a25eecdb045c394706d5eaabc47",
+    "cases": [
+      {
+        "inputPoints": 4096,
+        "outputPoints": 4096,
+        "bytes": 66600
+      },
+      {
+        "inputPoints": 4097,
+        "outputPoints": 0,
+        "bytes": 1048
+      }
+    ],
+    "destinationPreserved": true,
+    "overBudgetRejected": true,
+    "physicalDeviceValidated": false
+  },
+  "targetBranch": "test/carrot-wip-upstream-20261104",
+  "command": "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 PYTHONPATH=<namespace>:<aiohttp>:<pytest> python -m pytest -p pytest_asyncio.plugin -o addopts= -q test_carrot_navi.py test_carrot_navi_control.py test_carrot_navi_route_bounds.py -k \"not standalone_discovery_advertises_new_navi_endpoint\"",
+  "configurationNote": "Focused Python-only run disables globally installed plugins and parallel repository defaults; unrelated cpp_files/cpp_harness options generated two configuration warnings."
+}

@@ -1,0 +1,32 @@
+name: Publish wide53 adaptive dashboard
+on:
+  push:
+    branches: [feature/wide53-adaptive-dashboard]
+    paths: ['release/wide53/**', 'variants/wide53/**', '.github/workflows/release-wide53.yml', 'third_party/projection/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: release-wide53
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Restore hash-pinned signed files
+        run: |
+          python3 -m pip install bsdiff4==1.4.2
+          python3 release/wide53/restore.py "$RUNNER_TEMP/wide53"
+      - name: Publish exact verified artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view wide.53 --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            echo "wide.53 already exists; refusing to replace release files"
+            exit 1
+          fi
+          gh release create wide.53 "$RUNNER_TEMP/wide53/"* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "CoPilot wide.53：自訂投屏與手機版面修正" --notes-file release/wide53/NOTES.md --prerelease --latest=false

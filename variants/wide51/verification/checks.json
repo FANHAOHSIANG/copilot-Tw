@@ -1,0 +1,32 @@
+{
+  "changed_classes": [
+    "com/navipilot/obf/WideBridgeLog$1.smali",
+    "com/navipilot/obf/WideCameraAlerts$$ExternalSyntheticLambda0.smali",
+    "com/navipilot/obf/WideCameraAlerts$$ExternalSyntheticLambda1.smali",
+    "com/navipilot/obf/WideCameraAlerts$1.smali",
+    "com/navipilot/obf/WideCameraAlerts$2$$ExternalSyntheticLambda0.smali",
+    "com/navipilot/obf/WideCameraAlerts$2$$ExternalSyntheticLambda1.smali",
+    "com/navipilot/obf/WideCameraAlerts$2.smali",
+    "com/navipilot/obf/WideCameraAlerts.smali",
+    "com/navipilot/obf/WideCameraFallback$Advisory.smali",
+    "com/navipilot/obf/WideCameraFallback$Track.smali",
+    "com/navipilot/obf/WideCameraFallback-IA.smali",
+    "com/navipilot/obf/WideCameraFallback.smali",
+    "com/navipilot/obf/WideCameraRoadGate$Snap.smali",
+    "com/navipilot/obf/WideCameraRoadGate.smali",
+    "com/navipilot/obf/WideCameraService.smali",
+    "com/navipilot/obf/WideCameraTrace.smali",
+    "com/navipilot/obf/WideDashboardFace.smali",
+    "com/navipilot/obf/WideStatusBorder.smali",
+    "com/navipilot/obf/Yg.smali"
+  ],
+  "fixed_voice_caller": [
+    "WideCameraAlerts.smali"
+  ],
+  "camera_checks": 16,
+  "service_voice_checks": 10,
+  "painter_checks": 115,
+  "device_test": false,
+  "actual_trip_root_cause_proven": false,
+  "validation": "Synthetic graph and motion; mocked TTS; production painter with host fonts. Canonical baksmali compare of final APK vs wide.50."
+}

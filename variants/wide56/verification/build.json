@@ -1,0 +1,24 @@
+{
+  "baseSha256": "7254813300d14223c835bf32fe469ea6713fa8d2b42f82fc4bdb926f4b5c9bd4",
+  "outputSha256": "a6ccb0937845f36c0cd6aefb9f69c2ed665876b22ea263c5190c61b144444454",
+  "signed": false,
+  "changedClasses": [
+    "smali/com/navipilot/obf/MG.smali",
+    "smali/com/navipilot/obf/TB.smali",
+    "smali/com/navipilot/obf/WideAmapLinkIntegration$6.smali",
+    "smali/com/navipilot/obf/WideAmapLinkIntegration.smali",
+    "smali/com/navipilot/obf/WideAmapLinkNavigation$Snapshot.smali",
+    "smali/com/navipilot/obf/WideAmapLinkNavigation.smali",
+    "smali/com/navipilot/obf/WideAmapLinkRoute.smali",
+    "smali/com/navipilot/obf/WideLinkDelivery.smali",
+    "smali/com/navipilot/obf/Yg.smali"
+  ],
+  "changedEntries": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "secondaryDexResourcesNativeLibrariesPreserved": true,
+  "dexVersion": "039",
+  "androidRuntimeValidated": false,
+  "c4ReceiptValidated": false
+}

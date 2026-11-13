@@ -1,0 +1,42 @@
+{
+  "result": "passed",
+  "cases": [
+    {
+      "inputIcon": 3,
+      "carrotTurn": 2,
+      "distance": 1544,
+      "guidancePresent": true
+    },
+    {
+      "inputIcon": 2,
+      "carrotTurn": 1,
+      "distance": 80,
+      "guidancePresent": true
+    },
+    {
+      "inputIcon": 8,
+      "carrotTurn": 7,
+      "distance": 60,
+      "guidancePresent": true
+    },
+    {
+      "inputIcon": 9,
+      "carrotTurn": 0,
+      "distance": 0,
+      "guidancePresent": true
+    },
+    {
+      "inputIcon": 999,
+      "carrotTurn": -1,
+      "distance": 0,
+      "guidancePresent": false
+    },
+    {
+      "inputIcon": 100,
+      "carrotTurn": -1,
+      "distance": 0,
+      "guidancePresent": false
+    }
+  ],
+  "boundary": "Synthetic inputs through pinned C4 conversion and guidance methods; not real-device delivery or steering validation"
+}

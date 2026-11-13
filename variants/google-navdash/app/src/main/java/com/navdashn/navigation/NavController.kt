@@ -297,19 +297,34 @@ object NavController {
         else -> "規劃失敗 ($status)"
     }
 
+    private var stoppingNavigation = false
     fun stopNavigation() {
-        routeRequests.cancel()
-        if (isSimulating) stopSimulation()
-        navigator?.stopGuidance()
-        navigator?.clearDestinations()
-        destName = ""
-        destAddress = ""
-        destLat = null
-        destLng = null
-        routePoints = emptyList()
-        routeVersion++
-        setState(NavState.IDLE)
-        Log.d(TAG, "Navigation stopped")
+        if (stoppingNavigation) return
+        stoppingNavigation = true
+        try {
+            routeRequests.cancel()
+            // Withdraw published guidance before SDK callbacks can run during teardown.
+            val wasSimulating = isSimulating
+            isSimulating = false
+            NavInfoReceivingService.clearLatest()
+            routePoints = emptyList()
+            routeVersion++
+            destName = ""
+            destAddress = ""
+            destLat = null
+            destLng = null
+            setState(NavState.IDLE)
+            if (wasSimulating) {
+                lastLocation = null
+                lastLocationElapsedMs = 0L
+                try { navigator?.simulator?.unsetUserLocation() }
+                catch (e: Exception) { Log.e(TAG, "Stop simulator failed", e) }
+            }
+            try { navigator?.stopGuidance() }
+            catch (e: Exception) { Log.e(TAG, "Stop guidance failed", e) }
+            try { navigator?.clearDestinations() }
+            catch (e: Exception) { Log.e(TAG, "Clear destinations failed", e) }
+        } finally { stoppingNavigation = false }
     }
 
     /** 測試用：沿目前路線模擬行駛（送給 Pi 的資料會標 simulated=true） */
@@ -319,24 +334,7 @@ object NavController {
         isSimulating = true
     }
 
-    fun stopSimulation() {
-        // Do not relabel cached simulated fixes as real guidance. A real trip must be started again.
-        routeRequests.cancel()
-        navigator?.simulator?.unsetUserLocation()
-        navigator?.stopGuidance()
-        navigator?.clearDestinations()
-        NavInfoReceivingService.clearLatest()
-        lastLocation = null
-        lastLocationElapsedMs = 0L
-        routePoints = emptyList()
-        routeVersion++
-        destName = ""
-        destAddress = ""
-        destLat = null
-        destLng = null
-        setState(NavState.IDLE)
-        isSimulating = false
-    }
+    fun stopSimulation() { stopNavigation() }
 
     private fun captureRoute() {
         try {

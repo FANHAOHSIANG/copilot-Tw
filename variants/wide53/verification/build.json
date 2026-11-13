@@ -1,0 +1,37 @@
+{
+  "version": "wide.53",
+  "sha256": "620c79232e15ddad903055612a3144cd5317c2160becb6816649dd1a7071230e",
+  "bytes": 85381115,
+  "sameCertificateSha256": "eb0f6a44174aecf09cedc237be2ca0305ea491d47b381407d31e903acbd34b46",
+  "alignment16KiB": true,
+  "regression": "PASS 58 viewport, coordinate and lifecycle assertions",
+  "references": {
+    "apkClassCount": 40204,
+    "selectedClassCount": 91,
+    "checkedMethods": 490,
+    "checkedInstructions": 11624,
+    "internalMethodReferences": 2077,
+    "internalFieldReferences": 1127,
+    "internalTypeReferences": 200,
+    "resolvedInheritedPlatformMembers": 142,
+    "externalReferencesSkipped": 1584,
+    "unresolved": [],
+    "androidRuntimeValidated": false
+  },
+  "deviceTest": false,
+  "baseVersionUserReportedUsable": true,
+  "sourceHashes": {
+    "WideDiagnostics.java": "6b2d43a7d2e6767fda922d8968340582ab58c4f69bd5df745b60f387bf3103b8",
+    "WideDirect.java": "eaa053ba99e89d16a187b8bc72888541be3e04523c1cf77c00566933f6f0cadf",
+    "WideGoogleUi.java": "7f4accb81fc71a512c5fa9ce6c33d2594196715b568b81c179fd8537ea900fbe",
+    "WideIdle.java": "702f7a8f59b0844a7e6dc623773125e7b22d99785d25a7ea51a4e65c4ab6aeff",
+    "WideLaunch.java": "12bea9af41d50bed66072feb9fba4f87ec1786aa621b7541c5f0db4a52e62ade",
+    "WidePanels.java": "256f25fd309ae9e3e48ce947a15df82daf8295a61f91a17208c395d76a0fb7f9",
+    "WidePlaces.java": "be22cd09bb1194b0d7d7ff24a7c2e93fda6557012de1d0a58238bcf135673747",
+    "WideProjectionHelp.java": "ab4a444be336825f430d29f6952d6b958d69645446bbabba8453df05b22c160d",
+    "WideReconnectPolicy.java": "836abedd8ce37e9e63acf6387afed05e9bb20ceaf31b37afc812f209fae3b19a",
+    "WideSettings.java": "a968a9b77cc1b85ebe9edb2a2f81dc575c7d302258fca567cc89a4c5cb6034df",
+    "WideUi.java": "a362bff748ae6a9412f5b102fe7000a9908bf48fd292c3791b7c7bced58a3883",
+    "WideViewport.java": "5364f935b318162f3330dedbcb120796d7acb400aa130b337e989348e775dc2a"
+  }
+}

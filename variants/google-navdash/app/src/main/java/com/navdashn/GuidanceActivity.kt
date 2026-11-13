@@ -40,7 +40,7 @@ class GuidanceActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         // 2.5.0：圖示鍵直接疊在 activity_guidance 左側（不再用 setCustomControl 佔地圖下方）
-        if (controlsWired) return
+        if (controlsWired || isFinishing || isDestroyed || navFragment == null) return
         findViewById<ImageButton>(R.id.guidanceBackButton).setOnClickListener { finish() }
         findViewById<ImageButton>(R.id.guidanceHelpButton).setOnClickListener {
             startActivity(android.content.Intent(this, HelpActivity::class.java))

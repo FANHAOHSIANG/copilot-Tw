@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-11-12T07:51:20.411037+00:00",
+  "result": "passed",
+  "assertions": 432,
+  "suites": [
+    {
+      "suite": "CodecChecks",
+      "assertions": 56,
+      "result": "passed"
+    },
+    {
+      "suite": "PolicyChecks",
+      "assertions": 54,
+      "result": "passed"
+    },
+    {
+      "suite": "NavigationChecks",
+      "assertions": 177,
+      "result": "passed"
+    },
+    {
+      "suite": "PipelineChecks",
+      "assertions": 14,
+      "result": "passed"
+    },
+    {
+      "suite": "TraceChecks",
+      "assertions": 34,
+      "result": "passed"
+    },
+    {
+      "suite": "IntegrationChecks",
+      "assertions": 82,
+      "result": "passed"
+    },
+    {
+      "suite": "TraceIntegrationChecks",
+      "assertions": 15,
+      "result": "passed"
+    }
+  ],
+  "boundary_note": "Production codec, retry policy, navigation model and integration are executed. Integration replaces Android scheduling, source-gate call boundary, Binder transport and MG/WebSocket boundary with explicit host doubles. APK smali preservation, real Android service authorization/FD delivery, phone-version compatibility and C4 receipt require separate build/device checks. No fixture is a capture from the user's phone.",
+  "java_version": "openjdk version \"21.0.13\" 2026-10-20\nOpenJDK Runtime Environment (build 21.0.13+9-1-deb13u2-Debian)\nOpenJDK 64-Bit Server VM (build 21.0.13+9-1-deb13u2-Debian, mixed mode, sharing)",
+  "compiler_version": "Eclipse Compiler for Java(TM) v20240820-0604, 3.39.0, Copyright IBM Corp 2000, 2020. All rights reserved.",
+  "json_jar_sha256": "3cf6cd6892e32e2b4c1c39e0f52f5248a2f5b37646fdfbb79a66b46b618414ed",
+  "tested_source_sha256": {
+    "variants/amap-link1/src/WideAmapLinkCodec.java": "c358c81fdadf2cc5e2c875e6902bdebbc95c5ca556623023e3de85f66ceb2ddb",
+    "variants/amap-link1/src/WideAmapLinkNavigation.java": "00a91f56b90183cc4acb56d51bae45984973aa6043f1741f66535e6563ff7d7d",
+    "variants/amap-link1/src/WideAmapLinkPolicy.java": "88f5a7346a86227557fab3192943bf7d1b0e6491960aa6e7ff48057134ef6c5c",
+    "variants/amap-link1/tests/CodecChecks.java": "b4e8892037674d079d71b0d85a399dc8ab7056a9826aea18e0c377564e95f068",
+    "variants/amap-link1/tests/IntegrationChecks.java": "2ac96f1af2a0d5dbb5ec879e7c1a19478a0efb5e3fbccc5c74b706a56c20d3a9",
+    "variants/amap-link1/tests/NavigationChecks.java": "aef16d0a43b8e262722acb829af1c9a5929be521e9008451ab38b414c8f3cd33",
+    "variants/amap-link1/tests/PipelineChecks.java": "e5f6d67df9acebd12737a4e048b60603dce533ff34ca11f9657a87c98a09a026",
+    "variants/amap-link1/tests/PolicyChecks.java": "fb559bc84ba97149b1200ca0a8ffcf164f8294ba480c5e4bcf7e37a830b68b03",
+    "variants/amap-link1/tests/integration-stubs/android/content/Context.java": "4ce0414af611ec3d8d02733a83405918d7d315d2a7ff8e9cd85f6b5b5278edb8",
+    "variants/amap-link1/tests/integration-stubs/android/content/Intent.java": "eb2b5d70438317d20eb3137f2dbf6ea6b01871352fb31201aa769ffc126dbbc5",
+    "variants/amap-link1/tests/integration-stubs/android/content/SharedPreferences.java": "f527be9dca67a979eddd7e2d004d51eda33ace941fb32a60944f760ce7e07c15",
+    "variants/amap-link1/tests/integration-stubs/android/os/Handler.java": "01d6b1d9a8685848c5474083ca883f16179a77e9f1c92bec7a5c9bf424f65134",
+    "variants/amap-link1/tests/integration-stubs/android/os/Looper.java": "500e49ec5a1974d47bf77e337a5dbf001bd964b1971d00f017c272511ffd47b1",
+    "variants/amap-link1/tests/integration-stubs/android/os/SystemClock.java": "4195d1d464c480b0ccb1b2ddd5a674ea3dd0da34b2aedc8c46123928b9a733eb",
+    "variants/amap-link1/tests/integration-stubs/com/navipilot/obf/MG.java": "ba67c510f8dea5c9e9fb85144b5e0d4d71061479a18017917f6faea9fc271644",
+    "variants/amap-link1/tests/integration-stubs/com/navipilot/obf/WideAmapLink.java": "3fe822a7b41f5e6fe20d55cf8a4b5750aed8f18f391e4e446fd289f7f9f8f175",
+    "variants/amap-link1/tests/integration-stubs/com/navipilot/obf/WideAmapSource.java": "4b76b95016f3c0d5fe957a075afe596e31b82445336636e2dca6cac8a1a1772a",
+    "variants/wide47/src/WideAmapLinkIntegration.java": "48d985ef048f8e463faee1e1e34e33040aa1c879043e4ef823acde1926b3e31a",
+    "variants/wide47/src/WideAmapLinkTrace.java": "d8f428ee796ad9f518c4e1e2269829636b531f1f1a76b68a930db4164101f85a",
+    "variants/wide47/tests/TraceChecks.java": "b638f770f3d6a79f8a0dd79f0bb5444101aaeb0bc96fbe7925c6a95030701220",
+    "variants/wide47/tests/TraceIntegrationChecks.java": "1082fb0b9475ddef19b53ad9591ac0f980205eca4bc780db50dd3f1cccae325b",
+    "variants/wide47/tests/WideBridgeLog.java": "b42c9d15101a88237b4b8fb45dd1425d0738a50914f6817c70f27393528166b1",
+    "variants/wide47/tests/run_checks.py": "8f34bc67bf5848df873228f3b014e031180c85b1c5762c830f5988d1960c8622"
+  }
+}

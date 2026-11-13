@@ -12,8 +12,8 @@ android {
         applicationId = "com.copilottw.googlenav"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "0.1.1-copilot"
+        versionCode = 3
+        versionName = "0.1.2-copilot"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 

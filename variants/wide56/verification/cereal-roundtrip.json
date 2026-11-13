@@ -1,0 +1,19 @@
+{
+  "result": "passed",
+  "schemaBaseCommit": "4407dfc960cd3a25eecdb045c394706d5eaabc47",
+  "cases": [
+    {
+      "inputPoints": 4096,
+      "outputPoints": 4096,
+      "bytes": 66600
+    },
+    {
+      "inputPoints": 4097,
+      "outputPoints": 0,
+      "bytes": 1048
+    }
+  ],
+  "destinationPreserved": true,
+  "overBudgetRejected": true,
+  "physicalDeviceValidated": false
+}

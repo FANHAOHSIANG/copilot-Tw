@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "verificationComplete": true,
+  "version": "9.3.1-wide.47-amap-diagnostics",
+  "apkSha256": "0fb5dd06e6f5e4a6798149114e95e9d1aa1b9fd9e8838c2b8b624d07c2d70f8a",
+  "baseSha256": "6b388d7a6a39a3dd0e026dd47c452e231433d7030c0fe87ecfe5dd014364b696",
+  "apkBytes": 68033651,
+  "verifierSha256": "4613f2e8fded0d3948446b3f69ad8b838f9ab7b5a00c09c69b4b0afcb8d980bd",
+  "helperSha256": "ed5b15f4e57342dc10b712936ffde5b573cf647aa4b11520ad5dc61bc92db0a9",
+  "independentOfBuildReport": true,
+  "classes": {
+    "unchangedCount": 3878,
+    "changed": [
+      "com/navipilot/obf/WideAmapLink$9.smali",
+      "com/navipilot/obf/WideAmapLink$Attempt$6.smali",
+      "com/navipilot/obf/WideAmapLink$FrameTask$1.smali",
+      "com/navipilot/obf/WideAmapLink$FrameTask.smali",
+      "com/navipilot/obf/WideAmapLink.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$1.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$2.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$3.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$4.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$5.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$6.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$7.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration$Receipt.smali",
+      "com/navipilot/obf/WideAmapLinkIntegration.smali",
+      "com/navipilot/obf/WideBridgeLog$1.smali",
+      "com/navipilot/obf/WideBridgeLog.smali",
+      "com/navipilot/obf/Yg.smali"
+    ],
+    "added": [
+      "com/navipilot/obf/WideAmapLinkTrace.smali"
+    ],
+    "removed": []
+  },
+  "apkEntries": {
+    "changed": [
+      "AndroidManifest.xml",
+      "META-INF/MANIFEST.MF",
+      "META-INF/NAVIPILO.RSA",
+      "META-INF/NAVIPILO.SF",
+      "classes.dex"
+    ],
+    "added": [],
+    "removed": []
+  },
+  "unchangedAssetsLibrariesResources": 5996,
+  "manifestVersionOnly": true,
+  "exactExportHook": true,
+  "sameSigningCertificate": true,
+  "certificatesSha256": {
+    "base": [
+      "eb0f6a44174aecf09cedc237be2ca0305ea491d47b381407d31e903acbd34b46"
+    ],
+    "final": [
+      "eb0f6a44174aecf09cedc237be2ca0305ea491d47b381407d31e903acbd34b46"
+    ]
+  },
+  "alignment16KiB": true,
+  "references": {
+    "apkClassCount": 3896,
+    "selectedClassCount": 47,
+    "checkedMethods": 301,
+    "checkedInstructions": 9848,
+    "internalMethodReferences": 1017,
+    "internalFieldReferences": 1286,
+    "internalTypeReferences": 146,
+    "resolvedInheritedPlatformMembers": 27,
+    "externalReferencesSkipped": 1318,
+    "unresolved": [],
+    "androidRuntimeValidated": false
+  },
+  "errors": [],
+  "limitations": [
+    "Host/static verification only; Android Binder and C4 runtime not tested.",
+    "No complete-route or next-turn parser added.",
+    "External platform references are skipped by the member checker."
+  ]
+}

@@ -1,4 +1,8 @@
-# CoPilot tw
+# Carrot Bridge（CoPilot tw）
+
+目前原始碼統一維護於本儲存庫的 `main`；C4 固定搭配 [test/carrot-wip-upstream-20261104](https://github.com/FANHAOHSIANG/openpilot-carrot/tree/test/carrot-wip-upstream-20261104)，不需要另外切換高德導航功能分支。
+
+[wide.56 高德原始路線整合](variants/wide56/README.md) 已納入 wide.55 的 Link 傳送修正。**這是程式碼整合，wide.56 APK 尚待原金鑰簽署及實機驗收；下方舊版下載不包含 wide.56 修正。**
 
 目前融合版：[**wide.53 自訂投屏與手機版面修正**](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.53)。以使用者已實際使用的 wide.52 為基礎，原套件與原簽章覆蓋更新。
 
@@ -9,7 +13,7 @@
 | [融合版 wide.52](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.52) | 上一個融合版 |
 | [CP Google 0.1.2](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/cp-google-0.1.2) | 獨立配套；融合版已內建，不需另外安裝 |
 
-[wide.53 操作與驗證說明](https://github.com/FANHAOHSIANG/copilot-Tw/blob/466062062ccfb298e549bd22a9eda2da26ebbeb8/variants/wide53/README.md) · [投屏工具與授權](https://github.com/FANHAOHSIANG/copilot-Tw/blob/466062062ccfb298e549bd22a9eda2da26ebbeb8/third_party/projection/README.md) · [Google SDK 設定](docs/GOOGLE_SDK_zh-TW.md)
+[wide.53 操作與驗證說明](variants/wide53/README.md) · [投屏工具與授權](third_party/projection/README.md) · [Google SDK 設定](docs/GOOGLE_SDK_zh-TW.md)
 
 wide.53 已完成編譯、程式檢查、原簽章與對齊驗證；新增功能仍需手機／車機驗收。融合版不含內建台灣測速。外部投屏 App 需自行安裝；投屏本身不代表其資料可傳給 comma。
 

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "smali/com/navipilot/obf/WideLinkDelivery.smali",
+    "status": "added"
+  },
+  {
+    "path": "smali/com/navipilot/obf/Yg.smali",
+    "status": "modified"
+  },
+  {
+    "path": "smali/com/navipilot/obf/WideAmapLinkIntegration.smali",
+    "status": "modified"
+  },
+  {
+    "path": "smali/com/navipilot/obf/TB.smali",
+    "status": "modified"
+  },
+  {
+    "path": "smali/com/navipilot/obf/MG.smali",
+    "status": "modified"
+  }
+]
