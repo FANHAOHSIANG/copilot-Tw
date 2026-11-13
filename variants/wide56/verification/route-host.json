@@ -1,0 +1,6 @@
+{
+  "result": "passed",
+  "assertions": 34,
+  "fixture": "synthetic official-schema-shaped route, not a captured phone payload",
+  "androidRuntimeValidated": false
+}

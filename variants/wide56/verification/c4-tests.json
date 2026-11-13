@@ -1,0 +1,9 @@
+{
+  "baseCommit": "01a6f86eadc09bf345009b2da233a418eeba2e0b",
+  "patchCommit": "a67b2a42b01c1d028c94f8fa6b353f8e6c5356ef",
+  "passed": 40,
+  "deselected": 1,
+  "deselectedTest": "test_standalone_discovery_advertises_new_navi_endpoint",
+  "reason": "psutil.net_if_addrs PermissionError in sandbox; unrelated discovery code not changed",
+  "physicalDeviceValidated": false
+}

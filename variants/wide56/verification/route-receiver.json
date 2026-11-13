@@ -1,0 +1,24 @@
+{
+  "result": "passed",
+  "cases": [
+    {
+      "sequence": 1,
+      "routePoints": 257,
+      "currentDistance": 120,
+      "nextDistance": 620
+    },
+    {
+      "sequence": 2,
+      "routePoints": 0,
+      "currentDistance": 0,
+      "nextDistance": 0
+    }
+  ],
+  "max4096Preserved": true,
+  "overBudgetRejected": true,
+  "invalidCoordinatesRejected": true,
+  "duplicateSequenceRejected": true,
+  "noMapboxReplacement": true,
+  "physicalC4Validated": false,
+  "androidSenderValidated": false
+}
