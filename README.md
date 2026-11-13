@@ -1,4 +1,4 @@
-# Carrot Bridge（CoPilot tw）
+# Carrot Bridge
 
 目前原始碼統一維護於本儲存庫的 `main`；C4 固定搭配 [test/carrot-wip-upstream-20261104](https://github.com/FANHAOHSIANG/openpilot-carrot/tree/test/carrot-wip-upstream-20261104)，不需要另外切換高德導航功能分支。
 
