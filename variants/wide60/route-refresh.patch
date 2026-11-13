@@ -1,0 +1,103 @@
+diff --git a/variants/wide56/src/WideAmapLinkNavigation.java b/variants/wide56/src/WideAmapLinkNavigation.java
+index 10125bc..7558d94 100644
+--- a/variants/wide56/src/WideAmapLinkNavigation.java
++++ b/variants/wide56/src/WideAmapLinkNavigation.java
+@@ -68,8 +68,11 @@ public final class WideAmapLinkNavigation {
+         if (type == 2 || type == 20 || type == 19 || type == 3) {
+             if (type == 20 && data != null
+                     && routes.selected().equals(WideAmapLinkRoute.id(data.opt("routeId")))) return true;
+-            if (type == 2) routes.acceptGroup(data);
+-            else if (type == 20) routes.choose(data == null ? "" : WideAmapLinkRoute.id(data.opt("routeId")));
++            if (type == 2) {
++                WideAmapLinkRoute.RouteKey previous = routes.key();
++                routes.acceptGroup(data);
++                if (mode == GUIDING && routes.matches(previous) && routes.matchesSegment(routeNav)) return true;
++            } else if (type == 20) routes.choose(data == null ? "" : WideAmapLinkRoute.id(data.opt("routeId")));
+             else routes.clear();
+             routeNav = null;
+             maneuver = -1; distance = null; road = "";
+diff --git a/variants/wide56/src/WideAmapLinkRoute.java b/variants/wide56/src/WideAmapLinkRoute.java
+index dd0dc04..9ba3821 100644
+--- a/variants/wide56/src/WideAmapLinkRoute.java
++++ b/variants/wide56/src/WideAmapLinkRoute.java
+@@ -20,6 +20,27 @@ public final class WideAmapLinkRoute {
+     public String selected() { return selected; }
+     public boolean ready() { return geometry != null; }
+ 
++    static final class RouteKey {
++        final String id;
++        final int length;
++        final String geometry;
++
++        RouteKey(String id, int length, String geometry) {
++            this.id = id;
++            this.length = length;
++            this.geometry = geometry;
++        }
++    }
++
++    RouteKey key() {
++        return ready() ? new RouteKey(selected, total, geometry.toString()) : null;
++    }
++
++    boolean matches(RouteKey previous) {
++        return previous != null && ready() && selected.equals(previous.id)
++            && total == previous.length && geometry.toString().equals(previous.geometry);
++    }
++
+     public void acceptGroup(JSONObject data) {
+         clear();
+         try {
+@@ -85,12 +106,10 @@ public final class WideAmapLinkRoute {
+         return out;
+     }
+     public JSONObject next(JSONObject nav) throws Exception {
+-        if (segments == null || !selected.equals(id(nav.opt("pathID")))) return null;
++        if (!matchesSegment(nav)) return null;
+         int index = integer(nav.opt("curSegIdx"),8191);
+-        if (index<0 || index+1>=segments.length()) return null;
+-        JSONObject current = segments.getJSONObject(index), next = segments.getJSONObject(index+1);
+-        // Index and maneuver must agree; never guess when a schema changes.
+-        if (integer(current.opt("iconType"),65535) != integer(nav.opt("curManeuverID"),65535)) return null;
++        if (index+1>=segments.length()) return null;
++        JSONObject next = segments.getJSONObject(index+1);
+         int icon=integer(next.opt("iconType"),65535), turn=WideAmapLinkNavigation.turnType(icon);
+         int distance=integer(next.opt("length"),2000000);
+         if (turn<0 || distance<0) return null;
+@@ -99,6 +118,13 @@ public final class WideAmapLinkRoute {
+             .put("main_text",WideAmapLinkNavigation.action(icon)).put("road_name","")
+             .put("near_direction","").put("far_direction","");
+     }
++    boolean matchesSegment(JSONObject nav) {
++        if (nav == null || segments == null || !selected.equals(id(nav.opt("pathID")))) return false;
++        int index = integer(nav.opt("curSegIdx"), 8191);
++        JSONObject segment = segments.optJSONObject(index);
++        int icon = integer(nav.opt("curManeuverID"), 65535);
++        return segment != null && icon >= 0 && integer(segment.opt("iconType"), 65535) == icon;
++    }
+     private static void copyInteger(JSONObject a,JSONObject b,String from,String to,int max) throws Exception {
+         int v=integer(a.opt(from),max); if(v>=0)b.put(to,v);
+     }
+diff --git a/variants/wide56/tests/RouteChecks.java b/variants/wide56/tests/RouteChecks.java
+index 263634c..74bf69b 100644
+--- a/variants/wide56/tests/RouteChecks.java
++++ b/variants/wide56/tests/RouteChecks.java
+@@ -45,6 +45,18 @@ public final class RouteChecks {
+   check(n.snapshot(100).route==null,"clock reversal");
+   n.accept(1,5,new JSONObject().put("maneuverID",3),200,100100);
+   check(n.snapshot(3102).route==null,"icon cannot renew geometry");
++  n=ready(20);
++  n.accept(1,2,group(11,20),250,100150);
++  x=n.snapshot(250);
++  check(x.guidance!=null && x.route!=null && x.next!=null,"same route refresh preserves confirmed guidance");
++  check(x.guidanceTimestampMs==100001,"route refresh preserves original guidance timestamp");
++  n.accept(1,2,group(11,20),3000,102900);
++  check(n.snapshot(3102).guidance==null && n.snapshot(3102).route==null,"route refresh cannot renew expired guidance");
++  n=ready(20);
++  JSONObject inconsistent=group(11,20);
++  inconsistent.getJSONObject("info").getJSONObject("11").getJSONArray("segmentInfo").getJSONObject(0).put("iconType",2);
++  n.accept(1,2,inconsistent,250,100150);
++  check(n.snapshot(250).guidance==null && n.snapshot(250).route==null,"same ID with incompatible segment clears guidance");
+   n=ready(20);n.accept(1,20,new JSONObject().put("routeId",22),110,100010);
+   check(n.snapshot(110).route==null,"selection clears previous route");
+   check(n.snapshot(110).guidance==null,"selection clears old turn");

@@ -6,6 +6,7 @@ import android.content.Context
 import android.location.Location
 import android.os.SystemClock
 import android.util.Log
+import com.navdashn.GuidanceReturn
 import com.navdashn.RequestGeneration
 import com.google.android.libraries.mapsplatform.turnbyturn.model.LaneDirection
 import com.google.android.libraries.mapsplatform.turnbyturn.model.Maneuver
@@ -239,6 +240,7 @@ object NavController {
         if (newState != NavState.NAVIGATING) NavInfoReceivingService.clearLatest()
         state = newState
         onNavigationStateChangedListener?.invoke(state)
+        GuidanceReturn.onNavigationStateChanged(newState)
     }
 
     // ------------------------------------------------------------------ 導航

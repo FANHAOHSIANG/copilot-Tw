@@ -149,7 +149,7 @@
                             android:layout_height="wrap_content"
                             android:imeOptions="actionSearch"
                             android:inputType="text"
-                            android:maxLines="1"
+                            android:singleLine="true"
                             android:textSize="18sp" />
                     </com.google.android.material.textfield.TextInputLayout>
 

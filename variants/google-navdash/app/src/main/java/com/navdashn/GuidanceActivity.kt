@@ -6,7 +6,6 @@ import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.libraries.navigation.SupportNavigationFragment
 import com.navdashn.navigation.NavController
-import com.navdashn.navigation.NavState
 
 /**
  * Google 導航畫面（地圖、轉彎提示、車道）。
@@ -41,7 +40,7 @@ class GuidanceActivity : AppCompatActivity() {
         super.onStart()
         // 2.5.0：圖示鍵直接疊在 activity_guidance 左側（不再用 setCustomControl 佔地圖下方）
         if (controlsWired || isFinishing || isDestroyed || navFragment == null) return
-        findViewById<ImageButton>(R.id.guidanceBackButton).setOnClickListener { finish() }
+        findViewById<ImageButton>(R.id.guidanceBackButton).setOnClickListener { GuidanceReturn.openSearch(this) }
         findViewById<ImageButton>(R.id.guidanceHelpButton).setOnClickListener {
             startActivity(android.content.Intent(this, HelpActivity::class.java))
         }
@@ -55,7 +54,6 @@ class GuidanceActivity : AppCompatActivity() {
         }
         findViewById<ImageButton>(R.id.guidanceStopButton).setOnClickListener {
             NavController.stopNavigation()
-            finish()
         }
         // 即時路況（道路紅黃綠）。10/29 使用者：「顯示的地圖沒有路況的顯示」
         navFragment?.getMapAsync { map -> map.isTrafficEnabled = true }
@@ -104,8 +102,11 @@ class GuidanceActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        // 導航已結束（到達/停止）就回主畫面
-        val state = NavController.getState()
-        if (state == NavState.IDLE || state == NavState.ERROR) finish()
+        GuidanceReturn.resume(this)
+    }
+
+    override fun onPause() {
+        GuidanceReturn.pause(this)
+        super.onPause()
     }
 }

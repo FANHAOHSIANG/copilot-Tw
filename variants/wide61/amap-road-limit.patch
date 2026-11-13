@@ -1,0 +1,310 @@
+diff --git a/variants/wide56/src/WideAmapLinkNavigation.java b/variants/wide56/src/WideAmapLinkNavigation.java
+index 7558d94..0b57f49 100644
+--- a/variants/wide56/src/WideAmapLinkNavigation.java
++++ b/variants/wide56/src/WideAmapLinkNavigation.java
+@@ -13,6 +13,8 @@ import org.json.JSONObject;
+ public final class WideAmapLinkNavigation {
+     /** Conservative input expiry; this is not a vehicle-control validation. */
+     public static final long GUIDANCE_TTL_MS = 3000L;
++    private static final long ROAD_LIMIT_TTL_MS = 10000L;
++    private static final java.util.regex.Pattern ROAD_LINK_ID = java.util.regex.Pattern.compile("-?[1-9][0-9]{0,19}");
+     private static final int UNKNOWN = 0, GUIDING = 1, STOPPED = 2, ARRIVED = 3;
+ 
+     private final WideAmapLinkRoute routes = new WideAmapLinkRoute();
+@@ -27,6 +29,12 @@ public final class WideAmapLinkNavigation {
+     private long segmentWall;
+     private long statusElapsed = -1;
+     private long statusWall;
++    private int roadLimitKph;
++    private long roadLimitElapsed = -1;
++    private long roadLimitWall;
++    private boolean simulatedNavigation;
++    private boolean roadContextAfterModeChange = true;
++    private String roadLimitReason = "等待 Link type 27";
+     private String reason = "link_waiting_for_navigation";
+ 
+     public synchronized void reset(long nextEpoch) {
+@@ -50,9 +58,28 @@ public final class WideAmapLinkNavigation {
+         road = "";
+         segmentElapsed = statusElapsed = -1;
+         segmentWall = statusWall = 0;
++        simulatedNavigation = false;
++        roadContextAfterModeChange = true;
++        clearRoadLimit("等待 Link type 27");
+         reason = "link_waiting_for_navigation";
+     }
+ 
++    private void clearRoadLimit(String why) {
++        roadLimitKph = 0;
++        roadLimitElapsed = -1;
++        roadLimitWall = 0;
++        roadLimitReason = why;
++    }
++
++    private static String roadLinkKey(JSONObject nav) {
++        if (nav == null) return "";
++        String path = WideAmapLinkRoute.id(nav.opt("pathID"));
++        int segment = WideAmapLinkRoute.integer(nav.opt("curSegIdx"), 8191);
++        String link = nav.optString("curLinkID", "");
++        if (path.isEmpty() || segment < 0 || !ROAD_LINK_ID.matcher(link).matches()) return "";
++        return path + "/" + segment + "/" + link;
++    }
++
+     /**
+      * receivedElapsedMs belongs to the Binder receipt, not the eventual UI task.
+      * wallMs is retained only as Navi v2 provenance; it never determines TTL.
+@@ -62,9 +89,36 @@ public final class WideAmapLinkNavigation {
+         if (epoch == 0 || sourceEpoch != epoch || receivedElapsedMs < 0 || wallMs <= 0
+                 || receivedElapsedMs < lastEventElapsed) return false;
+         if (type != 1 && type != 2 && type != 3 && type != 19 && type != 20
+-                && type != 4 && type != 5 && type != 100 && type != 200) return false;
++                && type != 4 && type != 5 && type != 7 && type != 27 && type != 100 && type != 200) return false;
+         lastEventElapsed = receivedElapsedMs;
+         if (type == 1) return false; // Calculation success is not route adoption.
++        if (type == 7) {
++            boolean simulated = !Integer.valueOf(0).equals(integer(data == null ? null : data.opt("naviMode"), 1));
++            if (simulated != simulatedNavigation) {
++                clearRoadLimit("導航模式更新，等待 Link type 27");
++                roadContextAfterModeChange = false;
++            }
++            simulatedNavigation = simulated;
++            return true;
++        }
++        if (type == 27) {
++            Integer limit = integer(data == null ? null : data.opt("maxSpeed"), 200);
++            if (limit == null) {
++                clearRoadLimit("type 27 格式無效");
++            } else if (limit == 0) {
++                clearRoadLimit("type 27 回報 0");
++            } else if (!simulatedNavigation && roadContextAfterModeChange
++                    && mode == GUIDING && fresh(statusElapsed, receivedElapsedMs)
++                    && !roadLinkKey(routeNav).isEmpty()) {
++                roadLimitKph = limit;
++                roadLimitElapsed = receivedElapsedMs;
++                roadLimitWall = wallMs;
++                roadLimitReason = "Link type 27";
++            } else {
++                clearRoadLimit("type 27 缺同路段的新鮮引導");
++            }
++            return true;
++        }
+         if (type == 2 || type == 20 || type == 19 || type == 3) {
+             if (type == 20 && data != null
+                     && routes.selected().equals(WideAmapLinkRoute.id(data.opt("routeId")))) return true;
+@@ -74,6 +128,7 @@ public final class WideAmapLinkNavigation {
+                 if (mode == GUIDING && routes.matches(previous) && routes.matchesSegment(routeNav)) return true;
+             } else if (type == 20) routes.choose(data == null ? "" : WideAmapLinkRoute.id(data.opt("routeId")));
+             else routes.clear();
++            clearRoadLimit("路線更新，等待 Link type 27");
+             routeNav = null;
+             maneuver = -1; distance = null; road = "";
+             segmentElapsed = statusElapsed = -1;
+@@ -84,6 +139,7 @@ public final class WideAmapLinkNavigation {
+ 
+         if (type == 100 || type == 200) {
+             routes.clear();
++            clearRoadLimit("導航已結束");
+             routeNav = null;
+             maneuver = -1;
+             distance = null;
+@@ -113,6 +169,10 @@ public final class WideAmapLinkNavigation {
+             return true;
+         }
+ 
++        if (roadLimitKph > 0 && (!fresh(statusElapsed, receivedElapsedMs)
++                || !roadLinkKey(routeNav).equals(roadLinkKey(data)))) {
++            clearRoadLimit("路段更新，等待 Link type 27");
++        }
+         routeNav = null;
+         Integer next = integer(data == null ? null : data.opt("curManeuverID"), 65535);
+         Integer metres = integer(data == null ? null : data.opt("segmentRemainDist"), Integer.MAX_VALUE);
+@@ -126,6 +186,7 @@ public final class WideAmapLinkNavigation {
+         mode = UNKNOWN;
+         if (next == null || metres == null) {
+             // A new malformed/partial segment must not leave the previous turn live.
++            clearRoadLimit("等待完整路段資料");
+             reason = "link_incomplete_segment";
+             return true;
+         }
+@@ -138,6 +199,7 @@ public final class WideAmapLinkNavigation {
+         distance = metres;
+         road = text(data.opt("nextRouteName"));
+         segmentElapsed = statusElapsed = receivedElapsedMs;
++        roadContextAfterModeChange = true;
+         segmentWall = statusWall = wallMs;
+         mode = GUIDING;
+         reason = turnType(maneuver) < 0 ? "link_unmapped_maneuver" : "link_guidance_available";
+@@ -148,6 +210,8 @@ public final class WideAmapLinkNavigation {
+         if (epoch == 0) return new Snapshot(null, null, 0, 0, reason, -1, null, "", -1);
+         boolean liveStatus = mode == GUIDING && fresh(statusElapsed, elapsedMs);
+         boolean liveSegment = liveStatus && distance != null && fresh(segmentElapsed, elapsedMs);
++        boolean liveLimit = liveStatus && roadLimitKph > 0 && elapsedMs >= roadLimitElapsed
++                && elapsedMs - roadLimitElapsed <= ROAD_LIMIT_TTL_MS;
+         int turn = turnType(maneuver);
+         JSONObject guidance = null;
+         JSONObject status = null;
+@@ -166,7 +230,12 @@ public final class WideAmapLinkNavigation {
+                 status = new JSONObject()
+                         .put("mode", liveStatus ? "guiding" : "idle")
+                         .put("guidance_active", guidance != null)
+-                        .put("route_present", false);
++                        .put("route_present", false)
++                        .put("road_limit_display_only", true);
++                if (liveLimit) {
++                    status.put("road_limit_display_kph", roadLimitKph);
++                    status.put("road_limit_display_observed_ms", roadLimitWall);
++                }
+             }
+         } catch (JSONException invalid) {
+             // All values above are bounded primitives/strings. Fail closed if JSON still rejects them.
+@@ -174,10 +243,15 @@ public final class WideAmapLinkNavigation {
+             status = null;
+         }
+         String snapshotReason = mode == GUIDING && !liveStatus ? "link_guidance_expired" : reason;
++        long expires = liveStatus ? statusElapsed + GUIDANCE_TTL_MS + 1 : -1;
++        if (liveLimit) expires = Math.min(expires, roadLimitElapsed + ROAD_LIMIT_TTL_MS + 1);
+         Snapshot result = new Snapshot(guidance, status,
+                 guidance == null ? 0 : segmentWall, status == null ? 0 : statusWall,
+                 snapshotReason, maneuver, liveSegment ? distance : null,
+-                liveSegment ? road : "", liveStatus ? statusElapsed + GUIDANCE_TTL_MS + 1 : -1);
++                liveSegment ? road : "", expires);
++        result.roadLimitStatus = liveLimit ? roadLimitKph + " km/h（Link type 27，僅顯示）"
++                : "未知（" + (simulatedNavigation && liveStatus ? "模擬導航或模式未知"
++                        : roadLimitKph > 0 ? "資料過期" : roadLimitReason) + "）";
+         try {
+             if (liveSegment && routeNav != null) {
+                 result.route = routes.route(routeNav);
+@@ -242,6 +316,7 @@ public final class WideAmapLinkNavigation {
+         public JSONObject route;
+         public JSONObject next;
+         public String routeReason = "尚無高德完整路線";
++        private String roadLimitStatus = "未知";
+         public JSONObject stream(String name) {
+             if ("route".equals(name)) return route;
+             if ("guidance_next".equals(name)) return next;
+@@ -255,7 +330,7 @@ public final class WideAmapLinkNavigation {
+         public String routeStatus() {
+             return "\n" + routeReason + (route == null ? "；等待同一路線的新鮮引導" : "；路線已可交付")
+                 + "\n再下一轉彎：" + (next == null ? "尚無可確認資料" : "已對應路段")
+-                + "\n道路限速：尚未確認 Link 有提供；未用車速或相機限速代替";
++                + "\n道路限速：" + roadLimitStatus;
+         }
+         public final JSONObject guidance;
+         public final JSONObject status;
+diff --git a/variants/wide56/tests/RouteChecks.java b/variants/wide56/tests/RouteChecks.java
+index 74bf69b..38e9478 100644
+--- a/variants/wide56/tests/RouteChecks.java
++++ b/variants/wide56/tests/RouteChecks.java
+@@ -6,7 +6,8 @@ public final class RouteChecks {
+  static JSONObject nav(int path,int seg,int icon,int distance)throws Exception {
+   return new JSONObject().put("pathID",path).put("curSegIdx",seg).put("curManeuverID",icon)
+    .put("segmentRemainDist",distance).put("nextRouteName","120縣道").put("routeRemainDist",900)
+-   .put("routeRemainTime",100).put("speed",42).put("cameraSpeedLimit",30);
++   .put("routeRemainTime",100).put("speed",42).put("cameraSpeedLimit",30)
++   .put("curLinkID","8100000000000000001");
+  }
+  static JSONObject group(int id,int points)throws Exception {
+   JSONArray segments=new JSONArray();
+@@ -24,7 +25,94 @@ public final class RouteChecks {
+   n.accept(1,2,group(11,points),100,100000);
+   n.accept(1,4,nav(11,0,3,120),101,100001);return n;
+  }
++ static void event(WideAmapLinkNavigation n,int type,JSONObject data,long at){
++  n.accept(1,type,data,at,100000+at);
++ }
++ static int displayed(WideAmapLinkNavigation n,long at){
++  JSONObject status=n.snapshot(at).stream("navigation_status");
++  return status==null?0:status.optInt("road_limit_display_kph",0);
++ }
++ static void checkLimits()throws Exception{
++  WideAmapLinkNavigation n=ready(20);
++  JSONObject sixty=new JSONObject().put("maxSpeed",60).put("minSpeed",30);
++  event(n,27,sixty,110);
++  check(displayed(n,110)==60,"positive Link 27 shown");
++  check(n.snapshot(110).status.getLong("road_limit_display_observed_ms")==100110,"observation timestamp on wire");
++  check(n.snapshot(110).routeStatus().contains("60 km/h"),"diagnostics show source limit");
++  check(n.snapshot(110).stream("speed")==null,"display never enters the speed stream");
++  event(n,28,new JSONObject().put("maxSpeed",30),111);
++  check(displayed(n,111)==60,"camera cannot replace road limit");
++  event(n,2,group(11,20),120);
++  check(displayed(n,120)==60,"identical route refresh preserves limit");
++  event(n,4,nav(11,0,3,110),130);
++  check(displayed(n,130)==60,"current road heartbeat preserves limit");
++  event(n,27,new JSONObject().put("maxSpeed",0).put("minSpeed",30),140);
++  check(displayed(n,140)==0,"zero clears even if minimum is positive");
++  check(n.snapshot(140).status.optBoolean("road_limit_display_only"),"explicit unknown clears HUD");
++  check(n.snapshot(140).routeStatus().contains("回報 0"),"diagnostics distinguish explicit zero");
++  long invalidAt=150;
++  for(Object invalid:new Object[]{"60",true,60.5,-10,201,JSONObject.NULL}){
++   event(n,27,sixty,invalidAt++);
++   event(n,27,new JSONObject().put("maxSpeed",invalid),invalidAt);
++   check(displayed(n,invalidAt++)==0,"reject invalid maxSpeed "+invalid);
++  }
++  n=ready(20);
++  event(n,27,sixty,110);
++  event(n,4,nav(11,0,3,100).put("curLinkID","8100000000000000002"),120);
++  check(displayed(n,120)==0,"a different link clears the old limit on the same maneuver");
++  event(n,27,new JSONObject().put("maxSpeed",45),121);
++  check(displayed(n,121)==45,"new link can show a new limit without rounding");
++  event(n,4,nav(11,1,2,100).put("curLinkID","8100000000000000002"),122);
++  check(displayed(n,122)==0,"segment transition clears the old limit");
++  n=ready(20);
++  event(n,27,sixty,110);
++  event(n,4,nav(22,0,3,110),120);
++  check(displayed(n,120)==0,"path change clears");
++  for(int type:new int[]{3,19,20,100,200}){
++   n=ready(20);
++   event(n,27,sixty,110);
++   event(n,type,new JSONObject().put("routeId",22),120);
++   check(displayed(n,120)==0,"limit cleared by type "+type);
++   event(n,27,sixty,121);
++   check(displayed(n,121)==0,"type 27 alone cannot start navigation after type "+type);
++  }
++  n=ready(20);
++  event(n,27,sixty,110);
++  check(displayed(n,3102)==0,"stale guidance clears HUD");
++  event(n,4,nav(11,0,3,100),3110);
++  check(displayed(n,3110)==0,"fresh guidance does not revive expired limit");
++  event(n,27,sixty,3120);
++  for(long at=5000;at<=13000;at+=2000)event(n,4,nav(11,0,3,100),at);
++  check(n.snapshot(13000).expiresElapsedMs==13121,"schedule independent limit expiry");
++  check(displayed(n,13120)==60 && displayed(n,13121)==0,"guidance cannot extend limit lifetime");
++  n=ready(20);
++  event(n,27,sixty,110);
++  check(!n.accept(1,27,sixty,100,100100),"out-of-order limit rejected");
++  event(n,7,new JSONObject().put("naviMode",1),111);
++  event(n,27,sixty,112);
++  check(displayed(n,112)==0,"simulation is diagnostic only");
++  event(n,7,new JSONObject().put("naviMode",0),113);
++  event(n,27,sixty,114);
++  check(displayed(n,114)==0,"GPS mode waits for fresh road context after simulation");
++  event(n,4,nav(11,0,3,100),115);
++  event(n,27,sixty,116);
++  check(displayed(n,116)==60,"GPS navigation can report speed");
++  n.reset(2);
++  check(!n.accept(1,27,sixty,117,100117) && displayed(n,117)==0,"old session cannot revive limit");
++  n=ready(20);
++  event(n,4,nav(11,0,3,100).put("curLinkID",JSONObject.NULL),110);
++  event(n,27,sixty,111);
++  check(displayed(n,111)==0,"limit requires current road identity");
++ }
++ static void emitLimitFixture()throws Exception{
++  WideAmapLinkNavigation n=ready(20);
++  event(n,27,new JSONObject().put("maxSpeed",45),110);
++  JSONObject valid=n.snapshot(110).stream("navigation_status");
++  event(n,27,new JSONObject().put("maxSpeed",0),120);
++  System.out.println(new JSONArray().put(valid).put(n.snapshot(120).stream("navigation_status")));
++ }
+  public static void main(String[] args)throws Exception{
++  if(args.length>0 && args[0].equals("limits")){emitLimitFixture();return;}
+   WideAmapLinkNavigation n=ready(2000);
+   WideAmapLinkNavigation.Snapshot x=n.snapshot(101);
+   check(x.route!=null,"full route");
+@@ -81,6 +169,7 @@ public final class RouteChecks {
+   n=ready(20);n.accept(1,2,malformed,110,100010);check(n.snapshot(110).route==null,"never pick first alternative");
+   WideAmapLinkRoute r=new WideAmapLinkRoute();malformed=group(11,20);malformed.getJSONObject("info").getJSONObject("11").put("routeLength",2000);r.acceptGroup(malformed);check(!r.ready(),"partial geometry length mismatch");
+   r.acceptGroup(new JSONObject().put("routes",new JSONArray().put(11)));check(!r.ready(),"ID list is not geometry");
++  checkLimits();
+   if(args.length==0)System.out.println("RouteChecks: "+checks+" assertions passed");
+  }
+ }

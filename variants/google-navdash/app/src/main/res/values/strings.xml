@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CP Google 導航</string>
+    <string name="app_name">Google 導航 NOO</string>
 
     <!-- 主畫面 -->
     <string name="fab_navigation">導航設定</string>
@@ -10,7 +10,7 @@
 
     <!-- 導航頁面 -->
     <string name="nav_title">導航</string>
-    <string name="search_hint">搜尋目的地...</string>
+    <string name="search_hint">搜尋地址或地點</string>
     <string name="search">搜尋</string>
     <string name="favorites">常用目的地</string>
     <string name="recent">最近導航</string>
@@ -117,8 +117,8 @@
     <string name="voice_search">語音輸入目的地</string>
     <string name="voice_prompt">請說出目的地</string>
     <string name="voice_unavailable">這支手機沒有語音辨識（需要 Google 語音服務）</string>
-    <string name="exit_app">結束 CP Google 導航</string>
-    <string name="exit_confirm">導航中，要結束導航並關閉 CP Google 導航嗎？</string>
+    <string name="exit_app">結束 Google 導航 NOO</string>
+    <string name="exit_confirm">導航中，要結束導航並關閉 Google 導航 NOO嗎？</string>
     <string name="exit_ok">結束</string>
     <string name="simulate_start">模擬行駛（測試用）</string>
     <string name="simulate_stop">停止模擬並撤銷導航</string>
