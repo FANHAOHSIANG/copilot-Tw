@@ -35,12 +35,12 @@ def apply(root):
             "    iget-object v0, p1, Lcom/navipilot/obf/WideDirect$Session;->size:Lcom/navipilot/obf/WideDirect$RenderSize;\n"
             "    invoke-direct {p0, v0}, Lcom/navipilot/obf/WideDirect$Pane;->fitBuffer(Lcom/navipilot/obf/WideDirect$RenderSize;)V")
         source = source[:start] + body + source[end:]
+    # v14 aliases p0 in this method. Use the existing ordinal and the live constant 3.
     # Item identity stays tied to the enum ordinal. Only its menu order changes.
     order = "    move-result v13\n\n    iget-object v10, v10, Lcom/navipilot/obf/WideVariant$Navigation;->label:Ljava/lang/String;"
     source = once(source, order,
         "    move-result v13\n"
-        "    sget-object v14, Lcom/navipilot/obf/WideVariant$Navigation;->SDK:Lcom/navipilot/obf/WideVariant$Navigation;\n"
-        "    if-ne v10, v14, :wide_menu_navigation_order\n"
+        "    if-ne v13, v1, :wide_menu_navigation_order\n"
         "    const/4 v13, 0x7\n"
         "    :wide_menu_navigation_order\n\n"
         + order.split("\n\n")[1])
