@@ -40,7 +40,16 @@ Carrot Bridge 需要 **Android 12 以上**。要投屏時，另外選裝 **Stell
 | 版面與比例 | 拖曳分隔線後放開，投屏會依新視窗尺寸重新適配。 |
 | OSM 速限 | 授權精確定位後自動定位。地圖上的速限牌與傳送至 C4 各有獨立開關。 |
 
-本專案的 C4 搭配分支為 [test/carrot-wip-upstream-20261104](https://github.com/FANHAOHSIANG/openpilot-carrot/tree/test/carrot-wip-upstream-20261104)。投屏畫面、App 傳送紀錄與 C4 接收各有獨立狀態。神盾目前提供畫面與取樣診斷，神盾測速事件傳送仍待完成。
+## C4 導航整合與分支相容性
+
+[test/carrot-wip-upstream-20261104](https://github.com/FANHAOHSIANG/openpilot-carrot/tree/test/carrot-wip-upstream-20261104) 是本專案的 C4 導航整合測試基準。App 和車端的 Navi v2 接收修正以這支分支共同核對，方便重現問題與進行回歸測試。
+
+- **高德一般版路線接收**：這支分支已合併 [PR #40](https://github.com/FANHAOHSIANG/openpilot-carrot/pull/40)。車端原本在 256 點截斷長路線，修正後可完整保留最多 4,096 點。離線測試涵蓋完整路線接收、停止導航時撤銷及重複封包拒收。實車 NOO 仍需另行驗證。
+- **只使用投屏**：顯示高德、Google 地圖或神盾畫面時，Android 裝置可獨立使用，無需 C4 或更換分支。
+- **將導航資料送到 C4**：使用官方原生分支或其他分支時，請依實際版本確認 Navi v2 接收、路線與引導欄位的相容性。App 送出狀態和 C4 接收狀態可分別查看。
+- **HUD 藍線**：[PR #41](https://github.com/FANHAOHSIANG/openpilot-carrot/pull/41) 的藍線修正仍在草稿階段，尚未合併。
+
+神盾目前提供畫面與取樣診斷，神盾測速事件傳送仍待完成。
 
 ## wide.68 更新
 
