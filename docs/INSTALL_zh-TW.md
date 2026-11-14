@@ -1,10 +1,10 @@
 # Carrot Bridge 安裝與使用
 
-適用於 **wide.69（9.3.1-wide.69-ui，版本碼 26110781）**，支援 Android 12 以上手機或車機。
+適用於 **Carrot Bridge wide.70**，支援 Android 12 以上手機或車機。
 
-[回首頁與下載清單](../README.md#下載) · [直接下載主程式 APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.69/Carrot-Bridge-9.3.1-wide.69-ui.apk) · [GitHub 發布說明](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.69)
+[回首頁與下載清單](../README.md#下載) · [直接下載主程式 APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.70/Carrot-Bridge-wide.70.apk) · [GitHub 發布說明](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.70)
 
-wide.69 沿用 wide.68 的簽章憑證。[wide.69 更新與操作](../variants/wide69/README.md) · [wide.68 舊版操作](https://github.com/FANHAOHSIANG/copilot-Tw/blob/0d094f4e86f323b8de23ac0c060e39b2d1c87ea9/docs/INSTALL_zh-TW.md)
+wide.70 沿用 wide.69 的簽章憑證。[wide.70 更新與操作](../variants/wide70/README.md) · [wide.69 舊版操作](https://github.com/FANHAOHSIANG/copilot-Tw/blob/7be17e22bc2997281dae7a9dd1ffc7381a2d6f7e/docs/INSTALL_zh-TW.md)
 
 ## 1. 安裝或更新
 
@@ -17,8 +17,8 @@ wide.69 沿用 wide.68 的簽章憑證。[wide.69 更新與操作](../variants/w
 
 1. 選裝 [Stellar APK](https://github.com/roro2239/Stellar/releases/download/v1.1%28101000%29/stellar-v1.1-release.apk) 或 [Shizuku APK](https://github.com/RikkaApps/Shizuku/releases/download/v13.6.0/shizuku-v13.6.0.r1086.2650830c-release.apk)。
 2. 在裝置的「開發人員選項」開啟「無線偵錯」。在投屏工具內開始配對，依系統提示輸入配對碼，再回工具按「啟動」。使用 Stellar 時須開啟 Shizuku 相容層。
-3. 確認工具顯示服務已啟動。回 Carrot Bridge，按右下角「左側 ⋯ → 啟動投屏／授權」，允許 Carrot Bridge 存取。
-4. 「左側 ⋯ → 投屏安裝與授權」可換管理工具並查看服務、授權和連線狀態。裝置重啟後若服務停止，到同一個工具再啟動。
+3. 確認工具顯示服務已啟動。回 Carrot Bridge，按分區一底部的「分區二 ⋯ → 啟動投屏／授權」，允許 Carrot Bridge 存取。
+4. 「分區二 ⋯ → 投屏安裝與授權」可換管理工具並查看服務、授權和連線狀態。裝置重啟後若服務停止，到同一個工具再啟動。
 
 車機若沒有無線偵錯，可在支援 USB 偵錯時依工具提示用電腦 ADB 啟動服務。[投屏工具詳細步驟](../third_party/projection/README.md)
 
@@ -26,19 +26,19 @@ wide.69 沿用 wide.68 的簽章憑證。[wide.69 更新與操作](../variants/w
 
 | 要用的功能 | 在哪裡操作 |
 | --- | --- |
-| 高德車機版 | 「左側 ⋯ → 高德車機版」。在高德內設目的地，切換來源後先查看導航資料狀態。 |
-| 高德一般版 | 「左側 ⋯ → 高德一般版」。鍵盤位置可在左側選單切到導航區或車機主畫面。Link 授權、訂閱及引導狀態可在診斷查看。 |
-| Google 地圖（僅投屏） | 「左側 ⋯ → Google 地圖（僅投屏）」。Google 地圖路線與速限由官方 App 顯示。 |
-| Google 導航 NOO | 「左側 ⋯ → Google 導航串接與金鑰」，完成 [金鑰設定](GOOGLE_SDK_zh-TW.md) 後，選「Google 導航 NOO」並開始導航。結束後回到搜尋頁。 |
-| 神盾或其他右側 App | 「右側 ⋯ → 選擇投屏 App／空白畫面」，選已安裝的 App。可選留白或時鐘。 |
-| 即時診斷／操作面板 | 按右下面板的「切換」。按「⌄」可收起，再按右下角「⋯ → 展開面板」叫回。 |
-| 個別返回或重啟 | 打開對應的左側或右側選單，使用「返回投屏 App」或「重新開啟」。面板收起或視窗較窄時，右下角「⋯」有左右兩側選項及各自的重啟指令。 |
+| 高德車機版 | 「分區二 ⋯ → 高德車機版」。在高德內設目的地，切換來源後先查看導航資料狀態。 |
+| 高德一般版 | 「分區二 ⋯ → 高德一般版」。鍵盤位置可在分區二選單切到導航區或車機主畫面。Link 授權、訂閱及引導狀態可在診斷查看。 |
+| Google 地圖（僅投屏） | 「分區二 ⋯ → Google 地圖（僅投屏）」。Google 地圖路線與速限由官方 App 顯示。 |
+| Google 導航 NOO | 「分區二 ⋯ → Google 導航串接與金鑰」，完成 [金鑰設定](GOOGLE_SDK_zh-TW.md) 後，選「Google 導航 NOO」並開始導航。結束後回到搜尋頁。 |
+| 神盾或其他投屏 App | 「分區一 ⋯ → 選擇投屏 App／空白畫面」，選已安裝的 App。可選「不投屏 · 靜謐時鐘」。 |
+| 即時診斷／操作面板 | 按分區一下面的面板「切換」。按「⌄」可收起，再按「⋯ → 展開面板」叫回。 |
+| 個別返回或重啟 | 打開對應的分區選單，第一項為「返回投屏 App」，也可選「重新開啟」。面板收起或視窗較窄時，從分區一底部的「⋯」打開個別分區選項或重啟 App。 |
 
-拖曳分隔線即可調整視窗比例。放開後畫面會重新適配，等比填滿時邊緣可能短暫裁切。橫向與直向的比例各自保存。
+橫向畫面中，右側 App 投屏為分區一，左側地圖為分區二。未投屏時會在各區顯示名稱。拖曳分隔線即可調整視窗比例。放開後畫面會重新適配，等比填滿時邊緣可能短暫裁切。橫向與直向的比例各自保存。
 
 ## 4. OSM、神盾與 C4 診斷
 
-從右下角的投屏選單開啟設定，可調整下列三項。
+從分區一或分區二的投屏選單開啟設定，可調整下列三項。
 
 | 設定 | 行為 |
 | --- | --- |
@@ -48,16 +48,16 @@ wide.69 沿用 wide.68 的簽章憑證。[wide.69 更新與操作](../variants/w
 
 Android 和 C4 須互通。在 App 的連線設定填實際 C4 位址，確認即時車況資料持續更新。「Navi v2」可用來查看 App 的引導處理狀態。要確認 C4 有收到導航資料，仍須核對車端紀錄。
 
-在右下「即時診斷」按「報告」，可分享當下診斷。要記錄問題發生前後的事件，在報告選單按「開始記錄」，重現後用「匯出報告與事件 ZIP」。公開前請檢查位置、路線及連線位址。
+在分區一下面的「即時診斷」按「報告」，可分享當下診斷。要記錄問題發生前後的事件，在報告選單按「開始記錄」，重現後用「匯出報告與事件 ZIP」。公開前請檢查位置、路線及連線位址。
 
 ## Amap2Tesla 瀏覽器投屏
 
 Carrot Bridge 內建「Amap2Tesla 僅投神盾」。準備神盾和投屏授權後，可用內建的瀏覽器投屏模式單獨打開神盾畫面。
 
-1. 按「左側 ⋯ → Amap2Tesla 僅投神盾」。投屏已啟動時，先停止瀏覽器投屏再切換設定。
+1. 按「分區二 ⋯ → Amap2Tesla 僅投神盾」。投屏已啟動時，先停止瀏覽器投屏再切換設定。
 2. 啟動 Amap2Tesla 瀏覽器投屏。讓車機或平板與 Android 手機連到可互通的無線網路或手機熱點。
 3. 在接收端瀏覽器輸入 App 顯示的完整投屏網址與埠號。
-4. 想恢復 Carrot Bridge 的右側本機投屏時，先關掉瀏覽器投屏，再關閉「Amap2Tesla 僅投神盾」。
+4. 想恢復 Carrot Bridge 分區一的本機投屏時，先關掉瀏覽器投屏，再關閉「Amap2Tesla 僅投神盾」。
 
 這是 Carrot Bridge 內建模式。獨立版特投屏也能在 Android 端用自訂投屏選擇神盾。你的車機瀏覽器和神盾虛擬螢幕相容性要以實機畫面確認。瀏覽器顯示和 C4 路況資料各用自己的流程。[特投屏下載與說明](https://github.com/jixiexiaoge/Map2Tesla)
 
@@ -72,6 +72,6 @@ Carrot Bridge 內建「Amap2Tesla 僅投神盾」。準備神盾和投屏授權�
 | 視窗調整後仍不合框 | 記下 App 版本、手機或車機型號、Android 版本與目前投屏來源，附問題畫面及診斷報告。 |
 | APK 無法安裝 | 檢查 Android 版本、檔案是否完整，以及既有 App 的套件簽章。 |
 
-主 APK 的 SHA-256 列在 [wide.69 發布說明](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.69)。macOS 可用 `shasum -a 256 檔名.apk`，Linux 可用 `sha256sum 檔名.apk`，Windows PowerShell 可用 `Get-FileHash 檔名.apk -Algorithm SHA256`。
+主 APK 的 SHA-256 列在 [wide.70 發布說明](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.70)。macOS 可用 `shasum -a 256 檔名.apk`，Linux 可用 `sha256sum 檔名.apk`，Windows PowerShell 可用 `Get-FileHash 檔名.apk -Algorithm SHA256`。
 
 [wide.40 舊版說明](https://github.com/FANHAOHSIANG/copilot-Tw/blob/0299f57241f1baeccabb1e8e12c96565d52fd1c2/docs/INSTALL_zh-TW.md)

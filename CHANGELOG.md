@@ -1,3 +1,10 @@
+# wide.70 — 分區與版本顯示
+
+- 分區一為神盾及其他 App 投屏，分區二為地圖與導航。等待投屏和靜謐時鐘顯示分區標示。
+- 分區選單將「返回投屏 App」調到第一項，兩區可個別重啟。
+- 統一 App、關於、投屏狀態與診斷上的名稱為 Carrot Bridge，版本顯示精簡為 `wide.70`。
+- [APK 下載與發布說明](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.70) · [安裝、操作與驗證](variants/wide70/README.md)
+
 # wide.69 — 2026-11-15，簽署發布
 
 - C 版投屏取消頂部標題條，將左右投屏選項和面板收合放在右下。

@@ -1,9 +1,9 @@
 # Carrot Bridge 內建 Google 導航 NOO 設定
 
-本章適用於 Carrot Bridge wide.68 與 wide.69。內建 Google 導航 NOO 使用 Google Navigation SDK 與地點搜尋，請先安裝 [Carrot Bridge](../README.md#下載)。裝置需有 Google Play 服務、網路與精確定位。
+本章適用於 Carrot Bridge wide.68 至 wide.70。內建 Google 導航 NOO 使用 Google Navigation SDK 與地點搜尋，請先安裝 [Carrot Bridge](../README.md#下載)。裝置需有 Google Play 服務、網路與精確定位。
 
-1. 在 Carrot Bridge 地圖區開啟「更多 → Google 導航串接與金鑰 → 開啟 Google 金鑰／導航」。wide.69 的入口是「左側 ⋯」。也可以選擇「Google 導航 NOO」後，在內建畫面按「設定／更換 Google 金鑰」。
-2. 按「複製套件名稱與 SHA-1」。wide.68 和 wide.69 的正式 APK 套件皆為 `com.jixiexiaoge.drivingassist.wide`，簽章 SHA-1 皆為 `AD:32:96:3B:94:DF:5E:30:DB:1B:24:EC:D6:2B:B9:11:F8:8D:48:7E`。設定時以實際安裝版本複製出的資料為準。
+1. 在 Carrot Bridge 開啟「分區二 ⋯ → Google 導航串接與金鑰 → 開啟 Google 金鑰／導航」。也可以選擇「Google 導航 NOO」後，在內建畫面按「設定／更換 Google 金鑰」。舊版入口見 [wide.69 說明](../variants/wide69/README.md)。
+2. 按「複製套件名稱與 SHA-1」。上述正式 APK 的套件皆為 `com.jixiexiaoge.drivingassist.wide`，簽章 SHA-1 皆為 `AD:32:96:3B:94:DF:5E:30:DB:1B:24:EC:D6:2B:B9:11:F8:8D:48:7E`。設定時以實際安裝版本複製出的資料為準。
 3. 在 [Google Cloud Console](https://console.cloud.google.com/) 建立或選取專案、連結有效的計費帳戶，再啟用 [Navigation SDK for Android](https://console.cloud.google.com/apis/library/navigationsdk.googleapis.com) 與 [Places API (New)](https://console.cloud.google.com/apis/library/places.googleapis.com)。使用量可能產生費用，請依 [Google 官方設定說明](https://developers.google.com/maps/documentation/navigation/android-sdk/get-api-key) 與專案的 Billing 頁面確認。
 4. 在「API 和服務 → 憑證」建立 API 金鑰。應用程式限制選「Android 應用程式」，貼上第 2 步的套件名稱和 SHA-1。API 限制只允許上一步啟用的兩項 API。
 5. 把金鑰貼回 Carrot Bridge 並儲存。更換金鑰後依畫面提示完整關閉並重新開啟 Google 導航 NOO。選定目的地、規劃路線後開始導航。
@@ -15,7 +15,7 @@
 
 ## 舊版 CP Google 獨立配套
 
-以下為 CP Google 0.1.1 與 wide.46 的歷史操作手冊。使用 wide.68 或 wide.69 內建導航時，請依上方步驟設定。
+以下為 CP Google 0.1.1 與 wide.46 的歷史操作手冊。使用新版內建導航時，請依上方步驟設定。
 
 <details>
 <summary>展開舊版 CP Google 導航設定教學</summary>

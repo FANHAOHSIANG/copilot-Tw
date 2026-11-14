@@ -123,7 +123,7 @@
     <string name="simulate_start">模擬行駛（測試用）</string>
     <string name="simulate_stop">停止模擬並撤銷導航</string>
     <string name="need_location">需要定位權限才能導航</string>
-    <string name="pi_never">CoPilot 本機通道：等待讀取導航資料</string>
-    <string name="pi_connected">CoPilot 本機通道：正在讀取（%s；不代表 C4 已收到）</string>
-    <string name="pi_stale">CoPilot 本機通道：%d 秒未讀取</string>
+    <string name="pi_never">Carrot Bridge 本機通道：等待讀取導航資料</string>
+    <string name="pi_connected">Carrot Bridge 本機通道：正在讀取（%s；不代表 C4 已收到）</string>
+    <string name="pi_stale">Carrot Bridge 本機通道：%d 秒未讀取</string>
 </resources>

@@ -12,7 +12,7 @@
 1. 在同一台 Android 裝置安裝所選工具及 [Carrot Bridge](../../README.md#下載)。
 2. 開啟「開發人員選項 → 無線偵錯」。從工具開始配對，再到系統的「使用配對碼配對裝置」取得代碼，依工具指示輸入。
 3. 回工具按「啟動」，確認服務正在執行。Stellar 需開啟 Shizuku 相容層。
-4. 在 Carrot Bridge 的地圖區按「更多 → 啟動投屏／授權」，於工具或系統顯示的權限提示中授權。
+4. 在 Carrot Bridge 按「分區二 ⋯ → 啟動投屏／授權」，於工具或系統顯示的權限提示中授權。
 5. 到「更多 → 投屏安裝與授權」核對服務與授權狀態。重開機後若服務已停止，在原工具重新啟動。只要原配對仍有效，通常可直接啟動服務。
 
 無線偵錯選項依車機或手機廠牌而異。沒有此選項且裝置支援 USB 偵錯時，可用電腦的 [Android SDK Platform-Tools](https://developer.android.com/tools/releases/platform-tools)，依工具內顯示的 ADB 啟動指令操作。

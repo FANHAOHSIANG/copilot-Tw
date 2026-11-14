@@ -1,4 +1,6 @@
-> 最新 wide.46 的完整重建步驟見 [variants/wide46](../variants/wide46/README.md)。`release/wide46/restore.py` 可從公開 wide.42 還原固定 wide.45 建置基底；[Google 配套](../variants/google-navdash/README.md) 為獨立 Gradle 專案，先執行 `prepare_resources.py` 恢復固定上游背景，再跑單元測試與 release build。以下為歷史版本的建置說明。
+> [Carrot Bridge wide.70 建置與驗證](../variants/wide70/README.md)
+
+> wide.46 的完整重建步驟見 [variants/wide46](../variants/wide46/README.md)。`release/wide46/restore.py` 可從公開 wide.42 還原固定 wide.45 建置基底；[Google 配套](../variants/google-navdash/README.md) 為獨立 Gradle 專案，先執行 `prepare_resources.py` 恢復固定上游背景，再跑單元測試與 release build。以下為歷史版本的建置說明。
 
 > 最新 wide.40：提醒可用連續GPS補足方向，高架／平面模糊時仍提示同向候選；依點位道路標籤播報「前方平面道路測速」或「前方高架道路測速」。未分類仍用原A聲音。這只影響提醒，C4仍採原確認條件。30項離線檢查通過，未實機驗證。[wide.40下載與說明](../variants/wide40/README.md)。以下保留既有操作與控制來源說明。
 
