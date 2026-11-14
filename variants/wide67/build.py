@@ -31,7 +31,9 @@ def fix(tree):
     direct.write_text(replace_once(direct.read_text(), "Carrot Bridge wide.65", "Carrot Bridge wide.67"))
 
 
-def build(base, tools, output, work):
+def build(base, tools, output, work, *, patch=fix,
+          old_version=("9.3.1-wide.65-ui", 26110777),
+          new_version=("9.3.1-wide.67-ui", 26110779)):
     dex = work / "classes.dex"
     tree = work / "smali"
     patched = work / "patched.dex"
@@ -41,11 +43,11 @@ def build(base, tools, output, work):
     with zipfile.ZipFile(base) as source:
         dex.write_bytes(source.read("classes.dex"))
         run("java", "-cp", cp, "org.jf.baksmali.Main", "d", dex, "-o", tree)
-        fix(tree)
+        patch(tree)
         run("java", "-cp", cp, "org.jf.smali.Main", "a", "--api", "31", tree, "-o", patched)
         manifest = source.read("AndroidManifest.xml")
-        manifest = replace_once(manifest, "9.3.1-wide.65-ui".encode("utf-16le"), "9.3.1-wide.67-ui".encode("utf-16le"))
-        manifest = replace_once(manifest, struct.pack("<I", 26110777), struct.pack("<I", 26110779))
+        manifest = replace_once(manifest, old_version[0].encode("utf-16le"), new_version[0].encode("utf-16le"))
+        manifest = replace_once(manifest, struct.pack("<I", old_version[1]), struct.pack("<I", new_version[1]))
         replacements = {"classes.dex": patched.read_bytes(), "AndroidManifest.xml": manifest}
         names = [name for name in source.namelist()
                  if not re.fullmatch(r"META-INF/(?:MANIFEST\.MF|[^/]+\.(?:SF|RSA|DSA|EC))", name, re.I)]

@@ -20,6 +20,8 @@
 
 [投屏工具與授權](third_party/projection/README.md) · [Google SDK 設定](docs/GOOGLE_SDK_zh-TW.md)
 
+開發中的 wide.68 已調整 Google NOO 順序和投屏縮放。見 [更新與驗證說明](variants/wide68/README.md)。
+
 <details><summary>wide.56、wide.53 與較早版本說明</summary>
 
 [wide.56 高德原始路線整合](variants/wide56/README.md) 已納入 wide.55 的 Link 傳送修正。**這是程式碼整合，wide.56 APK 尚待原金鑰簽署及實機驗收；下方舊版下載不包含 wide.56 修正。**
