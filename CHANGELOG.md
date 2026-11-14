@@ -1,11 +1,11 @@
-# wide.69 — 2026-11-15，待簽署
+# wide.69 — 2026-11-15，簽署發布
 
 - C 版投屏取消頂部標題條，將左右投屏選項和面板收合放在右下。
 - Google NOO 搜尋與地址結果改版。結束導航時清除目前引導並回到搜尋頁。
 - 神盾投屏的固定／移動測速可觸發 App 四邊紅光，支援事件匯出。
 - C4 道路速限優先送經道路與方向配對的 TDX，其次為 OSM。衝突或無法確認時撤銷。
 - 車端的 `ROUTE` 短折線誤減速另外推送至 C4 測試分支。
-- [完整更新、操作及簽署方式](variants/wide69/README.md)
+- [APK 下載與發布說明](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.69) · [完整更新、操作及簽署方式](variants/wide69/README.md)
 
 # wide.68 — 原始碼更新
 

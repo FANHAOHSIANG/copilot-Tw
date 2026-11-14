@@ -1,6 +1,6 @@
 # Carrot Bridge wide.69
 
-版本 `9.3.1-wide.69-ui`，版本碼 `26110781`，支援 Android 12 以上。此版目前有原始碼和待簽署建置。正式下載請使用 [GitHub Releases](https://github.com/FANHAOHSIANG/copilot-Tw/releases/latest)。
+版本 `9.3.1-wide.69-ui`，版本碼 `26110781`，支援 Android 12 以上。已沿用 wide.68 的憑證簽署。[下載 APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.69/Carrot-Bridge-9.3.1-wide.69-ui.apk) · [發布說明](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.69) · [安裝與使用](../../docs/INSTALL_zh-TW.md)
 
 ## 更新與操作
 
@@ -41,7 +41,7 @@ python3 variants/wide55/sign.py \
 
 ## 驗證範圍
 
-本次待簽署 APK 的 SHA-256 為 `31dad176779fce1aa851524dd8802630b63d797951f86a862ca2538100e5ed35`。正式簽署後以發布檔案的雜湊為準。
+GitHub 發布的已簽署 APK 通過 v3 簽章驗證，憑證與 wide.68 相符。APK 的 SHA-256 為 `12b1d75dfcc19c18e8dc53f62e6c9085c446907edeb1c9dfc715845dffbecd30`。[下載 SHA256SUMS.txt](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.69/SHA256SUMS.txt)
 
 已編譯主程式與 Google 模組、核對資源 ID、APK 完整性及 16 KiB 對齊。從 APK 抽取道路配對與出站邏輯，通過 34 項離線檢查，涵蓋 TDX、OSM 備援、相鄰道路歧義、衝突撤銷及關閉開關。以神盾固定式實拍作離線影像檢查，讀到固定式、224 公尺、60 km/h。手機／車機啟動、移動式實際影格及 C4 實機接收仍待驗證。
 
