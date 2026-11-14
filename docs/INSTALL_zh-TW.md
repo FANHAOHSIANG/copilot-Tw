@@ -2,6 +2,8 @@
 
 適用於 **wide.68（9.3.1-wide.68-ui，版本碼 26110780）**，支援 Android 12 以上手機或車機。
 
+wide.69 的投屏按鍵、神盾紅光及 TDX 速限操作見 [新版說明](../variants/wide69/README.md)。
+
 [回首頁與下載清單](../README.md#下載) · [直接下載主程式 APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.68/Carrot-Bridge-9.3.1-wide.68-ui.apk) · [GitHub 發布說明](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.68)
 
 ## 1. 安裝或更新
@@ -46,6 +48,17 @@
 Android 和 C4 須互通。在 App 的連線設定填實際 C4 位址，確認即時車況資料持續更新。「Navi v2」可用來查看 App 的引導處理狀態。要確認 C4 有收到導航資料，仍須核對車端紀錄。
 
 在右下「即時診斷」按「報告」，可分享當下診斷。要記錄問題發生前後的事件，在報告選單按「開始記錄」，重現後用「匯出報告與事件 ZIP」。公開前請檢查位置、路線及連線位址。
+
+## Amap2Tesla 瀏覽器投屏
+
+Carrot Bridge 內建「Amap2Tesla 僅投神盾」。準備神盾和投屏授權後，可用內建的瀏覽器投屏模式單獨打開神盾畫面。
+
+1. wide.68 在地圖區按「更多 → Amap2Tesla 僅投神盾」。wide.69 從「左側 ⋯」打開同一項目。投屏已啟動時，先停止瀏覽器投屏再切換設定。
+2. 啟動 Amap2Tesla 瀏覽器投屏。讓車機或平板與 Android 手機連到可互通的無線網路或手機熱點。
+3. 在接收端瀏覽器輸入 App 顯示的完整投屏網址與埠號。
+4. 想恢復 Carrot Bridge 的右側本機投屏時，先關掉瀏覽器投屏，再關閉「Amap2Tesla 僅投神盾」。
+
+這是 Carrot Bridge 內建模式。獨立版特投屏也能在 Android 端用自訂投屏選擇神盾。你的車機瀏覽器和神盾虛擬螢幕相容性要以實機畫面確認。瀏覽器顯示和 C4 路況資料各用自己的流程。[特投屏下載與說明](https://github.com/jixiexiaoge/Map2Tesla)
 
 ## 5. 常見問題
 

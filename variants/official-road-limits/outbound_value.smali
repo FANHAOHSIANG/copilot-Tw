@@ -10,13 +10,11 @@
     move-result v1
     if-nez v1, :tdx
 
-    # The matcher returns none when speeds conflict or a road limit is unavailable.
-    const-string v1, "none"
+    const-string v1, "OSM"
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
     move-result v1
-    if-nez v1, :missing
+    if-eqz v1, :missing
 
-    # NPA camera values can mask the OSM decision. Use only the directional OSM road value.
     invoke-static {p0}, Lcom/navipilot/obf/WideOsmLimit;->value(Lcom/navipilot/obf/WideHcopRoad$Decision;)I
     move-result v0
     return v0

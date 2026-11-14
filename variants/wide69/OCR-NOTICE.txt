@@ -1,0 +1,14 @@
+Shield camera-panel text recognition redistributes Tesseract4Android 4.9.0 and chi_tra
+from tessdata_fast 4.1.0. See the paired Apache License 2.0 and upstream notices.
+
+Tesseract4Android (Adaptech and contributors):
+https://github.com/adaptech-cz/Tesseract4Android/tree/15c534717b1cb58261b58d4e4c1200c7f81f668c
+Includes Tesseract OCR, Leptonica, and image codecs. See the upstream project's
+license and submodules for the notices for the JNI libraries.
+https://github.com/tesseract-ocr/tesseract
+https://github.com/DanBloomberg/leptonica
+https://github.com/libjpeg-turbo/libjpeg-turbo
+https://github.com/pnggroup/libpng
+
+Traditional Chinese model (Tesseract OCR contributors):
+https://github.com/tesseract-ocr/tessdata_fast/tree/65727574dfcd264acbb0c3e07860e4e9e9b22185

@@ -17,7 +17,9 @@ Carrot Bridge 需要 **Android 12 以上**。要投屏時，另外選裝 **Stell
 
 **Google 導航 NOO 已內建在主程式**，所需的 Google Cloud 金鑰請到 App 內設定。[Google NOO 金鑰教學](docs/GOOGLE_SDK_zh-TW.md)
 
-[最新版發布說明與 SHA-256](https://github.com/FANHAOHSIANG/copilot-Tw/releases/latest) · [歷史版本](https://github.com/FANHAOHSIANG/copilot-Tw/releases)
+wide.69 的原始碼及操作說明已整理，安裝檔待原簽章。
+
+[wide.69 更新與操作](variants/wide69/README.md) · [最新版發布說明與 SHA-256](https://github.com/FANHAOHSIANG/copilot-Tw/releases/latest) · [歷史版本](https://github.com/FANHAOHSIANG/copilot-Tw/releases)
 
 ## 安裝與第一次使用
 
@@ -49,7 +51,7 @@ Carrot Bridge 需要 **Android 12 以上**。要投屏時，另外選裝 **Stell
 - **將導航資料送到 C4**：使用官方原生分支或其他分支時，請依實際版本確認 Navi v2 接收、路線與引導欄位的相容性。App 送出狀態和 C4 接收狀態可分別查看。
 - **HUD 藍線**：[PR #41](https://github.com/FANHAOHSIANG/openpilot-carrot/pull/41) 的藍線修正仍在草稿階段，尚未合併。
 
-神盾目前提供畫面與取樣診斷，神盾測速事件傳送仍待完成。
+wide.68 的神盾功能提供畫面與取樣診斷。wide.69 增加 App 內紅光提醒，神盾測速事件尚未接入本版的 C4 出站流程。
 
 ## wide.68 更新
 

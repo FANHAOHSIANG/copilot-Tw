@@ -36,8 +36,17 @@ def apply(tree):
         r'\u50b3\u9001 OSM \u9053\u8def\u901f\u9650\u81f3 C4',
         "傳送道路速限至 C4（TDX／OSM）",
     )
+    # Keep camera discovery while excluding its speed from the road-limit selection.
+    matcher = path.with_name("WideHcopRoad.smali")
+    matcher_source = matcher.read_text()
+    start = matcher_source.index("    .line 82\n    if-eqz v4, :cond_")
+    end = matcher_source.index("    .line 84\n    :cond_", start)
+    if 'const-string v0, "NPA"' not in matcher_source[start:end]:
+        raise ValueError("Expected the old camera speed override")
+    matcher_source = matcher_source[:start] + matcher_source[end:]
     path.write_text(updated)
     settings.write_text(settings_source)
+    matcher.write_text(matcher_source)
 
 
 if __name__ == "__main__":
