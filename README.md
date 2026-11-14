@@ -2,6 +2,26 @@
 
 目前原始碼統一維護於本儲存庫的 `main`；C4 固定搭配 [test/carrot-wip-upstream-20261104](https://github.com/FANHAOHSIANG/openpilot-carrot/tree/test/carrot-wip-upstream-20261104)，不需要另外切換高德導航功能分支。
 
+## 下載最新版
+
+**Carrot Bridge 9.3.1-wide.67-ui（26110779）**修復 wide.66 安裝後開啟即閃退的問題。使用原簽章，可直接覆蓋安裝同簽章舊版並保留 App 資料。
+
+| 下載 | 內容 |
+| --- | --- |
+| [下載 wide.67 APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.67/Carrot-Bridge-9.3.1-wide.67-ui.apk) | Android 主程式 |
+| [wide.67 發布說明](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.67) | 更新內容、安裝方式與 SHA-256 |
+| [歷史版本](https://github.com/FANHAOHSIANG/copilot-Tw/releases) | 舊版與獨立版本 |
+
+- 修正 Google NOO 選單排序造成的 Android 類別驗證錯誤。
+- 保留獨立設定、三個開關的高對比文字，以及 Google NOO 與操作面板的新位置。
+- 投屏拖曳結束後調整尺寸。調整失敗時保留目前投屏工作階段，避免重啟外部 App。
+
+已核對簽章、APK 完整性、16 KiB 對齊與成品 DEX。手機／車機冷啟動與投屏縮放待實機驗證。
+
+[投屏工具與授權](third_party/projection/README.md) · [Google SDK 設定](docs/GOOGLE_SDK_zh-TW.md)
+
+<details><summary>wide.56、wide.53 與較早版本說明</summary>
+
 [wide.56 高德原始路線整合](variants/wide56/README.md) 已納入 wide.55 的 Link 傳送修正。**這是程式碼整合，wide.56 APK 尚待原金鑰簽署及實機驗收；下方舊版下載不包含 wide.56 修正。**
 
 目前融合版：[**wide.53 自訂投屏與手機版面修正**](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.53)。以使用者已實際使用的 wide.52 為基礎，原套件與原簽章覆蓋更新。
@@ -16,8 +36,6 @@
 [wide.53 操作與驗證說明](variants/wide53/README.md) · [投屏工具與授權](third_party/projection/README.md) · [Google SDK 設定](docs/GOOGLE_SDK_zh-TW.md)
 
 wide.53 已完成編譯、程式檢查、原簽章與對齊驗證；新增功能仍需手機／車機驗收。融合版不含內建台灣測速。外部投屏 App 需自行安裝；投屏本身不代表其資料可傳給 comma。
-
-<details><summary>wide.46 與較早版本說明</summary>
 
 # Copilot tw
 
