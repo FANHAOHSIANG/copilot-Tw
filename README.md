@@ -4,23 +4,20 @@
 
 ## 下載最新版
 
-**Carrot Bridge 9.3.1-wide.67-ui（26110779）**修復 wide.66 安裝後開啟即閃退的問題。使用原簽章，可直接覆蓋安裝同簽章舊版並保留 App 資料。
+**Carrot Bridge 9.3.1-wide.68-ui（26110780）**可直接覆蓋安裝同簽章的 wide.67，並保留 App 資料。
 
 | 下載 | 內容 |
 | --- | --- |
-| [下載 wide.67 APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.67/Carrot-Bridge-9.3.1-wide.67-ui.apk) | Android 主程式 |
-| [wide.67 發布說明](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.67) | 更新內容、安裝方式與 SHA-256 |
+| [下載 wide.68 APK](https://github.com/FANHAOHSIANG/copilot-Tw/releases/download/wide.68/Carrot-Bridge-9.3.1-wide.68-ui.apk) | Android 主程式 |
+| [wide.68 發布說明](https://github.com/FANHAOHSIANG/copilot-Tw/releases/tag/wide.68) | 更新內容、安裝方式與 SHA-256 |
 | [歷史版本](https://github.com/FANHAOHSIANG/copilot-Tw/releases) | 舊版與獨立版本 |
 
-- 修正 Google NOO 選單排序造成的 Android 類別驗證錯誤。
-- 保留獨立設定、三個開關的高對比文字，以及 Google NOO 與操作面板的新位置。
-- 投屏拖曳結束後調整尺寸。調整失敗時保留目前投屏工作階段，避免重啟外部 App。
+- 「Google 導航 NOO」緊接在「Google 地圖（僅投屏）」下方。
+- 放開分隔線後，投屏依最新視窗尺寸重新適配，並同步調整觸控座標。等待適配時以等比方式填滿，畫面邊緣可能暫時裁切。
 
-已核對簽章、APK 完整性、16 KiB 對齊與成品 DEX。手機／車機冷啟動與投屏縮放待實機驗證。
+已核對簽章、APK 完整性、16 KiB 對齊與成品 DEX，並通過 121 組縮放與座標換算檢查。手機與車機的冷啟動及投屏縮放仍待實機驗證。
 
-[投屏工具與授權](third_party/projection/README.md) · [Google SDK 設定](docs/GOOGLE_SDK_zh-TW.md)
-
-開發中的 wide.68 已調整 Google NOO 順序和投屏縮放。見 [更新與驗證說明](variants/wide68/README.md)。
+[wide.68 建置與驗證](variants/wide68/README.md) · [投屏工具與授權](third_party/projection/README.md) · [Google SDK 設定](docs/GOOGLE_SDK_zh-TW.md)
 
 <details><summary>wide.56、wide.53 與較早版本說明</summary>
 
